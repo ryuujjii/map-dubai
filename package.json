@@ -1,0 +1,58 @@
+{
+	"name": "webpack-practice",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "webpack --env mode=production",
+		"build:macros": "webpack --env mode=production --env macros=server",
+		"dev": "webpack serve --env mode=development",
+		"preview": "serve ./build/ -L -n"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@swc/core": "^1.7.4",
+		"copy-webpack-plugin": "^12.0.2",
+		"css-loader": "^7.1.2",
+		"css-minimizer-webpack-plugin": "^7.0.0",
+		"html-webpack-plugin": "^5.6.0",
+		"mini-css-extract-plugin": "^2.9.0",
+		"postcss": "^8.4.39",
+		"postcss-loader": "^8.1.1",
+		"postcss-preset-env": "^9.5.15",
+		"postcss-sort-media-queries": "^5.2.0",
+		"sass": "^1.77.6",
+		"sass-loader": "^14.2.1",
+		"serve": "^14.2.3",
+		"string-replace-loader": "^3.1.0",
+		"swc-loader": "^0.2.6",
+		"terser-webpack-plugin": "^5.3.10",
+		"underscore-template-loader": "^1.2.0",
+		"webpack": "^5.92.1",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^5.0.4"
+	},
+	"dependencies": {
+		"@fancyapps/ui": "^5.0.17",
+		"@studio-freight/lenis": "^1.0.11",
+		"body-scroll-lock": "^4.0.0-beta.0",
+		"gsap": "3.11.5",
+		"latest-createjs": "^1.0.24",
+		"preload-js": "^0.6.3",
+		"preloadjs": "^1.0.1",
+		"sass": "1.62.1",
+		"splitting": "^1.0.6",
+		"swiper": "^11.1.9"
+	},
+	"browserslist": {
+		"development": [
+			"last 1 version"
+		],
+		"production": [
+			"> 0.1%",
+			"not dead"
+		]
+	}
+}
