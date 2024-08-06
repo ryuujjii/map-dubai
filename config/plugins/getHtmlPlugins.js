@@ -16,6 +16,13 @@ export default function getHtmlPlugins({ paths }) {
         template: resolve(paths.src, page),
         minify: true
       });
+    }),
+    new HtmlWebpackPlugin({
+      filename: `key-mavens/index.html`,
+      chunks: ['projects'],
+      chunksSortMode: 'manual',
+      template: resolve(paths.src, 'projects/key-mavens.html'),
+      minify: true
     })
   ];
 };
