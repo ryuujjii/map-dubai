@@ -10,10 +10,24 @@
 	&__container {
 	}
 
-	// .project__masterplan
+	// .project__dots
 
-	&__masterplan {
+	&__dots {
+		position: absolute;
+		inset: 0;
+		margin: auto;
+		width: 400px;
+		height: 200px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	// .project__dot
+
+	&__dot {
 	}
 }
 
-@import './components/masterplan'
+@import './components/masterplan';
+@import './components/dot';

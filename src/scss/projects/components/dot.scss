@@ -1,0 +1,106 @@
+.dot-project {
+	--black-color: #161616;
+
+	// .dot-project__container
+
+	&__container {
+		padding: 8px 10px;
+		background-color: #fff;
+		border-radius: 3px;
+		position: relative;
+		cursor: pointer;
+	}
+
+	// .dot-project__wrapper
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+		.left & {
+			flex-direction: row-reverse;
+		}
+	}
+
+	// .dot-project__info
+
+	&__info {
+		display: grid;
+	}
+
+	// .dot-project__title
+
+	&__title {
+		color: var(--black-color);
+		text-align: right;
+		font-size: 14px;
+		font-weight: 500;
+		&:not(:last-child) {
+			margin-bottom: 2px;
+		}
+	}
+
+	// .dot-project__type
+
+	&__type {
+		.right & {
+			justify-self: end;
+		}
+		color: #777;
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	// .dot-project__icon-wrapper
+
+	&__icon-wrapper {
+		width: 32px;
+		aspect-ratio: 1;
+		background-color: #dfdfdf;
+		display: flex;
+		padding: 6px;
+		border-radius: 3px;
+	}
+	// .dot-project__icon
+
+	&__icon {
+		mask: var(--mask-image) no-repeat center;
+		width: 100%;
+		aspect-ratio: 1;
+		background-color: var(--black-color);
+	}
+
+	// .dot-project__tail
+
+	&__tail {
+		position: absolute;
+		width: 9px;
+		height: 12px;
+		background-color: white;
+		mask: url('../img/projects/icons/tail.svg') no-repeat center;
+
+		.right & {
+			top: 50%;
+			right: 0;
+			transform: translate(100%, -50%);
+		}
+
+		.left & {
+			top: 50%;
+			left: 0;
+			transform: translate(-100%, -50%) rotate(180deg);
+		}
+
+		.top & {
+			top: 0;
+			left: 50%;
+			transform: translate(-50%, -85%) rotate(-90deg);
+		}
+
+		.bottom & {
+			bottom: 0;
+			left: 50%;
+			transform: translate(-50%, 85%) rotate(90deg);
+		}
+	}
+}
