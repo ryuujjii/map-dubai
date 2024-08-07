@@ -33,17 +33,3 @@
     font-weight: 500;
     font-style: normal;
 }
-
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('../files/fonts/Raleway-Bold.eot');
-    src: local('Raleway Bold'), local('Raleway-Bold'),
-        url('../files/fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../files/fonts/Raleway-Bold.woff2') format('woff2'),
-        url('../files/fonts/Raleway-Bold.woff') format('woff'),
-        url('../files/fonts/Raleway-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-

@@ -16,8 +16,8 @@
     }
 }
 
-@mixin _1620-min {
-    @media (min-width: 1620px) {
+@mixin _1700-min {
+    @media (min-width: 1700px) {
         @content;
     }
 }
