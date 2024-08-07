@@ -1,0 +1,25 @@
+{
+	"dots": [
+		{
+			"additionalClasses": [],
+			"position": {
+				"x": 0,
+				"y": 0
+			},
+			"sizes": {
+				"width": 230,
+				"height": 30
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "loft style A",
+				"icon": "floorplan"
+			}
+		}
+	],
+	"projectIcon": "img/project/key-mavens/project-icon.svg",
+	"map": {
+		"shadow": "img/project/key-mavens/map-shadow.jpg",
+		"img": "img/project/key-mavens/map.jpg"
+	}
+}

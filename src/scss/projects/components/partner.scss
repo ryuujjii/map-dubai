@@ -1,0 +1,50 @@
+.partner-project {
+	// .partner-project__wrapper
+
+	&__wrapper {
+		display: grid;
+    justify-items: center;
+		row-gap: 32px;
+		padding: 32px;
+		border-radius: 4px;
+		background-color: rgba(22, 22, 22, 0.48);
+		// backdrop-filter: blur(4px);
+
+		background-image: linear-gradient(
+			145deg,
+			rgba(255, 255, 255, 0) 50%,
+			rgba(255, 255, 255, 0.025) 0,
+		);
+		background-origin: border-box;
+		background-clip: padding-box, border-box;
+		background-size: 200% 100%;
+		background-position: 453% 100%;
+	}
+
+	// .partner-project__logo
+
+	&__logo {
+		width: 120px;
+		height: 70px;
+		svg {
+			width: 100%;
+			height: 100%;
+		}
+		// .partner-project__logo_ax
+
+		&_ax {
+			height: 60px;
+		}
+	}
+
+	// .partner-project__text
+
+	&__text {
+		text-align: center;
+		color: #fff;
+		font-size: 15px;
+		font-weight: 400;
+    max-width: 106px;
+    line-height: 1.3;
+	}
+}

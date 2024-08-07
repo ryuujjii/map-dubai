@@ -1,0 +1,40 @@
+.popupBtn {
+  cursor: pointer;
+	// .popupBtn__wrapper
+
+	&__wrapper {
+		display: flex;
+		background-color: var(--black-color);
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+		padding: 4px 16px 4px 4px;
+		border-radius: 4px;
+	}
+
+	// .popupBtn__icon
+
+	&__icon {
+		width: 32px;
+		aspect-ratio: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		svg {
+			width: 100px;
+			height: 100%;
+		}
+	}
+
+	// .popupBtn__text
+
+	&__text {
+		color: #fff;
+		font-size: 15px;
+		font-weight: 300;
+		text-transform: capitalize;
+		.ax & {
+			text-transform: low;
+		}
+	}
+}

@@ -9,5 +9,7 @@ export default function getEntries({ paths }) {
     acc[filename] = resolve(jsPath, js);
     return acc;
   }, {});
+
+  entries.projects = resolve(paths.src, 'js/projects/index.js');
   return entries;
 }
