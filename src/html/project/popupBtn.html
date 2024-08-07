@@ -1,9 +1,13 @@
-<%var data = arguments[0]%> 
-<div class="project__popupBtn popupBtn ${classNames}">
+<%var data = arguments[0]%>
+<button
+	type="button"
+	class="project__popupBtn popupBtn ${classNames}"
+	data-popup-btn="${data.dataPopupId}"
+>
 	<div class="popupBtn__wrapper">
 		<div class="popupBtn__icon">
-			<img src="${data.img}" alt="">
+			<img src="${data.img}" alt="" />
 		</div>
 		<div class="popupBtn__text">${data.text}</div>
 	</div>
-</div>
+</button>

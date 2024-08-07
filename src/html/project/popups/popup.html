@@ -1,0 +1,11 @@
+<%var data = arguments[0]%> 
+<%var component = require(`${data.path}`)%>
+<div class="popup ${data.classNames.mainClass}" data-popup="${data.id}">
+	<div class="popup__overlay" data-popup-close></div>
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-popup-close type="button" class="popup__close">close</button>
+      ${component()}
+		</div>
+	</div>
+</div>

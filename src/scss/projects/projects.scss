@@ -20,6 +20,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		display: none;
 	}
 
 	// .project__dot
@@ -65,3 +66,4 @@
 @import './components/dot';
 @import './components/partner';
 @import './components/popupBtn';
+@import './components/popups/common';
