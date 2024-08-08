@@ -111,13 +111,13 @@ export function map() {
     ];
 
     fetch('../../files/json/markers/project.json')
-    .then(response => response.json())
-    .then(data => {
+        .then(response => response.json())
+        .then(data => {
 
-        data.forEach(proj => {
-        const icon = L.divIcon({
-            className: 'map__marker-item',
-            html: `
+            data.forEach(proj => {
+                const icon = L.divIcon({
+                    className: 'map__marker-item',
+                    html: `
                 <button class="map__marker" data-modal-open="${proj.dataName}">
                     <div class="map__marker-icon">
                         <img src="${proj.img}" alt="">
@@ -127,11 +127,11 @@ export function map() {
                     </div>
                 </button>
             `,
-        });
+                });
 
-        L.marker(proj.coordinates, { icon: icon }).addTo(map);
-    });
-    });
+                L.marker(proj.coordinates, { icon: icon }).addTo(map);
+            });
+        });
 
 
     // Light Effect On MAP

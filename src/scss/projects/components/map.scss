@@ -1,0 +1,26 @@
+.project-map {
+    background-color: #191919;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.leaflet-control-container {
+    display: none;
+}
+
+#project-map {
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+}
+
+.leaflet-marker-icon {
+    width: max-content !important;
+    height: max-content !important;
+}
