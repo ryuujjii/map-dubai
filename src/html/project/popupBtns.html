@@ -1,8 +1,7 @@
 <div class="project__popupBtns">
-  <%var data = require('./json/popupBtns.json')%> 
-  <%var component = require("./popupBtn.html")%> 
-  <% for (var i=0; i < data.length; i++) { %>
-    <% var el = data[i] %>
-    ${component(el)}
-  <% } %>
+	<div class="project__popupBtns-wrapper">
+		<%var data = require('./json/popupBtns.json')%> <%var component =
+		require("./popupBtn.html")%> <% for (var i=0; i < data.length; i++) { %> <%
+		var el = data[i] %> ${component(el)} <% } %>
+	</div>
 </div>

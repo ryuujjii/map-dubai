@@ -1,9 +1,9 @@
 .developer {
+	height: 100%;
 	// .developer__container
 
 	&__container {
-		max-width: 1240px;
-		margin: 0 auto;
+		height: 100%;
 		display: flex;
 		column-gap: 80px;
 		// padding-bottom: 64px;
@@ -85,15 +85,19 @@
 
 .media-developer {
 	flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 544px;
+	flex-shrink: 0;
 	position: relative;
-  height: max-content;
+	border-radius: 2px;
+	overflow: hidden;
 	// width: 100%;
 	// .media-developer__img-ibg
 
 	&__img-ibg {
-		padding-bottom: 97%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
 		&::before {
 			content: '';
 			position: absolute;
@@ -114,9 +118,9 @@
 		inset: 0;
 		margin: auto;
 		z-index: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		img {
 			width: 72%;
 			height: 100%;

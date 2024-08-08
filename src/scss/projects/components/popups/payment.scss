@@ -1,9 +1,11 @@
 .payment {
+  height: 100%;
 	// .payment__container
 
 	&__container {
-		max-width: 1240px;
-		margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 	}
 
 	// .payment__head
@@ -40,6 +42,7 @@
 	}
 }
 .info-payment {
+  flex: 1 1 auto;
 	display: flex;
 	justify-content: center;
 	align-items: center;

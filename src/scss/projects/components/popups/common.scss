@@ -7,6 +7,9 @@
 	padding: 18px 23px 0;
 	box-sizing: content-box;
 	display: none;
+	// &[data-popup="developer"]{
+	// 	display: block;
+	// }
 	&.popup-show {
 		display: block;
 	}
@@ -120,4 +123,5 @@
 }
 .popup-container {
 	padding-inline: 56px 20px;
+	padding-bottom: 20px;
 }
