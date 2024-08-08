@@ -7,6 +7,9 @@
 	padding: 18px 23px 0;
 	box-sizing: content-box;
 	display: none;
+	&.developer{
+		display: block;
+	}
 	&.popup-show {
 		display: block;
 	}

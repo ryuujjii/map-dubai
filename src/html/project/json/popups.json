@@ -5,5 +5,12 @@
 			"mainClass": "about"
 		},
 		"path": "./about.html"
+	},
+	{
+		"id": "developer",
+		"classNames": {
+			"mainClass": "developer"
+		},
+		"path": "./developer.html"
 	}
 ]
