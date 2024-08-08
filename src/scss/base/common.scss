@@ -1,53 +1,48 @@
 html.lenis,
 html.lenis body {
-  height: auto;
+	height: auto;
 }
 
 .lenis.lenis-smooth {
-  scroll-behavior: auto !important;
+	scroll-behavior: auto !important;
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-  overflow-y: scroll;
+	overscroll-behavior: contain;
+	overflow-y: scroll;
 }
 
 .lenis.lenis-stopped {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .lenis.lenis-scrolling iframe {
-  pointer-events: none;
+	pointer-events: none;
 }
 
 html {
-  &::-webkit-scrollbar {
-    display: none;
-  }
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
 
 *,
 *:before,
 *:after {
-  font-family: var(--font);
-  color: #fff;
-  font-variant-numeric: lining-nums proportional-nums;
+	font-family: var(--font);
+	color: #fff;
+	font-variant-numeric: lining-nums proportional-nums;
 }
 
 body {
-  background-color: var(--dark-color);
-  overflow: hidden;
-  font-family: var(--font);
+	background-color: var(--dark-color);
+	overflow: hidden;
+	font-family: var(--font);
 
-  &::-webkit-scrollbar {
-    display: none;
-  }
+	&::-webkit-scrollbar {
+		display: none;
+	}
 }
-
-
-
-
-
 
 // Input AutoFill Styles
 input:-webkit-autofill,
@@ -62,55 +57,72 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:active,
 select:-webkit-autofill:focus {
-  color: #fff !important; // какого цвета должен быть текст
-  -webkit-text-fill-color: #fff !important; // какого цвета должен быть текст
-  -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset !important;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
+	color: #fff !important; // какого цвета должен быть текст
+	-webkit-text-fill-color: #fff !important; // какого цвета должен быть текст
+	-webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset !important;
+	-webkit-background-clip: text !important;
+	background-clip: text !important;
 }
 
 input,
 textarea,
 select {
-  &:focus-visible {
-    outline: 0;
-    border: 0;
-  }
+	&:focus-visible {
+		outline: 0;
+		border: 0;
+	}
 }
 
 @include _767-max {
-  * {
-    user-select: none; /* Standard syntax */
-    -webkit-user-select: none; /* Webkit (Safari/Chrome) */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-  }
+	* {
+		user-select: none; /* Standard syntax */
+		-webkit-user-select: none; /* Webkit (Safari/Chrome) */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+	}
 
-  /* Prevent image selection */
-  img {
-    user-select: none; /* Standard syntax */
-    -webkit-user-drag: none; /* Webkit (Safari/Chrome) */
-    -webkit-user-select: none; /* Webkit (Safari/Chrome) */
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    // pointer-events: none; /* Disables interactions */
-  }
+	/* Prevent image selection */
+	img {
+		user-select: none; /* Standard syntax */
+		-webkit-user-drag: none; /* Webkit (Safari/Chrome) */
+		-webkit-user-select: none; /* Webkit (Safari/Chrome) */
+		-moz-user-select: none; /* Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+		// pointer-events: none; /* Disables interactions */
+	}
 
-  a {
-    -webkit-user-drag: none; /* Для браузеров на основе WebKit */
-    user-drag: none;
-  }
+	a {
+		-webkit-user-drag: none; /* Для браузеров на основе WebKit */
+		user-drag: none;
+	}
 }
 
-.outline{
-  position: relative;
-  &::before{
-    content:'';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border: 1px solid red;
-  }
+.outline {
+	position: relative;
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		border: 1px solid red;
+	}
+}
+
+[class*='-ibg'] {
+	position: relative;
+	img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
+[class*='-ibg_contain'] {
+	img {
+		object-fit: contain;
+	}
 }

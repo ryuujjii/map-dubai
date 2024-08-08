@@ -1,0 +1,7 @@
+<div class="amenities-about__container popup-container">
+	<ul class="amenities-about__items">
+		<%var data = require('../../json/amenities.json')%> <%var component =
+		require("./amenities-item.html")%> <% for (var i=0; i < data.length; i++) {
+		%> <% var el = data[i] %> ${component(el)} <% } %>
+	</ul>
+</div>

@@ -1,12 +1,5 @@
 [
 	{
-		"id": "payment",
-		"classNames": {
-			"mainClass": "payment"
-		},
-		"path": "./payment.html"
-	},
-	{
 		"id": "about",
 		"classNames": {
 			"mainClass": "about"

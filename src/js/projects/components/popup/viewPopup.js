@@ -25,11 +25,16 @@ class ViewPopup {
 
     popupBtns.forEach(currentItem => {
       currentItem.addEventListener("click", (e) => {
-        if (this.activePopup) {
-          this.closePopup();
-        }
         const popupId = currentItem.getAttribute(this.attributes.data.btn);
         const neededPopup = document.querySelector(`[${this.attributes.data.popup}=${popupId}]`);
+        if (this.activePopup) {
+          if (this.activePopup === neededPopup) {
+            return;
+          } else {
+            this.closePopup();
+          }
+        }
+
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(document.body, this.attributes.classNames.body.show);
         this.activePopup = neededPopup;

@@ -1,0 +1,253 @@
+.about-about {
+	margin-bottom: 64px;
+
+	// .about-about__info
+
+	&__info {
+		margin-bottom: 64px;
+	}
+	// .about-about__container
+
+	&__container {
+	}
+	// .about-about__subtitle
+
+	&__subtitle {
+		margin-bottom: 4px;
+	}
+	// .about-about__title
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	// .about-about__text
+
+	&__text {
+		max-width: 660px;
+	}
+	// .about-about__stats
+
+	&__stats {
+		position: relative;
+	}
+
+	// .about-about__media-ibg
+
+	&__media-ibg {
+		width: 100%;
+		padding-bottom: 36%;
+		border-radius: 2px;
+		overflow: hidden;
+	}
+
+	// .about-about__items
+
+	&__items {
+		border-radius: 4px;
+		background: rgba(22, 22, 22, 0.8);
+		backdrop-filter: blur(4px);
+		position: absolute;
+		top: 8px;
+		left: 8px;
+		padding: 24px;
+		display: flex;
+		column-gap: 24px;
+		align-items: center;
+	}
+	// .about-about__item
+
+	&__item {
+	}
+}
+
+.item-about-about {
+	display: flex;
+	align-items: center;
+	column-gap: 16px;
+
+	// .item-about-about__number
+
+	&__number {
+		color: var(--light-color);
+		font-size: 32px;
+		font-weight: 500;
+	}
+
+	// .item-about-about__text
+
+	&__text {
+		color: var(--gold);
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 140%; /* 21px */
+		max-width: 80px;
+	}
+}
+
+//========================================================================================================================================================
+.amenities-about {
+	margin-bottom: 100px;
+	// .amenities-about__info
+
+	&__info {
+		margin-bottom: 48px;
+	}
+
+	// .amenities-about__container
+
+	&__container {
+	}
+
+	// .amenities-about__title
+
+	&__title {
+		margin-bottom: 16px;
+	}
+
+	// .amenities-about__text
+
+	&__text {
+	}
+
+	// .amenities-about__items
+
+	&__items {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		gap: 40px 70px;
+	}
+}
+
+.item-amenities-about {
+	// .item-amenities-about__wrapper
+
+	&__wrapper {
+	}
+
+	// .item-amenities-about__icon
+
+	&__icon {
+		width: 45px;
+		aspect-ratio: 1;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+		margin-bottom: 28px;
+	}
+
+	// .item-amenities-about__title
+
+	&__title {
+		color: var(--light-color);
+		font-size: 24px;
+		font-weight: 500;
+		letter-spacing: 2px;
+		text-transform: capitalize;
+		margin-bottom: 16px;
+	}
+
+	// .item-amenities-about__text
+
+	&__text {
+		color: var(--grey);
+		font-size: 15px;
+		font-weight: 300;
+		line-height: 24px; /* 160% */
+		max-width: 352px;
+	}
+}
+//========================================================================================================================================================
+.location-about {
+	margin-bottom: 64px;
+	// .location-about__wrapper
+
+	&__wrapper {
+	}
+
+	// .location-about__container
+
+	&__container {
+	}
+
+	// .location-about__title
+
+	&__title {
+		margin-bottom: 32px;
+	}
+
+	// .location-about__map-ibg
+
+	&__map-ibg {
+		width: 100%;
+		padding-bottom: 45%;
+	}
+}
+
+//========================================================================================================================================================
+.cta-about {
+	padding-bottom: 40px;
+	// .cta-about__wrapper
+
+	&__wrapper {
+	}
+
+	// .cta-about__container
+
+	&__container {
+		display: grid;
+		justify-items: center;
+	}
+
+	// .cta-about__title
+
+	&__title {
+		max-width: 337px;
+		margin-bottom: 64px;
+		text-align: center;
+		line-height: 120%; /* 28.8px */
+	}
+
+	// .cta-about__form
+
+	&__form {
+		width: 100%;
+		display: flex;
+		column-gap: 33px;
+	}
+
+	// .cta-about__inputs
+
+	&__inputs {
+		display: flex;
+		column-gap: 24px;
+		flex-grow: 1;
+		align-self: flex-end;
+	}
+
+	// .cta-about__input
+
+	&__input {
+		border-bottom: 1px solid var(--grey);
+		width: 100%;
+		padding-bottom: 9px;
+		input {
+			width: 100%;
+			color: var(--grey);
+			font-size: 15px;
+			font-weight: 300;
+		}
+	}
+
+	// .cta-about__btn
+
+	&__btn {
+		color: var(--light-color);
+		font-size: 15px;
+		font-weight: 500;
+		background-color: var(--gold);
+		padding: 12px 20px;
+		border-radius: 4px;
+	}
+}

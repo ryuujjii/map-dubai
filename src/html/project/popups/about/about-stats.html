@@ -1,0 +1,12 @@
+<div class="about-about__stats">
+  <div class="about-about__media-ibg"><img data-about="about-bg" src="@img/projects/key-mavens/about/about-bg.jpg" alt=""></div>
+  <ul class="about-about__items">
+    <%var data = require('../../json/aboutStats.json')%> 
+    <%var component = require("../about/about-item.html")%> 
+    
+    <% for (var i=0; i < data.length; i++) { %>
+      <% var el = data[i] %>
+      ${component(el)}
+    <% } %>
+  </ul>
+</div>
