@@ -1,4 +1,3 @@
-import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import fs from 'fs';
 import { resolve, basename } from 'path';
@@ -23,6 +22,13 @@ export default function getHtmlPlugins({ paths }) {
       chunksSortMode: 'manual',
       template: resolve(paths.src, 'projects/key-mavens.html'),
       minify: true
-    })
+    }),
+    // new HtmlWebpackPlugin({
+    //   filename: `modal360/index.html`,
+    //   chunks: ['modal360'],
+    //   chunksSortMode: 'manual',
+    //   template: resolve(paths.src, 'modal360/index.html'),
+    //   minify: true
+    // })
   ];
 };
