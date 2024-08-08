@@ -2,10 +2,7 @@ import L from 'leaflet';
 import { queryMatches } from 'utils';
 
 export function map() {
-
-    // const LAPTOP = queryMatches('max', 1720)
     const bounds = [[0, 0], [2304, 4072]];
-
 
     const map = L.map('map', {
         crs: L.CRS.Simple,
@@ -13,6 +10,11 @@ export function map() {
         maxZoom: 0,
         maxBounds: bounds,
         maxBoundsViscosity: 1.0,
+        zoomControl: false,
+        touchZoom: false,
+        doubleClickZoom: false,
+        scrollWheelZoom: false,
+        keyboard: false
     });
 
 
@@ -70,12 +72,9 @@ export function map() {
         `;
 
     overlayPane.innerHTML = svgContent
-    // <image xlink:href="img/map/map-light.jpg" width="${bounds[1][1]}" height="${bounds[1][0]}" mask="url(#mask)"></image>
 
-    // const lightMapWrapper = createSvgOverlay(svgContent, 'light-map');
-
-    const darkMapWrapper = createImageOverlay('img/map/map-dark-min.jpg', 'dark-map');
-    const lightMapWrapper = createImageOverlay('img/map/map-light-min.jpg', 'light-map');
+    const darkMapWrapper = createImageOverlay('img/map/map-dark.jpg', 'dark-map');
+    const lightMapWrapper = createImageOverlay('img/map/map-light.jpg', 'light-map');
 
     function updateOverlay(wrapper) {
         const topLeft = map.latLngToLayerPoint([bounds[0][0], bounds[0][1]]);
@@ -94,7 +93,6 @@ export function map() {
     });
 
     const centerCoordinates = [-window.innerHeight / 2, 1200];
-    // const centerCoordinates = [650, 0];
     map.setView(centerCoordinates, 0);
 
     updateOverlay(darkMapWrapper);
@@ -103,80 +101,138 @@ export function map() {
 
     // Custom Create map
 
-
     const markers = [
         {
-            coordinates: [480, 725],
-            text: "SLS Residence",
+            coordinates: [520, 1480],
+            text: "Beachfront",
             media: 'img/map/projects/sls-residence.jpg',
-            dataName: "sls-residence"
-        },
-        {
-            coordinates: [300, 1000],
-            text: "Valori",
-            media: 'img/map/projects/valori.jpg',
             dataName: "sls-residence"
         },
     ];
 
-    markers.forEach(markerData => {
-        const icon = L.divIcon({
-            className: 'map__marker-item',
-            html: `
-    <button class="map__marker" data-marker="${markerData.dataName}">
-    <div class="map__marker-icon"><img src="${markerData.media}" alt=""></div>
-     <div class="map__marker-content">
-     <p class="map__marker-name">${markerData.text}</p>
-     </div>
-    </button>
+    fetch('../../files/json/markers/project.json')
+        .then(response => response.json())
+        .then(data => {
+
+            data.forEach(proj => {
+                const icon = L.divIcon({
+                    className: 'map__marker-item',
+                    html: `
+                <button class="map__marker" data-modal-open="${proj.dataName}">
+                    <div class="map__marker-icon">
+                        <img src="${proj.img}" alt="">
+                    </div>
+                    <div class="map__marker-content">
+                        <p class="map__marker-name">${proj.name}</p>
+                    </div>
+                </button>
             `,
+                });
+
+                L.marker(proj.coordinates, { icon: icon }).addTo(map);
+            });
         });
 
-        L.marker(markerData.coordinates, { icon: icon }).addTo(map);
-    });
 
+    // Light Effect On MAP
 
-    // Circle LIGHT MAP 
-    // const circleClip = document.querySelector(".light-map");
+    // function clipPathEffect() {
 
-    // function getRelativePosition(e) {
-    //     const rect = circleClip.getBoundingClientRect();
-    //     const x = e.clientX - rect.left;
-    //     const y = e.clientY - rect.top;
-    //     return { x, y };
+    //     document.body.classList.add('clipPathEffect')
+
+    //     const circleClip = document.querySelector(".light-map");
+
+    //     function getRelativePosition(e) {
+    //         const rect = circleClip.getBoundingClientRect();
+    //         const x = e.clientX - rect.left;
+    //         const y = e.clientY - rect.top;
+    //         return { x, y };
+    //     }
+
+    //     function circleMove(e) {
+    //         const { x, y } = getRelativePosition(e);
+    //         circleClip.style.setProperty("--x", x + "px");
+    //         circleClip.style.setProperty("--y", y + "px");
+    //     }
+
+    //     document.addEventListener("mousemove", circleMove);
+
+    //     circleClip.addEventListener("touchmove", (e) => {
+    //         let touch = e.touches[0];
+    //         e.preventDefault();
+
+    //         const { x, y } = getRelativePosition(touch);
+    //         circleClip.style.setProperty("--x", x + "px");
+    //         circleClip.style.setProperty("--y", y + "px");
+    //     });
     // }
 
-    // function circleMove(e) {
-    //     const { x, y } = getRelativePosition(e);
-    //     circleClip.style.setProperty("--x", x + "px");
-    //     circleClip.style.setProperty("--y", y + "px");
-    // }
 
-    // document.addEventListener("mousemove", circleMove);
+    function maskImageEffect() {
+        const lightMap = document.querySelector('.light-map');
+        const lightMapImg = lightMap.querySelector('img')
+        document.body.classList.add('maskImageEffect')
 
-    // circleClip.addEventListener("touchmove", (e) => {
-    //     let touch = e.touches[0];
-    //     e.preventDefault();
+        document.addEventListener("mousemove", (event) => {
+            const rect = lightMap.getBoundingClientRect();
+            const x = (event.clientX - rect.left) * (lightMap.offsetWidth / rect.width);
+            const y = (event.clientY - rect.top) * (lightMap.offsetHeight / rect.height);
 
-    //     const { x, y } = getRelativePosition(touch);
-    //     circleClip.style.setProperty("--x", x + "px");
-    //     circleClip.style.setProperty("--y", y + "px");
-    // });
+            const circleHeight = window.innerHeight / 1.2
+            const circleHeightHalf = circleHeight / 2
 
-    const lightMap = document.querySelector('.light-map');
-    const maskCircle = document.querySelector('circle');
-    
-    document.addEventListener('mousemove', (event) => {
-        const rect = lightMap.getBoundingClientRect();
-        const x = event.clientX - rect.left;
-        const y = event.clientY - rect.top;
+            lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`
+            lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
+            lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
+        });
+    }
 
-        const radius = window.innerHeight / 2.2;
+    function svgMaskEffect() {
+        document.body.classList.add('svgMaskEffect')
 
-        maskCircle.setAttribute('r', radius);
-        maskCircle.setAttribute('cx', x);
-        maskCircle.setAttribute('cy', y);
-    });
-    
+        const lightMap = document.querySelector('.light-map');
+        const maskCircle = document.querySelector('circle');
 
+        document.addEventListener('mousemove', (event) => {
+            const rect = lightMap.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+
+            const radius = window.innerHeight / 3;
+
+            maskCircle.setAttribute('r', radius);
+            maskCircle.setAttribute('cx', x);
+            maskCircle.setAttribute('cy', y);
+        });
+    }
+
+    function getBrowser() {
+        const userAgent = navigator.userAgent;
+        let browserName = 'Unknown';
+
+        if (/chrome|crios|crmo/i.test(userAgent) && !/edge|edg/i.test(userAgent)) {
+            browserName = 'Chrome';
+            svgMaskEffect()
+        } else if (/safari/i.test(userAgent) && !/chrome|crios|crmo|edg|edge/i.test(userAgent)) {
+            browserName = 'Safari';
+            maskImageEffect()
+        } else if (/firefox|fxios/i.test(userAgent)) {
+            browserName = 'Firefox';
+            svgMaskEffect()
+        } else if (/opr|opera/i.test(userAgent)) {
+            browserName = 'Opera';
+            svgMaskEffect()
+        } else if (/msie|trident/i.test(userAgent)) {
+            browserName = 'Internet Explorer';
+            svgMaskEffect()
+        } else if (/edg|edge/i.test(userAgent)) {
+            browserName = 'Edge';
+            svgMaskEffect()
+        }
+
+        return browserName;
+    }
+
+    getBrowser()
+    console.log('Browser:', getBrowser());
 }

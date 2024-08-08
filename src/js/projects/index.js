@@ -1,7 +1,8 @@
 import { plugins } from "@/components/plugins";
 import { isMobileOrTablet, addClassName } from '@/components/utils';
-import '../../scss/projects/style.scss';
+import { projectMap } from "@/projects/components/map";
 import popup from "@/projects/components/popup";
+import '../../scss/projects/style.scss';
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -17,6 +18,7 @@ window.addEventListener("DOMContentLoaded", () => {
   isMobileOrTablet() ? addClassName(document.documentElement, 'mob-device') : null;
   plugins();
   popup();
+  projectMap();
 });
 
 //disable context menu
