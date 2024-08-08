@@ -1,6 +1,7 @@
 import { plugins } from "@/components/plugins";
-import { isMobileOrTablet } from '@/components/utils';
+import { isMobileOrTablet, addClassName } from '@/components/utils';
 import { header } from "@/components/header";
+import { map } from "@/sections/map"
 import '../scss/style.scss';
 
 window.addEventListener("onbeforeunload", function () {
@@ -17,9 +18,10 @@ window.addEventListener("DOMContentLoaded", () => {
   isMobileOrTablet() ? addClassName(document.documentElement, 'mob-device') : null;
   plugins();
   header()
+  map()
 });
 
 //disable context menu
-document.addEventListener('contextmenu', event => {
-  event.preventDefault();
-});
+// document.addEventListener('contextmenu', event => {
+//   event.preventDefault();
+// });
