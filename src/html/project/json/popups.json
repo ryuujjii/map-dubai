@@ -12,5 +12,12 @@
 			"mainClass": "developer"
 		},
 		"path": "./developer.html"
+	},
+	{
+		"id": "ax",
+		"classNames": {
+			"mainClass": "ax"
+		},
+		"path": "./ax.html"
 	}
 ]
