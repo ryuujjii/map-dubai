@@ -1,10 +1,16 @@
 .popupBtn {
-  cursor: pointer;
+	&.hide {
+		display: none;
+	}
+	
 	// .popupBtn__wrapper
 
 	&__wrapper {
 		display: flex;
 		background-color: var(--black-color);
+		.active &{
+			background-color: white;
+		}
 		display: flex;
 		align-items: center;
 		column-gap: 8px;
@@ -29,10 +35,13 @@
 	// .popupBtn__text
 
 	&__text {
-		color: #fff;
+		color: var(--light-color);
 		font-size: 15px;
 		font-weight: 300;
 		text-transform: capitalize;
+		.active &{
+			color: var(--black-color);
+		}
 		.ax & {
 			text-transform: low;
 		}

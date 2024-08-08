@@ -1,10 +1,9 @@
 .dot-project {
-
 	// .dot-project__container
 
 	&__container {
 		padding: 8px 10px;
-		background-color: #fff;
+		background-color: var(--light-color);
 		border-radius: 4px;
 		position: relative;
 		cursor: pointer;

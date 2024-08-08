@@ -1,4 +1,5 @@
 .project {
+	--brochureBtnW: 183px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -11,17 +12,6 @@
 	&__container {
 	}
 
-	// .project__test
-
-	&__test {
-		position: absolute;
-		inset: 0;
-		margin: auto;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 	// .project__dot
 
 	&__dot {
@@ -31,33 +21,73 @@
 	&__partner {
 	}
 
+	// .project__btns
+
+	&__btns {
+		--shift: 20px;
+		position: absolute;
+		bottom: var(--shift);
+		left: var(--shift);
+		display: flex;
+		width: calc(100% - var(--shift) * 2);
+	}
+
 	// .project__popupBtns
 
 	&__popupBtns {
-		position: absolute;
-		bottom: 20px;
-		left: 20px;
+
+	}
+
+	// .project__popupBtns-wrapper
+
+	&__popupBtns-wrapper {
 		border-radius: 4px;
 		background: rgba(22, 22, 22, 0.48);
 		backdrop-filter: blur(4px);
 		padding: 8px;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%); 
 		display: flex;
 		gap: 8px;
-
-
 		background-image: linear-gradient(
 			145deg,
 			rgba(255, 255, 255, 0) 50%,
-			rgba(255, 255, 255, 0.07) 0,
+			rgba(255, 255, 255, 0.07) 0
 		);
 		background-origin: border-box;
 		background-clip: padding-box, border-box;
 		background-size: 200% 100%;
 		background-position: 453% 100%;
 	}
+
 	// .project__popupBtn
 
 	&__popupBtn {
+		flex-shrink: 0;
+	}
+	// .project__brochure-btn
+
+	&__brochure-btn {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		color: var(--light-color);
+		font-size: 15px;
+		font-weight: 500;
+		background-color: var(--gold);
+		border-radius: 4px;
+		padding: 16px 22px;
+		background-image: linear-gradient(
+			153deg,
+			rgba(255, 255, 255, 0) 50%,
+			rgba(0, 0, 0, 0.13) 0
+		);
+		background-origin: border-box;
+		background-clip: padding-box, border-box;
+		background-size: 200% 100%;
+		background-position: 250% 100%;
 	}
 }
 
@@ -65,3 +95,8 @@
 @import './components/dot';
 @import './components/partner';
 @import './components/popupBtn';
+@import './components/popups/common';
+@import './components/popups/about';
+@import './components/popups/developer';
+@import './components/popups/ax';
+@import './components/popups/payment';

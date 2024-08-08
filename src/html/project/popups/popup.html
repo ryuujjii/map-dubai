@@ -1,0 +1,17 @@
+<%var data = arguments[0]%> <%var component = require(`${data.path}`)%>
+<div class="popup" data-popup="${data.id}">
+	<div class="popup__overlay" data-popup-close></div>
+	<div class="popup__wrapper">
+		<div class="popup__wp">
+			<div class="popup__content">
+				<button data-popup-close type="button" class="popup__close-btn">
+					<p class="popup__close-btn_text">close</p>
+					<div class="popup__close-btn_icon">
+						<img src="@img/projects/icons/popupBtns/close.svg" alt="close" />
+					</div>
+				</button>
+				${component()}
+			</div>
+		</div>
+	</div>
+</div>

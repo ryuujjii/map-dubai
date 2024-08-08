@@ -1,0 +1,7 @@
+<%var data = require('./json/popups.json')%> 
+<%var component = require("./popups/popup.html")%> 
+
+<% for (var i=0; i < data.length; i++) { %>
+  <% var el = data[i] %>
+  ${component(el)}
+<% } %>

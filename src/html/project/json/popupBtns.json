@@ -2,26 +2,31 @@
 	{
 		"img": "img/projects/icons/popupBtns/about.svg",
 		"text": "about project",
-		"classNames": ""
+		"classNames": "",
+		"dataPopupId": "about"
 	},
 	{
 		"img": "img/projects/icons/popupBtns/amenities.svg",
 		"text": "Amenities",
-		"classNames": ""
+		"classNames": "hide",
+		"dataPopupId": "amenities"
 	},
 	{
 		"img": "img/projects/icons/popupBtns/payment.svg",
 		"text": "Payment plan",
-		"classNames": ""
+		"classNames": "",
+		"dataPopupId": "payment"
 	},
 	{
 		"img": "img/projects/icons/popupBtns/developer.svg",
 		"text": "Developer",
-		"classNames": ""
+		"classNames": "",
+		"dataPopupId": "developer"
 	},
 	{
 		"img": "img/projects/icons/popupBtns/ax.svg",
 		"text": "AX CAPITAL",
-		"classNames": "ax"
+		"classNames": "ax",
+		"dataPopupId": "ax"
 	}
 ]
