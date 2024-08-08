@@ -1,4 +1,5 @@
 import L from 'leaflet';
+import modal360 from '@/projects/components/modal360';
 
 export function projectMap() {
 
@@ -38,7 +39,7 @@ export function projectMap() {
         const icon = L.divIcon({
             className: 'project__dot-item',
             html: `
-            <div class="project__dot dot-project right">
+            <div class="project__dot dot-project right" data-modal360="files/modal360/1-bedroom-L1.html">
             <div class="dot-project__container">
                 <div class="dot-project__wrapper">
                     <div class="dot-project__info">
@@ -61,4 +62,6 @@ export function projectMap() {
         L.marker(proj.coordinates, { icon: icon }).addTo(map);
     });
 
+
+    modal360();
 }
