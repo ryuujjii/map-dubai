@@ -1,13 +1,15 @@
 import { addClassName, removeClassName } from 'utils';
 class ViewPopup {
   activePopup = null;
+  activeBtn = null;
 
   attributes = {
     classNames: {
       show: "popup-show",
       body: {
         show: 'popup-active'
-      }
+      },
+      activeBtn: "active"
     },
     data: {
       popup: "data-popup",
@@ -36,8 +38,10 @@ class ViewPopup {
         }
 
         addClassName(neededPopup, this.attributes.classNames.show);
+        addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
         this.activePopup = neededPopup;
+        this.activeBtn = currentItem;
       });
     });
   }
@@ -61,8 +65,10 @@ class ViewPopup {
 
   closePopup() {
     removeClassName(this.activePopup, this.attributes.classNames.show);
+    removeClassName(this.activeBtn, this.attributes.classNames.activeBtn);
     removeClassName(document.body, this.attributes.classNames.body.show);
     this.activePopup = null;
+    this.activeBtn = null;
   }
 
 }

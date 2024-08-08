@@ -8,7 +8,7 @@
 	{
 		"img": "img/projects/icons/popupBtns/amenities.svg",
 		"text": "Amenities",
-		"classNames": "",
+		"classNames": "hide",
 		"dataPopupId": "amenities"
 	},
 	{
