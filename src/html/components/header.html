@@ -25,17 +25,16 @@
     <div class="menu__bg"></div>
     <div class="menu__inner">
         <div class="menu__title">
-            <span>All projects</span>
+            All projects
         </div>
 
         <ul class="menu__list">
-            <%var data = require('../projects-loop/projects.json')%> 
+            <%var data = require('@files/json/markers/project.json')%> 
             <%var component = require("../projects-loop/project.html")%> 
-
             <% for (var i=0; i < data.length; i++) { %>
-                <% var el = data[i] %>
-                ${component(el)}
-             <% } %>
+              <% var el = data[i] %>
+              ${component(el)}
+            <% } %>
         </ul>
     </div>
 </div>

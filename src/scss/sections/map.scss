@@ -23,15 +23,21 @@
 .map__marker {
     // @include flex();
     display: grid;
-    grid-template-columns: 1fr auto;
+    transition: all 400ms ease-in-out;
+    grid-template-columns: max-content 0fr;
     padding: 2px;
     background-color: var(--dark-color);
-    border-radius: 4px;
 
+    // Gradient Border 
+    border-radius: 4px;
     $border: 1px;
     color: #fff;
     background-clip: padding-box; /* !importanté */
     border: solid $border transparent;
+
+    &:hover {
+        grid-template-columns: max-content 1fr;
+    }
 
     &:before {
         content: "";
@@ -48,8 +54,8 @@
 
     // map__marker-item
     &-item {
-        width: auto !important;
-        height: auto !important;
+        width: max-content !important;
+        height: max-content !important;
     }
 
     &-icon {
@@ -70,8 +76,13 @@
         align-items: center;
         justify-content: flex-start;
         height: 100%;
-        padding-right: 6px;
-        padding-left: 8px;
+        overflow: hidden;
+        transition: padding 400ms ease-in-out;
+
+        .map__marker:hover & {
+            padding-left: 8px;
+            padding-right: 6px;
+        }
     }
 
     // map__marker-name
@@ -86,12 +97,45 @@
 .light-map {
     transition: opacity 0.2s ease;
 
-    img {
-        mask-image: url("#mask");
-        -webkit-mask-image: url("#mask");
-    }
-    
     .isMenuOpened & {
         opacity: 0;
+    }
+
+    .clipPathEffect & {
+        clip-path: circle(33.3vh at var(--x) var(--y));
+    }
+
+    .maskImageEffect &{
+        img {
+            mask-image: radial-gradient(
+                circle,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 1) 20%,
+                rgba(0, 0, 0, 0.5) 40%,
+                rgba(0, 0, 0, 0) 60%,
+                rgba(0, 0, 0, 0) 80%,
+                rgba(0, 0, 0, 0) 100%
+            );
+            -webkit-mask-image: radial-gradient(
+                circle,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 1) 20%,
+                rgba(0, 0, 0, 0.5) 40%,
+                rgba(0, 0, 0, 0) 60%,
+                rgba(0, 0, 0, 0) 80%,
+                rgba(0, 0, 0, 0) 100%
+            );
+            mask-repeat: no-repeat;
+            -webkit-mask-repeat: no-repeat;
+            mask-size: 700px 700px;
+            -webkit-mask-size: 700px 700px;
+        }
+    }
+
+    .svgMaskEffect & {
+        img {
+            mask-image: url("#mask");
+            -webkit-mask-image: url("#mask");
+        }
     }
 }
