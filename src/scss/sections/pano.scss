@@ -44,14 +44,25 @@
 			font-weight: 500;
 			text-transform: capitalize;
 		}
-		// .pano__btn__icon
+		// .pano__btn_icon
 
-		&__icon {
+		&_icon {
 			width: 26px;
 			aspect-ratio: 1;
-			svg {
-				width: 100%;
-				height: 100%;
+			position: relative;
+			img {
+				position: relative;
+				z-index: 2;
+			}
+			&::before {
+				content: '';
+				position: absolute;
+				width: calc(100% - 1px);
+				height: calc(100% - 1px);
+				top: 0.5px;
+				left: 0.5px;
+				background-color: var(--black-color);
+				border-radius: 3px;
 			}
 		}
 	}

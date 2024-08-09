@@ -1,10 +1,6 @@
 <section class="project">
 	<div class="project__container">
 		@require('./map.html')
-		<div class="project__btns">
-			@require('./popupBtns.html')
-			@require('./brochureBtn.html')
-		</div>
 		<button data-project-close type="button" class="project__close-btn">
 			<p class="project__close-btn_text">close</p>
 			<div class="project__close-btn_icon">
@@ -13,5 +9,9 @@
 		</button>
 	</div>
 </section>
+<div class="project__btns">
+	@require('./popupBtns.html')
+	@require('./brochureBtn.html')
+</div>
 @require('./popups.html')
 @require('./iframe.html')
