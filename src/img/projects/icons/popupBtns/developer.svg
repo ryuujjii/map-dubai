@@ -1,12 +1,3 @@
-<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="0.5" y="0.5" width="25" height="25" rx="1.5" stroke="#D79970"/>
-<rect x="0.5" y="0.5" width="25" height="25" rx="1.5" stroke="url(#paint0_linear_2041_23)"/>
-<path d="M9.4 9.2H11.6M9.4 12.4H11.6M9.4 15.6H11.6M14.4 9.2H16.6M14.4 12.4H16.6M14.4 15.6H16.6M19.4 20.4V8.56C19.4 7.66392 19.4 7.21587 19.2256 6.87362C19.0722 6.57256 18.8274 6.32779 18.5264 6.17439C18.1841 6 17.7361 6 16.84 6H9.16C8.26392 6 7.81587 6 7.47362 6.17439C7.17256 6.32779 6.92779 6.57256 6.77439 6.87362C6.6 7.21587 6.6 7.66392 6.6 8.56V20.4M21 20.4H5" stroke="#D79970" stroke-linecap="round" stroke-linejoin="round"/>
-<defs>
-<linearGradient id="paint0_linear_2041_23" x1="0" y1="0" x2="15.2724" y2="31.2438" gradientUnits="userSpaceOnUse">
-<stop stop-color="#D79970"/>
-<stop offset="0.5" stop-color="#905D44"/>
-<stop offset="1" stop-color="#D79970"/>
-</linearGradient>
-</defs>
+<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.4 4.2H7.6M5.4 7.4H7.6M5.4 10.6H7.6M10.4 4.2H12.6M10.4 7.4H12.6M10.4 10.6H12.6M15.4 15.4V3.56C15.4 2.66392 15.4 2.21587 15.2256 1.87362C15.0722 1.57256 14.8274 1.32779 14.5264 1.17439C14.1841 1 13.7361 1 12.84 1H5.16C4.26392 1 3.81587 1 3.47362 1.17439C3.17256 1.32779 2.92779 1.57256 2.77439 1.87362C2.6 2.21587 2.6 2.66392 2.6 3.56V15.4M17 15.4H1" stroke="#D79970" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

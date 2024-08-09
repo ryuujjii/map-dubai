@@ -14,7 +14,7 @@
 	{
 		"img": "img/projects/icons/popupBtns/payment.svg",
 		"text": "Payment plan",
-		"classNames": "active",
+		"classNames": "",
 		"dataPopupId": "payment"
 	},
 	{
