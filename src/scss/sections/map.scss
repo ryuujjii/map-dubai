@@ -35,10 +35,6 @@
     background-clip: padding-box; /* !importanté */
     border: solid $border transparent;
 
-    &:hover {
-        grid-template-columns: max-content 1fr;
-    }
-
     &:before {
         content: "";
         position: absolute;
@@ -52,6 +48,36 @@
         background: linear-gradient(135deg, #d79970 0%, #905d44 50%, #d79970 100%);
     }
 
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 0;
+        border-radius: inherit;
+        background-image: linear-gradient(
+            135deg,
+            rgba(255, 255, 255, 0) 50%,
+            rgba(255, 255, 255, 0.15) 0,
+            rgba(255, 255, 255, 0) 75%
+        );
+        background-origin: border-box;
+        background-clip: padding-box, border-box;
+        background-size: 200% 100%;
+        -webkit-transition: background-position 0.5s ease-out 0.35s;
+        -o-transition: background-position 0.5s ease-out 0.35s;
+        transition: background-position 0.5s ease-out 0.35s;
+        background-position: 453% 100%;
+    }
+    &:hover {
+        grid-template-columns: max-content 1fr;
+        &::after {
+            background-position: 253.5% 100%;
+        }
+    }
+
     // map__marker-item
     &-item {
         width: max-content !important;
@@ -63,6 +89,8 @@
         width: 44px;
         border-radius: 2px;
         overflow: hidden;
+        position: relative;
+        z-index: 2;
         img {
             width: 100% !important;
             height: 100%;
@@ -81,6 +109,8 @@
         overflow: hidden;
         transition: padding 400ms ease-in-out;
         line-height: normal;
+        position: relative;
+        z-index: 2;
 
         .map__marker:hover & {
             padding-left: 8px;
@@ -106,8 +136,8 @@
         font-size: 10px;
         font-family: var(--font-color);
         font-weight: 500;
-        color: #D79970;
-        
+        color: #d79970;
+
         @include _1700-min {
             font-size: 12px;
         }

@@ -3,6 +3,7 @@
         "name": "Valori",
         "img": "img/map/projects/valori.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "valori",
         "coordinates": [1600, 2930]
     },
@@ -10,6 +11,7 @@
         "name": "Keturah Resort",
         "img": "img/map/projects/keturah-resort.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "keturah-resort",
         "coordinates": [1500, 2780]
     },
@@ -17,6 +19,7 @@
         "name": "Business Bay Tower",
         "img": "img/map/projects/business-bay-tower.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "business-bay-tower",
         "coordinates": [1300, 2360]
     },
@@ -24,6 +27,7 @@
         "name": "Boutique 23",
         "img": "img/map/projects/boutique23.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "boutique-23",
         "coordinates": [1655, 2920]
     },
@@ -31,13 +35,15 @@
         "name": "EMAAR Beachfront",
         "img": "img/map/projects/Emaar-beachfront.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "emaar-beachfront",
         "coordinates": [400, 1080]
     },
     {
         "name": "SLS Residence",
         "img": "img/map/projects/sls-residence.jpg",
-        "icon": "",
+        "icon": "img/map/markers/sls.png",
+        "visibility": true,
         "dataName": "files/pano/",
         "coordinates": [480, 790]
     },
@@ -45,6 +51,7 @@
         "name": "Keturah Reserve",
         "img": "img/map/projects/keturah-reserve.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "keturah-reserve",
         "coordinates": [920, 2460]
     },
@@ -52,6 +59,7 @@
         "name": "Urban Life",
         "img": "img/map/projects/urban-life.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "urban-life",
         "coordinates": [1200, 2400]
     },
@@ -59,6 +67,7 @@
         "name": "Biltmore Residences",
         "img": "img/map/projects/biltmore-residences.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "biltmore",
         "coordinates": [520, 1480]
     },
@@ -66,6 +75,7 @@
         "name": "Damac Bay",
         "img": "img/map/projects/damac-bay.jpg",
         "icon": "",
+        "visibility": false,
         "dataName": "damac-bay",
         "coordinates": [320, 1100]
     }

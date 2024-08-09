@@ -116,22 +116,25 @@ export function map() {
         .then(data => {
 
             data.forEach(proj => {
-                const icon = L.divIcon({
-                    className: 'map__marker-item',
-                    html: `
-                <button class="map__marker" data-modal-open="${proj.dataName}">
-                    <div class="map__marker-icon">
-                        <img src="${proj.img}" alt="">
-                    </div>
-                    <div class="map__marker-content">
-                        <p class="map__marker-name">${proj.name}</p>
-                        <p class="map__marker-text">Click to experience</p>
-                    </div>
-                </button>
-            `,
-                });
+                if (proj.visibility === true) {
+                    const icon = L.divIcon({
+                        className: 'map__marker-item',
+                        html: `
+                                <button class="map__marker" data-modal-open="${proj.dataName}">
+                                    <div class="map__marker-icon">
+                                        <img src="${proj.icon}" alt="">
+                                    </div>
+                                    <div class="map__marker-content">
+                                        <p class="map__marker-name">${proj.name}</p>
+                                        <p class="map__marker-text">Click to experience</p>
+                                    </div>
+                                </button>
+                            `,
 
-                L.marker(proj.coordinates, { icon: icon }).addTo(map);
+                    });
+                    L.marker(proj.coordinates, { icon: icon }).addTo(map);
+                }else{}
+
             });
             pano();
 
