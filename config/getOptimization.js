@@ -8,6 +8,7 @@ export default function getOptimization() {
       new CssMinimizerPlugin(),
       new TerserPlugin({
         minify: TerserPlugin.swcMinify,
+        exclude: /\/files/,
       }),
     ],
   };
