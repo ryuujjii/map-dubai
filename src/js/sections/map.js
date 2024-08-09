@@ -124,6 +124,7 @@ export function map() {
                     </div>
                     <div class="map__marker-content">
                         <p class="map__marker-name">${proj.name}</p>
+                        <p class="map__marker-text">Click to experience</p>
                     </div>
                 </button>
             `,

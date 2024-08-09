@@ -28,7 +28,7 @@
     padding: 2px;
     background-color: var(--dark-color);
 
-    // Gradient Border 
+    // Gradient Border
     border-radius: 4px;
     $border: 1px;
     color: #fff;
@@ -73,11 +73,14 @@
     // map__marker-content
     &-content {
         display: flex;
-        align-items: center;
-        justify-content: flex-start;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2px;
         height: 100%;
         overflow: hidden;
         transition: padding 400ms ease-in-out;
+        line-height: normal;
 
         .map__marker:hover & {
             padding-left: 8px;
@@ -91,6 +94,23 @@
         font-size: 12px;
         font-family: var(--font);
         font-weight: 500;
+
+        @include _1700-min {
+            font-size: 14px;
+        }
+    }
+
+    // .map__marker-text
+    &-text {
+        white-space: nowrap;
+        font-size: 10px;
+        font-family: var(--font-color);
+        font-weight: 500;
+        color: #D79970;
+        
+        @include _1700-min {
+            font-size: 12px;
+        }
     }
 }
 
@@ -105,7 +125,7 @@
         clip-path: circle(33.3vh at var(--x) var(--y));
     }
 
-    .maskImageEffect &{
+    .maskImageEffect & {
         img {
             mask-image: radial-gradient(
                 circle,
