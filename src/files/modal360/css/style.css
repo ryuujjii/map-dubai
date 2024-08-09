@@ -3826,3 +3826,7 @@ main {
     display: block;
   }
 }
+
+.viewer__navigation.navigation-viewer{
+display: none;
+}

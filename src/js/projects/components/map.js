@@ -1,67 +1,30 @@
-import L from 'leaflet';
-import modal360 from '@/projects/components/modal360';
+import { queryMatches } from 'utils';
+export default function map() {
+    function calculateAspectRatioDesc(height) {
+        return height * 16 / 9;
+    }
+    function calculateAspectRatioMob(height) {
+        return height * 9 / 16;
+    }
 
-export function projectMap() {
+    function handleResize() {
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+        let aspectRatioHeight = Number.parseFloat(screenHeight / screenWidth * 100).toFixed(3);
+        let aspectRatioWidth;
 
-    const bounds = [[0, 0], [window.innerHeight, window.innerWidth]];
-
-    const map = L.map('project-map', {
-        crs: L.CRS.Simple,
-        minZoom: 0,
-        maxZoom: 0,
-        maxBounds: bounds,
-        maxBoundsViscosity: 1.0,
-        zoomControl: false,
-        touchZoom: false,
-        doubleClickZoom: false,
-        scrollWheelZoom: false,
-        keyboard: false
-    });
-
-
-    const frontLayer = L.imageOverlay('img/projects/key-mavens/map.jpg', bounds, { className: 'dark-map' });
-    const backLayer = L.imageOverlay('img/projects/key-mavens/map-shadow.jpg', bounds, { className: 'light-map' });
-
-    frontLayer.addTo(map);
-    backLayer.addTo(map);
-    map.fitBounds(bounds);
-
-    const markers = [
-        {
-            coordinates: [500, 700],
-            text: "Beachfront",
-            media: 'img/map/projects/sls-residence.jpg',
-        },
-    ];
+        if (!queryMatches(575.98)) {
+            aspectRatioWidth = Number.parseFloat((calculateAspectRatioDesc(screenHeight) / screenWidth) * 100).toFixed(3);
+        } else {
+            aspectRatioWidth = Number.parseFloat((calculateAspectRatioMob(screenHeight) / screenWidth) * 100).toFixed(3);
+        }
 
 
-    markers.forEach(proj => {
-        const icon = L.divIcon({
-            className: 'project__dot-item',
-            html: `
-            <div class="project__dot dot-project right" data-modal360="files/modal360/1-bedroom-L1.html">
-            <div class="dot-project__container">
-                <div class="dot-project__wrapper">
-                    <div class="dot-project__info">
-                        <div class="dot-project__title">1-bedroom</div>
-                        <div class="dot-project__type">loft style A</div>
-                    </div>
-                    <div class="dot-project__icon-wrapper">
-                        <div
-                            class="dot-project__icon"
-                            style="--mask-image: url('../img/projects/icons/floorplan.svg')"
-                        ></div>
-                    </div>
-                </div>
-                <div class="dot-project__tail"><span></span></div>
-            </div>
-        </div>
-    `,
-        });
+        document.documentElement.style.setProperty("--aspect-ratio-height", aspectRatioHeight);
+        document.documentElement.style.setProperty("--aspect-ratio-width", aspectRatioWidth);
+    }
 
-        L.marker(proj.coordinates, { icon: icon }).addTo(map);
-    });
+    handleResize();
 
-
-    modal360();
+    window.addEventListener('resize', handleResize);
 }
