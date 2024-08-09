@@ -30,7 +30,7 @@
 		left: var(--shift);
 		display: flex;
 		width: calc(100% - var(--shift) * 2);
-		z-index: 2;
+		z-index: 10;
 	}
 
 	// .project__popupBtns

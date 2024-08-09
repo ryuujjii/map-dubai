@@ -59,8 +59,8 @@
 
 	// .popupBtn__icon-inner
 	&__icon-inner {
+		height: 30px;
 		width: 100%;
-		height: 100%;
 		border-radius: 2px;
 		background-color: #161616;
 		z-index: 1;
@@ -68,6 +68,15 @@
 
 		.popupBtn.active & {
 			background: linear-gradient(135deg, #d79970 0%, #905d44 50%, #d79970 100%);
+		}
+
+		.ax & img {
+			position: absolute;
+
+		}
+
+		.ax.active & img {
+			opacity: 0;
 		}
 	}
 
@@ -82,6 +91,17 @@
 
 		.popupBtn.active & {
 			background-color: #fff;
+		}
+		.ax & {
+			opacity: 0;
+			visibility: hidden;
+			position: absolute;
+		}
+
+		.ax.active & {
+			opacity: 1;
+			visibility: visible;
+			mask: url("@img/projects/icons/popupBtns/ax.svg") no-repeat center;
 		}
 	}
 

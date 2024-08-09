@@ -1,18 +1,17 @@
-<%var data = arguments[0]%>
-<button
-	type="button"
-	class="project__popupBtn popupBtn ${classNames}"
-	data-popup-btn="${data.dataPopupId}"
->
-	<div class="popupBtn__container">
-		<div class="popupBtn__wrapper">
-			<div class="popupBtn__icon">
-				<div class="popupBtn__icon-inner">
-					<span class="popupBtn__icon-mask" style="mask: url(${data.img}) no-repeat center"></span>
+<%var data=arguments[0]%>
+	<button type="button" class="project__popupBtn popupBtn ${classNames}" data-popup-btn="${data.dataPopupId}">
+		<div class="popupBtn__container">
+			<div class="popupBtn__wrapper">
+				<div class="popupBtn__icon">
+					<div class="popupBtn__icon-inner">
+						<% if (classNames==='ax' ) { %>
+							<img src="${data.img}" alt="" />
+							<%} %>
+								<span class="popupBtn__icon-mask"
+									style="mask: url(${data.img}) no-repeat center"></span>
+					</div>
 				</div>
-				<!-- <img src="${data.img}" alt="" /> -->
+				<div class="popupBtn__text">${data.text}</div>
 			</div>
-			<div class="popupBtn__text">${data.text}</div>
 		</div>
-	</div>
-</button>
+	</button>
