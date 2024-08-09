@@ -4,10 +4,12 @@
 	class="project__popupBtn popupBtn ${classNames}"
 	data-popup-btn="${data.dataPopupId}"
 >
-	<div class="popupBtn__wrapper">
-		<div class="popupBtn__icon">
-			<img src="${data.img}" alt="" />
+	<div class="popupBtn__container">
+		<div class="popupBtn__wrapper">
+			<div class="popupBtn__icon">
+				<img src="${data.img}" alt="" />
+			</div>
+			<div class="popupBtn__text">${data.text}</div>
 		</div>
-		<div class="popupBtn__text">${data.text}</div>
 	</div>
 </button>
