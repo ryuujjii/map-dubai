@@ -1,5 +1,6 @@
 import L from 'leaflet';
 import { queryMatches } from 'utils';
+import pano from '@/sections/pano';
 
 export function map() {
     const bounds = [[0, 0], [2304, 4072]];
@@ -41,9 +42,9 @@ export function map() {
         wrapper.className = `leaflet-image-layer leaflet-zoom-animated ${className}`;
 
         const svgWrapper = document.createElement('div');
-        svgWrapper.className = 'light-map__svg-wrapper'
+        svgWrapper.className = 'light-map__svg-wrapper';
         svgWrapper.innerHTML = svgContent;
-        wrapper.appendChild(svgWrapper)
+        wrapper.appendChild(svgWrapper);
 
 
         // wrapper.innerHTML = svgContent
@@ -71,7 +72,7 @@ export function map() {
         </svg>
         `;
 
-    overlayPane.innerHTML = svgContent
+    overlayPane.innerHTML = svgContent;
 
     const darkMapWrapper = createImageOverlay('img/map/map-dark.jpg', 'dark-map');
     const lightMapWrapper = createImageOverlay('img/map/map-light.jpg', 'light-map');
@@ -131,6 +132,8 @@ export function map() {
 
                 L.marker(proj.coordinates, { icon: icon }).addTo(map);
             });
+            pano();
+
         });
 
 
@@ -170,25 +173,25 @@ export function map() {
 
     function maskImageEffect() {
         const lightMap = document.querySelector('.light-map');
-        const lightMapImg = lightMap.querySelector('img')
-        document.body.classList.add('maskImageEffect')
+        const lightMapImg = lightMap.querySelector('img');
+        document.body.classList.add('maskImageEffect');
 
         document.addEventListener("mousemove", (event) => {
             const rect = lightMap.getBoundingClientRect();
             const x = (event.clientX - rect.left) * (lightMap.offsetWidth / rect.width);
             const y = (event.clientY - rect.top) * (lightMap.offsetHeight / rect.height);
 
-            const circleHeight = window.innerHeight / 1.2
-            const circleHeightHalf = circleHeight / 2
+            const circleHeight = window.innerHeight / 1.2;
+            const circleHeightHalf = circleHeight / 2;
 
-            lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`
+            lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`;
             lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
             lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
         });
     }
 
     function svgMaskEffect() {
-        document.body.classList.add('svgMaskEffect')
+        document.body.classList.add('svgMaskEffect');
 
         const lightMap = document.querySelector('.light-map');
         const maskCircle = document.querySelector('circle');
@@ -212,27 +215,27 @@ export function map() {
 
         if (/chrome|crios|crmo/i.test(userAgent) && !/edge|edg/i.test(userAgent)) {
             browserName = 'Chrome';
-            svgMaskEffect()
+            svgMaskEffect();
         } else if (/safari/i.test(userAgent) && !/chrome|crios|crmo|edg|edge/i.test(userAgent)) {
             browserName = 'Safari';
-            maskImageEffect()
+            maskImageEffect();
         } else if (/firefox|fxios/i.test(userAgent)) {
             browserName = 'Firefox';
-            svgMaskEffect()
+            svgMaskEffect();
         } else if (/opr|opera/i.test(userAgent)) {
             browserName = 'Opera';
-            svgMaskEffect()
+            svgMaskEffect();
         } else if (/msie|trident/i.test(userAgent)) {
             browserName = 'Internet Explorer';
-            svgMaskEffect()
+            svgMaskEffect();
         } else if (/edg|edge/i.test(userAgent)) {
             browserName = 'Edge';
-            svgMaskEffect()
+            svgMaskEffect();
         }
 
         return browserName;
     }
 
-    getBrowser()
+    getBrowser();
     console.log('Browser:', getBrowser());
 }
