@@ -2,7 +2,6 @@
 	// .dot-project__container
 
 	&__container {
-		position: relative;
 		cursor: pointer;
 		display: grid;
 		grid-template-columns: 1fr 20px;
@@ -72,10 +71,10 @@
 	// .dot-project__icon
 
 	&__icon {
-		mask: var(--mask-image) no-repeat center;
+		// mask: var(--mask-image) no-repeat center;
 		width: 100%;
-		aspect-ratio: 1;
-		background-color: var(--black-color);
+		// aspect-ratio: 1;
+		// background-color: var(--black-color);
 	}
 
 	// .dot-project__tail
@@ -83,15 +82,19 @@
 	&__tail {
 		span {
 			display: block;
-			width: 20px;
-			aspect-ratio: 1;
-			mask: var(--tail-image) no-repeat;
-			background-color: var(--light-color);
+			// width: 20px;
+			// aspect-ratio: 1;
+			// mask: var(--tail-image) no-repeat;
+			// background-color: var(--light-color);
+			display: flex;
+			align-items: center;
 			.right & {
-				mask-position: left;
+				justify-content: flex-start;
+				// mask-position: left;
 			}
 			.left & {
-				mask-position: right;
+				justify-content: flex-end;
+				// mask-position: right;
 			}
 		}
 
