@@ -29,7 +29,6 @@ export function header() {
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
         }, 0)
         .to(menuTitle, {
-            // y: 0,
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
             autoAlpha: 1,
         }, 0)
@@ -37,8 +36,9 @@ export function header() {
             autoAlpha: 1,
             // scale: 1,
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-            duration: 0.2,
-            stagger: 0.165
+            duration: 0.3,
+            stagger: 0.165, 
+            delay: 0.1
         }, 0.1)
 
 
