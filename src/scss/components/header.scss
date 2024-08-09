@@ -144,7 +144,7 @@
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
     // .menu__bg
-    &__bg {
+    .isMenuOpened &__bg {
         background-color: rgba(22, 22, 22, 0.85);
         backdrop-filter: blur(24px);
         position: absolute;
