@@ -2,20 +2,27 @@
 	// .dot-project__container
 
 	&__container {
-		padding: 8px 10px;
-		background-color: var(--light-color);
-		border-radius: 4px;
 		position: relative;
 		cursor: pointer;
+		display: grid;
+		grid-template-columns: 1fr 20px;
+		.left & {
+			grid-template-columns: 20px 1fr;
+		}
+		align-items: center;
 	}
 
 	// .dot-project__wrapper
 
 	&__wrapper {
+		padding: 8px 10px;
+		background-color: var(--light-color);
+		border-radius: 4px;
 		display: flex;
 		align-items: center;
 		column-gap: 8px;
 		.left & {
+			order: 2;
 			flex-direction: row-reverse;
 		}
 	}
@@ -44,6 +51,9 @@
 		.right & {
 			justify-self: end;
 		}
+		.left & {
+			justify-self: start;
+		}
 		color: #777;
 		font-size: 12px;
 		font-weight: 400;
@@ -71,34 +81,30 @@
 	// .dot-project__tail
 
 	&__tail {
-		position: absolute;
-		width: 9px;
-		height: 12px;
-		background-color: white;
-		mask: url('../img/projects/icons/tail.svg') no-repeat center;
+		span {
+			display: block;
+			width: 20px;
+			aspect-ratio: 1;
+			mask: var(--tail-image) no-repeat;
+			background-color: var(--light-color);
+			.right & {
+				mask-position: left;
+			}
+			.left & {
+				mask-position: right;
+			}
+		}
 
 		.right & {
-			top: 50%;
-			right: 0;
-			transform: translate(100%, -50%);
 		}
 
 		.left & {
-			top: 50%;
-			left: 0;
-			transform: translate(-100%, -50%) rotate(180deg);
 		}
 
 		.top & {
-			top: 0;
-			left: 50%;
-			transform: translate(-50%, -85%) rotate(-90deg);
 		}
 
 		.bottom & {
-			bottom: 0;
-			left: 50%;
-			transform: translate(-50%, 85%) rotate(90deg);
 		}
 	}
 }
