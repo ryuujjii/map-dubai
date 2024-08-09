@@ -5,8 +5,15 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: 3;
+	z-index: 10;
 	background-color: #ffffff37;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.3s ease 0s;
+	.open-project & {
+		opacity: 1;
+		pointer-events: auto;
+	}
 	// .project__container
 
 	&__container {
@@ -36,7 +43,6 @@
 	// .project__popupBtns
 
 	&__popupBtns {
-
 	}
 
 	// .project__popupBtns-wrapper
@@ -49,7 +55,7 @@
 		position: absolute;
 		bottom: 0;
 		left: 50%;
-		transform: translateX(-50%); 
+		transform: translateX(-50%);
 		display: flex;
 		gap: 8px;
 		background-image: linear-gradient(
@@ -90,6 +96,36 @@
 		background-size: 200% 100%;
 		background-position: 250% 100%;
 	}
+
+	// .project__close-btn
+
+	&__close-btn {
+		position: fixed;
+		top: 43px;
+		right: 4%;
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+		z-index: 10;
+		// .project__close-btn_text
+
+		&_text {
+			color: var(--light-color);
+			font-size: 15px;
+			font-weight: 500;
+			text-transform: capitalize;
+		}
+		// .project__close-btn__icon
+
+		&__icon {
+			width: 26px;
+			aspect-ratio: 1;
+			svg {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
 }
 
 @import './components/masterplan';
@@ -103,4 +139,3 @@
 @import './components/popups/payment';
 @import './components/map';
 @import './components/iframe';
-

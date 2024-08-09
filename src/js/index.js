@@ -3,6 +3,7 @@ import { isMobileOrTablet, addClassName } from '@/components/utils';
 import { header } from "@/components/header";
 import { map } from "@/sections/map"
 import '../scss/style.scss';
+import project from "@/projects/project";
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -19,6 +20,7 @@ window.addEventListener("DOMContentLoaded", () => {
   plugins();
   header()
   map()
+  project()
 });
 
 //disable context menu
