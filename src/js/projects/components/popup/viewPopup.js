@@ -1,4 +1,6 @@
 import { addClassName, removeClassName } from 'utils';
+import collectEls from '@/components/esc/collectEls';
+import removeLast from '@/components/esc/removeLast';
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
@@ -36,7 +38,7 @@ class ViewPopup {
             this.closePopup();
           }
         }
-
+        collectEls('close-popup');
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
@@ -55,11 +57,11 @@ class ViewPopup {
       this.closePopup();
     });
 
-    document.addEventListener('keydown', (event) => {
-      if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
-        this.activePopup ? this.closePopup() : null;
-      }
-    });
+    // document.addEventListener('keydown', (event) => {
+    //   if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
+    //     this.activePopup ? this.closePopup() : null;
+    //   }
+    // });
 
     document.addEventListener("click", (e) => {
       const target = e.target;
@@ -77,6 +79,7 @@ class ViewPopup {
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;
+    removeLast();
   }
 
 }
