@@ -2,7 +2,7 @@ import { addClassName, removeClassName } from 'utils';
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
-
+  canClose = false;
   attributes = {
     classNames: {
       show: "popup-show",
@@ -42,6 +42,9 @@ class ViewPopup {
         addClassName(document.body, this.attributes.classNames.body.show);
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
+        setTimeout(() => {
+          this.canClose = true;
+        }, 100);
       });
     });
   }
@@ -54,6 +57,13 @@ class ViewPopup {
 
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
+        this.activePopup ? this.closePopup() : null;
+      }
+    });
+
+    document.addEventListener("click", (e) => {
+      const target = e.target;
+      if (this.canClose && !target.closest(`.popup__wrapper`)) {
         this.closePopup();
       }
     });
@@ -66,6 +76,7 @@ class ViewPopup {
     removeClassName(document.body, this.attributes.classNames.body.show);
     this.activePopup = null;
     this.activeBtn = null;
+    this.canClose = false;
   }
 
 }
