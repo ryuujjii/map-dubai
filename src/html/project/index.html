@@ -1,14 +1,14 @@
 <section class="project">
 	<div class="project__container">
-		@require('./map.html')
+		@require('./components/map.html')
 		<%var data = require('../json/closeBtn.json')['project']%> 
 		<%var component = require("../components/closebtn.html")%> 
 		${component(data)}
 	</div>
 </section>
 <div class="project__btns">
-	@require('./popupBtns.html')
-	@require('./brochureBtn.html')
+	@require('./components/popupBtns/popupBtns.html')
+	@require('./components/brochureBtn.html')
 </div>
-@require('./popups.html')
-@require('./iframe.html')
+@require('./components/popups.html')
+@require('./components/modal360.html')
