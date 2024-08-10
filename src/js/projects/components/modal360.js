@@ -1,11 +1,11 @@
-import { addClassName, removeClassName } from 'utils';
+import { addClassName, removeClassName, insertIframe } from 'utils';
 export default function modal360() {
   const modal360 = document.querySelectorAll('[data-modal360]');
   const modalIframe = document.querySelector(".modal360__iframe");
 
   modal360.forEach(btn => {
     btn.addEventListener("click", (e) => {
-      modalIframe.innerHTML = `<iframe src="${btn.getAttribute('data-modal360')}" style="" frameborder="0"></iframe>`;
+      insertIframe(modalIframe, btn.getAttribute('data-modal360'));
       addClassName(document.body, 'open-modal360');
     });
   });

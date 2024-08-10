@@ -1,12 +1,12 @@
-import { addClassName, removeClassName } from 'utils';
+import { addClassName, removeClassName, insertIframe } from 'utils';
 
 export default function pano() {
   const btns = document.querySelectorAll('[data-modal-open]');
-
   const modalIframe = document.querySelector(".pano__iframe");
+  
   btns.forEach(btn => {
     btn.addEventListener("click", (e) => {
-      modalIframe.innerHTML = `<iframe src="${btn.getAttribute('data-modal-open')}" style="" frameborder="0"></iframe>`;
+      insertIframe(modalIframe, btn.getAttribute('data-modal-open'));
       addClassName(document.body, 'open-pano');
     });
   });

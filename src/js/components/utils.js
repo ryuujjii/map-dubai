@@ -49,7 +49,7 @@ export function wrapElements(elms, wrapClass = 'wrapped', wrapType = 'div') {
 };
 
 
-export function setPropertyTo({ propertyName, to, propertyValue }) {
+export function setPropertyTo(to, propertyName, propertyValue) {
   to.style.setProperty(propertyName, propertyValue);
 }
 
@@ -61,4 +61,8 @@ export function getItemFromSessionStorage(key) {
 }
 export function removeItemFromSessionStorage(key) {
   sessionStorage.removeItem(key);
+}
+
+export function insertIframe(parent, path) {
+  parent.innerHTML = `<iframe src="${path}" frameborder="0"></iframe>`;
 }
