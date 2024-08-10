@@ -1,12 +1,9 @@
 <section class="project">
 	<div class="project__container">
 		@require('./map.html')
-		<button data-project-close type="button" class="project__close-btn">
-			<p class="project__close-btn_text">close</p>
-			<div class="project__close-btn_icon">
-				<img src="@img/projects/icons/popupBtns/close.svg" alt="close" />
-			</div>
-		</button>
+		<%var data = require('../json/closeBtn.json')['project']%> 
+		<%var component = require("../components/closebtn.html")%> 
+		${component(data)}
 	</div>
 </section>
 <div class="project__btns">

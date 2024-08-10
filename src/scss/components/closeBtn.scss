@@ -1,0 +1,38 @@
+.close {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: flex;
+	align-items: center;
+	column-gap: 8px;
+	z-index: var(--z-index);
+	// .close__text
+
+	&__text {
+		color: var(--light-color);
+		font-size: 15px;
+		font-weight: 500;
+		text-transform: capitalize;
+	}
+	// .close__icon
+
+	&__icon {
+		width: 26px;
+		aspect-ratio: 1;
+		position: relative;
+		img {
+			position: relative;
+			z-index: 2;
+		}
+		&::before {
+			content: '';
+			position: absolute;
+			width: calc(100% - 1px);
+			height: calc(100% - 1px);
+			top: 0.5px;
+			left: 0.5px;
+			background-color: var(--black-color);
+			border-radius: 3px;
+		}
+	}
+}

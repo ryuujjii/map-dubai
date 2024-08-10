@@ -4,6 +4,7 @@ import { header } from "@/components/header";
 import { map } from "@/sections/map"
 import '../scss/style.scss';
 import project from "@/projects/project";
+import closeComponent from "@/components/closeComponent";
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -21,6 +22,7 @@ window.addEventListener("DOMContentLoaded", () => {
   header()
   map()
   project()
+  closeComponent()
 });
 
 //disable context menu

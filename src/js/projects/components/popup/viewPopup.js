@@ -48,11 +48,8 @@ class ViewPopup {
 
 
   close() {
-    const closeBtns = document.querySelectorAll(`[${this.attributes.data.close}]`);
-    closeBtns.forEach(closeBtn => {
-      closeBtn.addEventListener("click", (e) => {
-        this.closePopup();
-      });
+    window.addEventListener('close-popup', (e) => {
+      this.closePopup();
     });
 
     document.addEventListener('keydown', (event) => {

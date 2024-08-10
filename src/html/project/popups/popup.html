@@ -4,12 +4,9 @@
 	<div class="popup__wrapper">
 		<div class="popup__wp">
 			<div class="popup__content">
-				<button data-popup-close type="button" class="popup__close-btn">
-					<p class="popup__close-btn_text">close</p>
-					<div class="popup__close-btn_icon">
-						<img src="@img/projects/icons/popupBtns/close.svg" alt="close" />
-					</div>
-				</button>
+				<%var closeBtnData = require('../../json/closeBtn.json')['popup']%> 
+				<%var closeBtn = require("../../components/closebtn.html")%>
+				${closeBtn(closeBtnData)} 
 				${component()}
 			</div>
 		</div>
