@@ -1,15 +1,15 @@
-import collectEls from '@/components/esc/collectEls';
-import removeLast from '@/components/esc/removeLast';
+import collectEscEls from '@/components/esc/collectEscEls';
+import removeLastEscEl from '@/components/esc/removeLastEscEl';
 
 import { addClassName, removeClassName } from 'utils';
 export default function projectPopup() {
   window.addEventListener("show-project", (e) => {
     addClassName(document.body, 'open-project');
-    collectEls('close-project');
+    collectEscEls('close-project');
   });
 
   window.addEventListener('close-project', (e) => {
     removeClassName(document.body, 'open-project');
-    removeLast();
+    removeLastEscEl('close-project');
   });
 };

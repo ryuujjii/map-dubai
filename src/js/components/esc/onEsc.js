@@ -1,8 +1,7 @@
-import { setItemToSessionStorage, getItemFromSessionStorage, removeItemFromSessionStorage, dispatchCustomEvent } from 'utils';
-
+import { escCollection } from '@/components/globals';
+import removeLastEscEl from '@/components/esc/removeLastEscEl';
+import { dispatchCustomEvent } from 'utils';
 export default function onEsc() {
-  removeItemFromSessionStorage('esc-items');
-
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
       onEscHandler();
@@ -11,11 +10,9 @@ export default function onEsc() {
 };
 
 function onEscHandler() {
-  const collection = getItemFromSessionStorage('esc-items');
-  if (collection?.length) {
-    const last = collection.pop();
+  if (escCollection?.length) {
+    const last = removeLastEscEl('esc');
     dispatchCustomEvent({ el: window, event: last });
-    setItemToSessionStorage('esc-items', collection);
   } else {
     console.log('there is no collection');
   }

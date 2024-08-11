@@ -1,6 +1,6 @@
 import { addClassName, removeClassName, insertIframe } from 'utils';
-import collectEls from '@/components/esc/collectEls';
-import removeLast from '@/components/esc/removeLast';
+import collectEscEls from '@/components/esc/collectEscEls';
+import removeLastEscEl from '@/components/esc/removeLastEscEl';
 export default function pano() {
   const btns = document.querySelectorAll('[data-modal-open]');
   const modalIframe = document.querySelector(".pano__iframe");
@@ -9,11 +9,11 @@ export default function pano() {
     btn.addEventListener("click", (e) => {
       insertIframe(modalIframe, btn.getAttribute('data-modal-open'));
       addClassName(document.body, 'open-pano');
-      collectEls('close-pano');
+      collectEscEls('close-pano');
     });
   });
   window.addEventListener('close-pano', (e) => {
     removeClassName(document.body, 'open-pano');
-    removeLast();
+    removeLastEscEl('close-pano');
   });
 };
