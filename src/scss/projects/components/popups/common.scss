@@ -75,42 +75,6 @@
 	// .popup__close-btn
 
 	&__close-btn {
-		position: fixed;
-		top: 43px;
-		right: 4%;
-		display: flex;
-		align-items: center;
-		column-gap: 8px;
-		z-index: 10;
-		// .popup__close-btn_text
-
-		&_text {
-			color: var(--light-color);
-			font-size: 15px;
-			font-weight: 500;
-			text-transform: capitalize;
-		}
-		// .popup__close-btn_icon
-
-		&_icon {
-			width: 26px;
-			aspect-ratio: 1;
-			position: relative;
-			img {
-				position: relative;
-				z-index: 2;
-			}
-			&::before {
-				content: '';
-				position: absolute;
-				width: calc(100% - 1px);
-				height: calc(100% - 1px);
-				top: 0.5px;
-				left: 0.5px;
-				background-color: var(--black-color);
-				border-radius: 3px;
-			}
-		}
 	}
 
 	// .popup__payment

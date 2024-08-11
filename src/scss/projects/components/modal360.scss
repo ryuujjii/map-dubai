@@ -1,16 +1,16 @@
-.pano {
+.modal360 {
 	width: 100%;
 	height: 100%;
 	position: absolute;
-	z-index: 9;
+	z-index: 10002;
+
 	opacity: 0;
 	pointer-events: none;
-	transition: opacity 0.3s ease 0s;
-	.open-pano & {
+	.open-modal360 & {
 		opacity: 1;
 		pointer-events: auto;
 	}
-	// .pano__iframe
+	// .modal360__iframe
 
 	&__iframe {
 		position: absolute;
@@ -24,9 +24,8 @@
 		}
 	}
 
-	// .pano__btn
+	// .modal360__btn
 
 	&__btn {
-		
 	}
 }
