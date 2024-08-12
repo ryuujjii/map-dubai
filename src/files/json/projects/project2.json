@@ -40,5 +40,8 @@
 				"classNames": "right"
 			}
 		}
-	]
+	],
+	"partner": {
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/img/icons/logo-loader.svg"
+	}
 }

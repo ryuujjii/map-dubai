@@ -58,5 +58,8 @@
 				"classNames": "left"
 			}
 		}
-	]
+	],
+	"partner": {
+		"logo": "img/projects/key-mavens/project-icon.svg"
+	}
 }
