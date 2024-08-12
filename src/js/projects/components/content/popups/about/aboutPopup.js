@@ -1,6 +1,8 @@
 import { changeText, setAttr } from 'utils';
-import getAboutItems from '@/projects/components/content/popups/about/getAboutItems';
-import getAmenitiesItems from '@/projects/components/content/popups/about/getAmenitiesItems';
+import aboutItemLayout from '@/projects/components/content/popups/about/aboutItemLayout';
+import amenitiesItemLayout from '@/projects/components/content/popups/about/amenitiesItemLayout';
+
+import { getPaintedItems } from '@/projects/components/content/utils';
 
 function getAboutPopupFn() {
   const aboutEls = {
@@ -19,8 +21,8 @@ function getAboutPopupFn() {
     changeText(aboutEls.projectDescription, projectDescription);
     changeText(aboutEls.amenitiesDescription, amenities.description);
     setAttr(aboutEls.projectView, 'src', projectView);
-    getAboutItems(aboutEls.aboutItems, aboutItems);
-    getAmenitiesItems(aboutEls.amenitiesItems, amenities.items);
+    getPaintedItems(aboutEls.aboutItems, aboutItems, aboutItemLayout);
+    getPaintedItems(aboutEls.amenitiesItems, amenities.items, amenitiesItemLayout);
     setAttr(aboutEls.projectLocation, 'src', location.map);
   };
 };
