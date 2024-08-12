@@ -93,6 +93,40 @@
 			"location": {
 				"map": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg"
 			}
+		},
+		"payment": {
+			"items": [
+				{
+					"number": "10",
+					"text": "on booking"
+				},
+				{
+					"number": "50",
+					"text": "during construction"
+				},
+				{
+					"number": "60",
+					"text": "on handover"
+				},
+				{
+					"number": "120",
+					"text": "on handover"
+				}
+			],
+			"descriptions": [
+				{
+					"text": "Our installment schemas are devoid of any latent charges or unanticipated costs. "
+				},
+				{
+					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
+				},
+				{
+					"text": "Our installment schemas are devoid of any latent charges or unanticipated costs. "
+				},
+				{
+					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
+				}
+			]
 		}
 	}
 }

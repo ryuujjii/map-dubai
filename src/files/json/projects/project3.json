@@ -104,6 +104,23 @@
 			"location": {
 				"map": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg"
 			}
+		},
+		"payment": {
+			"items": [
+				{
+					"number": "10",
+					"text": "on booking"
+				},
+				{
+					"number": "50",
+					"text": "during construction"
+				}
+			],
+			"descriptions": [
+				{
+					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
+				}
+			]
 		}
 	}
 }

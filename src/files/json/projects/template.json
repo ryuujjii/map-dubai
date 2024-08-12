@@ -52,6 +52,19 @@
 			"location": {
 				"map": ""
 			}
+		},
+		"payment": {
+			"items": [
+				{
+					"number": "",
+					"text": ""
+				}
+			],
+			"descriptions": [
+				{
+					"text": ""
+				}
+			]
 		}
 	}
 }

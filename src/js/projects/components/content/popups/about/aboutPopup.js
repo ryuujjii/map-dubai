@@ -13,8 +13,8 @@ function getAboutPopupFn() {
     projectLocation: document.querySelector('[data-project="projectLocation"]'),
   };
 
-  return function aboutPopup({ about }) {
-    const { projectName, projectDescription, aboutItems, projectView, amenities, location } = about;
+  return function aboutPopup(content) {
+    const { projectName, projectDescription, aboutItems, projectView, amenities, location } = content;
     changeText(aboutEls.projectName, projectName);
     changeText(aboutEls.projectDescription, projectDescription);
     changeText(aboutEls.amenitiesDescription, amenities.description);

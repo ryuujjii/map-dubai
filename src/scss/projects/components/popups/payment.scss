@@ -32,7 +32,9 @@
 	// .payment__text
 
 	&__text {
-		display: flex;
+		display: inline-grid;
+		justify-content: start;
+		grid-auto-flow: column;
 		column-gap: 64px;
 		p {
 			color: inherit;
@@ -43,7 +45,8 @@
 }
 .info-payment {
   flex: 1 1 auto;
-	display: flex;
+	display: grid;
+	grid-auto-flow: column;
 	justify-content: center;
 	align-items: center;
 	column-gap: 80px;
