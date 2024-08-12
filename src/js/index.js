@@ -6,6 +6,7 @@ import '../scss/style.scss';
 import project from "@/projects/project";
 import closeComponent from "@/components/closeComponent";
 import onEsc from "@/components/esc/onEsc";
+import testBtns from "@/components/testBtns";
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -25,6 +26,7 @@ window.addEventListener("DOMContentLoaded", () => {
   project();
   closeComponent();
   onEsc();
+  testBtns();
 });
 
 //disable context menu
