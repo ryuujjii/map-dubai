@@ -2,17 +2,17 @@ import { changeText, setAttr } from 'utils';
 import aboutItemLayout from '@/projects/components/content/popups/about/aboutItemLayout';
 import amenitiesItemLayout from '@/projects/components/content/popups/about/amenitiesItemLayout';
 
-import { getPaintedItems } from '@/projects/components/content/utils';
+import { getPaintedItems, getProjectItem } from '@/projects/components/content/utils';
 
 function getAboutPopupFn() {
   const aboutEls = {
-    projectName: document.querySelector('[data-project="projectName"]'),
-    projectDescription: document.querySelector('[data-project="projectDescription"]'),
-    aboutItems: document.querySelector('[data-project="aboutItems"]'),
-    projectView: document.querySelector('[data-project="projectView"]'),
-    amenitiesDescription: document.querySelector('[data-project="amenitiesDescription"]'),
-    amenitiesItems: document.querySelector('[data-project="amenitiesItems"]'),
-    projectLocation: document.querySelector('[data-project="projectLocation"]'),
+    projectName: getProjectItem('projectName'),
+    projectDescription: getProjectItem('projectDescription'),
+    aboutItems: getProjectItem('aboutItems'),
+    projectView: getProjectItem('projectView'),
+    amenitiesDescription: getProjectItem('amenitiesDescription'),
+    amenitiesItems: getProjectItem('amenitiesItems'),
+    projectLocation: getProjectItem('projectLocation'),
   };
 
   return function aboutPopup(content) {
