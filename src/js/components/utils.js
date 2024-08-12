@@ -33,6 +33,9 @@ export function removeClasses(array, className = 'active') {
 export function changeText(el, text) {
   el.innerText = text;
 }
+export function setAttr(el, attr, data) {
+  el.setAttribute(attr, data);
+}
 
 export function dispatchCustomEvent({ el, event, detail }) {
   el.dispatchEvent(new CustomEvent(event, { detail }));

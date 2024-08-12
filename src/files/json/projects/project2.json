@@ -43,5 +43,56 @@
 	],
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/img/icons/logo-loader.svg"
+	},
+	"popup": {
+		"about": {
+			"projectName": "project2",
+			"projectDescription": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+			"aboutItems": [
+				{
+					"classNames": "",
+					"number": "10",
+					"text": "bedroom units"
+				},
+				{
+					"classNames": "",
+					"number": "3232 Q4",
+					"text": "handover date"
+				}
+			],
+			"projectView": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg",
+			"amenities": {
+				"text": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+				"items": [
+					{
+						"img": "img/projects/key-mavens/about/amenities/landscape.svg",
+						"title": "Landscaped Area",
+						"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/fitness.svg",
+						"title": "Fitness Centre",
+						"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/car.svg",
+						"title": "Covered parking",
+						"text": "Covered parking is an essential amenity that adds security and peace of mind.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/shop.svg",
+						"title": "Retail shops",
+						"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
+						"classNames": ""
+					}
+				]
+			},
+			"location": {
+				"map": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg"
+			}
+		}
 	}
 }

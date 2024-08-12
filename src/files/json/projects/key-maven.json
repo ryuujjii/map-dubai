@@ -61,5 +61,73 @@
 	],
 	"partner": {
 		"logo": "img/projects/key-mavens/project-icon.svg"
+	},
+	"popup": {
+		"about": {
+			"projectName": "Downtown terraces",
+			"projectDescription": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+			"aboutItems": [
+				{
+					"classNames": "",
+					"number": "101",
+					"text": "residential floors"
+				},
+				{
+					"classNames": "",
+					"number": "1, 2, and 3",
+					"text": "bedroom units"
+				},
+				{
+					"classNames": "",
+					"number": "2027 Q4",
+					"text": "handover date"
+				}
+			],
+			"projectView": "img/projects/key-mavens/about/about-bg.jpg",
+			"amenities": {
+				"text": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+				"items": [
+					{
+						"img": "img/projects/key-mavens/about/amenities/swimming.svg",
+						"title": "Swimming pool",
+						"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/landscape.svg",
+						"title": "Landscaped Area",
+						"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/fitness.svg",
+						"title": "Fitness Centre",
+						"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/playground.svg",
+						"title": "Kids’ playground",
+						"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/car.svg",
+						"title": "Covered parking",
+						"text": "Covered parking is an essential amenity that adds security and peace of mind.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/shop.svg",
+						"title": "Retail shops",
+						"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
+						"classNames": ""
+					}
+				]
+			},
+			"location": {
+				"map": "img/projects/key-mavens/about/location/map.svg"
+			}
+		}
 	}
 }

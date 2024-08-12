@@ -43,5 +43,67 @@
 	],
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/urban-life/img/developer/developer.png"
+	},
+	"popup": {
+		"about": {
+			"projectName": "project 3",
+			"projectDescription": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+			"aboutItems": [
+				{
+					"classNames": "",
+					"number": "12",
+					"text": "residential floors"
+				},
+				{
+					"classNames": "",
+					"number": "1 and 3",
+					"text": "bedroom units"
+				},
+				{
+					"classNames": "",
+					"number": "2027",
+					"text": "handover date"
+				}
+			],
+			"projectView": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg",
+			"amenities": {
+				"text": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+				"items": [
+					{
+						"img": "img/projects/key-mavens/about/amenities/swimming.svg",
+						"title": "Swimming pool",
+						"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/landscape.svg",
+						"title": "Landscaped Area",
+						"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/playground.svg",
+						"title": "Kids’ playground",
+						"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/car.svg",
+						"title": "Covered parking",
+						"text": "Covered parking is an essential amenity that adds security and peace of mind.",
+						"classNames": ""
+					},
+					{
+						"img": "img/projects/key-mavens/about/amenities/shop.svg",
+						"title": "Retail shops",
+						"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
+						"classNames": ""
+					}
+				]
+			},
+			"location": {
+				"map": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg"
+			}
+		}
 	}
 }

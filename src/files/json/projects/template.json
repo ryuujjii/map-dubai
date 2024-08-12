@@ -25,5 +25,33 @@
 	],
 	"partner": {
 		"logo": ""
+	},
+	"popup": {
+		"about": {
+			"projectName": "",
+			"projectDescription": "",
+			"aboutItems": [
+				{
+					"number": "",
+					"text": "",
+					"classNames": ""
+				}
+			],
+			"projectView": "",
+			"amenities": {
+				"text": "",
+				"items": [
+					{
+						"icon": "",
+						"title": "",
+						"classNames": "",
+						"text": ""
+					}
+				]
+			},
+			"location": {
+				"map": ""
+			}
+		}
 	}
 }
