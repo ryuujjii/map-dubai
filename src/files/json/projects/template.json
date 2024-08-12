@@ -65,6 +65,23 @@
 					"text": ""
 				}
 			]
+		},
+		"developer": {
+			"descriptions": [
+				{
+					"text": ""
+				}
+			],
+			"items": [
+				{
+					"number": "",
+					"text": ""
+				}
+			],
+			"media": {
+				"projectlogo": "",
+				"img": ""
+			}
 		}
 	}
 }

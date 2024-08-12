@@ -121,6 +121,31 @@
 					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
 				}
 			]
+		},
+		"developer": {
+			"descriptions": [
+				{
+					"text": "With a passion for quality and a dedication to excellence, Keymavens sets itself apart in the competitive real estate market. The company's projects embody the intersection of luxury and value, offering homebuyers an unparalleled living experience characterized by superior craftsmanship."
+				}
+			],
+			"items": [
+				{
+					"number": "$7.7 bln",
+					"text": "Revenue"
+				},
+				{
+					"number": "$1 bln",
+					"text": "Net profit"
+				},
+				{
+					"number": "81 600+",
+					"text": "Delivered residential"
+				}
+			],
+			"media": {
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/urban-life/img/developer/developer.png",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg"
+			}
 		}
 	}
 }

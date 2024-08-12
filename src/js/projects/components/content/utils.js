@@ -4,3 +4,7 @@ export function getPaintedItems(parent, content, cb) {
     parent.innerHTML += cb(item);
   });
 };
+
+export function getProjectItem(dataName) {
+  return document.querySelector(`[data-project="${dataName}"]`);
+};
