@@ -1,0 +1,53 @@
+.popup {
+  &[data-popup="brochure"] {
+    display: flex;
+    align-items: center;
+    padding: 24px 40px 100px;
+    top: 50%;
+    transform: translateY(-50%);
+    .popup__wp {
+      overflow: hidden;
+    }
+    .popup__wrapper {
+      height: auto;
+    }
+    .popup__close-btn {
+      bottom: calc(100% + 16px);
+      top: auto;
+      left: auto;
+      right: 0;
+    }
+  }
+}
+.brochure {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+  }
+  &__img {
+    height: 392px;
+    position: relative;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 2px;
+    }
+    p {
+      position: absolute;
+      right: 28px;
+      bottom: 0;
+      z-index: 2;
+      color: #fff;
+      font-family: Raleway;
+      font-size: 128px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+  }
+  .popup-title {
+    display: none;
+  }
+}

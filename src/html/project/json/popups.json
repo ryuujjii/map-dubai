@@ -26,5 +26,12 @@
 			"mainClass": "payment"
 		},
 		"path": "./payment.html"
+	},
+	{
+		"id": "brochure",
+		"classNames": {
+			"mainClass": "brochure"
+		},
+		"path": "./brochure.html"
 	}
 ]
