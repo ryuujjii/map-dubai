@@ -4,14 +4,14 @@ import pano from '@/sections/pano';
 
 export function map() {
 
-    let darkMap = 'img/map/map-dark.jpg' 
-    let lightMap = 'img/map/map-light.jpg' 
+    let darkMap = 'img/map/map-dark.jpg'
+    let lightMap = 'img/map/map-light.jpg'
 
-    let img = document.createElement('img');
-    img.src = "img/map/map-light.jpg";
+    // let img = 
+    // img.src = "img/map/map-light.jpg";
+    const img = document.querySelectorAll('.map-img');
 
-    img.onload = function () {
-        console.log('onload');
+    window.addEventListener('media-loaded', () => {
         const bounds = [[0, 0], [2304, 4072]];
 
         const map = L.map('map', {
@@ -241,7 +241,6 @@ export function map() {
 
         getBrowser();
         console.log('Browser:', getBrowser());
-
-    };
+    })
 
 }

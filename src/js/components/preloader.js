@@ -4,12 +4,12 @@
  */
 import "latest-createjs/lib/preloadjs/preloadjs.js";
 
-import { queryMatches, addClassName, removeClassName, dispatchCustomEvent } from "./utils.js";
+import { queryMatches, addClassName, removeClassName, dispatchCustomEvent } from "utils";
 
 const animatePreloader = getAnimatePreloaderFn();
 
 export async function preloader(cb) {
-  lenisScroll.stop();
+  // lenisScroll.stop();
   addClassName(document.documentElement, "loading");
   const mediaToLoad = getSortedMediaElements();
   if (!mediaToLoad.length) {
@@ -116,8 +116,8 @@ function commonInstructions() {
     dispatchCustomEvent({ el: window, event: "media-loaded" });
     removeClassName(document.documentElement, "loading");
     addClassName(document.documentElement, "loaded");
-    lenisScroll.start();
-    ScrollTrigger.refresh(true);
+    // lenisScroll.start();
+    // ScrollTrigger.refresh(true);
 
   }, 500);
 

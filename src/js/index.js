@@ -7,6 +7,8 @@ import project from "@/projects/project";
 import closeComponent from "@/components/closeComponent";
 import onEsc from "@/components/esc/onEsc";
 import testBtns from "@/components/testBtns";
+import { preloader } from '@/components/preloader'
+
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -21,6 +23,7 @@ window.addEventListener("unload", function () {
 window.addEventListener("DOMContentLoaded", () => {
   isMobileOrTablet() ? addClassName(document.documentElement, 'mob-device') : null;
   plugins();
+  preloader()
   header();
   map();
   project();
