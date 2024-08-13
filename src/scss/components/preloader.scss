@@ -9,7 +9,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     transition: 1s ease;
 
-    &.hide {
+    .preloader-hidden & {
         transform: translateY(-100%);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
