@@ -5,6 +5,7 @@ import paintDots from '@/projects/components/content/dots/paintDots';
 import aboutPopup from '@/projects/components/content/popups/about/aboutPopup';
 import paymentPopup from '@/projects/components/content/popups/payment/paymentPopup';
 import developerPopup from '@/projects/components/content/popups/developer/developerPopup';
+import scrollPopupToTop from '@/projects/components/content/scrollPopupToTop';
 
 export default async function projectContent(projectName) {
   try {
@@ -16,6 +17,7 @@ export default async function projectContent(projectName) {
     aboutPopup(about);
     paymentPopup(payment);
     developerPopup(developer);
+    scrollPopupToTop();
   } catch (error) {
     console.log('cannot getData to project', projectName);
     console.log(error);
