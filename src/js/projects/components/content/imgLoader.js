@@ -1,3 +1,5 @@
+import { dispatchCustomEvent } from 'utils';
+
 function getImgLoader() {
   const media = [];
   let counter = 0;
@@ -6,6 +8,7 @@ function getImgLoader() {
   function loaderCallBack(e) {
     counter++;
     if (counter === media.length) {
+      dispatchCustomEvent({ el: window, event: "project-media-loaded" });
       counter = 0;
     }
   }
