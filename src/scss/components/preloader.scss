@@ -3,7 +3,7 @@
     height: 100%;
     @include position(fixed);
     background-color: #000;
-    z-index: 19;
+    z-index: 20000;
     @include flex();
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);

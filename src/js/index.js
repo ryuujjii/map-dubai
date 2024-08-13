@@ -6,7 +6,6 @@ import '../scss/style.scss';
 import project from "@/projects/project";
 import closeComponent from "@/components/closeComponent";
 import onEsc from "@/components/esc/onEsc";
-import testBtns from "@/components/testBtns";
 import { preloader } from '@/components/preloader'
 
 
@@ -29,7 +28,6 @@ window.addEventListener("DOMContentLoaded", () => {
   project();
   closeComponent();
   onEsc();
-  testBtns();
 });
 
 //disable context menu
