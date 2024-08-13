@@ -116,6 +116,7 @@ function commonInstructions() {
     dispatchCustomEvent({ el: window, event: "media-loaded" });
     removeClassName(document.documentElement, "loading");
     addClassName(document.documentElement, "loaded");
+    addClassName(document.querySelector('.preloader'), "hide");
     // lenisScroll.start();
     // ScrollTrigger.refresh(true);
 

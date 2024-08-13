@@ -2,7 +2,7 @@
     {
         "name": "Valori",
         "img": "img/map/projects/valori.jpg",
-        "icon": "",
+        "icon": "img/map/projects/valori.jpg",
         "visibility": false,
         "dataName": "valori",
         "coordinates": [1600, 2930]
@@ -34,9 +34,9 @@
     {
         "name": "EMAAR Beachfront",
         "img": "img/map/projects/Emaar-beachfront.jpg",
-        "icon": "",
-        "visibility": false,
-        "dataName": "emaar-beachfront",
+        "icon": "img/map/projects/Emaar-beachfront.jpg",
+        "visibility": true,
+        "dataName": "key-maven",
         "coordinates": [400, 1080]
     },
     {
@@ -44,7 +44,7 @@
         "img": "img/map/projects/sls-residence.jpg",
         "icon": "img/map/markers/sls.png",
         "visibility": true,
-        "dataName": "files/pano/",
+        "dataName": "project2",
         "coordinates": [480, 790]
     },
     {
@@ -66,9 +66,9 @@
     {
         "name": "Biltmore Residences",
         "img": "img/map/projects/biltmore-residences.jpg",
-        "icon": "",
-        "visibility": false,
-        "dataName": "biltmore",
+        "icon": "img/map/projects/biltmore-residences.jpg",
+        "visibility": true,
+        "dataName": "project3",
         "coordinates": [520, 1480]
     },
     {
