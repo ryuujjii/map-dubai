@@ -24,8 +24,11 @@
 		}
 	}
 
-	// .modal360__btn
+	// .modal360__close-btn
 
-	&__btn {
+	&__close-btn {
+		.alter-parent-window & {
+			display: none;
+		}
 	}
 }

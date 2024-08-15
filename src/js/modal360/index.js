@@ -1,0 +1,18 @@
+import '../../scss/modal360/style.scss';
+import { gallery } from "@/modal360/components/gallery";
+import { viewer } from "@/modal360/components/viewer/viewer.js";
+import { removeClassToAlter } from "@/modal360/components/alter_parent_window.js";
+import updateInstanceOnContentChange from "@/modal360/components/updateInstanceOnContentChange.js";
+
+import recieveMsg from '@/modal360/content/recieveMsg';
+
+window.addEventListener('DOMContentLoaded', (params) => {
+  recieveMsg();
+  viewer();
+  gallery();
+  updateInstanceOnContentChange();
+});
+
+window.addEventListener('unload', function (event) {
+  removeClassToAlter();
+});
