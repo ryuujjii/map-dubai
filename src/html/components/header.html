@@ -1,8 +1,8 @@
 <header class="header">
     <div class="header__inner">
-        <a class="header__logo" href="">
+        <div class="header__logo" href="">
             <img src="@img/icons/ax.svg" alt="AX DIGITAL">
-        </a>
+        </div>
 
         <div class="header__menu-btn">
             <button class="menu-btn" type="button">
@@ -13,8 +13,12 @@
         </div>
 
         <div class="header__socials">
-            <a href="" class="header__socials-item social-wp">
-                <img src="@img/icons/wp.svg" alt="">
+            <a href="#" class="header__socials-item social-wp">
+                <picture>
+                    <!-- <img src="@img/icons/wp.svg" alt=""> -->
+                    <img srcset="@img/icons/wp-gold.svg  991w, @img/icons/wp.svg," sizes="(max-width: 991px) 991w,
+                    100vw" src="@img/icons/wp.svg" alt="wp" />
+                </picture>
             </a>
         </div>
 
@@ -27,14 +31,15 @@
         <div class="menu__title">
             <span>All projects</span>
         </div>
-
-        <ul class="menu__list">
-            <%var data = require('@files/json/markers/project.json')%> 
-            <%var component = require("../projects-loop/project.html")%> 
-            <% for (var i=0; i < data.length; i++) { %>
-              <% var el = data[i] %>
-              ${component(el)}
-            <% } %>
-        </ul>
+        <nav class="menu__nav">
+            <ul class="menu__list">
+                <%var data=require('@files/json/markers/project.json')%>
+                    <%var component=require("../projects-loop/project.html")%>
+                        <% for (var i=0; i < data.length; i++) { %>
+                            <% var el=data[i] %>
+                                ${component(el)}
+                                <% } %>
+            </ul>
+        </nav>
     </div>
 </div>

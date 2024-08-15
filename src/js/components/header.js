@@ -2,6 +2,7 @@ import gsap from "gsap";
 import {
     addClassName,
     removeClassName,
+    queryMatches
 } from "./utils.js";
 
 export function header() {
@@ -10,6 +11,7 @@ export function header() {
     const menu = document.querySelector('.menu')
     const menuLinks = document.querySelectorAll('.menu__link-item')
     const menuTitle = document.querySelector('.menu__title span')
+    const LAPTOP_MIN = queryMatches(992, 'min');
 
     let isMenuOpen = false;
 
@@ -25,21 +27,23 @@ export function header() {
             removeClassName(document.body, 'isMenuOpened')
         }
     })
-        .to(menu, {
-            clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-        }, 0)
-        .to(menuTitle, {
-            clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
+    tl.to(menu, {
+        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
+    }, 0)
+    tl.to(menuTitle, {
+        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
+        autoAlpha: 1,
+    }, 0)
+    if (LAPTOP_MIN) {
+        tl.to(menuLinks, {
             autoAlpha: 1,
-        }, 0)
-        .to(menuLinks, {
-            autoAlpha: 1,
-            // scale: 1,
+            scale: 1,
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
             duration: 0.3,
-            stagger: 0.165, 
-            delay: 0.1
+            stagger: 0.165,
+            delay: LAPTOP_MIN ? 0.1 : 0.2
         }, 0.1)
+    }
 
 
     toggleMenuBtn.addEventListener('click', () => {

@@ -37,7 +37,7 @@
         "icon": "img/map/projects/Emaar-beachfront.jpg",
         "visibility": true,
         "dataName": "key-maven",
-        "coordinates": [400, 1080]
+        "coordinates": [380, 1010]
     },
     {
         "name": "SLS Residence",
@@ -45,7 +45,7 @@
         "icon": "img/map/markers/sls.png",
         "visibility": true,
         "dataName": "project2",
-        "coordinates": [480, 790]
+        "coordinates": [450, 740]
     },
     {
         "name": "Keturah Reserve",
@@ -69,7 +69,7 @@
         "icon": "img/map/projects/biltmore-residences.jpg",
         "visibility": true,
         "dataName": "project3",
-        "coordinates": [520, 1480]
+        "coordinates": [500, 1400]
     },
     {
         "name": "Damac Bay",

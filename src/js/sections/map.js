@@ -1,18 +1,18 @@
 import L from 'leaflet';
-import { queryMatches } from 'utils';
+import { queryMatches, isMobileOrTablet } from 'utils';
 import pano from '@/sections/pano';
 
 export function map() {
 
-    let darkMap = 'img/map/map-dark.jpg'
-    let lightMap = 'img/map/map-light.jpg'
+    let darkMap = 'img/map/dark.jpg'
+    let lightMap = 'img/map/light.png'
+    // let darkMap = 'img/map/map-dark.jpg'
+    // let lightMap = 'img/map/map-light.jpg'
 
-    // let img = 
-    // img.src = "img/map/map-light.jpg";
-    const img = document.querySelectorAll('.map-img');
 
     window.addEventListener('media-loaded', () => {
-        const bounds = [[0, 0], [2304, 4072]];
+        // const bounds = [[0, 0], [2304, 4072]];
+        const bounds = [[0, 0], [2160, 3815]];
 
         const map = L.map('map', {
             crs: L.CRS.Simple,
@@ -24,9 +24,8 @@ export function map() {
             touchZoom: false,
             doubleClickZoom: false,
             scrollWheelZoom: false,
-            keyboard: false
+            keyboard: false,
         });
-
 
         let overlayPane = map.getPane('overlayPane');
 
@@ -62,27 +61,6 @@ export function map() {
             return wrapper;
         }
 
-        const svgContent = `
-            <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
-                    <defs>
-                    <filter id="blurFilter">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="35" result="blurred" />
-                    <feMorphology in="blurred" operator="dilate" radius="10" result="dilated" />
-                    <feComposite in="SourceGraphic" in2="dilated" operator="over" />
-                    </filter>
-
-                    <mask id="mask">
-                    <circle cx="50%" cy="50%" r="250" fill="#fff" filter="url(#maskBlur)" />
-                    <filter id="maskBlur">
-                    <feGaussianBlur in="SourceGraphic" stdDeviation="35" />
-                    </filter>
-                    </mask>
-                    </defs>
-            </svg>
-            `;
-
-        overlayPane.innerHTML = svgContent;
-
         const darkMapWrapper = createImageOverlay(darkMap, 'dark-map');
         const lightMapWrapper = createImageOverlay(lightMap, 'light-map');
 
@@ -102,7 +80,7 @@ export function map() {
             updateOverlay(lightMapWrapper);
         });
 
-        const centerCoordinates = [-window.innerHeight / 2, 1200];
+        const centerCoordinates = [-window.innerHeight / 2, 940];
         map.setView(centerCoordinates, 0);
 
         updateOverlay(darkMapWrapper);
@@ -208,6 +186,11 @@ export function map() {
                 maskCircle.setAttribute('r', radius);
                 maskCircle.setAttribute('cx', x);
                 maskCircle.setAttribute('cy', y);
+                console.log('radius: ' + radius);
+                console.log('clientX: ' + event.clientX);
+                console.log('rect Left: ' + rect.left);
+                console.log(x);
+
             });
         }
 
@@ -218,6 +201,7 @@ export function map() {
             if (/chrome|crios|crmo/i.test(userAgent) && !/edge|edg/i.test(userAgent)) {
                 browserName = 'Chrome';
                 svgMaskEffect();
+                // maskImageEffect()
             } else if (/safari/i.test(userAgent) && !/chrome|crios|crmo|edg|edge/i.test(userAgent)) {
                 browserName = 'Safari';
                 maskImageEffect();
@@ -238,8 +222,41 @@ export function map() {
             return browserName;
         }
 
-        getBrowser();
-        console.log('Browser:', getBrowser());
+        if (isMobileOrTablet()) {
+            // console.log('touchable device');
+            document.body.classList.add('maskImageEffect');
+            const lightMap = document.querySelector('.light-map');
+            const lightMapImg = document.querySelector('.light-map img');
+
+            map.on('viewreset move', (event) => {
+                const rect = lightMap.getBoundingClientRect();
+    
+                let x, y;
+            
+                if (event.touches) {
+                    // Handle touch events
+                    let touch = event.touches[0];
+                    x = touch.clientX - rect.left;
+                    y = touch.clientY - rect.top;
+                } else {
+                    // Handle mouse or other events
+                    x = window.innerWidth / 2 - rect.left;
+                    y = window.innerHeight / 2 - rect.top;
+                }
+            
+                const circleHeight = window.innerHeight / 1.5;
+                const circleHeightHalf = circleHeight / 2;
+            
+                lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`;
+                lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
+                lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
+            });
+
+        } else {
+            console.log('mouse device');
+            getBrowser();
+            console.log('Browser:', getBrowser());
+        }
     })
 
 }

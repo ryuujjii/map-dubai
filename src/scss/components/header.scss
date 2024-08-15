@@ -9,8 +9,19 @@
     padding: 24px 8px;
     background-color: rgba(22, 22, 22, 1);
 
+    @include _991-max {
+        right: 0;
+        bottom: auto;
+        height: auto;
+        width: 100%;
+        padding: 16px 16px 0;
+        background-color: rgba(22, 22, 22, 0);
+    }
+
     &.isMenuOpened {
         background-color: rgba(22, 22, 22, 0);
+        @include _991-max {
+        }
     }
 
     // .header__inner
@@ -19,6 +30,18 @@
         justify-content: space-between;
         flex-direction: column;
         height: 100%;
+        position: relative;
+
+        @include _991-max {
+            flex-direction: row;
+            padding: 20px 24px;
+            background-color: rgba(22, 22, 22, 1);
+            border-radius: 4px;
+
+            .isMenuOpened & {
+                background-color: rgba(22, 22, 22, 0);
+            }
+        }
     }
 
     // .header__logo
@@ -32,6 +55,18 @@
 
         @include _1700-min {
             width: 80px;
+        }
+
+        @include _991-max {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 62px;
+        }
+
+        @include _576-max {
+            width: 56px;
         }
     }
 
@@ -53,6 +88,7 @@
         height: 32px;
         @include flex;
 
+        picture,
         img {
             width: 100%;
             height: 100%;
@@ -61,6 +97,16 @@
         @include _1700-min {
             height: 44px;
             width: 44px;
+        }
+
+        @include _991-max {
+            width: 28px;
+            height: 28px;
+        }
+
+        @include _576-max {
+            width: 24px;
+            height: 24px;
         }
     }
 }
@@ -80,6 +126,12 @@
     @include _1700-min {
         width: 32px;
         gap: 6px;
+    }
+
+    @include _991-max {
+        top: auto;
+        position: relative;
+        transform: translate(0%, 0%);
     }
 
     &__line {
@@ -133,27 +185,27 @@
 
 // MENU BODY ========== START
 .menu {
-    position: fixed;
+    @include position(fixed);
     width: 100%;
     height: 100%;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
     z-index: 5;
     clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+    @include _991-max {
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        // overflow-y: scroll;
+        // &::-webkit-scrollbar {
+        //     display: none;
+        // }
+    }
 
     // .menu__bg
     .isMenuOpened &__bg {
         background-color: rgba(22, 22, 22, 0.85);
         backdrop-filter: blur(24px);
-        position: absolute;
         width: 100%;
         height: 100%;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
+        @include position(fixed);
     }
 
     // .menu__inner
@@ -167,6 +219,16 @@
 
         @include _1399-max {
             padding-left: 96px;
+        }
+
+        @include _991-max {
+            padding: 90px 20px 0 20px;
+            height: 100%;
+        }
+
+        @include _767-max {
+            padding-left: 16px;
+            padding-right: 16px;
         }
     }
 
@@ -184,6 +246,10 @@
             opacity: 0;
             display: block;
             clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+            @include _991-max {
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+            }
         }
 
         @include _1700-min {
@@ -191,12 +257,26 @@
         }
     }
 
+    // .menu__nav
+    &__nav {
+        margin-top: 16px;
+        padding-top: 16px;
+        height: 100%;
+        overflow-y: scroll;
+        border-radius: 4px;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+
     // .menu__list
     &__list {
-        margin-top: 32px;
+        // margin-top: 32px;
         // display: flex;
         // flex-wrap: wrap;
         gap: 16px;
+        padding-bottom: 58px;
 
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -220,8 +300,20 @@
         display: block;
         border-radius: 4px;
         opacity: 0;
-        // transform: scale(0.8);
         clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+
+        @include _991-max {
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+            opacity: 0;
+            transform: scale(0.99);
+            transform-origin: center;
+
+            .isMenuOpened & {
+                opacity: 1;
+                transform: scale(1);
+                transition: 0.4s ease 0.25s;
+            }
+        }
     }
 
     // .menu__link-item--inner
@@ -231,8 +323,10 @@
         border-radius: 4px;
         overflow: hidden;
 
-        &:active {
-            transform: scale(0.95);
+        @media (hover: hover) {
+            &:hover {
+                transform: scale(0.99);
+            }
         }
     }
 
