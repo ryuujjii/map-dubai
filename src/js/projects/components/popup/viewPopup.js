@@ -1,6 +1,6 @@
-import { addClassName, removeClassName } from 'utils';
-import collectEscEls from '@/components/esc/collectEscEls';
-import removeLastEscEl from '@/components/esc/removeLastEscEl';
+import { addClassName, removeClassName } from "utils";
+import collectEscEls from "@/components/esc/collectEscEls";
+import removeLastEscEl from "@/components/esc/removeLastEscEl";
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
@@ -9,15 +9,15 @@ class ViewPopup {
     classNames: {
       show: "popup-show",
       body: {
-        show: 'popup-active'
+        show: "popup-active",
       },
-      activeBtn: "active"
+      activeBtn: "active",
     },
     data: {
       popup: "data-popup",
       close: "data-popup-close",
-      btn: "data-popup-btn"
-    }
+      btn: "data-popup-btn",
+    },
   };
   constructor(params) {
     this.popupBtn();
@@ -27,10 +27,11 @@ class ViewPopup {
   popupBtn() {
     const popupBtns = document.querySelectorAll(`[${this.attributes.data.btn}]`);
 
-    popupBtns.forEach(currentItem => {
+    popupBtns.forEach((currentItem) => {
       currentItem.addEventListener("click", (e) => {
         const popupId = currentItem.getAttribute(this.attributes.data.btn);
         const neededPopup = document.querySelector(`[${this.attributes.data.popup}=${popupId}]`);
+
         if (this.activePopup) {
           if (this.activePopup === neededPopup) {
             return;
@@ -38,7 +39,7 @@ class ViewPopup {
             this.closePopup();
           }
         }
-        collectEscEls('close-popup');
+        collectEscEls("close-popup");
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
@@ -51,9 +52,8 @@ class ViewPopup {
     });
   }
 
-
   close() {
-    window.addEventListener('close-popup', (e) => {
+    window.addEventListener("close-popup", (e) => {
       this.closePopup();
     });
 
@@ -71,17 +71,15 @@ class ViewPopup {
     });
   }
 
-
   closePopup() {
-    removeClassName(this.activePopup, this.attributes.classNames.show);
-    removeClassName(this.activeBtn, this.attributes.classNames.activeBtn);
-    removeClassName(document.body, this.attributes.classNames.body.show);
+    this.activePopup?.classList.remove(this.attributes.classNames.show);
+    this.activeBtn?.classList.remove(this.attributes.classNames.activeBtn);
+    document.body?.classList.remove(this.attributes.classNames.body.show);
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;
-    removeLastEscEl('close-popup');
+    removeLastEscEl("close-popup");
   }
-
 }
 
 export default ViewPopup;
