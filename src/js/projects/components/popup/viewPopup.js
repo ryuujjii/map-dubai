@@ -1,6 +1,8 @@
 import { addClassName, removeClassName } from "utils";
 import collectEscEls from "@/components/esc/collectEscEls";
 import removeLastEscEl from "@/components/esc/removeLastEscEl";
+const projectCloseBtn = document.querySelector(".project__close-btn");
+
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
@@ -31,7 +33,6 @@ class ViewPopup {
       currentItem.addEventListener("click", (e) => {
         const popupId = currentItem.getAttribute(this.attributes.data.btn);
         const neededPopup = document.querySelector(`[${this.attributes.data.popup}=${popupId}]`);
-
         if (this.activePopup) {
           if (this.activePopup === neededPopup) {
             return;
@@ -43,6 +44,7 @@ class ViewPopup {
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
+        addClassName(projectCloseBtn, "hidden");
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
         setTimeout(() => {
@@ -75,6 +77,8 @@ class ViewPopup {
     this.activePopup?.classList.remove(this.attributes.classNames.show);
     this.activeBtn?.classList.remove(this.attributes.classNames.activeBtn);
     document.body?.classList.remove(this.attributes.classNames.body.show);
+    removeClassName(projectCloseBtn, "hidden");
+
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;

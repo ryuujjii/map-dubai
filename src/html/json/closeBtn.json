@@ -6,13 +6,13 @@
 	},
 	"pano": {
 		"target": "pano",
-		"classNames": "pano__close-btn",
+		"classNames": "pano__close-btn pano-btn",
 		"text": "close"
 	},
 	"project": {
 		"target": "project",
-		"classNames": "project__close-btn",
-		"text": "close"
+		"classNames": "project__close-btn project-btn",
+		"text": "Back"
 	},
 	"modal360": {
 		"target": "modal360",
