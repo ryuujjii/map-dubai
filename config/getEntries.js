@@ -11,6 +11,6 @@ export default function getEntries({ paths }) {
   }, {});
 
   entries.projects = resolve(paths.src, 'js/projects/index.js');
-  // entries.modal360 = resolve(paths.src, 'modal360/js/index.js');
+  entries.modal360 = resolve(paths.src, 'js/modal360/index.js');
   return entries;
 }

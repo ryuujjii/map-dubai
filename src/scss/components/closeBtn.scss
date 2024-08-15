@@ -1,39 +1,78 @@
 .close {
-	position: absolute;
-	top: 20px;
-	right: 24px;
-	display: flex;
-	align-items: center;
-	column-gap: 8px;
-	z-index: var(--z-index);
-	background-color: transparent;
-	// .close__text
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  z-index: var(--z-index);
+  background-color: transparent;
+  // .close__text
 
-	&__text {
-		color: var(--light-color);
-		font-size: 15px;
-		font-weight: 500;
-		text-transform: capitalize;
-	}
-	// .close__icon
+  &__text {
+    color: var(--light-color);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  // .close__icon
 
-	&__icon {
-		width: 26px;
-		aspect-ratio: 1;
-		position: relative;
-		img {
-			position: relative;
-			z-index: 2;
-		}
-		&::before {
-			content: '';
-			position: absolute;
-			width: calc(100% - 1px);
-			height: calc(100% - 1px);
-			top: 0.5px;
-			left: 0.5px;
-			background-color: var(--black-color);
-			border-radius: 3px;
-		}
-	}
+  &__icon {
+    width: 26px;
+    aspect-ratio: 1;
+    position: relative;
+    img {
+      position: relative;
+      z-index: 2;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 1px);
+      height: calc(100% - 1px);
+      top: 0.5px;
+      left: 0.5px;
+      background-color: var(--black-color);
+      border-radius: 3px;
+    }
+    &.project-btn,&.pano-btn {
+      display: none;
+    }
+  }
+  &.project-btn {
+    border-radius: 2px;
+    background: #16161680;
+    backdrop-filter: blur(4px);
+    padding: 11px 16px;
+    flex-direction: row-reverse;
+    .close__icon {
+      width: max-content;
+      display: none;
+      &::before {
+        display: none;
+      }
+      &.project-btn {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  &.pano-btn {
+    border-radius: 2px;
+    background: #16161680;
+    backdrop-filter: blur(4px);
+    padding: 11px 16px;
+    flex-direction: row;
+    .close__icon {
+      width: max-content;
+      display: none;
+      align-items: center;
+      &::before {
+        display: none;
+      }
+      &.pano-btn {
+        display: flex;
+      }
+    }
+  }
 }

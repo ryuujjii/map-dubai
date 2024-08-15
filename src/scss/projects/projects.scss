@@ -106,6 +106,15 @@
 	// .project__close-btn
 
 	&__close-btn {
+		left: 24px;
+		top: 24px;
+		right: auto;
+		transition: all 400ms ease-in-out;
+		&.hidden {
+			opacity: 0;
+			visibility: hidden;
+			pointer-events: none;
+		}
 	}
 }
 
