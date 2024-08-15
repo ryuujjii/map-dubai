@@ -3,13 +3,13 @@ import { toggleClassName } from 'utils';
 import { toggleClassToAlter } from '@/modal360/components/alter_parent_window';
 
 export function click(viewerInstance) {
-  const viewerSlideExt = document.querySelector(".swiper-slide.ext");
-  const viewerSlideInt = document.querySelector(".swiper-slide.int");
-  const initialActiveSlide = viewerSlideExt ? viewerSlideExt : viewerSlideInt;
+  // let viewerSlideExt = document.querySelector(".swiper-slide.ext");
+  // let viewerSlideInt = document.querySelector(".swiper-slide.int");
+  // let initialActiveSlide = viewerSlideExt ? viewerSlideExt : viewerSlideInt;
 
   const setViewPanorama = handleViewPanorama(viewerInstance);
 
-  setViewPanorama(initialActiveSlide);
+  // setViewPanorama(initialActiveSlide);
   document.addEventListener("click", function (e) {
     const target = e.target;
     if (target.closest('.swiper-slide')) {

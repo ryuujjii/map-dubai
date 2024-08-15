@@ -4,7 +4,7 @@ export function handleViewPanorama(viewer) {
   if (!handleViewPanorama.prevActive) {
     handleViewPanorama.prevActive = null;
   }
-  return function name(el) {
+  return function (el) {
     const src = el.getAttribute('data-src');
     if (handleViewPanorama.prevActive) {
       removeClassName(handleViewPanorama.prevActive, 'active');

@@ -330,12 +330,13 @@
 						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/3_bedroom_D/360/preview/3br_duplex_bath1_004.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/3_bedroom_D/360/preview/3br_duplex_Bath_004.jpg"
 					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
 				}
 			},
-			"exteriors": {
-				"img360": [],
-				"img360Preview": []
-			},
+
 			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/3_bedroom_D/gallery/3br_duplex_bedroom_001.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/3_bedroom_D/gallery/3br_duplex_bedroom_002.jpg",

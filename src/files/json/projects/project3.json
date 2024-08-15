@@ -162,14 +162,8 @@
 					]
 				},
 				"exteriors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
-					]
+					"img360": [],
+					"img360Preview": []
 				}
 			},
 			"gallery": [
@@ -190,14 +184,8 @@
 					]
 				},
 				"exteriors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
-					]
+					"img360": [],
+					"img360Preview": []
 				}
 			},
 			"gallery": [
