@@ -9,6 +9,8 @@
 	opacity: 0;
 	pointer-events: none;
 	transition: opacity 0.3s ease 0s;
+	background: rgba(22, 22, 22, 0.40);
+	backdrop-filter: blur(16px);
 	// &[data-popup='brochure'] {
 	// 	opacity: 1;
 	// 	pointer-events: auto;
