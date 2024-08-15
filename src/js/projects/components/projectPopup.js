@@ -11,13 +11,13 @@ export default function projectPopup() {
 
   window.addEventListener("show-project", (e) => {
     if (!activeProject || activeProject !== e.detail.projectId) {
-      // isLoaderActive = true;
-      // removeClassName(document.documentElement, 'preloader-hidden');
+      isLoaderActive = true;
+      removeClassName(document.documentElement, 'preloader-hidden');
       projectContent(e.detail.projectId);
-      showProject(e.detail.projectId);
-      // setTimeout(() => {
-      //   showProject(e.detail.projectId);
-      // }, loaderAniDuration);
+      // showProject(e.detail.projectId);
+      setTimeout(() => {
+        showProject(e.detail.projectId);
+      }, loaderAniDuration);
     } else {
       showProject(e.detail.projectId);
     }

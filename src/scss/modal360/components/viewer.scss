@@ -206,6 +206,22 @@
 	.swiper-button-next::after {
 		display: none;
 	}
+	.swiper-button-prev,
+	.swiper-button-next {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: opacity 0.3s;
+		cursor: pointer;
+		&.swiper-button-disabled {
+			opacity: 0.5;
+			pointer-events: none;
+		}
+		&.swiper-button-lock {
+			display: none;
+		}
+	}
+
 	.swiper-button-prev {
 		left: -30px;
 	}
