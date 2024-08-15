@@ -18,7 +18,7 @@
 				"type": "loft style A",
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail.svg",
-				"dataModal360": "files/modal360/1-bedroom-L1.html",
+				"dataModal360": "some-bedrom-1",
 				"classNames": "right"
 			}
 		},
@@ -36,7 +36,7 @@
 				"type": "loft style A",
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail.svg",
-				"dataModal360": "files/modal360/1-bedroom-L1.html",
+				"dataModal360": "some-bedrom-2",
 				"classNames": "right"
 			}
 		}
@@ -158,6 +158,52 @@
 				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/img/icons/logo-loader.svg",
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg"
 			}
+		}
+	},
+	"modal360": {
+		"some-bedrom-1": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/street/gallery/JAMS_Static_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/street/gallery/JAMS_Static_36_F.jpg"
+			]
+		},
+		"some-bedrom-2": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/street/gallery/JAMS_Static_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/street/gallery/JAMS_Static_36_F.jpg"
+			]
 		}
 	}
 }

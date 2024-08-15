@@ -14,6 +14,7 @@ export default function projectPopup() {
       isLoaderActive = true;
       removeClassName(document.documentElement, 'preloader-hidden');
       projectContent(e.detail.projectId);
+      // showProject(e.detail.projectId);
       setTimeout(() => {
         showProject(e.detail.projectId);
       }, loaderAniDuration);
