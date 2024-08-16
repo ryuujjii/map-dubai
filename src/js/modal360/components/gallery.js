@@ -1,6 +1,6 @@
 import { Fancybox } from "@fancyapps/ui";
-import setCopyRightTo from '@/modal360/components/copyRight/set_copytight_to';
-import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alter_parent_window';
+import setCopyRightTo from '@/modal360/components/copyRight/setCopytightTo';
+import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alterParentWindow';
 Fancybox.defaults.Hash = false;
 
 export function gallery() {

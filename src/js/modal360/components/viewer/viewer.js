@@ -1,7 +1,7 @@
-import { handleEvents } from "@/modal360/components/viewer/events/handle_events";
+import viewerEvents from "@/modal360/components/viewer/events/viewerEvents";
 
 
 export function viewer() {
-  handleEvents();
+  viewerEvents();
 }
 
