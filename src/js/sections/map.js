@@ -188,10 +188,10 @@ export function map() {
                 maskCircle.setAttribute('r', radius);
                 maskCircle.setAttribute('cx', x);
                 maskCircle.setAttribute('cy', y);
-                console.log('radius: ' + radius);
-                console.log('clientX: ' + event.clientX);
-                console.log('rect Left: ' + rect.left);
-                console.log(x);
+                // console.log('radius: ' + radius);
+                // console.log('clientX: ' + event.clientX);
+                // console.log('rect Left: ' + rect.left);
+                // console.log(x);
 
             });
         }
