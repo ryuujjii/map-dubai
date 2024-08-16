@@ -6,7 +6,7 @@ import { GyroscopePlugin } from '@photo-sphere-viewer/gyroscope-plugin';
    */
 const IS_IPADE = queryMatches(1170);
 
-export const viewerInstance = new Viewer({
+const viewerInstance = new Viewer({
   plugins: [GyroscopePlugin],
   container: document.querySelector(".viewer__wrapper"),
   defaultZoomLvl: 0,
@@ -14,3 +14,5 @@ export const viewerInstance = new Viewer({
   minFov: 60,
   posePitch: 2,
 });
+
+export default viewerInstance;

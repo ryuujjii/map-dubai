@@ -1,4 +1,4 @@
-import setCopyRightTo from '@/modal360/components/copyRight/set_copytight_to';
+import setCopyRightTo from '@/modal360/components/copyRight/setCopytightTo';
 
 export function ready(viewerInstance) {
   viewerInstance.addEventListener('ready', (e) => {

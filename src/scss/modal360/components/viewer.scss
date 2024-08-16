@@ -74,6 +74,7 @@
 		flex-shrink: 0;
 		background-color: #000;
 		&.viewer-btn-int-ext {
+			display: none;
 			&::after {
 				content: '';
 				position: absolute;

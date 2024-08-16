@@ -1,10 +1,10 @@
-import { viewerInstance } from '@/modal360/components/viewer/viewer_instance';
+import viewerInstance from '@/modal360/components/viewer/viewerInstance';
 import { click } from '@/modal360/components/viewer/events/click';
 import { ready } from '@/modal360/components/viewer/events/ready';
 import { fullscreen } from '@/modal360/components/viewer/events/fullscreen';
 
-export function handleEvents() {
-  click(viewerInstance);
+export default function viewerEvents() {
+  click();
   ready(viewerInstance);
   fullscreen(viewerInstance);
 };

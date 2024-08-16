@@ -1,6 +1,6 @@
 import { COMMON_MEDIA_QUERIES } from 'utils';
 
-export function config(amountViewerSlides) {
+export function config() {
   let widthViewerSlide;
   let viewerSwiperPrerView;
   let conditionViewerSlides;
@@ -15,14 +15,15 @@ export function config(amountViewerSlides) {
     viewerSwiperPrerView = 3;
     initialWidthViewerSwiper = 300;
   }
-  conditionViewerSlides = amountViewerSlides >= viewerSwiperPrerView;
 
   return {
-    viewerSwiperPrerView,
-    getSwiperWidthAndCount(amountViewerSlides) {
+    getUpdatedSwiperConfig(amountViewerSlides) {
       conditionViewerSlides = amountViewerSlides >= viewerSwiperPrerView;
       actualSwiperWidth = conditionViewerSlides ? initialWidthViewerSwiper : amountViewerSlides * widthViewerSlide;
       return { swiperWidth: actualSwiperWidth, conditionViewerSlides };
+    },
+    getSlidesPerView(amountViewerSlides) {
+      return conditionViewerSlides ? viewerSwiperPrerView : amountViewerSlides;
     }
   };
 }
