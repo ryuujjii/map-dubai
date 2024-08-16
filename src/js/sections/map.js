@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import { queryMatches, isMobileOrTablet } from 'utils';
 import pano from '@/sections/pano';
+import { directionDots } from '@/sections/directionDots';
 
 export function map() {
 
@@ -94,13 +95,13 @@ export function map() {
             .then(data => {
 
                 data.forEach(proj => {
-                    if (proj.visibility === true) {
+                    // if (proj.visibility === true) {
                         const icon = L.divIcon({
                             className: 'map__marker-item',
                             html: `
                                 <button class="map__marker" data-test="${proj.dataName}">
                                     <div class="map__marker-icon">
-                                        <img src="${proj.icon}" alt="">
+                                        <img src="${proj.img}" alt="">
                                     </div>
                                     <div class="map__marker-content">
                                         <p class="map__marker-name">${proj.name}</p>
@@ -111,10 +112,11 @@ export function map() {
 
                         });
                         L.marker(proj.coordinates, { icon: icon }).addTo(map);
-                    } else { }
+                    // } else { }
 
                 });
                 pano();
+                directionDots(data, map)
             });
 
 
@@ -222,13 +224,15 @@ export function map() {
             return browserName;
         }
 
+
+        // Circle LIGHT EFFECT for Mobile and Desktop devices
         if (isMobileOrTablet()) {
             // console.log('touchable device');
             document.body.classList.add('maskImageEffect');
             const lightMap = document.querySelector('.light-map');
             const lightMapImg = document.querySelector('.light-map img');
 
-            map.on('viewreset move', (event) => {
+            map.on('load viewreset move', (event) => {
                 const rect = lightMap.getBoundingClientRect();
     
                 let x, y;

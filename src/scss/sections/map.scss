@@ -202,3 +202,52 @@
     }
 
 }
+
+
+
+// SCREEN MARKER INDICATORS
+
+.pin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    transition: all 0.3s ease;
+    &.active {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    &__wrapper {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(90deg);
+      background-color: #fff;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+    }
+  
+    &__arrow {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+      margin: auto;
+      transform: translateX(15px) rotate(26deg);
+    }
+    &__number {
+      position: absolute;
+      font-size: 14px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      color: black;
+    }
+  }
