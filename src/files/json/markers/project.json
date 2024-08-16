@@ -5,7 +5,7 @@
         "icon": "img/map/projects/valori.jpg",
         "visibility": false,
         "dataName": "valori",
-        "coordinates": [1600, 2930]
+        "coordinates": [1500, 2800]
     },
     {
         "name": "Keturah Resort",
@@ -13,7 +13,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "keturah-resort",
-        "coordinates": [1500, 2780]
+        "coordinates": [1400, 2600]
     },
     {
         "name": "Business Bay Tower",
@@ -21,7 +21,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "business-bay-tower",
-        "coordinates": [1300, 2360]
+        "coordinates": [1220, 2220]
     },
     {
         "name": "Boutique 23",
@@ -29,7 +29,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "boutique-23",
-        "coordinates": [1655, 2920]
+        "coordinates": [1555, 2790]
     },
     {
         "name": "EMAAR Beachfront",
@@ -53,7 +53,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "keturah-reserve",
-        "coordinates": [920, 2460]
+        "coordinates": [880, 2300]
     },
     {
         "name": "Urban Life",

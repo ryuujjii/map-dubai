@@ -1,6 +1,11 @@
+import { queryMatches, isMobileOrTablet } from 'utils';
+
 export function directionDots(data, map) {
-    function createPinHTML(index, position, rotation) {
-      return `
+
+  const TABLET = queryMatches(991.98, 'max');
+
+  function createPinHTML(index, position, rotation) {
+    return `
         <div class="pin" id="pin-${index}" style="top: ${position.top}px; left: ${position.left}px; transform: rotate(${rotation}deg);">
     
           <div class="pin__wrapper">
@@ -10,90 +15,92 @@ export function directionDots(data, map) {
           </div>
         </div>
       `;
-    }
-    function isPointVisible(point) {
-      const rect = point.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <=
-          (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-  
-    function calculatePinPosition(pointRect) {
-      const windowWidth = window.innerWidth;
-      const windowHeight = window.innerHeight;
-  
-      const marginLeft = 120;
-      const marginOther = 50;
-  
-      let position = { top: 0, left: 0 };
-      let rotation = 0;
-  
-      if (pointRect.left < marginLeft) {
-        position.left = marginLeft;
-        position.top = Math.min(
-          Math.max(pointRect.top + pointRect.height / 2, marginOther),
-          windowHeight - marginOther
-        );
-        rotation = 90;
-      } else if (pointRect.right > windowWidth) {
-        position.left = windowWidth - marginOther - 24;
-        position.top = Math.min(
-          Math.max(pointRect.top + pointRect.height / 2, marginOther),
-          windowHeight - marginOther
-        );
-        rotation = -90;
-      } else if (pointRect.top < marginOther) {
-        position.top = marginOther;
-        position.left = Math.min(
-          Math.max(pointRect.left + pointRect.width / 2, marginLeft),
-          windowWidth - marginOther
-        );
-        rotation = 180;
-      } else if (pointRect.bottom > windowHeight) {
-        position.top = windowHeight - marginOther - 24;
-        position.left = Math.min(
-          Math.max(pointRect.left + pointRect.width / 2, marginLeft),
-          windowWidth - marginOther
-        );
-        rotation = 0;
-      }
-  
-      return { position, rotation };
-    }
-    function updatePinsOnMapMove() {
-      const points = document.querySelectorAll(".leaflet-marker-icon");
-  
-      points.forEach((point, index) => {
-        const pinElement = document.querySelector(`#pin-${index}`);
-  
-        if (!isPointVisible(point)) {
-          const pointRect = point.getBoundingClientRect();
-          const { position, rotation } = calculatePinPosition(pointRect);
-  
-          if (!pinElement) {
-            const pinHTML = createPinHTML(index, position, rotation);
-            document
-              .querySelector(".map__dots")
-              .insertAdjacentHTML("beforeend", pinHTML);
-          } else {
-            pinElement.style.top = `${position.top}px`;
-            pinElement.style.left = `${position.left}px`;
-            pinElement.style.transform = `rotate(${rotation}deg)`;
-          }
-        } else {
-          if (pinElement) {
-            pinElement.remove();
-          }
-        }
-      });
-    }
-  
-    map.on("move", () => {
-      updatePinsOnMapMove();
-    });
-    updatePinsOnMapMove();
   }
+  function isPointVisible(point) {
+    const rect = point.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  function calculatePinPosition(pointRect) {
+    const windowWidth = window.innerWidth;
+    const windowHeight = window.innerHeight;
+
+    const marginTop = TABLET ? 100 : 50;
+    const marginLeft = TABLET ? 20 : 120;
+    const marginOther = TABLET ? 20 : 50;
+  
+
+    let position = { top: 0, left: 0 };
+    let rotation = 0;
+
+    if (pointRect.left < marginLeft) {
+      position.left = marginLeft;
+      position.top = Math.min(
+        Math.max(pointRect.top + pointRect.height / 2, marginTop),
+        windowHeight - marginTop
+      );
+      rotation = 90;
+    } else if (pointRect.right > windowWidth) {
+      position.left = windowWidth - marginOther - 24;
+      position.top = Math.min(
+        Math.max(pointRect.top + pointRect.height / 2, marginTop),
+        windowHeight - marginTop
+      );
+      rotation = -90;
+    } else if (pointRect.top < marginOther) {
+      position.top = marginOther;
+      position.left = Math.min(
+        Math.max(pointRect.left + pointRect.width / 2, marginLeft),
+        windowWidth - marginOther
+      );
+      rotation = 180;
+    } else if (pointRect.bottom > windowHeight) {
+      position.top = windowHeight - marginTop - 24;
+      position.left = Math.min(
+        Math.max(pointRect.left + pointRect.width / 2, marginLeft),
+        windowWidth - marginOther
+      );
+      rotation = 0;
+    }
+
+    return { position, rotation };
+  }
+  function updatePinsOnMapMove() {
+    const points = document.querySelectorAll(".leaflet-marker-icon");
+
+    points.forEach((point, index) => {
+      const pinElement = document.querySelector(`#pin-${index}`);
+
+      if (!isPointVisible(point)) {
+        const pointRect = point.getBoundingClientRect();
+        const { position, rotation } = calculatePinPosition(pointRect);
+
+        if (!pinElement) {
+          const pinHTML = createPinHTML(index, position, rotation);
+          document
+            .querySelector(".map__dots")
+            .insertAdjacentHTML("beforeend", pinHTML);
+        } else {
+          pinElement.style.top = `${position.top}px`;
+          pinElement.style.left = `${position.left}px`;
+          pinElement.style.transform = `rotate(${rotation}deg)`;
+        }
+      } else {
+        if (pinElement) {
+          pinElement.remove();
+        }
+      }
+    });
+  }
+
+  map.on("move", () => {
+    updatePinsOnMapMove();
+  });
+  updatePinsOnMapMove();
+}
