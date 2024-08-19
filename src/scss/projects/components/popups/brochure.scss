@@ -1,6 +1,7 @@
 .popup {
   &[data-popup="brochure"] {
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 24px 40px 100px;
     top: 50%;
@@ -10,6 +11,7 @@
     }
     .popup__wrapper {
       height: auto;
+      max-width: 1360px;
     }
     .popup__close-btn {
       bottom: calc(100% + 16px);
