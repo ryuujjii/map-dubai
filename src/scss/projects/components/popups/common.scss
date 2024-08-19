@@ -1,129 +1,137 @@
 .popup {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 10000;
-	padding: 24px 24px 100px;
-	opacity: 0;
-	pointer-events: none;
-	transition: opacity 0.3s ease 0s;
-	background: rgba(22, 22, 22, 0.40);
-	backdrop-filter: blur(16px);
-	// &[data-popup='brochure'] {
-	// 	opacity: 1;
-	// 	pointer-events: auto;
-	// }
-	@media (max-width:768px) {
-		padding: 0;	
-	}
-	&.popup-show {
-		opacity: 1;
-		pointer-events: auto;
-	}
-	// .popup__overlay
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  padding: 24px 24px 100px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease 0s;
+  background: rgba(22, 22, 22, 0.4);
+  backdrop-filter: blur(16px);
+  // &[data-popup='brochure'] {
+  // 	opacity: 1;
+  // 	pointer-events: auto;
+  // }
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+  &.popup-show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  // .popup__overlay
 
-	&__overlay {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		display: none;
-	}
+  &__overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+  }
 
-	// .popup__wrapper
+  // .popup__wrapper
 
-	&__wrapper {
-		width: 100%;
-		height: 100%;
-		// padding: 24px 8px 24px 0;
-		padding-right: 8px;
-		position: relative;
-		z-index: 2;
-		background-color: rgba(22, 22, 22, 0.96);
-		border-radius: 4px;
-	}
-
-	// .popup__wp
-	&__wp {
-		overflow-y: auto;
-		height: 100%;
-		&::-webkit-scrollbar {
-			width: 4px;
-		}
-
-		/* Track */
-		&::-webkit-scrollbar-track {
-			background: #2a2420;
-			border-radius: 4px;
-		}
-
-		/* Handle */
-		&::-webkit-scrollbar-thumb {
-			border-radius: 4px;
-			background: var(--gold);
-		}
-	}
-
-	// .popup__content
-
-	&__content {
-		padding: 56px 12px 20px 24px;
-		width: 100%;
-		height: 100%;
-		// position: relative;
-		// z-index: 2;
-		@media (max-width:768px) {
-			padding: 16px;
-			padding-top: 64px;	
-		}
-	}
-
-	// .popup__close-btn
-
-	&__close-btn {
-	}
-
-	// .popup__payment
-
-	&__payment {
-	}
+  &__wrapper {
+    width: 100%;
+    height: 100%;
+    // padding: 24px 8px 24px 0;
+    padding-right: 8px;
+    padding-top: 56px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(22, 22, 22, 0.96);
+    border-radius: 4px;
+    @media (max-width: 768px) {
+		padding-top: 32px;
+    //   padding-right: 0;
 	
+	  border-radius: 0;
+    }
+  }
+
+  // .popup__wp
+  &__wp {
+    overflow-y: auto;
+    height: 100%;
+    &::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #2a2420;
+      border-radius: 4px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      border-radius: 4px;
+      background: var(--gold);
+    }
+    @media (max-width: 768px) {
+    //   overflow-y: unset;
+    }
+  }
+
+  // .popup__content
+
+  &__content {
+    padding: 0 12px 20px 24px;
+    width: 100%;
+    height: 100%;
+    // position: relative;
+    // z-index: 2;
+    @media (max-width: 768px) {
+      padding: 16px;
+      padding-top: 0;
+    }
+  }
+
+  // .popup__close-btn
+
+  &__close-btn {
+  }
+
+  // .popup__payment
+
+  &__payment {
+  }
 }
-.popup-active{
-	@media (max-width:768px) {
-		.project__brochure-btn {
-			opacity: 0;
-			visibility: hidden;
-			pointer-events: none;
-		}
-		
-	}
+.popup-active {
+  @media (max-width: 768px) {
+    .project__brochure-btn {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+  }
 }
 .popup-subtitle {
-	color: var(--gold);
-	font-size: 15px;
-	font-weight: 300;
-	text-transform: capitalize;
+  color: var(--gold);
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: capitalize;
 }
 .popup-title {
-	color: var(--light-color);
-	font-size: 24px;
-	font-weight: 500;
-	text-transform: capitalize;
+  color: var(--light-color);
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 .popup-text {
-	color: var(--grey);
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 150%; /* 22.5px */
+  color: var(--grey);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 150%; /* 22.5px */
 }
 .popup-container {
-	padding-inline: 56px 20px;
-	padding-bottom: 20px;
-	@media (max-width:768px) {
-		padding: 0;	
-	}
+  padding-inline: 56px 20px;
+  padding-bottom: 20px;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
 }
