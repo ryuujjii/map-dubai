@@ -15,6 +15,9 @@
 	// 	opacity: 1;
 	// 	pointer-events: auto;
 	// }
+	@media (max-width:768px) {
+		padding: 0;	
+	}
 	&.popup-show {
 		opacity: 1;
 		pointer-events: auto;
@@ -72,6 +75,10 @@
 		height: 100%;
 		// position: relative;
 		// z-index: 2;
+		@media (max-width:768px) {
+			padding: 16px;
+			padding-top: 64px;	
+		}
 	}
 
 	// .popup__close-btn
@@ -83,8 +90,18 @@
 
 	&__payment {
 	}
+	
 }
-
+.popup-active{
+	@media (max-width:768px) {
+		.project__brochure-btn {
+			opacity: 0;
+			visibility: hidden;
+			pointer-events: none;
+		}
+		
+	}
+}
 .popup-subtitle {
 	color: var(--gold);
 	font-size: 15px;
@@ -106,4 +123,7 @@
 .popup-container {
 	padding-inline: 56px 20px;
 	padding-bottom: 20px;
+	@media (max-width:768px) {
+		padding: 0;	
+	}
 }

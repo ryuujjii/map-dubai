@@ -33,6 +33,7 @@ class ViewPopup {
       currentItem.addEventListener("click", (e) => {
         const popupId = currentItem.getAttribute(this.attributes.data.btn);
         const neededPopup = document.querySelector(`[${this.attributes.data.popup}=${popupId}]`);
+        const projectsBtnMobile = document.querySelector('.project__popupBtns-wrapper');
         if (this.activePopup) {
           if (this.activePopup === neededPopup) {
             return;
@@ -45,6 +46,7 @@ class ViewPopup {
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
         addClassName(projectCloseBtn, "hidden");
+        projectsBtnMobile.classList.remove('active')
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
         setTimeout(() => {
@@ -67,7 +69,7 @@ class ViewPopup {
 
     document.addEventListener("click", (e) => {
       const target = e.target;
-      if (this.canClose && !target.closest(`.popup__wrapper`)) {
+      if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
       }
     });

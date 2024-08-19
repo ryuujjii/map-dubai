@@ -7,6 +7,7 @@ import project from "@/projects/project";
 import closeComponent from "@/components/closeComponent";
 import onEsc from "@/components/esc/onEsc";
 import { preloader } from '@/components/preloader'
+import showProjects from "@/projects/components/showProjects";
 
 
 window.addEventListener("onbeforeunload", function () {
@@ -28,6 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
   project();
   closeComponent();
   onEsc();
+  showProjects();
 });
 
 //disable context menu

@@ -1,10 +1,23 @@
+.popup {
+  &[data-popup="about"] {
+    @media (max-width: 768px) {
+      padding-bottom: 50px;
+    }
+  }
+}
+
 .about-about {
   margin-bottom: 64px;
-
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+  }
   // .about-about__info
 
   &__info {
     margin-bottom: 60px;
+    @media (max-width: 768px) {
+      margin-bottom: 32px;
+    }
   }
   // .about-about__container
 
@@ -39,6 +52,10 @@
     padding-bottom: 36%;
     border-radius: 2px;
     overflow: hidden;
+    @media (max-width: 768px) {
+      height: 540px;
+      padding-bottom: 0;
+    }
   }
 
   // .about-about__items
@@ -54,10 +71,30 @@
     display: flex;
     column-gap: 24px;
     align-items: center;
+    @media (max-width: 768px) {
+      position: static;
+      flex-direction: column;
+      gap: 48px;
+    }
   }
   // .about-about__item
 
   &__item {
+    @media (max-width: 768px) {
+      width: 100%;
+      position: relative;
+      flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+      div {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+        text-transform: capitalize;
+      }
+    }
   }
 }
 
@@ -88,10 +125,16 @@
 //========================================================================================================================================================
 .amenities-about {
   margin-bottom: 100px;
+  @media (max-width: 768px) {
+    margin-bottom: 112px;
+  }
   // .amenities-about__info
 
   &__info {
     margin-bottom: 48px;
+    @media (max-width: 768px) {
+      margin-bottom: 64px;
+    }
   }
 
   // .amenities-about__container
@@ -123,6 +166,12 @@
   // .item-amenities-about__wrapper
 
   &__wrapper {
+    @media (max-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   // .item-amenities-about__icon
@@ -184,6 +233,9 @@
 
   &__title {
     margin-bottom: 12px;
+    @media (max-width: 768px) {
+      margin-bottom: 16px;
+    }
   }
 
   // .location-about__map-ibg
@@ -191,6 +243,10 @@
   &__map-ibg {
     width: 100%;
     padding-bottom: 45%;
+    @media (max-width: 768px) {
+      padding-bottom: 0;
+      height: 340px;
+    }
   }
 }
 
@@ -224,6 +280,11 @@
     width: 100%;
     display: flex;
     column-gap: 33px;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      padding: 0 32px;
+      gap: 48px;
+    }
   }
 
   // .cta-about__inputs
@@ -233,6 +294,11 @@
     column-gap: 24px;
     flex-grow: 1;
     align-self: flex-end;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+      gap: 48px;
+    }
   }
 
   // .cta-about__input
