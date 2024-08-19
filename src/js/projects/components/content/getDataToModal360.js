@@ -16,9 +16,7 @@ function getDataToModal360Fn() {
     content = data;
   }
 
-  return { sendDataToModal360, getDataToModal360 };
+  return { sendDataToModal360, getDataToModal360, iframeWindow };
 }
 
-const { getDataToModal360, sendDataToModal360 } = getDataToModal360Fn();
-
-export { getDataToModal360, sendDataToModal360 };
+export const { getDataToModal360, sendDataToModal360, iframeWindow } = getDataToModal360Fn();
