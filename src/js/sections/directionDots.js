@@ -1,8 +1,7 @@
-import { queryMatches, isMobileOrTablet } from 'utils';
+import { queryMatches, isMobileOrTablet } from "utils";
 
 export function directionDots(data, map) {
-
-  const TABLET = queryMatches(991.98, 'max');
+  const TABLET = queryMatches(991.98, "max");
 
   function createPinHTML(index, position, rotation) {
     return `
@@ -18,15 +17,19 @@ export function directionDots(data, map) {
   }
   function isPointVisible(point) {
     const rect = point.getBoundingClientRect();
+    const flagWidth = 150;
+    const flagHeight = 50;
+
     return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
+      rect.top >= -flagHeight &&
+      rect.left >= -flagWidth &&
       rect.bottom <=
-      (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        (window.innerHeight || document.documentElement.clientHeight) +
+          flagHeight &&
+      rect.right <=
+        (window.innerWidth || document.documentElement.clientWidth) + flagWidth
     );
   }
-
   function calculatePinPosition(pointRect) {
     const windowWidth = window.innerWidth;
     const windowHeight = window.innerHeight;
@@ -34,7 +37,6 @@ export function directionDots(data, map) {
     const marginTop = TABLET ? 100 : 50;
     const marginLeft = TABLET ? 20 : 120;
     const marginOther = TABLET ? 20 : 50;
-  
 
     let position = { top: 0, left: 0 };
     let rotation = 0;
@@ -54,14 +56,14 @@ export function directionDots(data, map) {
       );
       rotation = -90;
     } else if (pointRect.top < marginOther) {
-      position.top = marginOther;
+      position.top = 100;
       position.left = Math.min(
         Math.max(pointRect.left + pointRect.width / 2, marginLeft),
         windowWidth - marginOther
       );
       rotation = 180;
     } else if (pointRect.bottom > windowHeight) {
-      position.top = windowHeight - marginTop - 24;
+      position.top = windowHeight - 50;
       position.left = Math.min(
         Math.max(pointRect.left + pointRect.width / 2, marginLeft),
         windowWidth - marginOther
@@ -71,6 +73,7 @@ export function directionDots(data, map) {
 
     return { position, rotation };
   }
+
   function updatePinsOnMapMove() {
     const points = document.querySelectorAll(".leaflet-marker-icon");
 
