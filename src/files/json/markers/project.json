@@ -5,7 +5,7 @@
         "icon": "img/map/projects/valori.jpg",
         "visibility": false,
         "dataName": "valori",
-        "coordinates": [1500, 2800]
+        "coordinates": [1535, 2735]
     },
     {
         "name": "Keturah Resort",
@@ -29,7 +29,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "boutique-23",
-        "coordinates": [1555, 2790]
+        "coordinates": [1595, 2725]
     },
     {
         "name": "EMAAR Beachfront",
@@ -61,7 +61,7 @@
         "icon": "",
         "visibility": false,
         "dataName": "urban-life",
-        "coordinates": [1200, 2400]
+        "coordinates": [1160, 2330]
     },
     {
         "name": "Biltmore Residences",
