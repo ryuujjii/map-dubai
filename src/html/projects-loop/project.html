@@ -1,13 +1,11 @@
 <%var data=arguments[0]%>
-    <% if (visibility===true ) { %>
-        <li class="menu__link-item" data-modal-open=${data.dataName}>
-            <div class="menu__link-item--inner">
-                <div class="menu__link-img">
-                    <img data-preload=${data.img} alt="">
-                </div>
-                <span class="menu__link-name">
-                    ${data.name}
-                </span>
+    <li class="menu__link-item" data-modal-open=${data.dataName}>
+        <div class="menu__link-item--inner">
+            <div class="menu__link-img">
+                <img data-preload=${data.img} alt="">
             </div>
-        </li>
-        <%} %>
+            <span class="menu__link-name">
+                ${data.name}
+            </span>
+        </div>
+    </li>
