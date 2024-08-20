@@ -1,12 +1,16 @@
 .close {
   position: absolute;
-  top: 20px;
+  top: 24px;
   right: 24px;
   display: flex;
   align-items: center;
   column-gap: 8px;
   z-index: var(--z-index);
   background-color: transparent;
+  @media (max-width: 768px) {
+    right: 16px;
+    top: 16px;
+  }
   // .close__text
 
   &__text {

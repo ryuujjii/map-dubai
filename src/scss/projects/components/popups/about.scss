@@ -1,21 +1,32 @@
 .popup {
   &[data-popup="about"] {
-   .popup__wrapper{
-    padding-bottom: 60px;
-    @media(max-width:768px){
-      padding-bottom: 100px;
-
+    .popup__wrapper {
+      padding-bottom: 60px;
+      @media (max-width: 768px) {
+        padding-bottom: 100px;
+      }
+      @media (min-width: 2560px) {
+        padding-top: 128px;
+      }
     }
-   }
-   .popup-container{
-    padding-bottom: 0;
-   }
-   .cta-about__container{
-    padding-right: 56px;
-    @media(max-width:768px){
-      padding-right: 0;
+    .popup-container {
+      padding-bottom: 0;
     }
-   }
+    .cta-about__container {
+      padding-right: 56px;
+      @media (max-width: 768px) {
+        padding-right: 0;
+      }
+      @media (min-width: 2560px) {
+        padding: 0 323px;
+        .cta-about__inputs {
+          gap: 48px;
+        }
+        .cta-about__form {
+          gap: 48px;
+        }
+      }
+    }
   }
 }
 
@@ -35,6 +46,9 @@
   // .about-about__container
 
   &__container {
+    @media (min-width: 2560px) {
+      padding-left: 104px;
+    }
   }
   // .about-about__subtitle
 
@@ -122,6 +136,9 @@
     color: var(--light-color);
     font-size: 22px;
     font-weight: 500;
+    @media (min-width:2560px) {
+      font-size: 32px;
+    }
   }
 
   // .item-about-about__text
@@ -148,11 +165,17 @@
     @media (max-width: 768px) {
       margin-bottom: 64px;
     }
+    @media (min-width: 2560px) {
+      margin-bottom: 64px;
+    }
   }
 
   // .amenities-about__container
 
   &__container {
+    @media (min-width: 2560px) {
+      padding-left: 104px;
+    }
   }
 
   // .amenities-about__title
@@ -164,6 +187,9 @@
   // .amenities-about__text
 
   &__text {
+    @media (min-width: 2560px) {
+      max-width: 1120px;
+    }
   }
 
   // .amenities-about__items
@@ -177,7 +203,9 @@
 
 .item-amenities-about {
   // .item-amenities-about__wrapper
-
+  @media (min-width: 2560px) {
+    max-width: 352px;
+  }
   &__wrapper {
     @media (max-width: 768px) {
       display: flex;
@@ -240,6 +268,9 @@
   // .location-about__container
 
   &__container {
+    @media (min-width: 2559px) {
+      padding-left: 104px;
+    }
   }
 
   // .location-about__title

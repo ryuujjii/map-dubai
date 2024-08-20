@@ -1,14 +1,14 @@
 import { plugins } from "@/components/plugins";
-import { isMobileOrTablet, addClassName } from '@/components/utils';
+import { isMobileOrTablet, addClassName } from "@/components/utils";
 import { header } from "@/components/header";
 import { map } from "@/sections/map";
-import '../scss/style.scss';
+import "../scss/style.scss";
 import project from "@/projects/project";
 import closeComponent from "@/components/closeComponent";
 import onEsc from "@/components/esc/onEsc";
-import { preloader } from '@/components/preloader'
+import { preloader } from "@/components/preloader";
 import showProjects from "@/projects/components/showProjects";
-
+import replaceBlocks from "@/projects/components/replaceBlocks";
 
 window.addEventListener("onbeforeunload", function () {
   window.scrollTo(0, 0);
@@ -21,15 +21,16 @@ window.addEventListener("unload", function () {
 });
 
 window.addEventListener("DOMContentLoaded", () => {
-  isMobileOrTablet() ? addClassName(document.documentElement, 'mob-device') : null;
+  isMobileOrTablet() ? addClassName(document.documentElement, "mob-device") : null;
   plugins();
-  preloader()
+  preloader();
   header();
   map();
   project();
   closeComponent();
   onEsc();
   showProjects();
+  replaceBlocks();
 });
 
 //disable context menu

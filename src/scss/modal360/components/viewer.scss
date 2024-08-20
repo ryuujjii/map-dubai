@@ -25,8 +25,10 @@
 		}
 		transition: all 0.3s ease 0s;
 		opacity: 0;
+		visibility: hidden;
 		.viewer-ready & {
 			opacity: 1;
+			visibility: visible;
 		}
 		.fake-fullscreen-active &,
 		.fullscreen-enabled & {
@@ -46,8 +48,10 @@
 	&__btns {
 		transition: opacity 0.3s ease 0s;
 		opacity: 0;
+		visibility: hidden;
 		.viewer-ready & {
 			opacity: 1;
+			visibility: visible;
 		}
 		// width: 185px;
 		height: 50px;

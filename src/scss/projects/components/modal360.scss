@@ -5,9 +5,11 @@
 	z-index: 10002;
 
 	opacity: 0;
+	visibility: hidden;
 	pointer-events: none;
 	.open-modal360 & {
 		opacity: 1;
+		visibility: visible;
 		pointer-events: auto;
 	}
 	// .modal360__iframe

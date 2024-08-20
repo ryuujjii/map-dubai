@@ -15,6 +15,9 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    @media (min-width: 2560px) {
+      padding: 48px 108px 108px 104px;
+    }
   }
 
   // .payment__head
@@ -100,6 +103,9 @@
       @media (max-width: 768px) {
         font-size: 80px;
       }
+      @media (min-width: 2560px) {
+        font-size: 160px;
+      }
     }
 
     // .info-payment__number_percent
@@ -108,6 +114,9 @@
       font-size: 64px;
       @media (max-width: 768px) {
         font-size: 40px;
+      }
+      @media (min-width: 2560px) {
+        font-size: 80px;
       }
     }
   }
@@ -119,6 +128,9 @@
     font-size: 15px;
     font-weight: 300;
     text-transform: capitalize;
+    @media (min-width: 2560px) {
+      font-size: 20px;
+    }
   }
 
   // .info-payment__stick

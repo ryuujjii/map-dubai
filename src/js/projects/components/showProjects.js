@@ -6,6 +6,11 @@ export default function showProjects() {
   });
   window.addEventListener("wheel", (e) => {
     projectsWrapper.classList.remove("active");
-   
+  });
+  document.addEventListener("click", (e) => {
+    if (e.target.closest(".project__popupBtns-wrapper")) {
+      return;
+    }
+    projectsWrapper.classList.remove("active");
   });
 }
