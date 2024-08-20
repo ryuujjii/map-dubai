@@ -15,6 +15,7 @@
     .popup__wrapper {
       height: auto;
       max-width: 1360px;
+      padding: 30px 35px 30px ;
       @media (max-width: 768px) {
         padding: 8px 8px 32px;
         border-radius: 4px;
@@ -23,6 +24,7 @@
       }
     }
     .popup__content {
+      padding: 0;
       @media (max-width: 768px) {
         padding: 0;
       }
@@ -40,6 +42,7 @@
     display: flex;
     flex-direction: column;
     gap: 66px;
+    padding: 0;
     @media (max-width: 768px) {
       gap: 0;
     }
@@ -57,9 +60,8 @@
       order: 1;
       height: 230px;
     }
-    @media (max-width: 768px) and (max-height:720px){
+    @media (max-width: 768px) and (max-height: 720px) {
       height: 200px;
-
     }
   }
   .brochure__text-p {
@@ -81,7 +83,7 @@
       font-size: 32px;
       position: static;
     }
-    @media (max-width: 768px) and (max-height:720px){
+    @media (max-width: 768px) and (max-height: 720px) {
       margin-top: 8px;
       margin-bottom: 16px;
       font-size: 28px;
@@ -89,6 +91,13 @@
   }
   .popup-title {
     display: none;
+  }
+  .cta-about__container {
+    padding-left: 32px;
+    padding-right: 32px;
+    @media(max-width:768px){
+      padding: 0;
+    }
   }
   @media (max-width: 768px) {
     &__cta {
