@@ -19,7 +19,7 @@ function getAboutPopupFn() {
     const { projectName, projectDescription, aboutItems, projectView, amenities, location } = content;
     changeText(aboutEls.projectName, projectName);
     changeText(aboutEls.projectDescription, projectDescription);
-    changeText(aboutEls.amenitiesDescription, amenities.description);
+    changeText(aboutEls.amenitiesDescription, amenities.text);
     setAttr(aboutEls.projectView, 'src', projectView);
     getPaintedItems(aboutEls.aboutItems, aboutItems, aboutItemLayout);
     getPaintedItems(aboutEls.amenitiesItems, amenities.items, amenitiesItemLayout);
