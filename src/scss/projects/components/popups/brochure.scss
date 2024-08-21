@@ -39,6 +39,9 @@
       left: auto;
       right: 0;
     }
+    @media (max-width: 992px) and (max-height: 700px) {
+      padding: 25px 40px 50px;
+    }
   }
 }
 .brochure {
@@ -68,6 +71,9 @@
     }
     @media (max-width: 992px) {
       height: 250px;
+    }
+    @media (max-height: 700px) {
+      height: 280px;
     }
     @media (max-width: 768px) {
       order: 1;
@@ -129,6 +135,19 @@
       }
       .cta-about__inputs {
       }
+    }
+  }
+  @media (max-width: 992px) and (max-height: 700px) {
+    &__cta {
+      .cta-about__inputs {
+        gap: 30px;
+      }
+      .cta-about__form {
+        gap: 32px;
+      }
+    }
+    &__img {
+      height: 210px;
     }
   }
   @media (max-width: 768px) {
