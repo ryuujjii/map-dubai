@@ -34,6 +34,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-family: var(--font);
     background-color: var(--dark-color);
+    font-variant-numeric: lining-nums proportional-nums;
 }
 
 input,

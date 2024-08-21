@@ -2,7 +2,9 @@
   &[data-popup="about"] {
     .popup__wrapper {
       padding-bottom: 0;
-  
+      @media (max-width: 1200px) {
+        // padding-left: 30px;
+      }
       @media (min-width: 2560px) {
         padding-top: 128px;
       }
@@ -27,24 +29,29 @@
     }
   }
 }
-
 .about-about {
   margin-bottom: 64px;
+
   @media (max-width: 768px) {
     margin-bottom: 40px;
+    padding: 0;
   }
   // .about-about__info
 
   &__info {
     margin-bottom: 60px;
+    @media (max-width: 1200px) {
+      padding: 0 20px;
+    }
     @media (max-width: 768px) {
       margin-bottom: 32px;
+      padding: 0;
     }
   }
   // .about-about__container
 
   &__container {
-    @media (max-width:1200px) {
+    @media (max-width: 1200px) {
       padding-left: 0;
     }
     @media (min-width: 2560px) {
@@ -66,10 +73,10 @@
 
   &__text {
     max-width: 816px;
-    @media(max-width:1600px){
+    @media (max-width: 1600px) {
       max-width: 616px;
     }
-    @media(max-width:992px){
+    @media (max-width: 992px) {
       max-width: 100%;
     }
   }
@@ -105,6 +112,9 @@
     display: flex;
     column-gap: 24px;
     align-items: center;
+    @media (max-width: 992px) {
+      padding: 16px;
+    }
     @media (max-width: 768px) {
       margin-top: 12px;
       position: static;
@@ -144,6 +154,12 @@
     color: var(--light-color);
     font-size: 32px;
     font-weight: 500;
+    @media (max-width: 992px) {
+      font-size: 28px;
+    }
+    @media (max-width: 768px) {
+      font-size: 32px;
+    }
   }
 
   // .item-about-about__text
@@ -178,8 +194,11 @@
   // .amenities-about__container
 
   &__container {
-    @media (max-width:1200px) {
-      padding-left: 0;
+    @media (max-width: 1200px) {
+      padding: 0 20px;
+    }
+    @media (max-width: 768px) {
+      padding: 0;
     }
     @media (min-width: 2560px) {
       padding-left: 104px;
@@ -276,7 +295,7 @@
   // .location-about__container
 
   &__container {
-    @media (max-width:1200px) {
+    @media (max-width: 1200px) {
       padding-left: 0;
     }
     @media (min-width: 2559px) {
@@ -308,10 +327,10 @@
 //========================================================================================================================================================
 .cta-about {
   padding-bottom: 80px;
-  @media (min-width:2560px) {
+  @media (min-width: 2560px) {
     padding-bottom: 128px;
   }
-  @media(max-width:1440px){
+  @media (max-width: 1440px) {
     padding-bottom: 65px;
   }
   @media (max-width: 768px) {
@@ -344,7 +363,7 @@
     width: 100%;
     display: flex;
     column-gap: 33px;
-    @media(max-width:992px){
+    @media (max-width: 992px) {
       flex-direction: column;
       width: 50%;
       gap: 48px;
@@ -368,7 +387,7 @@
     column-gap: 24px;
     flex-grow: 1;
     align-self: flex-end;
-    @media(max-width:992px){
+    @media (max-width: 992px) {
       width: 100%;
       gap: 48px;
       flex-direction: column;

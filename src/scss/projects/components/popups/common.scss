@@ -15,6 +15,17 @@
   // 	opacity: 1;
   // 	pointer-events: auto;
   // }
+  &[data-popup="about"] {
+    .popup__content {
+      @media (max-width: 1200px) {
+        padding: 0 30px 20px;
+      }
+      @media (max-width: 992px) {
+        padding: 0 15px 20px;
+      }
+    }
+  }
+
   @media (max-width: 768px) {
     padding: 0;
   }
@@ -88,9 +99,13 @@
     height: 100%;
     // position: relative;
     // z-index: 2;
-    @media (max-width: 992px) {
-      padding: 0 12px 20px;
+    @media (max-width: 1200px) {
+      padding: 0 50px 20px;
     }
+    @media (max-width: 992px) {
+      padding: 0 35px 20px;
+    }
+
     @media (max-width: 768px) {
       padding: 16px;
       padding-top: 0;
