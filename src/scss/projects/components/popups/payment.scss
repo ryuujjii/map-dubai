@@ -1,10 +1,7 @@
 .popup {
   &[data-popup="payment"] {
-    .popup__wrapper {
-      @media (max-width: 768px) {
-        padding-bottom: 120px;
-      }
-    }
+  
+    
   }
 }
 
@@ -60,6 +57,7 @@
       display: flex;
       flex-direction: column;
       gap: 16px;
+      padding-bottom: 120px;
       p {
         max-width: 100%;
       }

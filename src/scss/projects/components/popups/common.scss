@@ -46,10 +46,10 @@
     background-color: rgba(22, 22, 22, 0.96);
     border-radius: 4px;
     @media (max-width: 768px) {
-		padding-top: 64px;
-    //   padding-right: 0;
+      padding-top: 64px;
+      //   padding-right: 0;
 
-	  border-radius: 0;
+      border-radius: 0;
     }
   }
 
@@ -57,7 +57,7 @@
   &__wp {
     overflow-y: auto;
     height: 100%;
-    @media(max-width:768px){
+    @media (max-width: 768px) {
       overflow-y: scroll;
     }
     &::-webkit-scrollbar {
@@ -76,7 +76,7 @@
       background: var(--gold);
     }
     @media (max-width: 768px) {
-    //   overflow-y: unset;
+      //   overflow-y: unset;
     }
   }
 
@@ -88,6 +88,9 @@
     height: 100%;
     // position: relative;
     // z-index: 2;
+    @media (max-width: 992px) {
+      padding: 0 12px 20px;
+    }
     @media (max-width: 768px) {
       padding: 16px;
       padding-top: 0;
