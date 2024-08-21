@@ -6,7 +6,14 @@
       // }
     }
     .popup__content {
+      padding: 0 12px 0 24px;
       height: auto;
+    }
+    .popup__wp {
+      overflow-y: hidden;
+      @media (max-width: 992px) {
+        overflow-y: auto;
+      }
     }
   }
 }

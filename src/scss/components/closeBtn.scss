@@ -69,7 +69,7 @@
       left: 16px;
     }
   }
-  &.pano-btn {
+  &.pano-btn,&.modal360__close-btn {
     border-radius: 2px;
     background: #16161680;
     backdrop-filter: blur(4px);

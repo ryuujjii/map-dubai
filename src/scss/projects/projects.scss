@@ -47,6 +47,10 @@
     @media (max-width: 768px) {
       --shift: 16px;
     }
+    @media (max-width: 576px) {
+      --shift: 16px;
+      width: calc(100% - var(--shift) * 3 + 4px);
+    }
   }
 
   // .project__popupBtns
@@ -71,9 +75,7 @@
       left: 0;
       transform: none;
     }
-    @media (max-width: 576px) {
-      padding: 4px 8px;
-    }
+
     @media (max-width: 992px) {
       // @media (max-width: 768px) {
       left: 50%;
@@ -111,8 +113,13 @@
         transition: all 400ms ease-in-out;
       }
     }
+    @media (max-width: 768px) {
+      width: 57%;
+      padding: 4px 8px;
+    }
     @media (max-width: 576px) {
       width: 100%;
+      padding: 4px 8px;
     }
   }
   // .project__popupBtns-inner

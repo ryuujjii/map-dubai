@@ -59,7 +59,9 @@
       font-weight: inherit;
       max-width: 291px;
     }
-
+    @media (max-width: 1200px) {
+      padding-bottom: 60px;
+    }
     @media (max-width: 992px) {
       column-gap: 32px;
     }
