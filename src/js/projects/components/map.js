@@ -1,4 +1,6 @@
 import { queryMatches, setPropertyTo } from 'utils';
+import { Draggable } from "gsap/Draggable.js";
+
 export default function map() {
 	function calculateAspectRatio(height) {
 		if (queryMatches(575.98)) {
@@ -17,4 +19,27 @@ export default function map() {
 
 	handleResize();
 	window.addEventListener('resize', handleResize);
+	drag();
+	centerImg();
+}
+
+function drag() {
+	Draggable.create(".masterplan__media", {
+		bounds: ".masterplan__wrapper",
+		type: "x",
+		inertia: true,
+	}
+	);
+}
+
+
+function centerImg(data) {
+	const percent = 0.15;
+	const containerWidth = document.querySelector('.masterplan__media').offsetWidth;
+	let res = Math.abs(containerWidth / 2 - window.innerWidth / 2 - containerWidth * percent);
+	gsap.to('.masterplan__wrapper', {
+		scrollTo: {
+			x: res 
+		}
+	});
 }
