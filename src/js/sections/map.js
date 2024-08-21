@@ -89,7 +89,7 @@ export function map() {
 
 
         // Custom Create map
-
+        // for test with pano data-modal-open="files/pano/index.html"
         fetch('files/json/markers/project.json')
             .then(response => response.json())
             .then(data => {
