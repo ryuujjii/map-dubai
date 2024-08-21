@@ -27,6 +27,11 @@
         }
       }
     }
+    .popup__about{
+      @media(max-width:1200px){
+        background: rgba(22, 22, 22, 0.8);
+      }
+    }
   }
 }
 .about-about {
