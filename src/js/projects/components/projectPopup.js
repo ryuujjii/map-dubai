@@ -10,6 +10,7 @@ export default function projectPopup() {
   let loaderActiveChecker = null;
 
   window.addEventListener("show-project", (e) => {
+    // e.detail.projectId = 'key-maven'
     if (!activeProject || activeProject !== e.detail.projectId) {
       isLoaderActive = true;
       removeClassName(document.documentElement, 'preloader-hidden');

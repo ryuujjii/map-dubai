@@ -20,7 +20,6 @@ export default function map() {
 	handleResize();
 	window.addEventListener('resize', handleResize);
 	drag();
-	centerImg();
 }
 
 function drag() {
@@ -30,16 +29,4 @@ function drag() {
 		inertia: true,
 	}
 	);
-}
-
-
-function centerImg(data) {
-	const percent = 0.15;
-	const containerWidth = document.querySelector('.masterplan__media').offsetWidth;
-	let res = Math.abs(containerWidth / 2 - window.innerWidth / 2 - containerWidth * percent);
-	gsap.to('.masterplan__wrapper', {
-		scrollTo: {
-			x: res 
-		}
-	});
 }

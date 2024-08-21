@@ -28,7 +28,7 @@ window.addEventListener("DOMContentLoaded", () => {
   map();
   project();
   closeComponent();
-  onEsc();
+  // onEsc();
   showProjects();
   replaceBlocks();
 });
