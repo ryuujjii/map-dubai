@@ -1,7 +1,5 @@
 .popup {
   &[data-popup="payment"] {
-  
-    
   }
 }
 
@@ -12,6 +10,9 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    @media (max-width: 1200px) {
+      padding: 0;
+    }
     @media (min-width: 2560px) {
       padding: 48px 108px 108px 104px;
     }
@@ -53,6 +54,9 @@
       font-weight: inherit;
       max-width: 291px;
     }
+    @media (max-width: 992px) {
+      column-gap: 32px;
+    }
     @media (max-width: 768px) {
       display: flex;
       flex-direction: column;
@@ -72,13 +76,18 @@
   align-items: center;
   column-gap: 80px;
   margin-bottom: 100px;
-  // .info-payment__item
+  @media (max-width: 992px) {
+    gap: 0;
+    justify-content: space-between;
+  }
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     row-gap: 32px;
     margin-bottom: 64px;
   }
+
+  // .info-payment__item
   &__item {
     @media (max-width: 768px) {
       display: flex;
@@ -98,9 +107,13 @@
 
     &_number {
       font-size: 128px;
-      @media (max-width: 768px) {
+      @media (max-width: 1200px) {
+        font-size: 92px;
+      }
+      @media (max-width: 992px) {
         font-size: 80px;
       }
+
       @media (min-width: 2560px) {
         font-size: 160px;
       }
@@ -126,6 +139,7 @@
     font-size: 15px;
     font-weight: 300;
     text-transform: capitalize;
+
     @media (min-width: 2560px) {
       font-size: 20px;
     }
