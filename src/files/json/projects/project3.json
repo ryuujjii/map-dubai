@@ -1,7 +1,8 @@
 {
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg",
-		"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg"
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg",
+		"centerPosotion": 0.4
 	},
 	"dots": [
 		{

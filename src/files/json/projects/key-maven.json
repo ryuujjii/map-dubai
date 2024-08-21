@@ -1,7 +1,8 @@
 {
 	"map": {
 		"shadow": "img/projects/key-mavens/map-shadow.jpg",
-		"img": "img/projects/key-mavens/map.jpg"
+		"img": "img/projects/key-mavens/map.jpg",
+		"centerPosotion": 0.15
 	},
 	"dots": [
 		{

@@ -1,7 +1,8 @@
 {
 	"map": {
 		"shadow": "",
-		"img": ""
+		"img": "",
+		"centerPosotion": 0.15
 	},
 	"dots": [
 		{
