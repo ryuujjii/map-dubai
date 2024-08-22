@@ -122,6 +122,9 @@
       &:nth-child(5) {
         order: 5;
       }
+      &.hide{
+        display: none;
+      }
     }
   }
 
