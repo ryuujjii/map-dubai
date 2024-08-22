@@ -209,14 +209,6 @@
     }
   }
 }
-.popup-active{
- .project__btns{
-  @media (max-width: 576px) {
-    --shift: 16px;
-    width: calc(100% - var(--shift) * 3 + 4px);
-  }
- } 
-}
 
 @import "./components/masterplan";
 @import "./components/dot";
