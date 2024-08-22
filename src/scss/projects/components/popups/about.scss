@@ -78,7 +78,7 @@
   &__text {
     max-width: 816px;
     @media (max-width: 1600px) {
-      max-width: 616px;
+      max-width: 660px;
     }
     @media (max-width: 992px) {
       max-width: 100%;
@@ -220,6 +220,12 @@
   &__text {
     @media (min-width: 2560px) {
       max-width: 1120px;
+    }
+    @media (max-width: 1600px) {
+      max-width: 660px;
+    }
+    @media (max-width: 992px) {
+      max-width: 100%;
     }
   }
 
