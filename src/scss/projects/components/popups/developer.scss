@@ -6,7 +6,7 @@
       // }
     }
     .popup__content {
-      padding: 0 12px 0 24px;
+      padding: 56px 12px 0 24px;
       height: auto;
     }
     .popup__wp {
@@ -77,6 +77,10 @@
       text-align: left;
       justify-content: space-between;
     }
+    @media (max-width: 419px) {
+      display: flex;
+      flex-direction: column;
+    }
     @media (min-width: 2560px) {
       max-width: 630px;
       gap: 64px;
@@ -93,10 +97,7 @@
     }
     @media (max-width: 419px) {
       &:nth-child(even) {
-        padding-left: 24px;
-      }
-      .developer__text {
-        width: min-content;
+        padding-left: 0;
       }
     }
   }
