@@ -103,6 +103,9 @@
     height: 100%;
     // position: relative;
     // z-index: 2;
+    @media (min-width: 2559px) {
+   padding-top: 104px;
+    }
     @media (max-width: 1200px) {
       padding: 0 50px 20px;
     }
