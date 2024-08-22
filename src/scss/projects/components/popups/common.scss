@@ -99,7 +99,7 @@
   // .popup__content
 
   &__content {
-    padding: 56px 12px 0 24px;
+    padding: 56px 12px 80px 24px;
     width: 100%;
     height: 100%;
     // position: relative;
@@ -168,8 +168,8 @@
   }
 }
 .popup-container {
-  padding-inline: 56px 20px;
-  padding-bottom: 20px;
+  padding-inline: 56px 60px;
+  padding-bottom: 0;
   @media (max-width: 768px) {
     padding: 0;
   }
