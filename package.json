@@ -6,7 +6,9 @@
 	"scripts": {
 		"build": "webpack --env mode=production",
 		"build:macros": "webpack --env mode=production --env macros=server",
+		"build:pano": "webpack --env mode=production showPano=true",
 		"dev": "webpack serve --env mode=development",
+		"dev:pano": "webpack serve --env mode=development showPano=true",
 		"preview": "serve ./build/ -L -n",
 		"deploy": "node ftp-deploy.js"
 	},

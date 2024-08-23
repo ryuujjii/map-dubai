@@ -29,4 +29,13 @@ function drag() {
 		inertia: true,
 	}
 	);
+
+	const hand = document.querySelector(".masterplan__draggable-hand");
+
+	hand.addEventListener("click", () => {
+		hand.classList.add("hide");
+	});
+	hand.addEventListener("touchstart", () => {
+		hand.classList.add("hide");
+	});
 }

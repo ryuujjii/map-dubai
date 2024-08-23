@@ -4,6 +4,9 @@
 	&__wrapper {
 		width: 100%;
 		overflow-x: scroll;
+		&.no-scroll {
+			overflow: hidden;
+		}
 	}
 
 	// .masterplan__draggable
@@ -73,5 +76,73 @@
 	// .masterplan__draggable-hand
 
 	&__draggable-hand {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: 10002;
+		transition: opacity 0.3s ease;
+		opacity: 0;
+		visibility: hidden;
+
+		align-items: center;
+		justify-content: center;
+		display: none;
+
+		.open-project & {
+			opacity: 1;
+			visibility: visible;
+		}
+
+		&.hide {
+			opacity: 0;
+			visibility: hidden;
+		}
+
+		img {
+			animation: handShake 5s linear forwards infinite;
+		}
+
+		@media (max-width: 1366px) {
+			display: flex;
+		}
+
+		&::before {
+			content: '';
+			position: fixed;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			background: -webkit-gradient(
+				linear,
+				left bottom,
+				left top,
+				from(#000),
+				to(rgba(0, 0, 0, 0))
+			);
+			background: linear-gradient(0deg, #000 0, rgba(0, 0, 0, 0) 100%);
+			opacity: 0.7;
+		}
+
+		@keyframes handShake {
+			0% {
+				transform: translateX(0%);
+			}
+
+			25% {
+				transform: translateX(-35%);
+			}
+			50% {
+				transform: translateX(0%);
+			}
+			75% {
+				transform: translateX(35%);
+			}
+			100% {
+				transform: translateX(0%);
+			}
+		}
 	}
 }
