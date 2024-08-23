@@ -1,6 +1,11 @@
 .popup {
   &[data-popup="payment"] {
   }
+  .popup__content{
+    @media(max-height:750px){
+      padding-top: 40px;
+    }
+  }
 }
 
 .payment {
@@ -19,8 +24,11 @@
 
   &__head {
     margin-bottom: 128px;
-    @media (max-height: 790px) {
-      margin-bottom: 50px;
+    @media (max-height: 750px) {
+      margin-bottom: 72px;
+    }
+    @media (max-height: 690px) {
+      margin-bottom: 48px;
     }
     @media (max-width: 768px) {
       margin-bottom: 32px;
@@ -79,9 +87,12 @@
   justify-content: center;
   align-items: center;
   column-gap: 80px;
-  margin-bottom: 100px;
-  @media (max-height:790px) {
+  margin-bottom: 96px;
+  @media (max-height: 750px) {
     margin-bottom: 50px;
+  }
+  @media (max-height: 690px) {
+    margin-bottom: 43px;
   }
   @media (max-width: 992px) {
     gap: 0;

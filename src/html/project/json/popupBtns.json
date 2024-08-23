@@ -6,12 +6,6 @@
 		"dataPopupId": "about"
 	},
 	{
-		"img": "img/projects/icons/popupBtns/amenities.svg",
-		"text": "Amenities",
-		"classNames": "hide",
-		"dataPopupId": "amenities"
-	},
-	{
 		"img": "img/projects/icons/popupBtns/payment.svg",
 		"text": "Payment plan",
 		"classNames": "",

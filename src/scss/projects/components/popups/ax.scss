@@ -3,6 +3,11 @@
     .popup__wp {
       overflow-x: hidden;
     }
+    .popup__content{
+      @media(max-height:750px){
+        padding-top: 40px;
+      }
+    }
   }
 }
 
@@ -14,9 +19,6 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-    @media (min-width: 2560px) {
-      // padding: 0 108px 108px 104px;
-    }
     @media (max-width: 1200px) {
       padding: 0;
     }
@@ -34,6 +36,9 @@
 }
 .info-ax {
   margin-bottom: 64px;
+  @media(max-height:750px){
+    margin-bottom: 32px;
+  }
   @media (max-width: 768px) {
     margin-bottom: 32px;
   }
