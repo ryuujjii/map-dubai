@@ -98,7 +98,7 @@
         }
         .project__popupBtns-open {
           span {
-            transform: rotateX(180deg);
+            transform: rotateX(180deg) translateX(55px);
           }
         }
         .project__popupBtns-group {
@@ -200,10 +200,10 @@
     justify-content: center;
     cursor: pointer;
     font-size: 15px;
-    transform: translateX(8px);
     span {
-      margin-left: 8px;
-      transition: all 400ms ease-in-out;
+     position: absolute;
+     transform: translateX(55px);
+    transition: all 400ms ease-in-out;
     }
     @media (max-width: 992px) {
       // @media (max-width: 768px) {
