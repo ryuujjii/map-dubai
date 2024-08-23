@@ -46,7 +46,7 @@ class ViewPopup {
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
         addClassName(projectCloseBtn, "hidden");
-        projectsBtnMobile.classList.remove('active')
+        projectsBtnMobile.classList.remove('activee')
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
         setTimeout(() => {
