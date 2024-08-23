@@ -1,13 +1,12 @@
 export default function postCssLoader(isDev) {
-  const plugins = [];
+  const plugins = [[
+    "postcss-sort-media-queries",
+    {
+      sort: "desktop-first"
+    }
+  ]];
   if (!isDev) {
     plugins.push(
-      [
-        "postcss-sort-media-queries",
-        {
-          sort: "desktop-first"
-        }
-      ],
       [
         "postcss-preset-env",
         {
