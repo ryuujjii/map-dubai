@@ -14,7 +14,7 @@ export default function pano() {
       collectEscEls('close-pano');
     });
   });
-  testBtns();
+  !__SHOWPANO__ ? testBtns() : null;
   window.addEventListener('close-pano', (e) => {
     removeClassName(document.body, 'open-pano');
     removeLastEscEl('close-pano');
