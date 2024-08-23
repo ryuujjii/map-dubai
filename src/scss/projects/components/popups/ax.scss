@@ -35,7 +35,10 @@
   }
 }
 .info-ax {
-  margin-bottom: 64px;
+  margin-bottom: 80px;
+  @media(min-height:2560px){
+    margin-bottom: 128px;
+  }
   @media(max-height:750px){
     margin-bottom: 32px;
   }
