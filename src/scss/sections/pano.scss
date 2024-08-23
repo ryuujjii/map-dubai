@@ -24,9 +24,14 @@
 		}
 	}
 
-	// .pano__btn
+	// .pano__close-btn
 
-	&__btn {
-		
+	&__close-btn {
+		.hide-close-pano & {
+			@media (max-width: 479px) {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
 	}
 }
