@@ -253,13 +253,16 @@
   }
 }
 
-// .mob-device{
-//   .popup__wp{
-//     &::-webkit-scrollbar {
-//       display: none;
-//     }
-//   }
-// }
+.mob-device{
+  .popup__wp{
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .popup__wrapper{
+    padding-right: 0px;
+  }
+}
 @import "./components/masterplan";
 @import "./components/dot";
 @import "./components/partner";

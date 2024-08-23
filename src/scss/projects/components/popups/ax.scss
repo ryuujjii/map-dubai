@@ -36,7 +36,7 @@
 }
 .info-ax {
   margin-bottom: 80px;
-  @media(min-height:2560px){
+  @media(min-width:2560px){
     margin-bottom: 128px;
   }
   @media(max-height:750px){
