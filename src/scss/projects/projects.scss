@@ -199,6 +199,7 @@
     width: 100%;
     justify-content: center;
     cursor: pointer;
+    font-size: 15px;
     span {
       margin-left: 8px;
       transition: all 400ms ease-in-out;
@@ -252,6 +253,13 @@
   }
 }
 
+// .mob-device{
+//   .popup__wp{
+//     &::-webkit-scrollbar {
+//       display: none;
+//     }
+//   }
+// }
 @import "./components/masterplan";
 @import "./components/dot";
 @import "./components/partner";
