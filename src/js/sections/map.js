@@ -100,7 +100,7 @@ export function map() {
                             className: 'map__marker-item',
                             html: `
                                 <button class="map__marker" data-test="${proj.dataName}" 
-                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/index.html"':''}
+                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"':''}
                                 >
                                     <div class="map__marker-icon">
                                         <img src="${proj.img}" alt="">
