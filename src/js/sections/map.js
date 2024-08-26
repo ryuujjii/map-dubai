@@ -93,17 +93,15 @@ export function map() {
         fetch('files/json/markers/project.json')
             .then(response => response.json())
             .then(data => {
-
                 data.forEach(proj => {
                     // if (proj.visibility === true) {
                         const icon = L.divIcon({
                             className: 'map__marker-item',
                             html: `
                                 <button class="map__marker" data-test="${proj.dataName}" 
-                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"':''}
-                                >
+                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"':''}>
                                     <div class="map__marker-icon">
-                                        <img src="${proj.img}" alt="">
+                                        <img src="${proj.icon}" alt="">
                                     </div>
                                     <div class="map__marker-content">
                                         <p class="map__marker-name">${proj.name}</p>
@@ -185,15 +183,11 @@ export function map() {
                 const x = event.clientX - rect.left;
                 const y = event.clientY - rect.top;
 
-                const radius = window.innerHeight / 3;
+                const radius = window.innerHeight / 4;
 
                 maskCircle.setAttribute('r', radius);
                 maskCircle.setAttribute('cx', x);
                 maskCircle.setAttribute('cy', y);
-                // console.log('radius: ' + radius);
-                // console.log('clientX: ' + event.clientX);
-                // console.log('rect Left: ' + rect.left);
-                // console.log(x);
 
             });
         }
