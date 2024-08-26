@@ -213,6 +213,7 @@
 	}
 	.swiper-button-prev,
 	.swiper-button-next {
+		padding: 5px;
 		position: absolute;
 		top: 50%;
 		transform: translateY(-50%);
@@ -270,10 +271,13 @@
 		display: none;
 		cursor: pointer;
 		@media (max-width: 479.98px) {
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			// display: flex;
+			display: block;
 			svg {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
 				transition: opacity 0.3s ease 0s;
 				opacity: 0;
 				width: 25px;
