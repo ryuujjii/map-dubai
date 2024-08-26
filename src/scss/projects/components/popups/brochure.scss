@@ -99,6 +99,9 @@
     @media (max-width: 768px) {
       order: 1;
       height: 230px;
+      img{
+        object-position: 35%;
+      }
     }
     @media (max-height: 720px) and (max-width:768px) {
       height: 180px;

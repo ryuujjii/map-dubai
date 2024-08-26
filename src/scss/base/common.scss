@@ -63,7 +63,9 @@ select:-webkit-autofill:focus {
 	-webkit-background-clip: text !important;
 	background-clip: text !important;
 }
-
+input::-webkit-contacts-auto-fill-button {
+	background-color: #fff!important;
+  }
 input,
 textarea,
 select {
