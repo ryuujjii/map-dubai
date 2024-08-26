@@ -90,7 +90,6 @@ export function directionDots(data, map) {
   function updatePinsOnMapMove() {
     const points = document.querySelectorAll(".leaflet-marker-icon");
     const placedPins = [];
-
     points.forEach((point, index) => {
       const pinElement = document.querySelector(`#pin-${index}`);
 
@@ -148,5 +147,8 @@ export function directionDots(data, map) {
     updatePinsOnMapMove();
   });
   updatePinsOnMapMove();
+
+  // const allPins = document.querySelectorAll('.')
+
 }
 

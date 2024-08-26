@@ -241,6 +241,7 @@
     height: 32px;
     z-index: 400;
     transition: transform 0.3s linear;
+    cursor: pointer;
 
     @include _767-max {
         width: 24px;

@@ -98,8 +98,8 @@ export function map() {
                     const icon = L.divIcon({
                         className: 'map__marker-item',
                         html: `
-                                <button class="map__marker" data-test="${proj.dataName}" 
-                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"' : ''}>
+                                <button class="map__marker" data-test="key-mavens"
+                                ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
                                     <div class="map__marker-icon">
                                         <img src="${proj.icon}" alt="">
                                     </div>
