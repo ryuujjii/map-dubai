@@ -228,11 +228,25 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%) rotate(90deg);
+      transform: translate(-50%, -50%);
       background-color: #fff;
       border-radius: 50%;
       width: 100%;
       height: 100%;
+    }
+
+    &__icon {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding: 1px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
     }
   
     &__arrow {

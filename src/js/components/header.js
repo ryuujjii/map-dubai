@@ -39,8 +39,8 @@ export function header() {
             autoAlpha: 1,
             scale: 1,
             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-            duration: 0.3,
-            stagger: 0.165,
+            duration: 0.15,
+            stagger: 0.07,
             delay: LAPTOP_MIN ? 0.1 : 0.2
         }, 0.1)
     }
