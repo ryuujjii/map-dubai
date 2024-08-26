@@ -10,7 +10,7 @@ export function directionDots(data, map) {
     
           <div class="pin__wrapper">
             <div class="pin__icon" style="transform: rotate(${Math.sign(rotation) === 1 ? (rotation * -1) : Math.abs(rotation)}deg);">
-              <img src='${data[index].img}' />
+              <img src='${data[index].icon}' />
             </div>
             <svg class="pin__arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6.74121 11.6367L10.1138 5.93869C11.2726 3.98084 11.2271 1.60471 11.2271 1.60471C11.2271 1.60471 11.2236 1.41949 11.2238 1.33971C11.1517 1.30556 10.986 1.22268 10.986 1.22268C10.986 1.22268 8.86049 0.159497 6.59456 0.363422L-0.000101399 0.956912C1.91686 1.93246 3.60397 3.42123 4.83543 5.37215C6.0669 7.32308 6.68514 9.48653 6.74121 11.6367Z" fill="white"/>
