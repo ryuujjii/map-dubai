@@ -6,18 +6,20 @@ import aboutPopup from '@/projects/components/content/popups/about/aboutPopup';
 import paymentPopup from '@/projects/components/content/popups/payment/paymentPopup';
 import developerPopup from '@/projects/components/content/popups/developer/developerPopup';
 import scrollPopupToTop from '@/projects/components/content/scrollPopupToTop';
+import brochurePopup from '@/projects/components/content/popups/brochure';
 import { getDataToModal360 } from '@/projects/components/content/getDataToModal360';
 
 export default async function projectContent(projectName) {
   try {
     const { map, dots, partner, popup, modal360 } = await getData(projectName);
-    const { about, payment, developer } = popup;
+    const { about, payment, developer, brochure } = popup;
     setMap(map);
     paintDots(dots);
     setPartnerLogo(partner);
     aboutPopup(about);
     paymentPopup(payment);
     developerPopup(developer);
+    brochurePopup(brochure)
     scrollPopupToTop();
     getDataToModal360(modal360);
   } catch (error) {
