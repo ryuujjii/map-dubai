@@ -95,11 +95,11 @@ export function map() {
             .then(data => {
                 data.forEach(proj => {
                     // if (proj.visibility === true) {
-                        const icon = L.divIcon({
-                            className: 'map__marker-item',
-                            html: `
+                    const icon = L.divIcon({
+                        className: 'map__marker-item',
+                        html: `
                                 <button class="map__marker" data-test="${proj.dataName}" 
-                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"':''}>
+                                ${__SHOWPANO__ ? 'data-modal-open="files/pano/"' : ''}>
                                     <div class="map__marker-icon">
                                         <img src="${proj.icon}" alt="">
                                     </div>
@@ -110,8 +110,8 @@ export function map() {
                                 </button>
                             `,
 
-                        });
-                        L.marker(proj.coordinates, { icon: icon }).addTo(map);
+                    });
+                    L.marker(proj.coordinates, { icon: icon }).addTo(map);
                     // } else { }
 
                 });
@@ -170,6 +170,7 @@ export function map() {
                 lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
                 lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
             });
+
         }
 
         function svgMaskEffect() {
@@ -199,7 +200,6 @@ export function map() {
             if (/chrome|crios|crmo/i.test(userAgent) && !/edge|edg/i.test(userAgent)) {
                 browserName = 'Chrome';
                 svgMaskEffect();
-                // maskImageEffect()
             } else if (/safari/i.test(userAgent) && !/chrome|crios|crmo|edg|edge/i.test(userAgent)) {
                 browserName = 'Safari';
                 maskImageEffect();
@@ -223,16 +223,15 @@ export function map() {
 
         // Circle LIGHT EFFECT for Mobile and Desktop devices
         if (isMobileOrTablet()) {
-            // console.log('touchable device');
             document.body.classList.add('maskImageEffect');
             const lightMap = document.querySelector('.light-map');
             const lightMapImg = document.querySelector('.light-map img');
 
             map.on('load viewreset move', (event) => {
                 const rect = lightMap.getBoundingClientRect();
-    
+
                 let x, y;
-            
+
                 if (event.touches) {
                     // Handle touch events
                     let touch = event.touches[0];
@@ -243,19 +242,20 @@ export function map() {
                     x = window.innerWidth / 2 - rect.left;
                     y = window.innerHeight / 2 - rect.top;
                 }
-            
+
                 const circleHeight = window.innerHeight / 1.5;
                 const circleHeightHalf = circleHeight / 2;
-            
+
                 lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`;
                 lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
                 lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf}px`;
             });
 
         } else {
-            console.log('mouse device');
             getBrowser();
-            console.log('Browser:', getBrowser());
+            // svgMaskEffect();
+            // clipPathEffect()
+            // console.log('Browser:', getBrowser());
         }
     })
 
