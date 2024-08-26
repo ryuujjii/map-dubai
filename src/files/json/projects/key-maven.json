@@ -185,6 +185,9 @@
 				"projectlogo": "img/projects/key-mavens/developer/icon.svg",
 				"img": "img/projects/key-mavens/developer/bg.jpg"
 			}
+		},
+		"brochure": {
+			"brochureImg": "img/projects/brochure.jpg"
 		}
 	},
 	"modal360": {

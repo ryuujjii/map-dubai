@@ -152,6 +152,9 @@
 				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/img/icons/logo-loader.svg",
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg"
 			}
+		},
+		"brochure": {
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-a.jpg"
 		}
 	},
 	"modal360": {

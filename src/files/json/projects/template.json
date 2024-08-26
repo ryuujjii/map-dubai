@@ -83,6 +83,9 @@
 				"projectlogo": "",
 				"img": ""
 			}
+		},
+		"brochure": {
+			"brochureImg": "img/projects/brochure.jpg"
 		}
 	},
 	"modal360": {
