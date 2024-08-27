@@ -263,24 +263,20 @@
 			"slides": {
 				"interiors": {
 					"img360": [
-						[
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/bedroom_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/living_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/stair_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/wardrobe_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/wc_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/bath_VR360.jpg"
-						]
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/bedroom_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/living_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/stair_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/wardrobe_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/wc_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/bath_VR360.jpg"
 					],
 					"img360Preview": [
-						[
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/bedroom_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/living_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/stair_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/wardrobe_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/wc_VR360.jpg",
-							"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/bath_VR360.jpg"
-						]
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/bedroom_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/living_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/stair_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/wardrobe_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/wc_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/360/preview/bath_VR360.jpg"
 					]
 				},
 				"exteriors": {
