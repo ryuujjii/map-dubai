@@ -3,12 +3,12 @@ import { addClassName, removeClassName } from 'utils';
 
 
 function getSetMapFn() {
-  const map = document.querySelector('[data-project="map"]');
+  // const map = document.querySelector('[data-project="map"]');
   const mapShadow = document.querySelector('[data-project="map-shadow"]');
   const centerImg = getCenterImg();
-  imgLoader(map, mapShadow);
+  // imgLoader(map, mapShadow);
   return function ({ shadow, img, centerPosotion }) {
-    map.setAttribute('src', img);
+    // map.setAttribute('src', img);
     mapShadow.setAttribute('src', shadow);
     centerImg(centerPosotion);
   };

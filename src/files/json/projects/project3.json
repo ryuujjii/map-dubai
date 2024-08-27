@@ -4,8 +4,8 @@
 		"img": "https://d3b6muno9lbfvx.cloudfront.net/beachfront-vr/files/video/desc/posters1/side-b.jpg",
 		"centerPosotion": 0.4
 	},
-	"dots": [
-		{
+	"dots": {
+		"some-park-1": {
 			"sizes": {
 				"width": 155,
 				"height": 48
@@ -23,7 +23,7 @@
 				"classNames": "right"
 			}
 		},
-		{
+		"some-park-2": {
 			"sizes": {
 				"width": 155,
 				"height": 48
@@ -41,7 +41,7 @@
 				"classNames": "right"
 			}
 		}
-	],
+	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/urban-life/img/developer/developer.png"
 	},
