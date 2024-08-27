@@ -7,9 +7,9 @@ function getPaintDotsFn() {
 
   return function paintDots(content) {
     dotsParent.innerHTML = '';
-    content.forEach(item => {
-      dotsParent.innerHTML += dotsLayout(item);
-    });
+    for (const dot in content) {
+      dotsParent.innerHTML += dotsLayout(content[dot]);
+    }
     dispatchCustomEvent({ el: window, event: "dots-painted" });
   };
 };

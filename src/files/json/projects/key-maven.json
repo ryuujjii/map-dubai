@@ -4,8 +4,8 @@
 		"img": "img/projects/key-mavens/map.jpg",
 		"centerPosotion": 0.15
 	},
-	"dots": [
-		{
+	"dots": {
+		"1-bedroom-l-A": {
 			"sizes": {
 				"width": 155,
 				"height": 55
@@ -23,7 +23,7 @@
 				"classNames": "right"
 			}
 		},
-		{
+		"1-bedroom-l-B": {
 			"sizes": {
 				"width": 155,
 				"height": 55
@@ -41,7 +41,7 @@
 				"classNames": "right"
 			}
 		},
-		{
+		"3-bedroom-D": {
 			"sizes": {
 				"width": 155,
 				"height": 55
@@ -59,7 +59,7 @@
 				"classNames": "left"
 			}
 		},
-		{
+		"2-bedroom-D": {
 			"sizes": {
 				"width": 155,
 				"height": 55
@@ -77,7 +77,7 @@
 				"classNames": "left"
 			}
 		}
-	],
+	},
 	"partner": {
 		"logo": "img/projects/key-mavens/project-icon.svg"
 	},
