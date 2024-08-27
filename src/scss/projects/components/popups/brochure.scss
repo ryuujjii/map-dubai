@@ -91,7 +91,7 @@
         height: max-content;
         background: rgba(22, 22, 22, 0.96);
         backdrop-filter: blur(4px);
-        padding: 8px;
+        padding: 8px 8px 32px;
         overflow-y: auto;
       }
       @media (max-width: 768px) and (max-height: 590px) {
