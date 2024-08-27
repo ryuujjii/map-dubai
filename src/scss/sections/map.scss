@@ -1,6 +1,6 @@
 .map {
     background-color: #191919;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
     position: fixed;
     top: 0;
@@ -87,7 +87,19 @@
 
     .mob-device & {
         grid-template-columns: max-content 1fr;
+        
+        // map__marker-trigger
+        &-trigger {
+            transform: scale(0.7);
+            transition: transform 0.3s linear;
+            will-change: transform;
+    
+            &._zoom {
+                transform: scale(1);
+            }
+        }
     }
+
 
     // map__marker-item
     &-item {
@@ -123,13 +135,16 @@
         position: relative;
         z-index: 2;
 
-        .map__marker:hover & {
-            padding-left: 8px;
-            padding-right: 6px;
-        }
         .mob-device & {
             padding-left: 8px;
             padding-right: 6px;
+        }
+
+        @media (hover: hover) {
+            .map__marker:hover & {
+                padding-left: 8px;
+                padding-right: 6px;
+            }
         }
     }
 

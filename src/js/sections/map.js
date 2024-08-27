@@ -4,12 +4,8 @@ import pano from '@/sections/pano';
 import { directionDots } from '@/sections/directionDots';
 
 export function map() {
-
     let darkMap = 'img/map/dark.jpg'
     let lightMap = 'img/map/light.png'
-    // let darkMap = 'img/map/map-dark.jpg'
-    // let lightMap = 'img/map/map-light.jpg'
-
 
     window.addEventListener('media-loaded', () => {
         // const bounds = [[0, 0], [2304, 4072]];
@@ -79,6 +75,7 @@ export function map() {
         map.on('zoom viewreset move', () => {
             updateOverlay(darkMapWrapper);
             updateOverlay(lightMapWrapper);
+            zoomPinInViewport()
         });
 
         const centerCoordinates = [-window.innerHeight / 2, 940];
@@ -88,17 +85,67 @@ export function map() {
         updateOverlay(lightMapWrapper);
 
 
+        // Opening Markers in center viewport MB
+        function zoomPinInViewport() {
+            if (isMobileOrTablet()) {
+                function addZoomClassToMarker(marker) {
+                    marker.parentElement.classList.add('_zoom');
+                }
+
+                function removeZoomClassFromMarker(marker) {
+                    marker.parentElement.classList.remove('_zoom');
+                }
+
+                function isMarkerInCenterViewport(entry) {
+                    const centralViewportWidth = window.innerWidth * 0.8;
+                    const centralViewportHeight = window.innerWidth * 0.8;
+                    const centralViewportLeft = (window.innerWidth - centralViewportWidth) / 2;
+                    const centralViewportTop = (window.innerHeight - centralViewportHeight) / 2;
+
+                    const markerRect = entry.boundingClientRect;
+                    const markerCenterX = markerRect.left + markerRect.width / 2;
+                    const markerCenterY = markerRect.top + markerRect.height / 2;
+
+                    return (
+                        markerCenterX >= centralViewportLeft &&
+                        markerCenterX <= centralViewportLeft + centralViewportWidth &&
+                        markerCenterY >= centralViewportTop &&
+                        markerCenterY <= centralViewportTop + centralViewportHeight
+                    );
+                }
+
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (isMarkerInCenterViewport(entry)) {
+                            addZoomClassToMarker(entry.target);
+                        } else {
+                            removeZoomClassFromMarker(entry.target);
+                        }
+                    });
+                }, {
+                    threshold: 0.5
+                });
+
+                const markers = document.querySelectorAll('.map__marker');
+
+                // Наблюдаем за каждым маркером
+                markers.forEach(marker => {
+                    observer.observe(marker);
+                });
+            }
+        }
+
         // Custom Create map
         // for test with pano data-modal-open="files/pano/index.html"
         fetch('files/json/markers/project.json')
             .then(response => response.json())
             .then(data => {
                 data.forEach(proj => {
-                    // if (proj.visibility === true) {
                     const icon = L.divIcon({
                         className: 'map__marker-item',
                         html: `
-                                <button class="map__marker" data-test="key-mavens"
+                            <div class="map__marker-trigger">
+                                <button class="map__marker" data-test="${proj.modal}"
                                 ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
                                     <div class="map__marker-icon">
                                         <img src="${proj.icon}" alt="">
@@ -108,20 +155,18 @@ export function map() {
                                         <p class="map__marker-text">Click to experience</p>
                                     </div>
                                 </button>
+                            </div>
                             `,
-
                     });
                     L.marker(proj.coordinates, { icon: icon }).addTo(map);
-                    // } else { }
-
                 });
                 pano();
                 directionDots(data, map)
+                zoomPinInViewport()
             });
 
 
         // Light Effect On MAP
-
         function clipPathEffect() {
 
             document.body.classList.add('clipPathEffect')
@@ -220,7 +265,6 @@ export function map() {
             return browserName;
         }
 
-
         // Circle LIGHT EFFECT for Mobile and Desktop devices
         if (isMobileOrTablet()) {
             document.body.classList.add('maskImageEffect');
@@ -253,9 +297,6 @@ export function map() {
 
         } else {
             getBrowser();
-            // svgMaskEffect();
-            // clipPathEffect()
-            // console.log('Browser:', getBrowser());
         }
     })
 

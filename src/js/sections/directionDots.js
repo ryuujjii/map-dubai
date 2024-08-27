@@ -3,14 +3,14 @@ import { queryMatches, isMobileOrTablet } from "utils";
 export function directionDots(data, map) {
   const TABLET = queryMatches(991.98, "max");
 
-
   function createPinHTML(index, position, rotation) {
+    const rotationForIcon = Math.sign(rotation) === 1 ? (rotation * -1) : Math.abs(rotation);
     return `
-        <div class="pin" id="pin-${index}" style="top: ${position.top}px; left: ${position.left}px; transform: rotate(${rotation}deg);">
+        <div class="pin" id="pin-${index}" style="top: ${position.top}px; left: ${position.left}px; transform: rotate(${rotation}deg);" data-cor='${data[index].coordinates}'>
     
           <div class="pin__wrapper">
-            <div class="pin__icon" style="transform: rotate(${Math.sign(rotation) === 1 ? (rotation * -1) : Math.abs(rotation)}deg);">
-              <img src='${data[index].icon}' />
+            <div class="pin__icon" style="transform: rotate(${rotationForIcon}deg);">
+              <img src='${data[index].icon}' /> 
             </div>
             <svg class="pin__arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6.74121 11.6367L10.1138 5.93869C11.2726 3.98084 11.2271 1.60471 11.2271 1.60471C11.2271 1.60471 11.2236 1.41949 11.2238 1.33971C11.1517 1.30556 10.986 1.22268 10.986 1.22268C10.986 1.22268 8.86049 0.159497 6.59456 0.363422L-0.000101399 0.956912C1.91686 1.93246 3.60397 3.42123 4.83543 5.37215C6.0669 7.32308 6.68514 9.48653 6.74121 11.6367Z" fill="white"/>
@@ -62,7 +62,7 @@ export function directionDots(data, map) {
       position.left = marginLeft;
       position.top = Math.min(
         Math.max(pointRect.top + pointRect.height / 2, marginTop),
-        windowHeight - marginTop
+        windowHeight - marginTop - 20
       );
     } else if (pointRect.right > windowWidth) {
       position.left = windowWidth - marginOther - 24;
@@ -71,7 +71,7 @@ export function directionDots(data, map) {
         windowHeight - marginTop
       );
     } else if (pointRect.top < marginOther) {
-      position.top = 100;
+      position.top = marginTop;
       position.left = Math.min(
         Math.max(pointRect.left + pointRect.width / 2, marginLeft),
         windowWidth - marginOther
@@ -80,7 +80,7 @@ export function directionDots(data, map) {
       position.top = windowHeight - 50;
       position.left = Math.min(
         Math.max(pointRect.left + pointRect.width / 2, marginLeft),
-        windowWidth - marginOther
+        windowWidth - marginOther - 20
       );
     }
 
@@ -103,26 +103,37 @@ export function directionDots(data, map) {
           }
         }
 
+        let coordinate = data[index].coordinates;
+
         if (!pinElement) {
-          const pinHTML = createPinHTML(index, position, rotation);
+          const pinHTML = createPinHTML(index, position, rotation, coordinate);
+
           document
             .querySelector(".map__dots")
             .insertAdjacentHTML("beforeend", pinHTML);
+
+
         } else {
           pinElement.style.top = `${position.top}px`;
           pinElement.style.left = `${position.left}px`;
           pinElement.style.transform = `rotate(${rotation}deg)`;
           let pinIcon = pinElement.querySelector('.pin__icon');
           pinIcon.style.transform = `rotate(${Math.sign(rotation) === 1 ? (rotation * -1) : Math.abs(rotation)}deg)`;
+          pinElement.setAttribute('data-cor', coordinate)
+
+
         }
 
-        placedPins.push({ position, rotation });
+        placedPins.push({ position, rotation, coordinate });
+
       } else {
         if (pinElement) {
           pinElement.remove();
         }
       }
+
     });
+
   }
 
   function arePinsOverlapping(pos1, pos2) {
@@ -143,12 +154,29 @@ export function directionDots(data, map) {
     };
   }
 
+  function clickDot() {
+    const pinDiv = document.querySelectorAll(".pin")
+    pinDiv.forEach(el => {
+      console.log();
+      el.addEventListener('click', () => {
+        const coordinate = el.getAttribute('data-cor').split(",")
+        const increments = [-10, 80];
+        const newCoordinate = coordinate.map((value, index) => (parseInt(value) + increments[index]).toString());
+
+        map.panTo(L.latLng(newCoordinate), {
+          animate: true,
+          duration: 1
+        });
+      })
+    })
+  }
+
+  updatePinsOnMapMove();
+  clickDot()
+
   map.on("move", () => {
     updatePinsOnMapMove();
+    clickDot()
   });
-  updatePinsOnMapMove();
-
-  // const allPins = document.querySelectorAll('.')
-
 }
 
