@@ -2,27 +2,35 @@ import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
 import projectContent from "@/projects/components/content/projectContent";
 import { addClassName, removeClassName } from 'utils';
+import getData from '@/projects/components/content/getData';
 
-export default function projectPopup() {
+export default async function projectPopup() {
   let activeProject = null;
   const loaderAniDuration = 1000;
   let isLoaderActive = false;
   let loaderActiveChecker = null;
-
+  let projectsInfo = await getProjectsInfo();
   window.addEventListener("show-project", (e) => {
-    if (__SHOWPANO__) {
-      e.detail.projectId = 'key-maven';
-    }
-    if (!activeProject || activeProject !== e.detail.projectId) {
-      isLoaderActive = true;
-      removeClassName(document.documentElement, 'preloader-hidden');
-      projectContent(e.detail.projectId);
-      // showProject(e.detail.projectId);
-      setTimeout(() => {
-        showProject(e.detail.projectId);
-      }, loaderAniDuration);
-    } else {
-      showProject(e.detail.projectId);
+    // if (__SHOWPANO__) {
+    // projectName = 'key-maven';
+    // }
+    switch (projectsInfo[e.detail.projectId]?.status) {
+      case "active": {
+        if (!activeProject || activeProject !== e.detail.projectId) {
+          isLoaderActive = true;
+          removeClassName(document.documentElement, 'preloader-hidden');
+          projectContent(e.detail.projectId);
+          setTimeout(() => {
+            showProject(e.detail.projectId);
+          }, loaderAniDuration);
+        } else {
+          showProject(e.detail.projectId);
+        }
+        break;
+      }
+      default:
+        console.log('do not show project');
+        break;
     }
   });
 
@@ -53,5 +61,15 @@ export default function projectPopup() {
     activeProject = projectId;
     addClassName(document.body, 'open-project');
     collectEscEls('close-project');
+  }
+
+  async function getProjectsInfo() {
+    let projectsInfo;
+    try {
+      projectsInfo = await getData('projectsInfo');
+    } catch (error) {
+      projectsInfo = {};
+    }
+    return projectsInfo;
   }
 };
