@@ -156,7 +156,7 @@
 	"popup": {
 		"about": {
 			"projectName": "Downtown terraces",
-			"projectDescription": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+			"projectDescription": "Designed to transform the city skyline, Downtown Terraces stands as a pinnacle of contemporary architectural excellence and urban sophistication. This landmark project showcases elegant, glass-fronted towers offering sweeping city vistas, with luxurious residences featuring cutting-edge amenities and smart home technology. Located in the heart of the city, it offers easy access to business districts, cultural attractions, and top dining and entertainment spots.",
 			"aboutItems": [
 				{
 					"classNames": "",
@@ -176,7 +176,7 @@
 			],
 			"projectView": "img/projects/key-mavens/about/about-bg.jpg",
 			"amenities": {
-				"text": "Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development. Set to redefine the city skyline, the Downtown Terraces is a pinnacle of modern architectural innovation and urban development.",
+				"text": "Every detail has been carefully selected to create a luxurious and comfortable atmosphere. The Downtown Terraces offer exclusive amenities that cater to the refined tastes of their residents and guests. Lavish lounges and common areas provide peaceful retreats for relaxation and socializing, featuring plush seating and panoramic city views. Residential units have been designed with great attention to detail, ensuring maximum comfort and functionality.",
 				"items": [
 					{
 						"img": "img/projects/key-mavens/about/amenities/swimming.svg",
@@ -246,13 +246,13 @@
 					"text": "during construction"
 				},
 				{
-					"number": "60",
+					"number": "40",
 					"text": "on handover"
 				}
 			],
 			"descriptions": [
 				{
-					"text": "Our installment schemas are devoid of any latent charges or unanticipated costs. "
+					"text": "Our installment schemas are devoid of any latent charges or unanticipated costs. "
 				},
 				{
 					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
@@ -262,31 +262,21 @@
 		"developer": {
 			"descriptions": [
 				{
-					"text": "With a passion for quality and a dedication to excellence, Keymavens sets itself apart in the competitive real estate market. The company's projects embody the intersection of luxury and value, offering homebuyers an unparalleled living experience characterized by superior craftsmanship."
+					"text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents."
 				},
 				{
-					"text": "Driven by a passion for excellence, Keymavens seeks to enhance the quality of life for its residents by delivering meticulously designed homes that surpass expectations. With a reputation for integrity, Keymavens continues to play a significant role in shaping Dubai's skyline."
+					"text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents."
 				}
 			],
 			"items": [
 				{
-					"number": "$10.9 bln",
-					"text": "Market cap",
+					"number": "15",
+					"text": "Years of expereance",
 					"classNames": ""
 				},
 				{
-					"number": "$7.7 bln",
-					"text": "Revenue",
-					"classNames": ""
-				},
-				{
-					"number": "$1 bln",
-					"text": "Net profit",
-					"classNames": ""
-				},
-				{
-					"number": "81 600+",
-					"text": "Delivered residential units",
+					"number": "2+",
+					"text": "Projects",
 					"classNames": ""
 				}
 			],
