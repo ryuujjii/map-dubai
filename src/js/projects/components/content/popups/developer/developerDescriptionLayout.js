@@ -1,6 +1,6 @@
 export default function developerDescriptionLayout(data) {
   return `
-          <p>
+          <p class="${data.classNames}">
 						${data.text}
 					</p>
   `;

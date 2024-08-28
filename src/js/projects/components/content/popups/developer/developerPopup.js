@@ -14,7 +14,7 @@ function getDeveloperPopup() {
   };
   const developerMediaHandleClassNames = getHandleClassNames(developerEls.developerMedia);
   const developerItemsHandleClassNames = getHandleClassNames(developerEls.developerItems);
-  const developerDescriptionsClassNames = getHandleClassNames(developerEls.developerDescriptions);
+  // const developerDescriptionsClassNames = getHandleClassNames(developerEls.developerDescriptions);
 
   return function developerPopup(content) {
     const { descriptions, items, media } = content;
@@ -24,7 +24,7 @@ function getDeveloperPopup() {
     getPaintedItems(developerEls.developerDescriptions, descriptions.content, developerDescriptionLayout);
     developerMediaHandleClassNames(media.classNames);
     developerItemsHandleClassNames(items.classNames);
-    developerDescriptionsClassNames(descriptions.classNames);
+    // developerDescriptionsClassNames(descriptions.classNames);
   };
 };
 

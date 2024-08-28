@@ -16,8 +16,8 @@ function getAboutPopupFn() {
     projectLocationDot: getProjectItem('projectLocationDot'),
   };
   const aboutItemsHandleClassNames = getHandleClassNames(aboutEls.aboutItems);
-  const amenitiesItemsHandleClassNames = getHandleClassNames(aboutEls.amenitiesItems);
-  const projectViewHandleClassNames = getHandleClassNames(aboutEls.projectView);
+  // const amenitiesItemsHandleClassNames = getHandleClassNames(aboutEls.amenitiesItems);
+  // const projectViewHandleClassNames = getHandleClassNames(aboutEls.projectView);
 
   return function aboutPopup(content) {
     const { projectName, projectDescription, aboutItems, projectView, amenities, location } = content;
@@ -29,8 +29,8 @@ function getAboutPopupFn() {
     getPaintedItems(aboutEls.amenitiesItems, amenities.items.content, amenitiesItemLayout);
     locationDot(aboutEls.projectLocationDot, location);
     aboutItemsHandleClassNames(aboutItems.classNames)
-    amenitiesItemsHandleClassNames(amenities.items.classNames)
-    projectViewHandleClassNames(projectView.classNames)
+    // amenitiesItemsHandleClassNames(amenities.items.classNames)
+    // projectViewHandleClassNames(projectView.classNames)
   };
 };
 

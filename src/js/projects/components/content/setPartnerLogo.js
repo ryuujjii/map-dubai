@@ -6,10 +6,10 @@ function getSetPartnerLogoFn() {
     partnerLogoParent: getProjectItem("partnerLogoParent"),
     partnerLogo: getProjectItem("logo"),
   };
-  const handleClassNames = getHandleClassNames(partnerEls.partnerLogoParent);
+  // const handleClassNames = getHandleClassNames(partnerEls.partnerLogoParent);
   imgLoader(partnerEls.partnerLogo);
   return function setPartnerLogo({ logo, classNames }) {
-    handleClassNames(classNames);
+    // handleClassNames(classNames);
     partnerEls.partnerLogo.setAttribute('src', logo);
   };
 };
