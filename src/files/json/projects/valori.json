@@ -162,7 +162,8 @@
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/valori/brochure.jpg"
+			"brochureImg": "img/projects/valori/brochure.jpg",
+			"classNames": []
 		}
 	},
 	"modal360": {

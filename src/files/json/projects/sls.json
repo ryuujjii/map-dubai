@@ -169,7 +169,8 @@
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/sls/brochure.jpg"
+			"brochureImg": "img/projects/sls/brochure.jpg",
+			"classNames": []
 		}
 	},
 	"modal360": {
