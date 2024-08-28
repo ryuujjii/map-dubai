@@ -1,6 +1,7 @@
 import { changeText, setAttr } from 'utils';
 import aboutItemLayout from '@/projects/components/content/popups/about/aboutItemLayout';
 import amenitiesItemLayout from '@/projects/components/content/popups/about/amenitiesItemLayout';
+import locationDot from '@/projects/components/content/popups/about/locationDot';
 
 import { getPaintedItems, getProjectItem } from '@/projects/components/content/utils';
 
@@ -12,7 +13,7 @@ function getAboutPopupFn() {
     projectView: getProjectItem('projectView'),
     amenitiesDescription: getProjectItem('amenitiesDescription'),
     amenitiesItems: getProjectItem('amenitiesItems'),
-    projectLocation: getProjectItem('projectLocation'),
+    projectLocationDot: getProjectItem('projectLocationDot'),
   };
 
   return function aboutPopup(content) {
@@ -23,7 +24,7 @@ function getAboutPopupFn() {
     setAttr(aboutEls.projectView, 'src', projectView);
     getPaintedItems(aboutEls.aboutItems, aboutItems, aboutItemLayout);
     getPaintedItems(aboutEls.amenitiesItems, amenities.items, amenitiesItemLayout);
-    setAttr(aboutEls.projectLocation, 'src', location.map);
+    locationDot(aboutEls.projectLocationDot, location);
   };
 };
 

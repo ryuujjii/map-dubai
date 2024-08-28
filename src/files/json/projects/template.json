@@ -43,7 +43,7 @@
 				"text": "",
 				"items": [
 					{
-						"icon": "",
+						"img": "",
 						"title": "",
 						"classNames": "",
 						"text": ""
@@ -51,7 +51,17 @@
 				]
 			},
 			"location": {
-				"map": ""
+				"dot": {
+					"icon": "img/projects/key-mavens/about/location/dot-icon.svg",
+					"sizes": {
+						"width": 50,
+						"height": 550
+					},
+					"position": {
+						"x": 830,
+						"y": 320
+					}
+				}
 			}
 		},
 		"payment": {
