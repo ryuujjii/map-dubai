@@ -10,7 +10,7 @@ function getLocationDotLayout({ dot }) {
       class="location-dot"
     >
       <div class="location-dot__wrapper">
-        <div class="location-dot__icon"><img src="${dot.icon}" alt=""></div>
+        <div class="location-dot__icon" style="${dot.styles}"><img src="${dot.icon}" alt=""></div>
       </div>
     </foreignObject>
   `;
