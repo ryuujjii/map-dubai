@@ -154,29 +154,10 @@ export function directionDots(data, map) {
     };
   }
 
-  function clickDot() {
-    const pinDiv = document.querySelectorAll(".pin")
-    pinDiv.forEach(el => {
-      console.log();
-      el.addEventListener('click', () => {
-        const coordinate = el.getAttribute('data-cor').split(",")
-        const increments = [-10, 80];
-        const newCoordinate = coordinate.map((value, index) => (parseInt(value) + increments[index]).toString());
-
-        map.panTo(L.latLng(newCoordinate), {
-          animate: true,
-          duration: 1
-        });
-      })
-    })
-  }
-
   updatePinsOnMapMove();
-  clickDot()
 
   map.on("move", () => {
     updatePinsOnMapMove();
-    clickDot()
   });
 }
 

@@ -72,18 +72,11 @@ export function map() {
             wrapper.style.marginTop = -bounds[1][0] + 'px';
         }
 
-        map.on('zoom viewreset move', () => {
-            updateOverlay(darkMapWrapper);
-            updateOverlay(lightMapWrapper);
-            zoomPinInViewport()
-        });
-
         const centerCoordinates = [-window.innerHeight / 2, 940];
         map.setView(centerCoordinates, 0);
 
         updateOverlay(darkMapWrapper);
         updateOverlay(lightMapWrapper);
-
 
         // Opening Markers in center viewport MB
         function zoomPinInViewport() {
@@ -135,6 +128,51 @@ export function map() {
             }
         }
 
+        // Click Dot to fly
+        // function clickDot() {
+        //     const pinDiv = document.querySelectorAll(".pin")
+        //     pinDiv.forEach(el => {
+        //         el.addEventListener('click', () => {
+        //             const coordinate = el.getAttribute('data-cor').split(",")
+        //             const increments = [-10, 80];
+        //             const newCoordinate = coordinate.map((value, index) => (parseInt(value) + increments[index]).toString());
+
+        //             map.panTo(L.latLng(newCoordinate), {
+        //                 animate: true,
+        //                 duration: 1
+        //             });
+        //         })
+        //     })
+        // }
+
+
+        // Function to handle click on pin elements
+        function handlePinClick(event) {
+            const el = event.target.closest('.pin');
+            if (!el) return;
+
+            const coordinate = el.getAttribute('data-cor').split(",");
+            const increments = [-10, 80];
+            const newCoordinate = coordinate.map((value, index) => (parseInt(value) + increments[index]).toString());
+
+            map.panTo(L.latLng(newCoordinate), {
+                animate: true,
+                duration: 1
+            });
+        }
+
+        // Function to initialize click listeners using event delegation
+        function initializePinClickListeners() {
+            const pinContainer = document.querySelector(".map__dots");
+
+            // Ensure the event listener is attached only once
+            if (!pinContainer.getAttribute('data-listener-attached')) {
+                pinContainer.addEventListener('click', handlePinClick);
+                pinContainer.setAttribute('data-listener-attached', 'true');
+            }
+        }
+
+
         // Custom Create map
         // for test with pano data-modal-open="files/pano/index.html"
         fetch('files/json/markers/project.json')
@@ -163,6 +201,7 @@ export function map() {
                 pano();
                 directionDots(data, map)
                 zoomPinInViewport()
+                initializePinClickListeners()
             });
 
 
@@ -298,6 +337,13 @@ export function map() {
         } else {
             getBrowser();
         }
+
+        map.on('zoom viewreset move', () => {
+            updateOverlay(darkMapWrapper);
+            updateOverlay(lightMapWrapper);
+            zoomPinInViewport()
+            initializePinClickListeners()
+        });
     })
 
 }
