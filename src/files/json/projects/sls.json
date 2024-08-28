@@ -142,24 +142,29 @@
 			"items": [
 				{
 					"number": "2007",
-					"text": "Foundation Date"
+					"text": "Foundation Date",
+					"classNames": ""
 				},
 				{
 					"number": "30+",
-					"text": "Years of Combined Expertise"
+					"text": "Years of Combined Expertise",
+					"classNames": ""
 				},
 				{
 					"number": "1",
-					"text": "Communities"
+					"text": "Communities",
+					"classNames": ""
 				},
 				{
 					"number": "13",
-					"text": "Companies Owned"
+					"text": "Companies Owned",
+					"classNames": ""
 				}
 			],
 			"media": {
 				"projectlogo": "img/projects/sls/developer/icon.svg",
-				"img": "img/projects/sls/developer/bg.jpg"
+				"img": "img/projects/sls/developer/bg.jpg",
+				"classNames": []
 			}
 		},
 		"brochure": {

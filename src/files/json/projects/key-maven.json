@@ -271,24 +271,29 @@
 			"items": [
 				{
 					"number": "$10.9 bln",
-					"text": "Market cap"
+					"text": "Market cap",
+					"classNames": ""
 				},
 				{
 					"number": "$7.7 bln",
-					"text": "Revenue"
+					"text": "Revenue",
+					"classNames": ""
 				},
 				{
 					"number": "$1 bln",
-					"text": "Net profit"
+					"text": "Net profit",
+					"classNames": ""
 				},
 				{
 					"number": "81 600+",
-					"text": "Delivered residential units"
+					"text": "Delivered residential units",
+					"classNames": ""
 				}
 			],
 			"media": {
 				"projectlogo": "img/projects/key-mavens/developer/icon.svg",
-				"img": "img/projects/key-mavens/developer/bg.jpg"
+				"img": "img/projects/key-mavens/developer/bg.jpg",
+				"classNames": []
 			}
 		},
 		"brochure": {

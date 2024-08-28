@@ -9,6 +9,7 @@ function getDeveloperPopup() {
     developerDescriptions: getProjectItem('developerDescriptions'),
     developerImg: getProjectItem('developerImg'),
     developerLogo: getProjectItem('developerLogo'),
+    developerMedia: getProjectItem('developerMedia'),
     developerItems: getProjectItem('developerItems'),
   };
 
@@ -16,6 +17,7 @@ function getDeveloperPopup() {
     const { descriptions, items, media } = content;
     setAttr(developerEls.developerLogo, 'src', media.projectlogo);
     setAttr(developerEls.developerImg, 'src', media.img);
+    developerEls.developerMedia.classList.add(...media.classNames)
     getPaintedItems(developerEls.developerItems, items, developerItemsLayout);
     getPaintedItems(developerEls.developerDescriptions, descriptions, developerDescriptionLayout);
   };
