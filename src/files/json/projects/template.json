@@ -53,9 +53,13 @@
 			"location": {
 				"dot": {
 					"icon": "img/projects/key-mavens/about/location/dot-icon.svg",
+					"centerPosotion": {
+						"x": 0,
+						"y": 0
+					},
 					"sizes": {
 						"width": 50,
-						"height": 550
+						"height": 55
 					},
 					"position": {
 						"x": 830,
