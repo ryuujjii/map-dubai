@@ -271,6 +271,9 @@
       width: 72%;
       height: 100%;
       object-fit: contain;
+      .developer-img-width & {
+        width: 30%;
+      }
     }
   }
 }

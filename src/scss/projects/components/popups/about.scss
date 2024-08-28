@@ -163,6 +163,10 @@
 		font-weight: 300;
 		line-height: 140%; /* 21px */
 		max-width: 80px;
+
+		.width-bigger &{
+			max-width: 100px;
+		}
 	}
 }
 

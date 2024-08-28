@@ -44,8 +44,8 @@
 				},
 				{
 					"number": "1 696",
-					"text": "Sq. Ft. Minimal Size",
-					"classNames": ""
+					"text": "Sq. Ft. <br> Minimal Size",
+					"classNames": "width-bigger"
 				}
 			],
 			"projectView": "img/projects/sls/about/about-bg.jpg",
@@ -164,7 +164,7 @@
 			"media": {
 				"projectlogo": "img/projects/sls/developer/icon.svg",
 				"img": "img/projects/sls/developer/bg.jpg",
-				"classNames": []
+				"classNames": ["developer-img-width"]
 			}
 		},
 		"brochure": {
