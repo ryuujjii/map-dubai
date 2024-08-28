@@ -91,7 +91,21 @@
 				]
 			},
 			"location": {
-				"map": ""
+				"dot": {
+					"icon": "img/projects/sls/about/location/dot-icon.svg",
+					"centerPosotion": {
+						"x": 0,
+						"y": 0
+					},
+					"sizes": {
+						"width": 50,
+						"height": 55
+					},
+					"position": {
+						"x": 830,
+						"y": 320
+					}
+				}
 			}
 		},
 		"payment": {
