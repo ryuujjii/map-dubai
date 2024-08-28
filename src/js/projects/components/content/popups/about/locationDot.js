@@ -23,7 +23,6 @@ function getCenterLocationFn() {
 
     // let x = calculateNewPos(locationScroll.offsetWidth, locationMedia.offsetWidth, dot.centerPosotion.x);
     // let y = calculateNewPos(locationScroll.offsetHeight, locationMedia.offsetHeight, dot.centerPosotion.y);
-    console.log(locationScroll.offsetHeight / 2);
     gsap.to(locationScroll, {
       scrollTo: {
         x: 0,

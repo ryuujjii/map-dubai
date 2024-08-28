@@ -272,26 +272,34 @@
 			}
 		},
 		"developer": {
-			"descriptions": [
-				{
-					"text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents."
-				},
-				{
-					"text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents."
-				}
-			],
-			"items": [
-				{
-					"number": "15",
-					"text": "Years of expereance",
-					"classNames": ""
-				},
-				{
-					"number": "2+",
-					"text": "Projects",
-					"classNames": ""
-				}
-			],
+			"descriptions": {
+				"content": [
+					{
+						"text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents.",
+						"classNames": []
+					},
+					{
+						"text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "15",
+						"text": "Years of expereance",
+						"classNames": ""
+					},
+					{
+						"number": "2+",
+						"text": "Projects",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
 			"media": {
 				"projectlogo": "img/projects/key-mavens/developer/icon.svg",
 				"img": "img/projects/key-mavens/developer/bg.jpg",

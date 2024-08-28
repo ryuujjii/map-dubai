@@ -92,18 +92,25 @@
 			}
 		},
 		"developer": {
-			"descriptions": [
-				{
-					"text": ""
-				}
-			],
-			"items": [
-				{
-					"number": "",
-					"text": "",
-					"classNames": ""
-				}
-			],
+			"descriptions": {
+				"content": [
+					{
+						"text": "",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "",
+						"text": "",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
 			"media": {
 				"projectlogo": "",
 				"img": "",

@@ -146,33 +146,40 @@
 			}
 		},
 		"developer": {
-			"descriptions": [
-				{
-					"text": "Roya Lifestyle Development places a premium on quality craftsmanship, ensuring that every detail is meticulously executed. From the foundation to the finishing touches their projects reflect a dedication to excellence."
-				}
-			],
-			"items": [
-				{
-					"number": "2007",
-					"text": "Foundation Date",
-					"classNames": ""
-				},
-				{
-					"number": "30+",
-					"text": "Years of Combined Expertise",
-					"classNames": ""
-				},
-				{
-					"number": "1",
-					"text": "Communities",
-					"classNames": ""
-				},
-				{
-					"number": "13",
-					"text": "Companies Owned",
-					"classNames": ""
-				}
-			],
+			"descriptions": {
+				"content": [
+					{
+						"text": "Roya Lifestyle Development places a premium on quality craftsmanship, ensuring that every detail is meticulously executed. From the foundation to the finishing touches their projects reflect a dedication to excellence.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "2007",
+						"text": "Foundation Date",
+						"classNames": ""
+					},
+					{
+						"number": "30+",
+						"text": "Years of Combined Expertise",
+						"classNames": ""
+					},
+					{
+						"number": "1",
+						"text": "Communities",
+						"classNames": ""
+					},
+					{
+						"number": "13",
+						"text": "Companies Owned",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
 			"media": {
 				"projectlogo": "img/projects/sls/developer/icon.svg",
 				"img": "img/projects/sls/developer/bg.jpg",
