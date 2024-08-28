@@ -158,64 +158,73 @@
 		"about": {
 			"projectName": "Downtown terraces",
 			"projectDescription": "Designed to transform the city skyline, Downtown Terraces stands as a pinnacle of contemporary architectural excellence and urban sophistication. This landmark project showcases elegant, glass-fronted towers offering sweeping city vistas, with luxurious residences featuring cutting-edge amenities and smart home technology. Located in the heart of the city, it offers easy access to business districts, cultural attractions, and top dining and entertainment spots.",
-			"aboutItems": [
-				{
-					"classNames": "",
-					"number": "101",
-					"text": "residential floors"
-				},
-				{
-					"classNames": "",
-					"number": "1, 2, and 3",
-					"text": "bedroom units"
-				},
-				{
-					"classNames": "",
-					"number": "2027 Q4",
-					"text": "handover date"
-				}
-			],
-			"projectView": "img/projects/key-mavens/about/about-bg.jpg",
+			"aboutItems": {
+				"content": [
+					{
+						"classNames": "",
+						"number": "101",
+						"text": "residential floors"
+					},
+					{
+						"classNames": "",
+						"number": "1, 2, and 3",
+						"text": "bedroom units"
+					},
+					{
+						"classNames": "",
+						"number": "2027 Q4",
+						"text": "handover date"
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "img/projects/key-mavens/about/about-bg.jpg",
+				"classNames": []
+			},
 			"amenities": {
 				"text": "Every detail has been carefully selected to create a luxurious and comfortable atmosphere. The Downtown Terraces offer exclusive amenities that cater to the refined tastes of their residents and guests. Lavish lounges and common areas provide peaceful retreats for relaxation and socializing, featuring plush seating and panoramic city views. Residential units have been designed with great attention to detail, ensuring maximum comfort and functionality.",
-				"items": [
-					{
-						"img": "img/projects/key-mavens/about/amenities/swimming.svg",
-						"title": "Swimming pool",
-						"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/key-mavens/about/amenities/landscape.svg",
-						"title": "Landscaped Area",
-						"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/key-mavens/about/amenities/fitness.svg",
-						"title": "Fitness Centre",
-						"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/key-mavens/about/amenities/playground.svg",
-						"title": "Kids’ playground",
-						"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/key-mavens/about/amenities/car.svg",
-						"title": "Covered parking",
-						"text": "Covered parking is an essential amenity that adds security and peace of mind.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/key-mavens/about/amenities/shop.svg",
-						"title": "Retail shops",
-						"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
-						"classNames": ""
-					}
-				]
+				"items": {
+					"content": [
+						{
+							"img": "img/projects/key-mavens/about/amenities/swimming.svg",
+							"title": "Swimming pool",
+							"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/key-mavens/about/amenities/landscape.svg",
+							"title": "Landscaped Area",
+							"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/key-mavens/about/amenities/fitness.svg",
+							"title": "Fitness Centre",
+							"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/key-mavens/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/key-mavens/about/amenities/car.svg",
+							"title": "Covered parking",
+							"text": "Covered parking is an essential amenity that adds security and peace of mind.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/key-mavens/about/amenities/shop.svg",
+							"title": "Retail shops",
+							"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
 			},
 			"location": {
 				"dot": {

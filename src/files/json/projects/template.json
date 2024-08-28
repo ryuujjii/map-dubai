@@ -32,24 +32,33 @@
 		"about": {
 			"projectName": "",
 			"projectDescription": "",
-			"aboutItems": [
-				{
-					"number": "",
-					"text": "",
-					"classNames": ""
-				}
-			],
-			"projectView": "",
+			"aboutItems": {
+				"content": [
+					{
+						"number": "",
+						"text": "",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "",
+				"classNames": []
+			},
 			"amenities": {
 				"text": "",
-				"items": [
-					{
-						"img": "",
-						"title": "",
-						"classNames": "",
-						"text": ""
-					}
-				]
+				"items": {
+					"classNames": [],
+					"content": [
+						{
+							"img": "",
+							"title": "",
+							"classNames": "",
+							"text": ""
+						}
+					]
+				}
 			},
 			"location": {
 				"dot": {

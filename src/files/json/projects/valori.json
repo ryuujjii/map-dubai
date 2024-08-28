@@ -32,64 +32,73 @@
 		"about": {
 			"projectName": "valori",
 			"projectDescription": "Montage by Valori is an exquisite 26-storey V-shaped residential tower that epitomizes the essence of luxury living. With its blend of refined elegance, sumptuous comfort, and cutting-edge design, it sets a new standard for upscale urban residences. This architectural masterpiece is crafted for those who seek an extraordinary living experience and a prestigious ambiance.",
-			"aboutItems": [
-				{
-					"number": "20",
-					"text": "residential floors",
-					"classNames": ""
-				},
-				{
-					"number": "1 and 20",
-					"text": "bedroom units",
-					"classNames": ""
-				},
-				{
-					"number": "2026 Q1",
-					"text": "handover date",
-					"classNames": ""
-				}
-			],
-			"projectView": "img/projects/valori/about/about-bg.jpg",
-			"amenities": {
-				"text": "Montage by Valori offers a range of exceptional amenities designed to enhance the living experience. Residents can enjoy access to the Jaddaf Waterfront Sculpture Park, a first in the area, which brings art and culture into everyday life. The development also features modern fitness facilities, serene landscaped areas, a luxurious swimming pool, and dedicated children's playgrounds, providing a blend of leisure, relaxation, and active living.",
-				"items": [
+			"aboutItems": {
+				"content": [
 					{
-						"img": "img/projects/valori/about/amenities/swimming.svg",
-						"title": "Swimming pool",
-						"text": "Picture yourself reclining on a plush lounger or enjoying a refreshing dip in the pristine pool.",
+						"number": "20",
+						"text": "residential floors",
 						"classNames": ""
 					},
 					{
-						"img": "img/projects/valori/about/amenities/landscape.svg",
-						"title": "Landscaped Area",
-						"text": "Residents can enjoy the outdoors with access to public landscapes that offer a tranquil environment.",
+						"number": "1 and 20",
+						"text": "bedroom units",
 						"classNames": ""
 					},
 					{
-						"img": "img/projects/valori/about/amenities/fitness.svg",
-						"title": "Fitness Centre",
-						"text": "Indulge in wellness at Montage's health club where state-of-the-art facilities and expert guidance await.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/valori/about/amenities/playground.svg",
-						"title": "Kids’ playground",
-						"text": "The kids’ playground is a safe and vibrant area designed for fun and exploration.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/valori/about/amenities/car.svg",
-						"title": "Covered parking",
-						"text": "Montage offers extensive car parking with a total of 251 bays, ensuring convenient parking for residents.",
-						"classNames": ""
-					},
-					{
-						"img": "img/projects/valori/about/amenities/shop.svg",
-						"title": "Retail shops",
-						"text": "Montage's on-site retail shops provide a curated selection of premium products and services.",
+						"number": "2026 Q1",
+						"text": "handover date",
 						"classNames": ""
 					}
-				]
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "img/projects/valori/about/about-bg.jpg",
+				"classNames": []
+			},
+			"amenities": {
+				"text": "Montage by Valori offers a range of exceptional amenities designed to enhance the living experience. Residents can enjoy access to the Jaddaf Waterfront Sculpture Park, a first in the area, which brings art and culture into everyday life. The development also features modern fitness facilities, serene landscaped areas, a luxurious swimming pool, and dedicated children's playgrounds, providing a blend of leisure, relaxation, and active living.",
+				"items": {
+					"content": [
+						{
+							"img": "img/projects/valori/about/amenities/swimming.svg",
+							"title": "Swimming pool",
+							"text": "Picture yourself reclining on a plush lounger or enjoying a refreshing dip in the pristine pool.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/valori/about/amenities/landscape.svg",
+							"title": "Landscaped Area",
+							"text": "Residents can enjoy the outdoors with access to public landscapes that offer a tranquil environment.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/valori/about/amenities/fitness.svg",
+							"title": "Fitness Centre",
+							"text": "Indulge in wellness at Montage's health club where state-of-the-art facilities and expert guidance await.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/valori/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "The kids’ playground is a safe and vibrant area designed for fun and exploration.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/valori/about/amenities/car.svg",
+							"title": "Covered parking",
+							"text": "Montage offers extensive car parking with a total of 251 bays, ensuring convenient parking for residents.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/valori/about/amenities/shop.svg",
+							"title": "Retail shops",
+							"text": "Montage's on-site retail shops provide a curated selection of premium products and services.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
 			},
 			"location": {
 				"dot": {
