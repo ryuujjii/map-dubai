@@ -4,8 +4,8 @@ import pano from '@/sections/pano';
 import { directionDots } from '@/sections/directionDots';
 
 export function map() {
-    let darkMap = 'img/map/dark.jpg'
-    let lightMap = 'img/map/light.png'
+    let darkMap = 'img/map/dark-map.jpg'
+    let lightMap = 'img/map/light-map.png'
 
     window.addEventListener('media-loaded', () => {
         // const bounds = [[0, 0], [2304, 4072]];
@@ -129,24 +129,6 @@ export function map() {
         }
 
         // Click Dot to fly
-        // function clickDot() {
-        //     const pinDiv = document.querySelectorAll(".pin")
-        //     pinDiv.forEach(el => {
-        //         el.addEventListener('click', () => {
-        //             const coordinate = el.getAttribute('data-cor').split(",")
-        //             const increments = [-10, 80];
-        //             const newCoordinate = coordinate.map((value, index) => (parseInt(value) + increments[index]).toString());
-
-        //             map.panTo(L.latLng(newCoordinate), {
-        //                 animate: true,
-        //                 duration: 1
-        //             });
-        //         })
-        //     })
-        // }
-
-
-        // Function to handle click on pin elements
         function handlePinClick(event) {
             const el = event.target.closest('.pin');
             if (!el) return;
@@ -161,17 +143,14 @@ export function map() {
             });
         }
 
-        // Function to initialize click listeners using event delegation
         function initializePinClickListeners() {
             const pinContainer = document.querySelector(".map__dots");
 
-            // Ensure the event listener is attached only once
             if (!pinContainer.getAttribute('data-listener-attached')) {
                 pinContainer.addEventListener('click', handlePinClick);
                 pinContainer.setAttribute('data-listener-attached', 'true');
             }
         }
-
 
         // Custom Create map
         // for test with pano data-modal-open="files/pano/index.html"
@@ -183,7 +162,7 @@ export function map() {
                         className: 'map__marker-item',
                         html: `
                             <div class="map__marker-trigger">
-                                <button class="map__marker" data-test="${proj.modal}"
+                                <button class="map__marker" data-test="${proj.dataTestName}"
                                 ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
                                     <div class="map__marker-icon">
                                         <img src="${proj.icon}" alt="">

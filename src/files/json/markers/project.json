@@ -3,15 +3,15 @@
         "name": "Valori",
         "img": "img/map/projects/valori.jpg",
         "icon": "img/map/projects/small/valori.jpg",
-        "visibility": false,
-        "dataName": "#node12",
+        "dataTestName": "valori",
+        "dataName": "#node11",
         "coordinates": [1535, 2735]
     },
     {
         "name": "Keturah Resort",
         "img": "img/map/projects/keturah-resort.jpg",
         "icon": "img/map/projects/small/keturah-resort.jpg",
-        "visibility": false,
+        "dataTestName": "k-resort",
         "dataName": "#node10",
         "coordinates": [1400, 2600]
     },
@@ -19,15 +19,15 @@
         "name": "Business Bay Tower",
         "img": "img/map/projects/business-bay-tower.jpg",
         "icon": "img/map/projects/small/business-bay-tower.jpg",
-        "visibility": false,
-        "dataName": "#node11",
+        "dataTestName": "business-bay-tower",
+        "dataName": "#node12",
         "coordinates": [1220, 2220]
     },
     {
         "name": "Boutique 23",
         "img": "img/map/projects/boutique23.jpg",
         "icon": "img/map/projects/small/boutique23.jpg",
-        "visibility": false,
+        "dataTestName": "boutique-23",
         "dataName": "#node5",
         "coordinates": [1595, 2725]
     },
@@ -35,7 +35,7 @@
         "name": "EMAAR Beachfront",
         "img": "img/map/projects/Emaar-beachfront.jpg",
         "icon": "img/map/projects/small/Emaar-beachfront.jpg",
-        "visibility": true,
+        "dataTestName": "beachfront",
         "dataName": "#node8",
         "coordinates": [380, 1010]
     },
@@ -43,7 +43,7 @@
         "name": "SLS Residence",
         "img": "img/map/projects/sls-residence.jpg",
         "icon": "img/map/projects/small/sls-residence.jpg",
-        "visibility": true,
+        "dataTestName": "sls",
         "dataName": "#node3",
         "coordinates": [450, 740]
     },
@@ -51,31 +51,31 @@
         "name": "Keturah Reserve",
         "img": "img/map/projects/keturah-reserve.jpg",
         "icon": "img/map/projects/small/keturah-reserve.jpg",
-        "visibility": false,
-        "dataName": "#node",
+        "dataTestName": "k-reserve",
+        "dataName": "#node7",
         "coordinates": [880, 2300]
     },
     {
         "name": "Urban Life",
         "img": "img/map/projects/urban-life.jpg",
         "icon": "img/map/projects/small/urban-life.jpg",
-        "visibility": false,
+        "dataTestName": "urban-life",
         "dataName": "#node9",
-        "coordinates": [1160, 2330]
+        "coordinates": [1160, 2250]
     },
     {
         "name": "Biltmore Residences",
         "img": "img/map/projects/biltmore-residences.jpg",
         "icon": "img/map/projects/small/biltmore-residences.jpg",
-        "visibility": true,
+        "dataTestName": "biltmore",
         "dataName": "#node4",
-        "coordinates": [500, 1400]
+        "coordinates": [475, 1375]
     },
     {
         "name": "Damac Bay",
         "img": "img/map/projects/damac-bay.jpg",
         "icon": "img/map/projects/small/damac-bay.jpg",
-        "visibility": false,
+        "dataTestName": "damac-bay",
         "dataName": "#node6",
         "coordinates": [310, 1040]
     }
