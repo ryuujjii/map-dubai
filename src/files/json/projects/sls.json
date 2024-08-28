@@ -111,28 +111,39 @@
 			}
 		},
 		"payment": {
-			"items": [
-				{
-					"number": "10",
-					"text": "on booking"
-				},
-				{
-					"number": "50",
-					"text": "during construction"
-				},
-				{
-					"number": "40",
-					"text": "on handover"
-				}
-			],
-			"descriptions": [
-				{
-					"text": "Our installment schemas are devoid of any latent charges or unanticipated costs."
-				},
-				{
-					"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price."
-				}
-			]
+			"items": {
+				"content": [
+					{
+						"number": "10",
+						"text": "on booking",
+						"classNames": ""
+					},
+					{
+						"number": "50",
+						"text": "during construction",
+						"classNames": ""
+					},
+					{
+						"number": "40",
+						"text": "on handover",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"descriptions": {
+				"content": [
+					{
+						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+						"classNames": ""
+					},
+					{
+						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			}
 		},
 		"developer": {
 			"descriptions": [
