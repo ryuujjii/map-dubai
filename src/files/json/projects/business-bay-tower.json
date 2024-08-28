@@ -151,7 +151,8 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/key-mavens/project-icon.svg"
+		"logo": "img/projects/key-mavens/project-icon.svg",
+		"classNames": []
 	},
 	"popup": {
 		"about": {

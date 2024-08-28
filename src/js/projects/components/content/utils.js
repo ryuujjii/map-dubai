@@ -8,3 +8,12 @@ export function getPaintedItems(parent, content, cb) {
 export function getProjectItem(dataName) {
   return document.querySelector(`[data-project="${dataName}"]`);
 };
+
+
+export function getHandleClassNames(el) {
+  const elClassNames = el.className;
+
+  return function handleClassNames(classNames) {
+    el.className = elClassNames + " " + classNames.join(' ');
+  };
+}

@@ -25,7 +25,8 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/valori/project-icon.svg"
+		"logo": "img/projects/valori/project-icon.svg",
+		"classNames": []
 	},
 	"popup": {
 		"about": {

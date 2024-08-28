@@ -25,7 +25,8 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/sls/project-icon.svg"
+		"logo": "img/projects/sls/project-icon.svg",
+		"classNames": []
 	},
 	"popup": {
 		"about": {

@@ -1,10 +1,16 @@
 import imgLoader from '@/projects/components/content/imgLoader';
+import { getProjectItem, getHandleClassNames } from '@/projects/components/content/utils';
 
 function getSetPartnerLogoFn() {
-  const partnerLogo = document.querySelector('[data-project="logo"]');
-  imgLoader(partnerLogo)
-  return function setPartnerLogo({ logo }) {
-    partnerLogo.setAttribute('src', logo);
+  const partnerEls = {
+    partnerLogoParent: getProjectItem("partnerLogoParent"),
+    partnerLogo: getProjectItem("logo"),
+  };
+  const handleClassNames = getHandleClassNames(partnerEls.partnerLogoParent);
+  imgLoader(partnerEls.partnerLogo);
+  return function setPartnerLogo({ logo, classNames }) {
+    handleClassNames(classNames);
+    partnerEls.partnerLogo.setAttribute('src', logo);
   };
 };
 
