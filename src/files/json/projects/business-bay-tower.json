@@ -1,7 +1,7 @@
 {
 	"map": {
-		"shadow": "img/projects/key-mavens/map-shadow.jpg",
-		"img": "img/projects/key-mavens/map.jpg",
+		"shadow": "img/projects/business-bay-tower/map-shadow.jpg",
+		"img": "img/projects/business-bay-tower/map.jpg",
 		"centerPosotion": 0.15
 	},
 	"dots": {
@@ -151,7 +151,7 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/key-mavens/project-icon.svg",
+		"logo": "img/projects/business-bay-tower/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -163,23 +163,23 @@
 					{
 						"classNames": "",
 						"number": "101",
-						"text": "residential floors"
+						"text": "Residential Floors"
 					},
 					{
 						"classNames": "",
 						"number": "1, 2, and 3",
-						"text": "bedroom units"
+						"text": "Bedroom Units"
 					},
 					{
 						"classNames": "",
 						"number": "2027 Q4",
-						"text": "handover date"
+						"text": "Handover Date"
 					}
 				],
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/key-mavens/about/about-bg.jpg",
+				"img": "img/projects/business-bay-tower/about/about-bg.jpg",
 				"classNames": []
 			},
 			"amenities": {
@@ -187,37 +187,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/key-mavens/about/amenities/swimming.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/swimming.svg",
 							"title": "Swimming pool",
 							"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/key-mavens/about/amenities/landscape.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/landscape.svg",
 							"title": "Landscaped Area",
 							"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/key-mavens/about/amenities/fitness.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/key-mavens/about/amenities/playground.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/key-mavens/about/amenities/car.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "Covered parking is an essential amenity that adds security and peace of mind.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/key-mavens/about/amenities/shop.svg",
+							"img": "img/projects/business-bay-tower/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
 							"classNames": ""
@@ -228,7 +228,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/key-mavens/about/location/dot-icon.svg",
+					"icon": "img/projects/business-bay-tower/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 0,
 						"y": 0
@@ -310,13 +310,13 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/key-mavens/developer/icon.svg",
-				"img": "img/projects/key-mavens/developer/bg.jpg",
+				"projectlogo": "img/projects/business-bay-tower/developer/icon.svg",
+				"img": "img/projects/business-bay-tower/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/key-mavens/brochure.jpg",
+			"brochureImg": "img/projects/business-bay-tower/brochure.jpg",
 			"classNames": []
 		}
 	},

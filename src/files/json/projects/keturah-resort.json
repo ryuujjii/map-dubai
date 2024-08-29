@@ -1,0 +1,215 @@
+{
+	"map": {
+		"shadow": "img/projects/keturah-resort/map-shadow.jpg",
+		"img": "",
+		"centerPosotion": 0
+	},
+	"dots": {
+		"1-bedroom": {
+			"sizes": {
+				"width": 155,
+				"height": 48
+			},
+			"position": {
+				"x": 495,
+				"y": 355
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "type D",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail.svg",
+				"dataModal360": "1-bedroom-D",
+				"classNames": "right"
+			}
+		}
+	},
+	"partner": {
+		"logo": "img/projects/keturah-resort/project-icon.svg",
+		"classNames": []
+	},
+	"popup": {
+		"about": {
+			"projectName": "Keturah Resort",
+			"projectDescription": "Nestled along the serene shores of Dubai Creek and adjacent to the natural sanctuary of Ras Al Khor, Keturah Resort embodies the pinnacle of ultra-high-end luxury. This prestigious development is defined by its exquisite setting and meticulous craftsmanship, offering an unparalleled blend of opulence, wellness, and elegance with every detail designed for a refined lifestyle by turquoise waters.",
+			"aboutItems": {
+				"content": [
+					{
+						"number": "7 years",
+						"text": "Payment Plan",
+						"classNames": ""
+					},
+					{
+						"number": "1-4 and 8",
+						"text": "Bedroom Units",
+						"classNames": ""
+					},
+					{
+						"number": "2026 Q4",
+						"text": "Handover Date",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "img/projects/keturah-resort/about/about-bg.jpg",
+				"classNames": []
+			},
+			"amenities": {
+				"text": "Keturah Resort, featuring The Ritz-Carlton Residences, includes 12 Creekside Waterfront Mansions and exclusive Creekside Residences, making it the world's first fully wellness-certified resort. Amenities include private infinity pools, a luxurious spa, a state-of-the-art fitness center, gourmet dining, and landscaped gardens, providing a holistic and luxurious living experience.",
+				"items": {
+					"content": [
+						{
+							"img": "img/projects/keturah-resort/about/amenities/swimming.svg",
+							"title": "Swimming pool",
+							"text": "This inviting pool provides the perfect setting for a refreshing dip or unwinding under the sun.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/keturah-resort/about/amenities/landscape.svg",
+							"title": "Landscaped Area",
+							"text": "It’s a beautiful outdoor space that combines lush greenery with elegant pathways and seating areas.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/keturah-resort/about/amenities/fitness.svg",
+							"title": "Fitness Centre",
+							"text": "Featuring the latest equipment and workout options, it has everything for a full fitness routine.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/keturah-resort/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "The kids’ playground is a colorful, secure space designed for engaging and safe play.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/keturah-resort/about/amenities/car.svg",
+							"title": "Covered parking",
+							"text": "With easy access and reliable coverage, it simplifies daily living and vehicle care.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/keturah-resort/about/amenities/shop.svg",
+							"title": "Retail shops",
+							"text": "This amenity enhances the living experience by bringing shopping closer to home.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
+			},
+			"location": {
+				"dot": {
+					"icon": "img/projects/keturah-resort/about/location/dot-icon.svg",
+					"centerPosotion": {
+						"x": 0,
+						"y": 0
+					},
+					"sizes": {
+						"width": 50,
+						"height": 55
+					},
+					"position": {
+						"x": 1020,
+						"y": 240
+					},
+					"styles": "width: 19px"
+				}
+			}
+		},
+		"payment": {
+			"items": {
+				"content": [
+					{
+						"number": "10",
+						"text": "on booking"
+					},
+					{
+						"number": "50",
+						"text": "during construction"
+					},
+					{
+						"number": "40",
+						"text": "on handover"
+					}
+				],
+				"classNames": []
+			},
+			"descriptions": {
+				"content": [
+					{
+						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+						"classNames": ""
+					},
+					{
+						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			}
+		},
+		"developer": {
+			"descriptions": {
+				"content": [
+					{
+						"text": "MAG Group Holding is a multinational conglomerate with diverse interests, including real estate, contracting, engineering, industrial trading, freight services, and hospitality. Among its flagship projects is the Emirates Financial Towers, a prominent twin-tower development in Dubai International Financial Centre.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "1978",
+						"text": "Foundation Date",
+						"classNames": ""
+					},
+					{
+						"number": "50",
+						"text": "Companies around the World",
+						"classNames": ""
+					},
+					{
+						"number": "2000",
+						"text": "Employees in the State",
+						"classNames": ""
+					},
+					{
+						"number": "24",
+						"text": "Number of Projects",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"media": {
+				"projectlogo": "img/projects/keturah-resort/developer/icon.svg",
+				"img": "img/projects/keturah-resort/developer/bg.jpg",
+				"classNames": []
+			}
+		},
+		"brochure": {
+			"brochureImg": "img/projects/keturah-resort/brochure.jpg",
+			"classNames": []
+		}
+	},
+	"modal360": {
+		"1-bedroom": {
+			"slides": {
+				"interiors": {
+					"img360": [],
+					"img360Preview": []
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": []
+		}
+	}
+}
