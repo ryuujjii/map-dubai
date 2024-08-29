@@ -11,27 +11,24 @@ export default async function projectPopup() {
   let loaderActiveChecker = null;
   let projectsInfo = await getProjectsInfo();
   window.addEventListener("show-project", (e) => {
-    const projectName = e.detail.projectId;
-    // if (__SHOWPANO__) {
-    // projectName = 'key-maven';
-    // }
+    let projectName = e.detail.projectId;
     switch (projectsInfo[projectName]?.status) {
       case "active": {
-        if (!activeProject || activeProject !== projectName) {
-          isLoaderActive = true;
-          removeClassName(document.documentElement, 'preloader-hidden');
-          projectContent(projectName);
-          setTimeout(() => {
-            showProject(projectName);
-          }, loaderAniDuration);
-        } else {
-          showProject(projectName);
-        }
         break;
       }
       default:
-        console.log('do not show project');
+        projectName = 'business-bay-tower';
         break;
+    }
+    if (!activeProject || activeProject !== projectName) {
+      isLoaderActive = true;
+      removeClassName(document.documentElement, 'preloader-hidden');
+      projectContent(projectName);
+      setTimeout(() => {
+        showProject(projectName);
+      }, loaderAniDuration);
+    } else {
+      showProject(projectName);
     }
   });
 
