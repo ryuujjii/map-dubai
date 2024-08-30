@@ -109,6 +109,13 @@
     flex-direction: column;
     gap: 66px;
     padding: 0;
+    @media (max-height: 750px) {
+      gap: 50px;
+    }
+    @media (max-height: 700px) {
+      gap: 38px;
+    }
+
     @media (max-width: 992px) {
       gap: 32px;
       padding: 0 15px;
@@ -134,7 +141,7 @@
       height: 250px;
     }
     @media (max-height: 750px) {
-      height: 280px;
+      height: 320px;
     }
 
     @media (max-width: 768px) {

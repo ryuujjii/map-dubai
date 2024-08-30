@@ -158,8 +158,8 @@
 				"dot": {
 					"icon": "img/projects/valori/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 0,
-						"y": 0
+						"x": 870,
+						"y":120
 					},
 					"sizes": {
 						"width": 50,

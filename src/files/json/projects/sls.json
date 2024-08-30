@@ -2,7 +2,7 @@
 	"map": {
 		"shadow": "img/projects/sls/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": -0.17
 	},
 	"dots": {
 		"4-bedroom": {
@@ -104,8 +104,8 @@
 				"dot": {
 					"icon": "img/projects/sls/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 0,
-						"y": 0
+						"x": 150,
+						"y": 670
 					},
 					"sizes": {
 						"width": 50,

@@ -13,16 +13,15 @@ function getLocationDotLayout({ dot }) {
         <div class="location-dot__icon" style="${dot.styles}"><img src="${dot.icon}" alt=""></div>
       </div>
     </foreignObject>
+        <foreignObject width="30" height="30" x="${dot.centerPosotion.x}" y="${dot.centerPosotion.y}">
+          <div class="shadow-dot"></div>
+        </foreignObject>
   `;
 }
 function getCenterLocationFn() {
   const locationScroll = document.querySelector('.location-about__map-scroll');
-  // const locationMedia = document.querySelector('.location-about__map-container');
   return function centerLocation({ dot }) {
     removeClassName(locationScroll, 'no-scroll');
-
-    // let x = calculateNewPos(locationScroll.offsetWidth, locationMedia.offsetWidth, dot.centerPosotion.x);
-    // let y = calculateNewPos(locationScroll.offsetHeight, locationMedia.offsetHeight, dot.centerPosotion.y);
     gsap.to(locationScroll, {
       scrollTo: {
         x: 0,
@@ -31,10 +30,8 @@ function getCenterLocationFn() {
       onComplete: () => {
         gsap.to(locationScroll, {
           scrollTo: {
-            x: '.location-dot',
-            y: '.location-dot',
-            offsetX: locationScroll.offsetWidth / 2,
-            offsetY: locationScroll.offsetHeight / 2
+            x: '.shadow-dot',
+            y: '.shadow-dot',
           },
           onComplete() {
             addClassName(locationScroll, 'no-scroll');
@@ -43,9 +40,9 @@ function getCenterLocationFn() {
       }
     });
   };
-  function calculateNewPos(parentSize, mediaSize, offset) {
-    return Math.abs(mediaSize / 2 - parentSize / 2 - mediaSize * offset);
-  }
+  // function calculateNewPos(parentSize, mediaSize, offset) {
+  //   return Math.abs(mediaSize / 2 - parentSize / 2 - mediaSize * offset);
+  // }
 }
 
 const centerLocation = getCenterLocationFn();

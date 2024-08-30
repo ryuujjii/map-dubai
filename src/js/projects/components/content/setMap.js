@@ -6,7 +6,7 @@ function getSetMapFn() {
   // const map = document.querySelector('[data-project="map"]');
   const mapShadow = document.querySelector('[data-project="map-shadow"]');
   const centerImg = getCenterImg();
-  // imgLoader(map, mapShadow);
+  imgLoader(mapShadow/* , map */);
   return function ({ shadow, img, centerPosotion }) {
     // map.setAttribute('src', img);
     mapShadow.setAttribute('src', shadow);
