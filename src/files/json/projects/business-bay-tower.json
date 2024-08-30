@@ -230,8 +230,8 @@
 				"dot": {
 					"icon": "img/projects/business-bay-tower/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 0,
-						"y": 0
+						"x": 650,
+						"y": 250
 					},
 					"sizes": {
 						"width": 50,
