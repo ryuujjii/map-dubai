@@ -2,7 +2,7 @@
 	"map": {
 		"shadow": "img/projects/sls/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": -0.17
 	},
 	"dots": {
 		"4-bedroom": {
