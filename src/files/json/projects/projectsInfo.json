@@ -8,10 +8,13 @@
 	"valori": {
 		"status": "active"
 	},
-	"keturah-resort": {
+	"k-resort": {
 		"status": "active"
 	},
-	"keturah-reserve": {
+	"k-reserve": {
+		"status": "active"
+	},
+	"beachfront": {
 		"status": "active"
 	}
 }

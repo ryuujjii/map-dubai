@@ -8,7 +8,7 @@
 		"L-Shape-l1": {
 			"sizes": {
 				"width": 155,
-				"height": 48
+				"height": 55
 			},
 			"position": {
 				"x": 150,
@@ -26,7 +26,7 @@
 		"V-Shape-V1": {
 			"sizes": {
 				"width": 155,
-				"height": 48
+				"height": 55
 			},
 			"position": {
 				"x": 700,
@@ -44,7 +44,7 @@
 		"V-Shape-V2": {
 			"sizes": {
 				"width": 155,
-				"height": 48
+				"height": 55
 			},
 			"position": {
 				"x": 960,
@@ -195,8 +195,8 @@
 				"dot": {
 					"icon": "img/projects/keturah-resort/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 0,
-						"y": 0
+						"x": 855,
+						"y": 160
 					},
 					"sizes": {
 						"width": 50,
