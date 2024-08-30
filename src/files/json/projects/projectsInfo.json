@@ -10,5 +10,8 @@
 	},
 	"keturah-resort": {
 		"status": "active"
+	},
+	"keturah-reserve": {
+		"status": "active"
 	}
 }
