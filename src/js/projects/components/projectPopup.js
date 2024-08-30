@@ -47,11 +47,11 @@ export default async function projectPopup() {
             addClassName(document.documentElement, 'preloader-hidden');
           }, 1000);
         }
-      }, 1000);
+      }, 2000);
     } else {
       setTimeout(() => {
         addClassName(document.documentElement, 'preloader-hidden');
-      }, 1000);
+      }, 2000);
     }
   });
 
