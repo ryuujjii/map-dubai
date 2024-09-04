@@ -15,7 +15,7 @@
 				"y": 315
 			},
 			"info": {
-				"title": "townhouses",
+				"title": "Townhouses",
 				"type": "",
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail.svg",
@@ -33,7 +33,7 @@
 				"y": 495
 			},
 			"info": {
-				"title": "villas",
+				"title": "Villas",
 				"type": "",
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail-reversed.svg",
@@ -51,7 +51,7 @@
 				"y": 250 
 			},
 			"info": {
-				"title": "apartments",
+				"title": "Apartments",
 				"type": "",
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail-reversed.svg",
