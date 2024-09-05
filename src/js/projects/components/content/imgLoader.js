@@ -7,11 +7,17 @@ function getImgLoader() {
 
   function loaderCallBack(e) {
     counter++;
+    dispatchCustomEvent({
+      el: window,
+      event: "media-loading",
+      detail: { progress: +(counter / media.length).toFixed(2) }
+    });
     if (counter === media.length) {
       dispatchCustomEvent({ el: window, event: "project-media-loaded" });
       counter = 0;
     }
   }
+  
   return function imgLoader(...els) {
     media.push(...els);
     els.forEach(el => {

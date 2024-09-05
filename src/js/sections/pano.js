@@ -34,11 +34,11 @@ export default function pano() {
           addClassName(document.documentElement, 'preloader-hidden');
         }, 1000);
       }
-      // dispatchCustomEvent({
-      //   el: window,
-      //   event: "media-loading",
-      //   detail: { progress: e.detail.progress.percentLoaded }
-      // });
+      dispatchCustomEvent({
+        el: window,
+        event: "media-loading",
+        detail: { progress: e.detail.progress.percentLoaded }
+      });
     });
   } else {
     testBtns();
