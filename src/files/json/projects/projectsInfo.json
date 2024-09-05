@@ -16,5 +16,8 @@
 	},
 	"beachfront": {
 		"status": "active"
+	},
+	"urban-life": {
+		"status": "active"
 	}
 }

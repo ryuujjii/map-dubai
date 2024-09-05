@@ -4,57 +4,67 @@
 			<div class="payment__subtitle popup-subtitle">payment plan</div>
 			<div class="payment__title popup-title">Best for investment</div>
 		</div>
-		<div class="payment__nav">
-			<button type="button" class="payment__nav-link active" data-tab="tab1">
-				<span>
-					Address Residences The Bay
-				</span>
-			</button>
-			<button type="button" class="payment__nav-link" data-tab="tab2">
-				<span>
-					Grand Bleu Tower by Elie Saab
-				</span>
-			</button>
-		</div>
-		<div class="payment__tab-contant">
-			<div class="payment__tab-pane active" id="tab1">
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">10</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">on booking</div>
-				</div>
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">70</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">during construction</div>
-				</div>
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">20</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">on handover</div>
-				</div>
+		<div class="payment__tabs">
+			<div class="payment__nav">
+				<button type="button" class="payment__nav-link active" data-tab="tab1">
+					<span class="link-desctop">
+						Address Residences The Bay
+					</span>
+					<span class="link-mobile">
+						Address Residences
+					</span>
+				</button>
+				<button type="button" class="payment__nav-link" data-tab="tab2">
+					<span class="link-desctop">
+						Grand Bleu Tower by Elie Saab
+					</span>
+					<span class="link-mobile">
+						Grand Bleu Tower
+					</span>
+				</button>
 			</div>
-			<div class="payment__tab-pane" id="tab2">
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">10</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">on booking</div>
+			<div class="payment__tab-contant">
+				<div class="payment__tab-pane active" id="tab1">
+					<div class="payment__info info-payment" data-project="paymentItems">
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">10</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">on booking</div>
+						</div>
+						<div class="info-payment__stick"></div>
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">70</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">during construction</div>
+						</div>
+						<div class="info-payment__stick"></div>
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">20</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">on handover</div>
+						</div>
+					</div>
 				</div>
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">50</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">during construction</div>
-				</div>
-				<div class="info-payment__item">
-					<div class="info-payment__number"><span
-							class="info-payment__number_number">40</span><span
-							class="info-payment__number_percent">%</span></div>
-					<div class="info-payment__text">on handover</div>
+				<div class="payment__tab-pane" id="tab2">
+					<div class="payment__info info-payment" data-project="paymentItems">
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">10</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">on booking</div>
+						</div>
+						<div class="info-payment__stick"></div>
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">50</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">during construction</div>
+						</div>
+						<div class="info-payment__stick"></div>
+						<div class="info-payment__item">
+							<div class="info-payment__number"><span class="info-payment__number_number">40</span><span
+									class="info-payment__number_percent">%</span></div>
+							<div class="info-payment__text">on handover</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
