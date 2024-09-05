@@ -1,4 +1,4 @@
-import { addClassName, removeClassName, insertIframe } from 'utils';
+import { addClassName, removeClassName, insertIframe, dispatchCustomEvent } from 'utils';
 import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
 import testBtns from "@/components/testBtns";
@@ -18,12 +18,27 @@ export default function pano() {
     });
   });
   if (__SHOWPANO__) {
-    window.addEventListener("pano-loaded", (e) => {
+    // window.addEventListener("pano-loaded", (e) => {
+    //   console.log("pano-loaded");
+    //   if (isPanoLoaded) return;
+    //   isPanoLoaded = true;
+    //   setTimeout(() => {
+    //     addClassName(document.documentElement, 'preloader-hidden');
+    //   }, 1000);
+    // });
+    window.addEventListener("pano-loading", (e) => {
       if (isPanoLoaded) return;
-      isPanoLoaded = true;
-      setTimeout(() => {
-        addClassName(document.documentElement, 'preloader-hidden');
-      }, 1000);
+      if (e.detail.progress.percentLoaded === 1) {
+        isPanoLoaded = true;
+        setTimeout(() => {
+          addClassName(document.documentElement, 'preloader-hidden');
+        }, 1000);
+      }
+      dispatchCustomEvent({
+        el: window,
+        event: "media-loading",
+        detail: { progress: e.detail.progress.percentLoaded }
+      });
     });
   } else {
     testBtns();
