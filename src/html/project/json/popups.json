@@ -33,12 +33,5 @@
 			"mainClass": "brochure"
 		},
 		"path": "./brochure.html"
-	},
-	{
-		"id": "payment-tabs",
-		"classNames": {
-			"mainClass": "payment payment-tabs"
-		},
-		"path": "./payment-tabs.html"
 	}
 ]
