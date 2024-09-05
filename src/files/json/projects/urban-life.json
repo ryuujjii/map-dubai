@@ -2,7 +2,7 @@
 	"map": {
 		"shadow": "img/projects/urban-life/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": -0.05
 	},
 	"dots": {
 		"1-bedroom": {
