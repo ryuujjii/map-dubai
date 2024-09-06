@@ -92,9 +92,9 @@
     {
         "isPopup": true,
         "name": "Damac Lagoons",
-        "img": "img/map/projects/damac-bay.jpg",
-        "icon": "img/map/projects/small/damac-bay.jpg",
+        "img": "img/map/projects/damac-lagoons.jpg",
+        "icon": "img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
-        "coordinates": [310, 1040]
+        "coordinates": [320, 1960]
     }
 ]

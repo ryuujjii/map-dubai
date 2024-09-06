@@ -48,12 +48,18 @@ export function header() {
 
     toggleMenuBtn.addEventListener('click', () => {
         if (isMenuOpen) {
-            tl.reverse();
+            tl.timeScale(1.7).reverse();
         } else {
-            tl.play();
+            tl.timeScale(1).play();
         }
         isMenuOpen = !isMenuOpen;
     });
 
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            tl.timeScale(1.7).reverse();
+            isMenuOpen = !isMenuOpen;
+        })
+    })
 
 }
