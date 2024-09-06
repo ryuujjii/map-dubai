@@ -9,13 +9,11 @@
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s ease 0s;
-  background: rgba(22, 22, 22, 0.4);
-  backdrop-filter: blur(16px);
   // &[data-popup='brochure'] {
   // 	opacity: 1;
   // 	pointer-events: auto;
   // }
-  &[data-popup="about"] {
+  &[data-popup='about'] {
     .popup__content {
       @media (min-width: 2559px) {
         padding: 104px 12px 128px 24px;
@@ -32,6 +30,37 @@
     }
   }
 
+  &__background {
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(22, 22, 22, 0.4);
+    backdrop-filter: blur(16px);
+    z-index: 9999;
+    opacity: 0;
+    pointer-events: none;
+    &::before {
+      content: '';
+      background: rgba(22, 22, 22, 1);
+      position: absolute;
+      left: 24px;
+      top: 24px;
+      right: 24px;
+      bottom: 100px;
+      @media (max-width: 768px) {
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    &.active {
+      opacity: 1;
+    }
+  }
   @media (max-width: 768px) {
     padding: 0;
   }
@@ -59,7 +88,7 @@
     padding-top: 24px;
     position: relative;
     z-index: 2;
-    background-color: rgba(22, 22, 22, 0.96);
+    background-color: rgba(22, 22, 22, 0.96); 
     border-radius: 4px;
     @media (max-width: 1200px) {
       background-color: rgba(22, 22, 22, 1);

@@ -123,19 +123,26 @@
 			"items": {
 				"content": [
 					{
-						"number": "10",
-						"text": "on booking",
-						"classNames": ""
-					},
-					{
-						"number": "50",
-						"text": "during construction",
-						"classNames": ""
-					},
-					{
-						"number": "40",
-						"text": "on handover",
-						"classNames": ""
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking",
+								"classNames": ""
+							},
+							{
+								"number": "50",
+								"text": "during construction",
+								"classNames": ""
+							},
+							{
+								"number": "40",
+								"text": "on handover",
+								"classNames": ""
+							}
+						]
 					}
 				],
 				"classNames": []

@@ -1,19 +1,16 @@
-import getPaymentItems from '@/projects/components/content/popups/payment/getPaymentItems';
-import desctriptionLayout from '@/projects/components/content/popups/payment/desctriptionLayout';
+import paymentTabs from '@/projects/components/content/popups/payment/paymentTabs';
+import desctriptionLayout from '@/projects/components/content/popups/payment/layouts/desctriptionLayout';
 import { getPaintedItems, getProjectItem, getHandleClassNames } from '@/projects/components/content/utils';
 
 function getPaymentPopupFn() {
   const paymentEls = {
-    paymentItems: getProjectItem('paymentItems'),
     paymentDescriptions: getProjectItem('paymentDescriptions'),
   };
-  // const itemshandleClassNames = getHandleClassNames(paymentEls.paymentItems);
   // const descriptionshandleClassNames = getHandleClassNames(paymentEls.paymentDescriptions);
 
   return function paymentPopup({ items, descriptions }) {
-    getPaymentItems(paymentEls.paymentItems, items.content);
+    paymentTabs(items)
     getPaintedItems(paymentEls.paymentDescriptions, descriptions.content, desctriptionLayout);
-    // itemshandleClassNames(items.classNames);
     // descriptionshandleClassNames(descriptions.classNames);
   };
 };

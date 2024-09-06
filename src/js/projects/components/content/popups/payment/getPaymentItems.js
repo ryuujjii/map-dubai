@@ -1,10 +1,11 @@
-import paymentItemLayout from '@/projects/components/content/popups/payment/paymentItemLayout';
-export default function getPaymentItems(parent, content) {
-  parent.innerHTML = '';
+import paymentItemLayout from '@/projects/components/content/popups/payment/layouts/paymentItemLayout';
+export default function getPaymentItems(content) {
+  let res = "";
   content.forEach((item, i) => {
-    parent.innerHTML += paymentItemLayout(item);
+    res += paymentItemLayout(item);
     if (i !== content.length - 1) {
-      parent.innerHTML += '<div class="info-payment__stick"></div>';
+      res += '<div class="info-payment__stick"></div>';
     }
   });
+  return res;
 };
