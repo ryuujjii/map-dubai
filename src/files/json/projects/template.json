@@ -83,9 +83,16 @@
 			"items": {
 				"content": [
 					{
-						"number": "",
-						"text": "",
-						"classNames": ""
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "",
+								"text": "",
+								"classNames": ""
+							}
+						]
 					}
 				],
 				"classNames": []
