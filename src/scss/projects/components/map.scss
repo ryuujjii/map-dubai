@@ -22,6 +22,9 @@
 		width: max(var(--aspect-ratio-width) * 1%, 100%);
 		padding-bottom: max(var(--aspect-ratio-height) * 1%, 56%);
 		z-index: 1000 !important;
+		@media (min-width: 1366px){
+			cursor: default !important;
+		}
 		@media (max-width: 575.98px) {
 			padding-bottom: calc(var(--aspect-ratio-height) * 1%);
 			width: max(calc(var(--aspect-ratio-width) * 3.2 * 1%), 100%);
