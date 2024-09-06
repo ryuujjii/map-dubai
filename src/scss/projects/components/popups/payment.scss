@@ -194,7 +194,10 @@
     gap: 8px;
     width: max-content;
     margin: 0 auto;
+    display: none;
+    margin-bottom: 32px;
     @media (max-width: 992px) {
+      margin-bottom: 24px;
       margin-top: 32px;
     }
   }
@@ -249,10 +252,10 @@
   //payment__tab-contant
   &__tab-contant {
     position: relative;
-    margin-top: 32px;
-    @media (max-width: 992px) {
-      margin-top: 24px;
-    }
+    // margin-top: 32px;
+    // @media (max-width: 992px) {
+    //   margin-top: 24px;
+    // }
   }
 
   //payment__tab-pane
