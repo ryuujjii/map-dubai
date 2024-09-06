@@ -1,11 +1,24 @@
 <%var data=arguments[0]%>
-    <li class="menu__link-item" data-modal-open="files/pano/${data.dataName}">
-        <div class="menu__link-item--inner">
-            <div class="menu__link-img">
-                <img data-preload=${data.img} alt="">
+    <% if (data.isPopup === true) { %>
+        <li class="menu__link-item" data-popup="${data.dataName}" style="display: none;">
+            <div class="menu__link-item--inner">
+                <div class="menu__link-img">
+                    <img data-preload=${data.img} alt="">
+                </div>
+                <span class="menu__link-name">
+                    ${data.name}
+                </span>
             </div>
-            <span class="menu__link-name">
-                ${data.name}
-            </span>
-        </div>
-    </li>
+        </li>
+    <% } else {%>
+        <li class="menu__link-item" data-modal-open="files/pano/${data.dataName}">
+            <div class="menu__link-item--inner">
+                <div class="menu__link-img">
+                    <img data-preload=${data.img} alt="">
+                </div>
+                <span class="menu__link-name">
+                    ${data.name}
+                </span>
+            </div>
+        </li>
+    <% } %>

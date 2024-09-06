@@ -4,12 +4,12 @@ import pano from '@/sections/pano';
 import { directionDots } from '@/sections/directionDots';
 
 export function map() {
-    let darkMap = 'img/map/dark-map.jpg'
-    let lightMap = 'img/map/light-map.png'
+    let darkMap = 'img/map/map-dark.jpg'
+    let lightMap = 'img/map/light.png'
 
     window.addEventListener('media-loaded', () => {
         // const bounds = [[0, 0], [2304, 4072]];
-        const bounds = [[0, 0], [2160, 3815]];
+        const bounds = [[0, 0], [2160, 3840]];
 
         const map = L.map('map', {
             crs: L.CRS.Simple,
@@ -72,7 +72,7 @@ export function map() {
             wrapper.style.marginTop = -bounds[1][0] + 'px';
         }
 
-        const centerCoordinates = [-window.innerHeight / 2, 940];
+        const centerCoordinates = [1100, 1250];
         map.setView(centerCoordinates, 0);
 
         updateOverlay(darkMapWrapper);
@@ -158,24 +158,28 @@ export function map() {
             .then(response => response.json())
             .then(data => {
                 data.forEach(proj => {
-                    const icon = L.divIcon({
-                        className: 'map__marker-item',
-                        html: `
-                            <div class="map__marker-trigger">
-                                <button class="map__marker" data-test="${proj.dataTestName}"
-                                ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
-                                    <div class="map__marker-icon">
-                                        <img src="${proj.icon}" alt="">
-                                    </div>
-                                    <div class="map__marker-content">
-                                        <p class="map__marker-name">${proj.name}</p>
-                                        <p class="map__marker-text">Click to experience</p>
-                                    </div>
-                                </button>
-                            </div>
-                            `,
-                    });
-                    L.marker(proj.coordinates, { icon: icon }).addTo(map);
+                    if (proj.isPopup === false) {
+                        const icon = L.divIcon({
+                            className: 'map__marker-item',
+                            html: `
+                                <div class="map__marker-trigger">
+                                    <button class="map__marker" data-test="${proj.dataTestName}"
+                                    ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
+                                        <div class="map__marker-icon">
+                                            <img src="${proj.icon}" alt="">
+                                        </div>
+                                        <div class="map__marker-content">
+                                            <p class="map__marker-name">${proj.name}</p>
+                                            <p class="map__marker-text">Click to experience</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                `,
+                        });
+                        L.marker(proj.coordinates, { icon: icon }).addTo(map);
+                    } else {
+                        
+                    }
                 });
                 pano();
                 directionDots(data, map)
