@@ -159,7 +159,7 @@
 					"icon": "img/projects/valori/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 870,
-						"y":120
+						"y": 120
 					},
 					"sizes": {
 						"width": 50,
@@ -177,16 +177,23 @@
 			"items": {
 				"content": [
 					{
-						"number": "10",
-						"text": "on booking"
-					},
-					{
-						"number": "50",
-						"text": "during construction"
-					},
-					{
-						"number": "40",
-						"text": "on handover"
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "50",
+								"text": "during construction"
+							},
+							{
+								"number": "40",
+								"text": "on handover"
+							}
+						]
 					}
 				],
 				"classNames": []

@@ -48,7 +48,7 @@
 			},
 			"position": {
 				"x": 845,
-				"y": 250 
+				"y": 250
 			},
 			"info": {
 				"title": "Apartments",
@@ -59,7 +59,6 @@
 				"classNames": "left text-align-left"
 			}
 		}
-		
 	},
 	"partner": {
 		"logo": "img/projects/keturah-reserve/project-icon.svg",
@@ -160,16 +159,23 @@
 			"items": {
 				"content": [
 					{
-						"number": "20",
-						"text": "on booking"
-					},
-					{
-						"number": "40",
-						"text": "during construction"
-					},
-					{
-						"number": "40",
-						"text": "on handover"
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "20",
+								"text": "on booking"
+							},
+							{
+								"number": "40",
+								"text": "during construction"
+							},
+							{
+								"number": "40",
+								"text": "on handover"
+							}
+						]
 					}
 				],
 				"classNames": []

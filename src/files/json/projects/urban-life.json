@@ -213,16 +213,23 @@
 			"items": {
 				"content": [
 					{
-						"number": "10",
-						"text": "on booking"
-					},
-					{
-						"number": "55",
-						"text": "during construction"
-					},
-					{
-						"number": "35",
-						"text": "after handover"
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "55",
+								"text": "during construction"
+							},
+							{
+								"number": "35",
+								"text": "after handover"
+							}
+						]
 					}
 				],
 				"classNames": []

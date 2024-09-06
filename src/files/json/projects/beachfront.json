@@ -141,16 +141,42 @@
 			"items": {
 				"content": [
 					{
-						"number": "10",
-						"text": "on booking"
+						"title": "Address Residences",
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "70",
+								"text": "during construction"
+							},
+							{
+								"number": "20",
+								"text": "on handover"
+							}
+						],
+						"isActive": true,
+						"classNames": []
 					},
 					{
-						"number": "70",
-						"text": "during construction"
-					},
-					{
-						"number": "20",
-						"text": "on handover"
+						"title": "Grand Bleu Tower",
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "50",
+								"text": "during construction"
+							},
+							{
+								"number": "40",
+								"text": "on handover"
+							}
+						],
+						"isActive": false,
+						"classNames": []
 					}
 				],
 				"classNames": []
@@ -285,7 +311,7 @@
 					"img360Preview": []
 				}
 			},
-			"gallery": [ 
+			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_3brm_ElieSaab_01.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_01.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_02.jpg",
@@ -364,7 +390,6 @@
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_2bdr_balcony.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_3bdr_balcony.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_WC_01.jpg"
-
 					],
 					"img360Preview": [
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_1bedroom_living_vr360.jpg",
@@ -381,7 +406,6 @@
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_2bdr_balcony.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_3bdr_balcony.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_WC_01.jpg"
-
 					]
 				},
 				"exteriors": {

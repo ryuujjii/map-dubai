@@ -5,7 +5,7 @@ export default function testBtns() {
   btns.forEach(btn => {
     btn.addEventListener("click", (e) => {
       // btn.getAttribute('data-test')
-      dispatchCustomEvent({ el: window, event: "show-project", detail: { projectId: "boutique-23" } });
+      dispatchCustomEvent({ el: window, event: "show-project", detail: { projectId: btn.getAttribute('data-test') } });
     });
   });
 };

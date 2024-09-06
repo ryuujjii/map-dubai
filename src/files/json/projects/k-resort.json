@@ -102,7 +102,7 @@
 			},
 			"position": {
 				"x": 1080,
-				"y": 270 
+				"y": 270
 			},
 			"info": {
 				"title": "Water Mansion",
@@ -113,7 +113,6 @@
 				"classNames": "left text-align-left"
 			}
 		}
-		
 	},
 	"partner": {
 		"logo": "img/projects/keturah-resort/project-icon.svg",
@@ -214,16 +213,23 @@
 			"items": {
 				"content": [
 					{
-						"number": "10",
-						"text": "on booking"
-					},
-					{
-						"number": "50",
-						"text": "during construction"
-					},
-					{
-						"number": "40",
-						"text": "on handover"
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "50",
+								"text": "during construction"
+							},
+							{
+								"number": "40",
+								"text": "on handover"
+							}
+						]
 					}
 				],
 				"classNames": []
@@ -493,7 +499,6 @@
 				}
 			},
 			"gallery": [
-				
 				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_1.webp",
 				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_2.webp",
 				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_3.webp",
