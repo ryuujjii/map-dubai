@@ -23,6 +23,28 @@
 
   &__dot {
   }
+
+  //  .project-dot
+
+  &-dot{
+    // transition: all 300ms ease-in-out;
+    // @media (hover: hover) {
+    //   &:has(~ &:hover) {
+    //     opacity: 0.5;
+    //   }
+
+    //   &:hover {
+    //     opacity: 1;
+
+    //   }
+
+    //   &:hover ~ & {
+    //     opacity: 0.5;
+
+    //   }
+    // }
+
+  }
   // .project__partner
 
   &__partner {

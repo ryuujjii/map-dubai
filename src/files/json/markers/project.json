@@ -1,92 +1,111 @@
 [
     {
+        "isPopup": false,
         "name": "Valori",
         "img": "img/map/projects/valori.jpg",
         "icon": "img/map/projects/small/valori.jpg",
         "dataTestName": "valori",
         "dataName": "#node11",
-        "coordinates": [1535, 2735],
+        "coordinates": [1940, 2800],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Keturah Resort",
         "img": "img/map/projects/keturah-resort.jpg",
         "icon": "img/map/projects/small/keturah-resort.jpg",
         "dataTestName": "k-resort",
         "dataName": "#node10",
-        "coordinates": [1400, 2600],
+        "coordinates": [1840, 2680],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Business Bay Tower",
         "img": "img/map/projects/business-bay-tower.jpg",
         "icon": "img/map/projects/small/business-bay-tower.jpg",
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
-        "coordinates": [1220, 2220],
+        "coordinates": [1710, 2320],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Boutique 23",
         "img": "img/map/projects/boutique23.jpg",
         "icon": "img/map/projects/small/boutique23.jpg",
         "dataTestName": "boutique-23",
         "dataName": "#node5",
-        "coordinates": [1595, 2725],
+        "coordinates": [2000, 2790],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "EMAAR Beachfront",
         "img": "img/map/projects/Emaar-beachfront.jpg",
         "icon": "img/map/projects/small/Emaar-beachfront.jpg",
         "dataTestName": "beachfront",
         "dataName": "#node8",
-        "coordinates": [380, 1010],
+        "coordinates": [1100, 1250],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "SLS Residence",
         "img": "img/map/projects/sls-residence.jpg",
         "icon": "img/map/projects/small/sls-residence.jpg",
         "dataTestName": "sls",
         "dataName": "#node3",
-        "coordinates": [450, 740],
+        "coordinates": [1170, 1040],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Keturah Reserve",
         "img": "img/map/projects/keturah-reserve.jpg",
         "icon": "img/map/projects/small/keturah-reserve.jpg",
         "dataTestName": "k-reserve",
         "dataName": "#node7",
-        "coordinates": [880, 2300],
+        "coordinates": [1420, 2360],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Urban Life",
         "img": "img/map/projects/urban-life.jpg",
         "icon": "img/map/projects/small/urban-life.jpg",
         "dataTestName": "urban-life",
         "dataName": "#node9",
-        "coordinates": [1160, 2250],
+        "coordinates": [1650, 2350],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Biltmore Residences",
         "img": "img/map/projects/biltmore-residences.jpg",
         "icon": "img/map/projects/small/biltmore-residences.jpg",
         "dataTestName": "biltmore",
         "dataName": "#node4",
-        "coordinates": [475, 1375],
+        "coordinates": [1160, 1560],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
+        "isPopup": false,
         "name": "Damac Bay",
         "img": "img/map/projects/damac-bay.jpg",
         "icon": "img/map/projects/small/damac-bay.jpg",
         "dataTestName": "damac-bay",
         "dataName": "#node6",
-        "coordinates": [310, 1040],
+        "coordinates": [1040, 1280],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
+    },
+    {
+        "isPopup": true,
+        "name": "Damac Lagoons",
+        "img": "img/map/projects/damac-lagoons.jpg",
+        "icon": "img/map/projects/small/damac-lagoons.jpg",
+        "dataName": "damac-lagoons",
+        "coordinates": [320, 1960],
         "projectLogo":"../../img/logos/mag-logo-white.svg"
     }
 ]

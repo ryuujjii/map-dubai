@@ -22,7 +22,7 @@ export default function pano() {
     btn.addEventListener('click', (e) => {
       preloaderVal.classList.add('in-project');
       projects.forEach((proj) => {
-        if (proj.dataTestName == btn.getAttribute('data-test')) {
+        if (proj.dataTestName == btn.getAttribute('data-modal-logo')) {
           preloaderLogoImg.src = proj.projectLogo;
           preloaderLoadingImg.src = proj.projectLogo;
         }

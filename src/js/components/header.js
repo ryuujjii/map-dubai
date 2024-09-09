@@ -53,21 +53,20 @@ export function header() {
     );
   }
 
-  toggleMenuBtn.addEventListener('click', () => {
-    if (isMenuOpen) {
-      tl.reverse();
-    } else {
-      tl.play();
-    }
-    isMenuOpen = !isMenuOpen;
-  });
-  const btns = document.querySelectorAll('[data-modal-open]');
-  btns.forEach((btn) => {
-    btn.addEventListener('click', (e) => {
-      setTimeout(() => {
-        tl.reverse();
+    toggleMenuBtn.addEventListener('click', () => {
+        if (isMenuOpen) {
+            tl.timeScale(1.7).reverse();
+        } else {
+            tl.timeScale(1).play();
+        }
         isMenuOpen = !isMenuOpen;
-      }, 1000);
     });
-  });
+
+    menuLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            tl.timeScale(1.7).reverse();
+            isMenuOpen = !isMenuOpen;
+        })
+    })
+
 }
