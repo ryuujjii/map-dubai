@@ -50,8 +50,8 @@
   // .preloader__total
   &__total {
     width: 100%;
-    // position: absolute;
-    // bottom: 0;
+    position: absolute;
+    bottom: 0;
     padding: 24px;
     @include flex();
     left: 0;

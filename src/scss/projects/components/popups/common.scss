@@ -47,10 +47,8 @@
       bottom: 80px;
     }
     svg {
-      path {
-        &:last-of-type {
+      circle{
           animation: scrollMouseAnim 3s ease infinite;
-        }
       }
     }
     @media (max-width: 768px) {
