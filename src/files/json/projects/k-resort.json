@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/keturah-resort/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": 0,
+		"styles": ""
 	},
 	"dots": {
 		"L-Shape-l1": {

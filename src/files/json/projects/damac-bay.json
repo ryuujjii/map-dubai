@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/damac-bay/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": 0,
+		"styles": ""
 	},
 	"dots": {
 		"3-bedroom-sl-DB2": {

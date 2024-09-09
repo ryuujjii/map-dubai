@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/valori/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": 0,
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom-D": {
