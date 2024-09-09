@@ -6,8 +6,8 @@ export function directionDots(data, map) {
   function createPinHTML(index, position, rotation) {
     const rotationForIcon = Math.sign(rotation) === 1 ? (rotation * -1) : Math.abs(rotation);
     return `
-        <div class="pin" id="pin-${index}" style="top: ${position.top}px; left: ${position.left}px; transform: rotate(${rotation}deg);" data-cor='${data[index].coordinates}'>
-    
+        <div class="pin${data[index].isPopup ? ' hot-pin' : ''}" id="pin-${index}" style="top: ${position.top}px; left: ${position.left}px; transform: rotate(${rotation}deg);" data-cor='${data[index].coordinates}'>
+
           <div class="pin__wrapper">
             <div class="pin__icon" style="transform: rotate(${rotationForIcon}deg);">
               <img src='${data[index].icon}' /> 
