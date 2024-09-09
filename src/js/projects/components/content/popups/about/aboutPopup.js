@@ -25,7 +25,7 @@ function getAboutPopupFn() {
     changeText(aboutEls.projectDescription, projectDescription);
     changeText(aboutEls.amenitiesDescription, amenities.text);
     setAttr(aboutEls.projectView, 'src', projectView.img);
-    aboutEls.projectView.parentElement.style.cssText = projectView.styles;
+    aboutEls.projectView.style.cssText = projectView.styles;
     getPaintedItems(aboutEls.aboutItems, aboutItems.content, aboutItemLayout);
     getPaintedItems(aboutEls.amenitiesItems, amenities.items.content, amenitiesItemLayout);
     locationDot(aboutEls.projectLocationDot, location);

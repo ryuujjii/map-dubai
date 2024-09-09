@@ -3,7 +3,7 @@
 		"shadow": "img/projects/business-bay-tower/map-shadow.jpg",
 		"img": "img/projects/business-bay-tower/map.jpg",
 		"centerPosotion": 0.135,
-		"styles": ""
+		"styles": "--move-y: -10%"
 	},
 	"dots": {
 		"1-bedroom-l-A": {
