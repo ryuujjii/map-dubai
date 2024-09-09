@@ -17,7 +17,6 @@ export default function pano() {
     '.preloader__logo-loading img'
   );
   let isPanoLoaded = false;
-  console.log(projects);
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       preloaderVal.classList.add('in-project');

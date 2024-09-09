@@ -7,7 +7,7 @@
         "dataTestName": "valori",
         "dataName": "#node11",
         "coordinates": [1940, 2800],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/valori.svg"
     },
     {
         "isPopup": false,
@@ -17,7 +17,7 @@
         "dataTestName": "k-resort",
         "dataName": "#node10",
         "coordinates": [1840, 2680],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/keturah-resort.svg"
     },
     {
         "isPopup": false,
@@ -27,7 +27,7 @@
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
         "coordinates": [1710, 2320],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/business-bay-tower.svg"
     },
     {
         "isPopup": false,
@@ -37,7 +37,7 @@
         "dataTestName": "boutique-23",
         "dataName": "#node5",
         "coordinates": [2000, 2790],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/boutique-23.svg"
     },
     {
         "isPopup": false,
@@ -47,7 +47,7 @@
         "dataTestName": "beachfront",
         "dataName": "#node8",
         "coordinates": [1100, 1250],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/emaar.svg"
     },
     {
         "isPopup": false,
@@ -57,7 +57,7 @@
         "dataTestName": "sls",
         "dataName": "#node3",
         "coordinates": [1170, 1040],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/sls-logo.svg"
     },
     {
         "isPopup": false,
@@ -67,7 +67,7 @@
         "dataTestName": "k-reserve",
         "dataName": "#node7",
         "coordinates": [1420, 2360],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/keturah-reserve.svg"
     },
     {
         "isPopup": false,
@@ -77,7 +77,7 @@
         "dataTestName": "urban-life",
         "dataName": "#node9",
         "coordinates": [1650, 2350],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/urban-life.svg"
     },
     {
         "isPopup": false,
@@ -87,7 +87,7 @@
         "dataTestName": "biltmore",
         "dataName": "#node4",
         "coordinates": [1160, 1560],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/biltmore.svg"
     },
     {
         "isPopup": false,
@@ -97,7 +97,7 @@
         "dataTestName": "damac-bay",
         "dataName": "#node6",
         "coordinates": [1040, 1280],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/damac-bay.svg"
     },
     {
         "isPopup": true,
@@ -106,6 +106,6 @@
         "icon": "img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
         "coordinates": [320, 1960],
-        "projectLogo":"../../img/logos/mag-logo-white.svg"
+        "projectLogo":"./img/logos/mag.svg"
     }
 ]

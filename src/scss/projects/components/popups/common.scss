@@ -30,6 +30,52 @@
     }
   }
 
+  &__scrollmouse {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    @media (max-width: 768px) {
+      bottom: 80px;
+    }
+    svg {
+      path {
+        &:last-of-type {
+          animation: scrollMouseAnim 3s ease infinite;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      opacity: 1;
+    }
+    &.removed {
+      opacity: 0 !important;
+    }
+  }
+  @keyframes scrollMouseAnim {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(36%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+  &[data-popup='about'] & {
+    &__scrollmouse {
+      opacity: 1;
+    }
+  }
   &__background {
     display: block;
     position: fixed;
@@ -99,53 +145,7 @@
       border-radius: 0;
     }
   }
-  &__scrollmouse {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    z-index: 9;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-    opacity: 1;
-    @media (max-height: 768px) {
-      bottom: 100px;
-    }
-    &.removed {
-      opacity: 0;
-    }
-    svg {
-      path {
-        &:last-of-type {
-          animation: mouseAnim 2s ease infinite forwards;
-        }
-      }
-    }
-    span {
-      color: #fff;
-      font-family: 'Raleway';
-      font-size: 15px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-transform: capitalize;
-    }
-  }
-  @keyframes mouseAnim {
-    0% {
-      transform: translateY(0%);
-    }
-    50% {
-      transform: translateY(35%);
-    }
-    100% {
-      transform: translateY(0%);
-    }
-  }
+
   // .popup__wp
   &__wp {
     overflow-y: auto;
@@ -178,9 +178,8 @@
   &__content {
     padding: 56px 12px 80px 24px;
     width: 100%;
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+
     // position: relative;
     // z-index: 2;
     @media (min-width: 2559px) {
@@ -199,7 +198,6 @@
     @media (max-width: 768px) {
       padding: 16px;
       padding-top: 48px;
-      height: 100%;
     }
   }
 
