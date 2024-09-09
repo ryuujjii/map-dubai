@@ -365,11 +365,21 @@ export function map() {
       getBrowser();
     }
 
-    map.on('zoom viewreset move', () => {
-      updateOverlay(darkMapWrapper);
-      updateOverlay(lightMapWrapper);
-      zoomPinInViewport();
-      initializePinClickListeners();
-    });
-  });
+        map.on('zoom viewreset move', () => {
+            updateOverlay(darkMapWrapper);
+            updateOverlay(lightMapWrapper);
+            zoomPinInViewport()
+            initializePinClickListeners()
+        });
+
+        let dragMap = false
+
+        map.on('dragstart dragend', function () {
+            if (!dragMap) {
+                document.body.classList.add('dragged');
+                dragMap = true;
+            }
+        });
+    })
+
 }

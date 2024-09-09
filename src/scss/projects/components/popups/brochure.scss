@@ -26,7 +26,7 @@
       padding: 0 16px;
     }
     .popup__wrapper {
-      height: auto;
+      height:max-content;
       max-width: 1360px;
       padding: 32px 32px 64px;
       @media (max-width: 992px) {

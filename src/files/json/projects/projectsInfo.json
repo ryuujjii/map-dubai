@@ -22,5 +22,11 @@
 	},
 	"boutique-23": {
 		"status": "active"
+	},
+	"biltmore": {
+		"status": "active"
+	},
+	"damac-bay": {
+		"status": "active"
 	}
 }

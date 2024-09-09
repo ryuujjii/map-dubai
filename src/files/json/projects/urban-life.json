@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/urban-life/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": -0.05
+		"centerPosotion": -0.05,
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom": {
@@ -144,7 +145,8 @@
 			},
 			"projectView": {
 				"img": "img/projects/urban-life/about/about-bg.jpg",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "At Urban Life, you can enjoy a variety of amenities for your convenience and enjoyment. Stay active and maintain your fitness goals at our well-equipped Gym & Outdoor Training Area, or take a refreshing dip in our inviting Swimming Pool. Additionally, our multipurpose Game Room offers versatile recreational options, while the Cinema Room provides a cozy space to relax and enjoy your favorite movies.",

@@ -24,6 +24,135 @@
     background-color: #191919;
 }
 
+.light-map {
+    transition: opacity 0.2s ease;
+    .hide-light-map &,
+    .isMenuOpened & {
+        opacity: 0;
+    }
+
+    opacity: 0;
+
+    .dragged &,
+    .mob-device & {
+        opacity: 1 !important;
+    }
+
+    .clipPathEffect & {
+        clip-path: circle(33.3vh at var(--x) var(--y));
+    }
+
+    .maskImageEffect & {
+        img {
+            mask-image: radial-gradient(
+                circle,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 1) 20%,
+                rgba(0, 0, 0, 0.5) 40%,
+                rgba(0, 0, 0, 0) 60%,
+                rgba(0, 0, 0, 0) 80%,
+                rgba(0, 0, 0, 0) 100%
+            );
+            -webkit-mask-image: radial-gradient(
+                circle,
+                rgba(0, 0, 0, 1) 0%,
+                rgba(0, 0, 0, 1) 20%,
+                rgba(0, 0, 0, 0.5) 40%,
+                rgba(0, 0, 0, 0) 60%,
+                rgba(0, 0, 0, 0) 80%,
+                rgba(0, 0, 0, 0) 100%
+            );
+            // mask-repeat: no-repeat;
+            // -webkit-mask-repeat: no-repeat;
+            // mask-size: 700px 700px;
+            // -webkit-mask-size: 700px 700px;
+
+            mask-repeat: no-repeat;
+            -webkit-mask-repeat: no-repeat;
+            mask-size: var(--mask-size, 700px 700px);
+            -webkit-mask-size: var(--mask-size, 700px 700px);
+            mask-position: var(--mask-position, 0 0);
+            -webkit-mask-position: var(--mask-position, 0 0);
+
+            /* Liquid Effect */
+            // background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+            background-size: 200% 200%;
+            // animation: liquidEffect 6s linear infinite;
+        }
+
+        @keyframes liquidEffect {
+            0% {
+                background-position: 0% 0%;
+            }
+            50% {
+                background-position: 100% 100%;
+            }
+            100% {
+                background-position: 0% 0%;
+            }
+        }
+    }
+
+    .svgMaskEffect & {
+        img {
+            mask-image: url("#mask");
+            -webkit-mask-image: url("#mask");
+        }
+    }
+}
+
+.map__draggable-hand {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include flex();
+    z-index: 999;
+    transition: 0.4s ease;
+
+    .dragged & {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    &::before {
+        content: "";
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000), to(transparent));
+        background: linear-gradient(0deg, #000 0, transparent 100%);
+        opacity: 0.7;
+    }
+
+    img {
+        animation: handShake 5s linear forwards infinite;
+    }
+}
+
+@keyframes identifier {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-35%);
+    }
+    50% {
+        transform: translateX(0);
+    }
+
+    75% {
+        transform: translateX(35%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .map__marker {
     width: max-content !important;
     height: max-content !important;
@@ -173,13 +302,13 @@
     }
 
     &--hot {
-        filter: drop-shadow(0px 0px 20px #D77070);
+        filter: drop-shadow(0px 0px 20px #d77070);
         // backdrop-filter: drop-shadow(#D77070 16px 16px 20px);
-        
+
         .map__marker-button {
             border-radius: 80px;
             &::before {
-                background: linear-gradient(135deg, #D77070 0%, #904444 50%, #D77070 100%);
+                background: linear-gradient(135deg, #d77070 0%, #904444 50%, #d77070 100%);
             }
         }
 
@@ -188,7 +317,7 @@
         }
 
         .map__marker-text {
-            color: #CE6B6B;
+            color: #ce6b6b;
         }
 
         @media (hover: hover) {
@@ -196,79 +325,6 @@
                 padding-left: 8px;
                 padding-right: 16px;
             }
-        }
-    }
-}
-
-.light-map {
-    transition: opacity 0.2s ease;
-    .hide-light-map &,
-    .isMenuOpened & {
-        opacity: 0;
-    }
-    .mob-device & {
-        opacity: 1 !important;
-    }
-
-    .clipPathEffect & {
-        clip-path: circle(33.3vh at var(--x) var(--y));
-    }
-
-    .maskImageEffect & {
-        img {
-            mask-image: radial-gradient(
-                circle,
-                rgba(0, 0, 0, 1) 0%,
-                rgba(0, 0, 0, 1) 20%,
-                rgba(0, 0, 0, 0.5) 40%,
-                rgba(0, 0, 0, 0) 60%,
-                rgba(0, 0, 0, 0) 80%,
-                rgba(0, 0, 0, 0) 100%
-            );
-            -webkit-mask-image: radial-gradient(
-                circle,
-                rgba(0, 0, 0, 1) 0%,
-                rgba(0, 0, 0, 1) 20%,
-                rgba(0, 0, 0, 0.5) 40%,
-                rgba(0, 0, 0, 0) 60%,
-                rgba(0, 0, 0, 0) 80%,
-                rgba(0, 0, 0, 0) 100%
-            );
-            // mask-repeat: no-repeat;
-            // -webkit-mask-repeat: no-repeat;
-            // mask-size: 700px 700px;
-            // -webkit-mask-size: 700px 700px;
-
-            mask-repeat: no-repeat;
-            -webkit-mask-repeat: no-repeat;
-            mask-size: var(--mask-size, 700px 700px);
-            -webkit-mask-size: var(--mask-size, 700px 700px);
-            mask-position: var(--mask-position, 0 0);
-            -webkit-mask-position: var(--mask-position, 0 0);
-
-            /* Liquid Effect */
-            // background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
-            background-size: 200% 200%;
-            // animation: liquidEffect 6s linear infinite;
-        }
-
-        @keyframes liquidEffect {
-            0% {
-                background-position: 0% 0%;
-            }
-            50% {
-                background-position: 100% 100%;
-            }
-            100% {
-                background-position: 0% 0%;
-            }
-        }
-    }
-
-    .svgMaskEffect & {
-        img {
-            mask-image: url("#mask");
-            -webkit-mask-image: url("#mask");
         }
     }
 }
@@ -295,10 +351,8 @@
     }
 
     &.hot-pin {
-        filter: drop-shadow(0px 0px 10px #D77070);
+        filter: drop-shadow(0px 0px 10px #d77070);
     }
-
-
 
     &__wrapper {
         position: absolute;
@@ -310,8 +364,8 @@
         width: 100%;
         height: 100%;
 
-        .hot-pin &{
-            background-color: #D77070;
+        .hot-pin & {
+            background-color: #d77070;
         }
     }
 
@@ -343,9 +397,9 @@
             transform: translateX(16px) rotate(26deg);
         }
 
-        .hot-pin &{
+        .hot-pin & {
             path {
-                fill: #D77070;
+                fill: #d77070;
             }
         }
     }
