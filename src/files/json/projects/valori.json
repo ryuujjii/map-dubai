@@ -84,7 +84,7 @@
 	},
 	"popup": {
 		"about": {
-			"projectName": "valori",
+			"projectName": "Valori",
 			"projectDescription": "Montage by Valori is an exquisite 26-storey V-shaped residential tower that epitomizes the essence of luxury living. With its blend of refined elegance, sumptuous comfort, and cutting-edge design, it sets a new standard for upscale urban residences. This architectural masterpiece is crafted for those who seek an extraordinary living experience and a prestigious ambiance.",
 			"aboutItems": {
 				"content": [
@@ -230,7 +230,7 @@
 				"content": [
 					{
 						"number": "15",
-						"text": "Years of expereance",
+						"text": "Years of Expereance",
 						"classNames": ""
 					},
 					{

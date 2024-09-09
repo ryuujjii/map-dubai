@@ -72,7 +72,7 @@
 			},
 			"projectView": {
 				"img": "img/projects/beachfront/about/about-bg.jpg",
-				"classNames": []
+				"classNames": ["object-position"]
 			},
 			"amenities": {
 				"text": "EMAAR Beachfront offers an array of high-end amenities, including state-of-the-art fitness centres, multiple swimming pools, and landscaped gardens, all enhancing the experience of luxurious waterfront living. With social lounges and dedicated spaces for relaxation and family activities, residents enjoy a seamless blend of comfort, convenience, and breathtaking views of the sea.",
