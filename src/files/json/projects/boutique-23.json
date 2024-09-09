@@ -11,8 +11,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 85
+				"x": 400,
+				"y": 125
 			},
 			"info": {
 				"title": "Penthouse",
@@ -29,8 +29,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 730,
-				"y": 160
+				"x": 430,
+				"y": 220
 			},
 			"info": {
 				"title": "Studio",
@@ -47,8 +47,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 220
+				"x": 400,
+				"y": 280
 			},
 			"info": {
 				"title": "2-bedroom",
@@ -65,8 +65,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 290
+				"x": 405,
+				"y": 345
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -83,8 +83,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 360
+				"x": 405,
+				"y": 415
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -101,8 +101,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 420
+				"x": 410,
+				"y": 480
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -119,8 +119,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 700,
-				"y": 480
+				"x": 410,
+				"y": 545
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -137,8 +137,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 75
+				"x": 800,
+				"y": 80
 			},
 			"info": {
 				"title": "Gym",
@@ -155,8 +155,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 150
+				"x": 800,
+				"y": 170
 			},
 			"info": {
 				"title": "Studio",
@@ -173,8 +173,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 250
+				"x": 795,
+				"y": 240
 			},
 			"info": {
 				"title": "2-bedroom",
@@ -191,8 +191,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 330
+				"x": 795,
+				"y": 300
 			},
 			"info": {
 				"title": "2-bedroom",
@@ -209,8 +209,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 400
+				"x": 795,
+				"y": 390
 			},
 			"info": {
 				"title": "2-bedroom",
@@ -227,8 +227,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 1090,
-				"y": 480
+				"x": 795,
+				"y": 465
 			},
 			"info": {
 				"title": "2-bedroom",
