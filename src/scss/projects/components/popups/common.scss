@@ -60,6 +60,11 @@
     &.active {
       opacity: 1;
     }
+    &.brochure-open{
+      &::before{
+        opacity: 0;
+      }
+    }
   }
   @media (max-width: 768px) {
     padding: 0;

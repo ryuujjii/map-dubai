@@ -2,7 +2,7 @@ import { addClassName, removeClassName } from "utils";
 import collectEscEls from "@/components/esc/collectEscEls";
 import removeLastEscEl from "@/components/esc/removeLastEscEl";
 const projectCloseBtn = document.querySelector(".project__close-btn");
-const popupBackground = document.querySelector('.popup__background')
+const popupBackground = document.querySelector(".popup__background");
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
@@ -33,7 +33,7 @@ class ViewPopup {
       currentItem.addEventListener("click", (e) => {
         const popupId = currentItem.getAttribute(this.attributes.data.btn);
         const neededPopup = document.querySelector(`[${this.attributes.data.popup}=${popupId}]`);
-        const projectsBtnMobile = document.querySelector('.project__popupBtns-wrapper');
+        const projectsBtnMobile = document.querySelector(".project__popupBtns-wrapper");
         if (this.activePopup) {
           if (this.activePopup === neededPopup) {
             return;
@@ -41,16 +41,20 @@ class ViewPopup {
             this.closePopup();
           }
         }
-        popupBackground.classList.add('active')
+          popupBackground.classList.add("active");
+          if (popupId == "brochure") {
+            popupBackground.classList.add("brochure-open")
+          }
+
         collectEscEls("close-popup");
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(currentItem, this.attributes.classNames.activeBtn);
         addClassName(document.body, this.attributes.classNames.body.show);
         addClassName(projectCloseBtn, "hidden");
-        projectsBtnMobile.classList.remove('activee')
+        projectsBtnMobile.classList.remove("activee");
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
-        
+
         setTimeout(() => {
           this.canClose = true;
         }, 100);
@@ -61,7 +65,8 @@ class ViewPopup {
   close() {
     window.addEventListener("close-popup", (e) => {
       this.closePopup();
-      popupBackground.classList.remove('active')
+      popupBackground.classList.remove("active");
+      popupBackground.classList.remove("brochure-open");
     });
 
     // document.addEventListener('keydown', (event) => {
@@ -74,7 +79,9 @@ class ViewPopup {
       const target = e.target;
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
-        popupBackground.classList.remove('active')
+        popupBackground.classList.remove("active");
+      popupBackground.classList.remove("brochure-open");
+
       }
     });
   }
@@ -84,7 +91,8 @@ class ViewPopup {
     this.activeBtn?.classList.remove(this.attributes.classNames.activeBtn);
     document.body?.classList.remove(this.attributes.classNames.body.show);
     removeClassName(projectCloseBtn, "hidden");
-    popupBackground.classList.remove('active')
+    popupBackground.classList.remove("active");
+    popupBackground.classList.remove("brochure-open");
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;

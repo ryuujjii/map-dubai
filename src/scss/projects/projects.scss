@@ -27,23 +27,6 @@
   //  .project-dot
 
   &-dot{
-    transition: all 300ms ease-in-out;
-    @media (hover: hover) {
-      &:has(~ &:hover) {
-        opacity: 0.5;
-      }
-
-      &:hover {
-        opacity: 1;
-
-      }
-
-      &:hover ~ & {
-        opacity: 0.5;
-
-      }
-    }
-
   }
   // .project__partner
 
@@ -93,7 +76,7 @@
     background: rgba(255, 255, 255, 0.08);
     overflow: hidden;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -101,30 +84,13 @@
       top: 0;
       left: 0;
       border: 1.5px solid transparent;
-      -webkit-mask: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #fff)
-          )
-          padding-box,
+      -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box,
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
-      -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+      -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: destination-out;
       mask-composite: exclude;
-      background: -o-linear-gradient(
-          315deg,
-          #bcbcbc 0,
-          rgba(188, 188, 188, 0.1) 50%
-        )
-        border-box;
-      background: linear-gradient(
-          135deg,
-          #bcbcbc 0,
-          rgba(188, 188, 188, 0.1) 50%
-        )
-        border-box;
+      background: -o-linear-gradient(315deg, #bcbcbc 0, rgba(188, 188, 188, 0.1) 50%) border-box;
+      background: linear-gradient(135deg, #bcbcbc 0, rgba(188, 188, 188, 0.1) 50%) border-box;
       background-size: 200% 100%;
       background-position: 0 center;
       animation: shine 3s cubic-bezier(0.4, 0.4, 0.4, 1) infinite;
@@ -182,7 +148,7 @@
         }
       }
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         width: calc(100% - 4px);
         height: calc(100% - 4px);
@@ -237,11 +203,7 @@
     background-color: var(--gold);
     border-radius: 4px;
     padding: 16px 22px;
-    background-image: linear-gradient(
-      153deg,
-      rgba(255, 255, 255, 0) 50%,
-      rgba(0, 0, 0, 0.13) 0
-    );
+    background-image: linear-gradient(153deg, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.13) 0);
     background-origin: border-box;
     background-clip: padding-box, border-box;
     background-size: 200% 100%;
@@ -337,15 +299,15 @@
     padding-right: 0px;
   }
 }
-@import './components/masterplan';
-@import './components/dot';
-@import './components/partner';
-@import './components/popupBtn';
-@import './components/popups/common';
-@import './components/popups/about';
-@import './components/popups/developer';
-@import './components/popups/ax';
-@import './components/popups/payment';
-@import './components/popups/brochure';
-@import './components/map';
-@import './components/modal360';
+@import "./components/masterplan";
+@import "./components/dot";
+@import "./components/partner";
+@import "./components/popupBtn";
+@import "./components/popups/common";
+@import "./components/popups/about";
+@import "./components/popups/developer";
+@import "./components/popups/ax";
+@import "./components/popups/payment";
+@import "./components/popups/brochure";
+@import "./components/map";
+@import "./components/modal360";

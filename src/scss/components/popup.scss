@@ -7,12 +7,13 @@
     z-index: 200;
     opacity: 0;
     visibility: hidden;
-    transition: 0.3 ease;
+    transition: 0.5s ease;
     background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(8px);
+    padding: 20px;
 
     &._show {
         opacity: 1;
@@ -28,13 +29,25 @@
         backdrop-filter: blur(8px);
         border-radius: 4px;
         position: relative;
+
+        @include _991-max {
+            padding: 32px 24px;
+        }
+
+        @include _767-max {
+            padding: 32px;
+        }
+
+        @include _576-max {
+            padding: 36px 20px;
+        }
     }
 
     // .home-popup__close
     &__close {
         width: 32px;
         height: 32px;
-        padding: 10px;
+        padding: 8px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -42,6 +55,7 @@
         position: absolute;
         right: 10px;
         top: 10px;
+        background-color: transparent;
 
         &::after,
         &::before {
@@ -60,12 +74,21 @@
         @include _1700-min {
             padding: 4px;
         }
+
+        @include _767-max {
+            top: 2px;
+            right: 2px;
+        }
     }
 
     // .home-popup__row
     &__row {
         display: grid;
         grid-template-columns: 1fr 1fr;
+
+        @include _767-max {
+            grid-template-columns: 1fr;
+        }
     }
 
     // .home-popup__col
@@ -77,6 +100,14 @@
         background-color: #101010;
         padding: 32px;
         border-radius: 4px;
+
+        @include _767-max {
+            text-align: center;
+        }
+
+        @include _576-max {
+            padding: 32px 20px;
+        }
     }
 
     // .home-popup__title
@@ -94,6 +125,10 @@
         font-size: 16px;
         font-weight: 300;
         line-height: 1.5;
+        @include _767-max {
+            max-width: 400px;
+            margin: 16px auto 0;
+        }
     }
 
     // .home-popup__content-row
@@ -102,6 +137,13 @@
         display: flex;
         align-items: flex-start;
         gap: 14px;
+
+        @include _767-max {
+            margin-top: 32px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
     }
 
     // .home-popup__content-logo
@@ -119,6 +161,13 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+
+        @include _767-max {
+            justify-content: center;
+            text-align: center;
+            column-gap: 20px;
+        }
+
         div {
             width: 100%;
             color: #fff;
@@ -131,8 +180,19 @@
             color: #8c8c8c;
             font-size: 15px;
             font-weight: 400;
+            transition: 0.3s ease;
+            @include _767-max {
+                width: auto;
+            }
+
+            @media (hover: hover) {
+                &:hover {
+                    color: #fff;
+                }
+            }
         }
         span {
+            // transition: 0.3 ease;
             color: inherit;
         }
     }
@@ -142,6 +202,11 @@
         padding: 32px;
         display: grid;
         gap: 32px;
+
+        @include _576-max {
+            padding: 32px 12px 0;
+            gap: 24px;
+        }
     }
 
     // .home-popup__form-input
@@ -149,7 +214,6 @@
         width: 100%;
         input {
             width: 100%;
-
             font-size: 15px;
             font-weight: 300;
             line-height: 1.5;
@@ -159,6 +223,21 @@
 
             &::placeholder {
                 color: #8c8c8c;
+            }
+
+            &:focus,
+            &:not(:placeholder-shown),
+            &:focus-within,
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover,
+            &:-webkit-autofill:focus,
+            &:-webkit-autofill:active {
+                color: #fff !important; // какого цвета должен быть текст
+                -webkit-text-fill-color: #fff !important; // какого цвета должен быть текст
+                -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                border-bottom-color: #fff;
             }
         }
     }
@@ -172,5 +251,15 @@
         line-height: 1.5;
         color: #ffffff;
         border-radius: 4px;
+        transition: 0.3s ease;
+        font-weight: 400;
+        margin-top: 8px;
+
+        @media (hover: hover) {
+            &:hover {
+                background-color: #000;
+                color: #d79970;
+            }
+        }
     }
 }
