@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/sls/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": -0.17
+		"centerPosotion": -0.17,
+		"styles": "--move-y: -12%"
 	},
 	"dots": {
 		"4-bedroom": {
@@ -53,8 +54,9 @@
 				"classNames": []
 			},
 			"projectView": {
-				"classNames": ["about-sls-img"],
-				"img": "img/projects/sls/about/about-bg.jpg"
+				"classNames": [],
+				"img": "img/projects/sls/about/about-bg.jpg",
+				"styles": "object-position: center 25%;"
 			},
 			"amenities": {
 				"text": "SLS Residences presents an exquisite selection of top-tier amenities, from a lavish clubhouse and exclusive beach club to a state-of-the-art gym, infinity pool, and refined social spaces. Its prime location offers effortless access to elite entertainment venues, sports facilities, and tranquil beach promenades. With breathtaking views of the Atlantis, Burj Al Arab, and Marina, SLS redefines luxury living, surpassing every expectation for the most discerning residents.",

@@ -1,0 +1,643 @@
+{
+	"map": {
+		"shadow": "img/projects/damac-bay/map-shadow.jpg",
+		"img": "",
+		"centerPosotion": 0,
+		"styles": "--move-y: -12%"
+	},
+	"dots": {
+		"3-bedroom-sl-DB2": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 80,
+				"y": 300
+			},
+			"info": {
+				"title": "3-bedroom",
+				"type": "DAMAC Bay 2",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail.svg",
+				"dataModal360": "3-bedroom-sl-DB2",
+				"classNames": "right"
+			}
+		},
+		"1-bedroom-l-DB2": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 105,
+				"y": 480
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "DAMAC Bay 2",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail.svg",
+				"dataModal360": "1-bedroom-l-DB2",
+				"classNames": "right"
+			}
+		},
+		"4-bedroom-sl-DB2": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 460,
+				"y": 250
+			},
+			"info": {
+				"title": "4-bedroom",
+				"type": "DAMAC Bay 2",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "4-bedroom-sl-DB2",
+				"classNames": "left"
+			}
+		},
+		"2-bedroom-l-DB2": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 460,
+				"y": 370
+			},
+			"info": {
+				"title": "2-bedroom",
+				"type": "DAMAC Bay 2",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "2-bedroom-l-DB2",
+				"classNames": "left"
+			}
+		},
+		"3-bedroom-sl-DB": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 680,
+				"y": 315
+			},
+			"info": {
+				"title": "3-bedroom",
+				"type": "DAMAC Bay",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "3-bedroom-sl-DB",
+				"classNames": "left"
+			}
+		},
+		"1-bedroom-l-DB": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 680,
+				"y": 480
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "DAMAC Bay",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "1-bedroom-l-DB",
+				"classNames": "left"
+			}
+		},
+		"5-bedroom-sl-DB": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 830,
+				"y": 195
+			},
+			"info": {
+				"title": "5-bedroom",
+				"type": "DAMAC Bay",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "5-bedroom-sl-DB",
+				"classNames": "left"
+			}
+		},
+		"3-bedroom-l-DB": {
+			"sizes": {
+				"width": 175,
+				"height": 55
+			},
+			"position": {
+				"x": 960,
+				"y": 405
+			},
+			"info": {
+				"title": "3-bedroom",
+				"type": "DAMAC Bay",
+				"icon": "img/projects/icons/floorplan.svg",
+				"tail": "img/projects/icons/tail-reversed.svg",
+				"dataModal360": "3-bedroom-sl-DB",
+				"classNames": "left"
+			}
+		}
+	},
+	"partner": {
+		"logo": "img/projects/damac-bay/project-icon.svg",
+		"classNames": []
+	},
+	"popup": {
+		"about": {
+			"projectName": "Damac Bay",
+			"projectDescription": "DAMAC Bay at Dubai Harbour is a masterpiece of luxury living by DAMAC Properties, featuring exquisite seafront residences with interiors by Cavalli. These elegant apartments offer breathtaking skyline views, while the exclusive amenities create an unparalleled living experience. With the launch of DAMAC Bay Phase 2, even more opulent options are available, including super-luxury duplexes with private pools, all within a stunning 49-storey tower.",
+			"aboutItems": {
+				"content": [
+					{
+						"number": "49",
+						"text": "Building Levels",
+						"classNames": ""
+					},
+					{
+						"number": "1, 2, 3, 4, and 5",
+						"text": "Bedroom Units",
+						"classNames": ""
+					},
+					{
+						"number": "3.4",
+						"text": "Mln AED Starting Price",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "img/projects/damac-bay/about/about-bg.jpg",
+				"classNames": [],
+				"styles": "object-position: center 23%;"
+			},
+			"amenities": {
+				"text": "DAMAC Bay offers a wealth of world-class amenities designed to elevate luxury living. Nature-inspired designs blend seamlessly with contemporary luxury, offering serene spaces surrounded by greenery and waterfront views. The development also features floating relaxation pods, infinity pools, wellness centers, and climate-controlled environments, creating a harmonious balance between comfort, well-being, and natural beauty.",
+				"items": {
+					"content": [
+						{
+							"img": "img/projects/damac-bay/about/amenities/swimming.svg",
+							"title": "Infinity pool",
+							"text": "Seamlessly blending into the horizon, the pool provides a tranquil and luxurious environment.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/damac-bay/about/amenities/fitness.svg",
+							"title": "Fitness Centre",
+							"text": "The space is designed with modern aesthetics in mind, providing an energizing atmosphere.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/damac-bay/about/amenities/landscape.svg",
+							"title": "Landscaped Area",
+							"text": "Lush greenery, carefully curated plantings, and tranquil pathways create a calming outdoor setting.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/damac-bay/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "It offers a fun and secure environment where kids can enjoy themselves while parents relax nearby.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/damac-bay/about/amenities/car.svg",
+							"title": "Covered parking",
+							"text": "Designed for ease of access, it ensures that cars are sheltered and well-maintained.",
+							"classNames": ""
+						},
+						{
+							"img": "img/projects/damac-bay/about/amenities/shop.svg",
+							"title": "Retail shops",
+							"text": "These stores provide a variety of goods and services, enhancing the community's convenience.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
+			},
+			"location": {
+				"dot": {
+					"icon": "img/projects/damac-bay/about/location/dot-icon.svg",
+					"centerPosotion": {
+						"x": 230,
+						"y": 600
+					},
+					"sizes": {
+						"width": 50,
+						"height": 55
+					},
+					"position": {
+						"x": 335,
+						"y": 710
+					},
+					"styles": "width: 40px"
+				}
+			}
+		},
+		"payment": {
+			"items": {
+				"content": [
+					{
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "20",
+								"text": "on booking"
+							},
+							{
+								"number": "60",
+								"text": "during construction"
+							},
+							{
+								"number": "20",
+								"text": "on handover"
+							}
+						]
+					}
+				],
+				"classNames": []
+			},
+			"descriptions": {
+				"content": [
+					{
+						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+						"classNames": ""
+					},
+					{
+						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			}
+		},
+		"developer": {
+			"descriptions": {
+				"content": [
+					{
+						"text": "DAMAC Properties, a key part of DAMAC Group since 1982, has been a major player in the Middle East's luxury real estate market. Known for its iconic residential, commercial, and leisure properties, DAMAC enhances cityscapes with its diverse portfolio of skyscrapers, communities, and branded residences.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "$8.47",
+						"text": "Bln Market Cap",
+						"classNames": ""
+					},
+					{
+						"number": "$3.3",
+						"text": "Bln Revenue",
+						"classNames": ""
+					},
+					{
+						"number": "163",
+						"text": "Number of Projects",
+						"classNames": ""
+					},
+					{
+						"number": "46 000",
+						"text": "Homes Delivered",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"media": {
+				"projectlogo": "img/projects/damac-bay/developer/icon.svg",
+				"img": "img/projects/damac-bay/developer/bg.jpg",
+				"classNames": []
+			}
+		},
+		"brochure": {
+			"brochureImg": "img/projects/damac-bay/brochure.jpg",
+			"classNames": []
+		}
+	},
+	"modal360": {
+		"3-bedroom-sl-DB2": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TYPE+A1_LIVING+ROOM_006_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TYPE+A1_LIVING+ROOM_007_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TYPE+A1_MASTER+BEDROOM_004_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TYPE+A1_MASTER+BEDROOM_005_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TYPE+A1_MASTER+WARDROBE_003_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/3BR_TypeA1_Master+Bathroom_VR+.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TYPE+A1_LIVING+ROOM_006_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TYPE+A1_LIVING+ROOM_007_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TYPE+A1_MASTER+BEDROOM_004_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TYPE+A1_MASTER+BEDROOM_005_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TYPE+A1_MASTER+WARDROBE_003_VR_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/360/preview/3BR_TypeA1_Master+Bathroom_VR+.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_LIVING+ROOM_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_LIVING+ROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_LIVING+ROOM_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_LIVING+ROOM_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_LIVING+ROOM_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_MASTER+BEDROOM_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_MASTER+BEDROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_MASTER+BEDROOM_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_MASTER+WARDROBE_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TYPE+A1_MASTER+WARDROBE_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_005.jpg"
+			]
+		},
+		"1-bedroom-l-DB2": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/1BR_luxury_living-kitchen_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/1BR_luxury_living-kitchen_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BED1ROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_004.jpg"
+			]
+		},
+		"4-bedroom-sl-DB2": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/4Bedroom_Type+A_VR_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/4Bedroom_Type+A_VR_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_PANORAMA.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/living_006_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/living_011_VR.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/preview/4Bedroom_Type+A_VR_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/preview/4Bedroom_Type+A_VR_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/preview/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_PANORAMA.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/preview/living_006_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/360/preview/living_011_VR.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/4Bedroom_Type+A_008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_2.png.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_3.png.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/BAY2_4BR_SUPER_LUXURY_TYPE_A_MASTER_BATHROOM_5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_009.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_010.jpg"
+			]
+		},
+		"2-bedroom-l-DB2": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama+6.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama+6.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/1+Damac+bay+2+Living+room.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/2+Damac+bay+2+Living+room.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/3+Damac+bay+2+Living+room.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/4+Damac+bay+2+Living+room.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_4.jpg"
+			]
+		},
+		"3-bedroom-sl-DB": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3bdrm_sluxurytype1_livingVR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/360_Post+2.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3bdrm_sluxurytype1_livingVR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/360_Post+2.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C01_final.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C02_final.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C03_final.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C04_final.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_004.jpg"
+			]
+		},
+		"1-bedroom-l-DB": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/1br_living_damac_06.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_bedroom_005_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_010_vr.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_011_vr.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/1br_living_damac_06.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_bedroom_005_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_010_vr.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_011_vr.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_009.jpg"
+			]
+		},
+		"5-bedroom-sl-DB": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM6.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM7.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM8.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_5.jpg"
+			]
+		},
+		"3-bedroom-l-DB": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_002.jpg"
+			]
+		}
+	}
+}
