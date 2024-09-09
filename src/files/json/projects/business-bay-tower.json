@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/business-bay-tower/map-shadow.jpg",
 		"img": "img/projects/business-bay-tower/map.jpg",
-		"centerPosotion": 0.135
+		"centerPosotion": 0.135,
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom-l-A": {
@@ -180,7 +181,8 @@
 			},
 			"projectView": {
 				"img": "img/projects/business-bay-tower/about/about-bg.jpg",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "Every detail has been carefully selected to create a luxurious and comfortable atmosphere. The Downtown Terraces offer exclusive amenities that cater to the refined tastes of their residents and guests. Lavish lounges and common areas provide peaceful retreats for relaxation and socializing, featuring plush seating and panoramic city views. Residential units have been designed with great attention to detail, ensuring maximum comfort and functionality.",

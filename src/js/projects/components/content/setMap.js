@@ -1,15 +1,21 @@
 import imgLoader from '@/projects/components/content/imgLoader';
 import { addClassName, removeClassName } from 'utils';
-
+import { getProjectItem } from '@/projects/components/content/utils';
 
 function getSetMapFn() {
-  // const map = document.querySelector('[data-project="map"]');
-  const mapShadow = document.querySelector('[data-project="map-shadow"]');
+  const mapEls = {
+    // map: getProjectItem('map'),
+    mapShadow: getProjectItem('map-shadow'),
+    mapParent: document.querySelector('.masterplan__draggable'),
+  };
+
   const centerImg = getCenterImg();
-  imgLoader(mapShadow/* , map */);
-  return function ({ shadow, img, centerPosotion }) {
-    // map.setAttribute('src', img);
-    mapShadow.setAttribute('src', shadow);
+  imgLoader(mapEls.mapShadow/* , mapEls.map */);
+  
+  return function ({ shadow, img, centerPosotion, styles }) {
+    // mapEls.map.setAttribute('src', img);
+    mapEls.mapParent.style.cssText = styles;
+    mapEls.mapShadow.setAttribute('src', shadow);
     centerImg(centerPosotion);
   };
 }
@@ -35,7 +41,7 @@ function getCenterImg() {
             x: res
           },
           onComplete() {
-            addClassName(masterplanWrapper, 'no-scroll');
+            // addClassName(masterplanWrapper, 'no-scroll');
           }
         });
       }

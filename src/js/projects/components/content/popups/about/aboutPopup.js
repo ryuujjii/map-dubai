@@ -25,12 +25,13 @@ function getAboutPopupFn() {
     changeText(aboutEls.projectDescription, projectDescription);
     changeText(aboutEls.amenitiesDescription, amenities.text);
     setAttr(aboutEls.projectView, 'src', projectView.img);
+    aboutEls.projectView.parentElement.style.cssText = projectView.styles;
     getPaintedItems(aboutEls.aboutItems, aboutItems.content, aboutItemLayout);
     getPaintedItems(aboutEls.amenitiesItems, amenities.items.content, amenitiesItemLayout);
     locationDot(aboutEls.projectLocationDot, location);
-    aboutItemsHandleClassNames(aboutItems.classNames)
+    aboutItemsHandleClassNames(aboutItems.classNames);
     // amenitiesItemsHandleClassNames(amenities.items.classNames)
-    projectViewHandleClassNames(projectView.classNames)
+    projectViewHandleClassNames(projectView.classNames);
   };
 };
 

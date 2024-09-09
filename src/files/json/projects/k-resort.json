@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/keturah-resort/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0
+		"centerPosotion": 0,
+		"styles": ""
 	},
 	"dots": {
 		"L-Shape-l1": {
@@ -144,7 +145,8 @@
 			},
 			"projectView": {
 				"img": "img/projects/keturah-resort/about/about-bg.jpg",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "Keturah Resort, featuring The Ritz-Carlton Residences, includes 12 Creekside Waterfront Mansions and exclusive Creekside Residences, making it the world's first fully wellness-certified resort. Amenities include private infinity pools, a luxurious spa, a state-of-the-art fitness center, gourmet dining, and landscaped gardens, providing a holistic and luxurious living experience.",
