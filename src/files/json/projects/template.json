@@ -45,7 +45,8 @@
 			},
 			"projectView": {
 				"img": "",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "",

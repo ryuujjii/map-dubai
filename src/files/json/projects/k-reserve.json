@@ -91,7 +91,8 @@
 			},
 			"projectView": {
 				"img": "img/projects/keturah-reserve/about/about-bg.jpg",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "Keturah Reserve showcases an exclusive array of bio-living amenities, including the verdant Central Gardens, elegant health spaces, pristine swimming pools, and a tranquil organic oasis. Every feature is thoughtfully designed to blend harmoniously with nature and enhance overall well-being. All life forms—flora, fauna, and human—are equally respected, ensuring a sanctuary of unparalleled luxury and sustainability.",

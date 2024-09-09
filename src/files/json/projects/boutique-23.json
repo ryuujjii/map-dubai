@@ -271,7 +271,8 @@
 			},
 			"projectView": {
 				"img": "img/projects/boutique-23/about/about-bg.jpg",
-				"classNames": []
+				"classNames": [],
+				"styles": ""
 			},
 			"amenities": {
 				"text": "Boutique 23 offers residents an impressive array of amenities aimed at elevating their living experience. These include a refreshing swimming pool, a state-of-the-art gym, ample underground and podium parking, and a tranquil courtyard for relaxation. Additionally, on-site retail outlets provide convenient shopping and dining options, contributing to a vibrant and self-sufficient community.",
