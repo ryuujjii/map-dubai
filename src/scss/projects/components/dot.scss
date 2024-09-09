@@ -1,3 +1,21 @@
+.hover-g {
+	transition: opacity 0.3s ease 0s;
+	@media (hover: hover) {
+      &:has(~ &:hover) {
+        opacity: 0.5;
+      }
+
+      &:hover {
+        opacity: 1;
+
+      }
+
+      &:hover ~ & {
+        opacity: 0.5;
+
+      }
+    }
+}
 .dot-project {
 	// .dot-project__container
 

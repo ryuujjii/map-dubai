@@ -1,5 +1,6 @@
 export default function dotsLayout(data) {
   return `
+  <g class="hover-g">
       <foreignObject
       width="${data.sizes.width}"
       height="${data.sizes.height}"
@@ -38,5 +39,6 @@ export default function dotsLayout(data) {
         </div>
       </button>
     </foreignObject>
+    </g>
   `;
 };
