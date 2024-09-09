@@ -345,6 +345,15 @@ export function map() {
             zoomPinInViewport()
             initializePinClickListeners()
         });
+
+        let dragMap = false
+
+        map.on('dragstart dragend', function () {
+            if (!dragMap) {
+                document.body.classList.add('dragged');
+                dragMap = true;
+            }
+        });
     })
 
 }
