@@ -2,7 +2,7 @@ import { addClassName, removeClassName } from "utils";
 import collectEscEls from "@/components/esc/collectEscEls";
 import removeLastEscEl from "@/components/esc/removeLastEscEl";
 const projectCloseBtn = document.querySelector(".project__close-btn");
-
+const popupBackground = document.querySelector('.popup__background')
 class ViewPopup {
   activePopup = null;
   activeBtn = null;
@@ -41,6 +41,7 @@ class ViewPopup {
             this.closePopup();
           }
         }
+        popupBackground.classList.add('active')
         collectEscEls("close-popup");
         addClassName(neededPopup, this.attributes.classNames.show);
         addClassName(currentItem, this.attributes.classNames.activeBtn);
@@ -49,6 +50,7 @@ class ViewPopup {
         projectsBtnMobile.classList.remove('activee')
         this.activePopup = neededPopup;
         this.activeBtn = currentItem;
+        
         setTimeout(() => {
           this.canClose = true;
         }, 100);
@@ -59,6 +61,7 @@ class ViewPopup {
   close() {
     window.addEventListener("close-popup", (e) => {
       this.closePopup();
+      popupBackground.classList.remove('active')
     });
 
     // document.addEventListener('keydown', (event) => {
@@ -71,6 +74,7 @@ class ViewPopup {
       const target = e.target;
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
+        popupBackground.classList.remove('active')
       }
     });
   }
@@ -80,7 +84,7 @@ class ViewPopup {
     this.activeBtn?.classList.remove(this.attributes.classNames.activeBtn);
     document.body?.classList.remove(this.attributes.classNames.body.show);
     removeClassName(projectCloseBtn, "hidden");
-
+    popupBackground.classList.remove('active')
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;
