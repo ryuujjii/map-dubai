@@ -1,15 +1,41 @@
 <%var data = arguments[0]%> <%var component = require(`${data.path}`)%>
 <div class="popup" data-popup="${data.id}">
-	<div class="popup__overlay" data-popup-close></div>
-	<div class="popup__wrapper">
-		<div class="popup__wp">
-			<div class="popup__content">
-				<%var closeBtnData = require('../../../json/closeBtn.json')['popup']%> 
-				<%var closeBtn = require("../../../components/closebtn.html")%>
-				${closeBtn(closeBtnData)} 
-				${component()}
-			</div>
-		</div>
-	</div>
+  <div class="popup__overlay" data-popup-close></div>
+  <div class="popup__wrapper">
+    <div class="popup__scrollmouse">
+      <svg
+        width="23"
+        height="34"
+        viewBox="0 0 23 34"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.4 33C18.008 33 21.8 27.608 21.8 21V13C21.8 6.392 18.008 1 11.4 1C4.792 1 1 6.392 1 13V21C1 27.608 4.792 33 11.4 33Z"
+          fill="black"
+          fill-opacity="0.48"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M11.5016 15.0008L11.5016 7.00098"
+          stroke="white"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span>scroll down</span>
+    </div>
+    <div class="popup__wp">
+      <div class="popup__content">
+        <%var closeBtnData = require('../../../json/closeBtn.json')['popup']%>
+        <%var closeBtn = require("../../../components/closebtn.html")%>
+        ${closeBtn(closeBtnData)} ${component()}
+      </div>
+    </div>
+  </div>
 </div>
 <div class="popup__background"></div>

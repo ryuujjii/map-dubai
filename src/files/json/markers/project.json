@@ -5,7 +5,8 @@
         "icon": "img/map/projects/small/valori.jpg",
         "dataTestName": "valori",
         "dataName": "#node11",
-        "coordinates": [1535, 2735]
+        "coordinates": [1535, 2735],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Keturah Resort",
@@ -13,7 +14,8 @@
         "icon": "img/map/projects/small/keturah-resort.jpg",
         "dataTestName": "k-resort",
         "dataName": "#node10",
-        "coordinates": [1400, 2600]
+        "coordinates": [1400, 2600],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Business Bay Tower",
@@ -21,7 +23,8 @@
         "icon": "img/map/projects/small/business-bay-tower.jpg",
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
-        "coordinates": [1220, 2220]
+        "coordinates": [1220, 2220],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Boutique 23",
@@ -29,7 +32,8 @@
         "icon": "img/map/projects/small/boutique23.jpg",
         "dataTestName": "boutique-23",
         "dataName": "#node5",
-        "coordinates": [1595, 2725]
+        "coordinates": [1595, 2725],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "EMAAR Beachfront",
@@ -37,7 +41,8 @@
         "icon": "img/map/projects/small/Emaar-beachfront.jpg",
         "dataTestName": "beachfront",
         "dataName": "#node8",
-        "coordinates": [380, 1010]
+        "coordinates": [380, 1010],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "SLS Residence",
@@ -45,7 +50,8 @@
         "icon": "img/map/projects/small/sls-residence.jpg",
         "dataTestName": "sls",
         "dataName": "#node3",
-        "coordinates": [450, 740]
+        "coordinates": [450, 740],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Keturah Reserve",
@@ -53,7 +59,8 @@
         "icon": "img/map/projects/small/keturah-reserve.jpg",
         "dataTestName": "k-reserve",
         "dataName": "#node7",
-        "coordinates": [880, 2300]
+        "coordinates": [880, 2300],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Urban Life",
@@ -61,7 +68,8 @@
         "icon": "img/map/projects/small/urban-life.jpg",
         "dataTestName": "urban-life",
         "dataName": "#node9",
-        "coordinates": [1160, 2250]
+        "coordinates": [1160, 2250],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Biltmore Residences",
@@ -69,7 +77,8 @@
         "icon": "img/map/projects/small/biltmore-residences.jpg",
         "dataTestName": "biltmore",
         "dataName": "#node4",
-        "coordinates": [475, 1375]
+        "coordinates": [475, 1375],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     },
     {
         "name": "Damac Bay",
@@ -77,6 +86,7 @@
         "icon": "img/map/projects/small/damac-bay.jpg",
         "dataTestName": "damac-bay",
         "dataName": "#node6",
-        "coordinates": [310, 1040]
+        "coordinates": [310, 1040],
+        "projectLogo":"../../img/logos/mag-logo-white.svg"
     }
 ]
