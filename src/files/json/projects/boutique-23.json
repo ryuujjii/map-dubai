@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/boutique-23/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": -0.13
+		"centerPosotion": -0.13,
+		"styles": ""
 	},
 	"dots": {
 		"penthouse": {

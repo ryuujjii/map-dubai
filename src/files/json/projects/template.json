@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "",
 		"img": "",
-		"centerPosotion": 0.15
+		"centerPosotion": 0.15,
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom": {

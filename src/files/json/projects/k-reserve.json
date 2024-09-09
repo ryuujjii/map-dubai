@@ -2,7 +2,8 @@
 	"map": {
 		"shadow": "img/projects/keturah-reserve/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0.28
+		"centerPosotion": 0.28,
+		"styles": ""
 	},
 	"dots": {
 		"townhouses": {
