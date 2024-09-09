@@ -41,7 +41,7 @@ function getCenterImg() {
             x: res
           },
           onComplete() {
-            addClassName(masterplanWrapper, 'no-scroll');
+            // addClassName(masterplanWrapper, 'no-scroll');
           }
         });
       }
