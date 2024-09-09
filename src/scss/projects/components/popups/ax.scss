@@ -1,10 +1,10 @@
 .popup {
-  &[data-popup="ax"] {
+  &[data-popup='ax'] {
     .popup__wp {
       overflow-x: hidden;
     }
-    .popup__content{
-      @media(max-height:750px){
+    .popup__content {
+      @media (max-height: 750px) {
         padding-top: 40px;
       }
     }
@@ -36,10 +36,10 @@
 }
 .info-ax {
   margin-bottom: 80px;
-  @media(min-width:2560px){
+  @media (min-width: 2560px) {
     margin-bottom: 128px;
   }
-  @media(max-height:750px){
+  @media (max-height: 750px) {
     margin-bottom: 32px;
   }
   @media (max-width: 768px) {
@@ -65,13 +65,13 @@
   &__text {
     display: flex;
     column-gap: 32px;
-    max-width: 100%!important;
+    max-width: 100% !important;
     p {
       color: inherit;
       font-weight: inherit;
       max-width: 600px;
     }
-    @media(max-width:1200px){
+    @media (max-width: 1200px) {
       max-width: 100%;
     }
     @media (max-width: 768px) {
@@ -134,7 +134,7 @@
       &:nth-child(5) {
         order: 5;
       }
-      &.hide{
+      &.hide {
         display: none;
       }
     }
@@ -181,7 +181,9 @@
     top: 0;
     left: 0;
     @media (max-width: 768px) {
-      position: static;
+      height: auto;
+      position: relative;
+      padding-bottom: 66%;
       img {
         border-radius: 2px;
       }

@@ -84,7 +84,14 @@
       top: 0;
       left: 0;
       border: 1.5px solid transparent;
-      -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box,
+      pointer-events: none;
+      -webkit-mask: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #fff)
+          )
+          padding-box,
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
       -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: destination-out;
