@@ -1,6 +1,6 @@
 import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
-import projectContent from "@/projects/components/content/projectContent";
+import projectContent from '@/projects/components/content/projectContent';
 import { addClassName, removeClassName } from 'utils';
 import getData from '@/projects/components/content/getData';
 
@@ -10,10 +10,10 @@ export default async function projectPopup() {
   let isLoaderActive = false;
   let loaderActiveChecker = null;
   let projectsInfo = await getProjectsInfo();
-  window.addEventListener("show-project", (e) => {
+  window.addEventListener('show-project', (e) => {
     let projectName = e.detail.projectId;
     switch (projectsInfo[projectName]?.status) {
-      case "active": {
+      case 'active': {
         break;
       }
       default:
@@ -70,4 +70,4 @@ export default async function projectPopup() {
     }
     return projectsInfo;
   }
-};
+}
