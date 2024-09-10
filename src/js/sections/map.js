@@ -382,10 +382,10 @@ export function map() {
       initializePinClickListeners()
     });
 
-    map.on('moveend', function () {
-      console.log('Map is fully loaded');
+    // map.on('moveend', function () {
+      // console.log('Map is fully loaded');
       // map.panTo
-    })
+    // })
 
 
     // let dragMap = false
