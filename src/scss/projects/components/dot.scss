@@ -1,4 +1,5 @@
 .hover-g {
+	cursor: pointer;
 	transition: opacity 0.3s ease 0s;
 	@media (hover: hover) {
       &:has(~ &:hover) {
