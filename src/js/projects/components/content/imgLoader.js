@@ -21,7 +21,6 @@ function getImgLoader() {
     els.forEach(el => {
       media.splice(media.indexOf(el), 1);
     });
-    console.log(media);
   }
   function imgLoader(...els) {
     media.push(...els);
