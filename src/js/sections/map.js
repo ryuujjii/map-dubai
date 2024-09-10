@@ -1,6 +1,7 @@
 import L from 'leaflet';
 import { queryMatches, isMobileOrTablet } from 'utils';
 import pano from '@/sections/pano';
+import projectLoaders from '@/projects/projectLoaders';
 import { directionDots } from '@/sections/directionDots';
 import { popup } from '@/components/popup';
 
@@ -225,7 +226,8 @@ export function map() {
             L.marker(proj.coordinates, { icon: icon }).addTo(map);
           }
         });
-        pano(data);
+        pano();
+        projectLoaders(data)
         directionDots(data, map);
         zoomPinInViewport();
         initializePinClickListeners();

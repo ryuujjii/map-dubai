@@ -1,6 +1,6 @@
 export default function dotsLayout(data) {
   return `
-  <g class="hover-g">
+  <g class="hover-g"  ${data.info.hoverId ? `data-hover-id="${data.info.hoverId}"` : ''} data-modal360="${data.info.dataModal360}">
       <foreignObject
       width="${data.sizes.width}"
       height="${data.sizes.height}"
@@ -11,8 +11,6 @@ export default function dotsLayout(data) {
       <button
         type="button"
         class="project__dot dot-project ${data.info.classNames}"
-        data-modal360="${data.info.dataModal360}"
-       ${data.info.hoverId ? `data-hover-id="${data.info.hoverId}"` : ''} 
       >
         <div class="dot-project__container">
           <div class="dot-project__wrapper">
