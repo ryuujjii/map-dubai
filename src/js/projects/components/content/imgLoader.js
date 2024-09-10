@@ -17,17 +17,24 @@ function getImgLoader() {
       counter = 0;
     }
   }
-  
-  return function imgLoader(...els) {
+  function removeItemFromLoader(...els) {
+    els.forEach(el => {
+      media.splice(media.indexOf(el), 1);
+    });
+    console.log(media);
+  }
+  function imgLoader(...els) {
     media.push(...els);
     els.forEach(el => {
       el.addEventListener("load", loaderCallBack);
       el.addEventListener("error", loaderCallBack);
     });
-  };
+  }
+  return [imgLoader, removeItemFromLoader];
 };
 
 
 
-const imgLoader = getImgLoader();
+const [imgLoader, removeItemFromLoader] = getImgLoader();
 export default imgLoader;
+export { removeItemFromLoader };
