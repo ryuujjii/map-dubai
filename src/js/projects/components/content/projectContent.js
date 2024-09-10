@@ -1,5 +1,5 @@
 import getData from '@/projects/components/content/getData';
-import setMap from '@/projects/components/content/setMap';
+import setMap from '@/projects/components/content/map/setMap';
 import setPartnerLogo from '@/projects/components/content/setPartnerLogo';
 import paintDots from '@/projects/components/content/dots/paintDots';
 import aboutPopup from '@/projects/components/content/popups/about/aboutPopup';
