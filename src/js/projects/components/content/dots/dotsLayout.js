@@ -12,6 +12,7 @@ export default function dotsLayout(data) {
         type="button"
         class="project__dot dot-project ${data.info.classNames}"
         data-modal360="${data.info.dataModal360}"
+       ${data.info.hoverId ? `data-hover-id="${data.info.hoverId}"` : ''} 
       >
         <div class="dot-project__container">
           <div class="dot-project__wrapper">
