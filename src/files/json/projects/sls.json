@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "img/projects/sls/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": -0.17,
 		"styles": "--move-y: -12%"
@@ -18,15 +18,15 @@
 			"info": {
 				"title": "4-bedroom",
 				"type": "duplex",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "4-bedroom-duplex",
 				"classNames": "left"
 			}
 		}
 	},
 	"partner": {
-		"logo": "img/projects/sls/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -55,7 +55,7 @@
 			},
 			"projectView": {
 				"classNames": [],
-				"img": "img/projects/sls/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/about-bg.jpg",
 				"styles": "object-position: center 25%;"
 			},
 			"amenities": {
@@ -63,37 +63,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/sls/about/amenities/swimming.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/swimming.svg",
 							"title": "Infinity pool",
 							"classNames": "",
 							"text": "The azure waters seem to stretch endlessly, merging seemlesly with the horizon."
 						},
 						{
-							"img": "img/projects/sls/about/amenities/landscape.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/landscape.svg",
 							"title": "Landscaped Area",
 							"classNames": "",
 							"text": "Lush carpets of emerald grass invite barefoot exploration, ideal for picnics and family gatherings."
 						},
 						{
-							"img": "img/projects/sls/about/amenities/fitness.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"classNames": "",
 							"text": "It’s a valuable resource for those seeking to maintain an active and healthy lifestyle."
 						},
 						{
-							"img": "img/projects/sls/about/amenities/playground.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "A vibrant and engaging space designed to inspire joy and creativity.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/sls/about/amenities/car.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "This convenient feature provides peace of mind and easy access.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/sls/about/amenities/shop.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "It’s a practical addition, offering easy access to essential goods and trendy items.",
 							"classNames": ""
@@ -104,7 +104,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/sls/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 150,
 						"y": 670
@@ -199,13 +199,13 @@
 				"classNames": ["developer-width"]
 			},
 			"media": {
-				"projectlogo": "img/projects/sls/developer/icon.svg",
-				"img": "img/projects/sls/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/bg.jpg",
 				"classNames": ["developer-img-width"]
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/sls/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/brochure.jpg",
 			"classNames": []
 		}
 	},

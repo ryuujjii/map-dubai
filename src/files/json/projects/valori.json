@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "img/projects/valori/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": 0,
 		"styles": "--move-y: -12%"
@@ -18,8 +18,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "type D",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-D",
 				"classNames": "right"
 			}
@@ -36,8 +36,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "type E",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-E",
 				"classNames": "right"
 			}
@@ -54,8 +54,8 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "type E",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-E",
 				"classNames": "left"
 			}
@@ -72,15 +72,15 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "type B",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-B",
 				"classNames": "left"
 			}
 		}
 	},
 	"partner": {
-		"logo": "img/projects/valori/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -108,7 +108,7 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/valori/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/about-bg.jpg",
 				"classNames": [],
 				"styles": "object-position: center 15%;"
 			},
@@ -117,37 +117,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/valori/about/amenities/swimming.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/swimming.svg",
 							"title": "Swimming pool",
 							"text": "Picture yourself reclining on a plush lounger or enjoying a refreshing dip in the pristine pool.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/valori/about/amenities/landscape.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/landscape.svg",
 							"title": "Landscaped Area",
 							"text": "Residents can enjoy the outdoors with access to public landscapes that offer a tranquil environment.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/valori/about/amenities/fitness.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"text": "Indulge in wellness at Montage's health club where state-of-the-art facilities and expert guidance await.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/valori/about/amenities/playground.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "The kids’ playground is a safe and vibrant area designed for fun and exploration.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/valori/about/amenities/car.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "Montage offers extensive car parking with a total of 251 bays, ensuring convenient parking for residents.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/valori/about/amenities/shop.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "Montage's on-site retail shops provide a curated selection of premium products and services.",
 							"classNames": ""
@@ -158,7 +158,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/valori/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 870,
 						"y": 120
@@ -244,13 +244,13 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/valori/developer/icon.svg",
-				"img": "img/projects/valori/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/valori/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/brochure.jpg",
 			"classNames": []
 		}
 	},

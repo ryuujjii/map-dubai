@@ -383,19 +383,30 @@ export function map() {
     });
 
     // map.on('moveend', function () {
-      // console.log('Map is fully loaded');
-      // map.panTo
+    // console.log('Map is fully loaded');
+    // map.panTo
     // })
 
 
-    // let dragMap = false
+    let dragMap = false
 
-    // map.on('dragstart dragend', function () {
-    //     if (!dragMap) {
-    //         document.body.classList.add('dragged');
-    //         dragMap = true;
-    //     }
-    // });
+    function disableDrag() {
+      
+    }
+
+    map.addEventListener('click', () => {
+      if (!dragMap) {
+        document.body.classList.add('dragged');
+        dragMap = true;
+      }
+    })
+
+    map.on('dragstart dragend', function () {
+      if (!dragMap) {
+        document.body.classList.add('dragged');
+        dragMap = true;
+      }
+    });
   })
 
 }

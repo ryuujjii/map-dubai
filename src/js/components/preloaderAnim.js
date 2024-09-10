@@ -1,4 +1,6 @@
 export function mediaLoading() {
+  const bodyClass = document.querySelector('.preloader-hidden');
+  let isLoaderActive = null;
   let animatePreloader = getAnimatePreloaderFn();
   function getAnimatePreloaderFn() {
     // const preloaderProgressbar = document.querySelector('.preloader__progressbar');
@@ -7,7 +9,6 @@ export function mediaLoading() {
     const preloaderLogo = document.querySelector('.preloader__logo-loading');
     let path;
     let mapProgress;
-
     if (preloaderTotal) {
       return function animatePreloader(value) {
         path = value * 100;
@@ -25,9 +26,19 @@ export function mediaLoading() {
   window.addEventListener('media-loading', (e) => {
     animatePreloader(e.detail.progress);
     if (e.detail.progress == 1) {
-      setTimeout(() => {
-        e.detail.progress = 0;
-      }, 500);
+      isLoaderActive = setInterval(() => {
+        if (document.documentElement.classList.contains('preloader-hidden')) {
+          clearInterval(isLoaderActive);
+          setTimeout(() => {
+            e.detail.progress = 0;
+            animatePreloader(0);
+          }, 500);
+        }
+      }, 100);
+      // setTimeout(() => {
+      //   e.detail.progress = 0;
+      //   animatePreloader(0);
+      // }, 2300);
     }
   });
 }
