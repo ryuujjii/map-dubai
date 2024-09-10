@@ -7,8 +7,7 @@ import {
 import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
 import testBtns from '@/components/testBtns';
-import projects from '../../files/json/markers/project.json';
-export default function pano() {
+export default function pano(data) {
   const btns = document.querySelectorAll('[data-modal-open]');
   const modalIframe = document.querySelector('.pano__iframe');
   const preloaderVal = document.querySelector('.preloader');
@@ -16,16 +15,19 @@ export default function pano() {
   const preloaderLoadingImg = document.querySelector(
     '.preloader__logo-loading img'
   );
+  const projects = data.reduce((acc, el) => {
+    acc[el.dataTestName] = {
+      projectLogo: el.projectLogo,
+    };
+    return acc ;
+  }, {});
   let isPanoLoaded = false;
   btns.forEach((btn) => {
+    const dataModalLogo = btn.getAttribute('data-modal-logo')
     btn.addEventListener('click', (e) => {
       preloaderVal.classList.add('in-project');
-      projects.forEach((proj) => {
-        if (proj.dataTestName == btn.getAttribute('data-modal-logo')) {
-          preloaderLogoImg.src = proj.projectLogo.stroke;
-          preloaderLoadingImg.src = proj.projectLogo.fill;
-        }
-      });
+      preloaderLogoImg.src = projects[dataModalLogo].projectLogo.stroke;
+      preloaderLoadingImg.src = projects[dataModalLogo].projectLogo.fill;
       removeClassName(document.documentElement, 'preloader-hidden');
       setTimeout(() => {
         insertIframe(modalIframe, btn.getAttribute('data-modal-open'));

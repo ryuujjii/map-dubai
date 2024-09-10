@@ -213,7 +213,7 @@ export function map() {
             L.marker(proj.coordinates, { icon: icon }).addTo(map);
           }
         });
-        pano();
+        pano(data);
         directionDots(data, map);
         zoomPinInViewport();
         initializePinClickListeners();
