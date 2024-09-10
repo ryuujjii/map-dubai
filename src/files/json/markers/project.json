@@ -7,7 +7,10 @@
         "dataTestName": "valori",
         "dataName": "#node11",
         "coordinates": [1940, 2800],
-        "projectLogo":"./img/logos/valori.svg"
+        "projectLogo":{
+            "fill":"./img/logos/valori-fill.svg",
+            "stroke":"./img/logos/valori-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -17,7 +20,10 @@
         "dataTestName": "k-resort",
         "dataName": "#node10",
         "coordinates": [1840, 2680],
-        "projectLogo":"./img/logos/keturah-resort.svg"
+        "projectLogo":{
+            "fill":"./img/logos/k-resort-fill.svg",
+            "stroke":"./img/logos/k-resort-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -27,7 +33,10 @@
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
         "coordinates": [1710, 2320],
-        "projectLogo":"./img/logos/business-bay-tower.svg"
+        "projectLogo":{
+            "fill":"./img/logos/Downtown-terraces-fill.svg",
+            "stroke":"./img/logos/Downtown-terraces-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -37,7 +46,10 @@
         "dataTestName": "boutique-23",
         "dataName": "#node5",
         "coordinates": [2000, 2790],
-        "projectLogo":"./img/logos/boutique-23.svg"
+        "projectLogo":{
+            "fill":"./img/logos/boutique-23-fill.svg",
+            "stroke":"./img/logos/boutique-23-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -47,7 +59,10 @@
         "dataTestName": "beachfront",
         "dataName": "#node8",
         "coordinates": [1100, 1250],
-        "projectLogo":"./img/logos/emaar.svg"
+        "projectLogo":{
+            "fill":"./img/logos/emaar-fill.svg",
+            "stroke":"./img/logos/emaar-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -57,7 +72,10 @@
         "dataTestName": "sls",
         "dataName": "#node3",
         "coordinates": [1170, 1040],
-        "projectLogo":"./img/logos/sls-logo.svg"
+        "projectLogo":{
+            "fill":"./img/logos/sls-fill.svg",
+            "stroke":"./img/logos/sls-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -67,7 +85,10 @@
         "dataTestName": "k-reserve",
         "dataName": "#node7",
         "coordinates": [1420, 2360],
-        "projectLogo":"./img/logos/keturah-reserve.svg"
+        "projectLogo":{
+            "fill":"./img/logos/k-reserve-fill.svg",
+            "stroke":"./img/logos/k-reserve-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -77,7 +98,10 @@
         "dataTestName": "urban-life",
         "dataName": "#node9",
         "coordinates": [1650, 2350],
-        "projectLogo":"./img/logos/urban-life.svg"
+        "projectLogo":{
+            "fill":"./img/logos/urban-fill.svg",
+            "stroke":"./img/logos/urban-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -87,7 +111,10 @@
         "dataTestName": "biltmore",
         "dataName": "#node4",
         "coordinates": [1160, 1560],
-        "projectLogo":"./img/logos/biltmore.svg"
+        "projectLogo":{
+            "fill":"./img/logos/biltmore-fill.svg",
+            "stroke":"./img/logos/biltmore-stroke.svg"
+        }
     },
     {
         "isPopup": false,
@@ -97,7 +124,10 @@
         "dataTestName": "damac-bay",
         "dataName": "#node6",
         "coordinates": [1040, 1280],
-        "projectLogo":"./img/logos/damac-bay.svg"
+        "projectLogo":{
+            "fill":"./img/logos/damac-fill.svg",
+            "stroke":"./img/logos/damac-stroke.svg"
+        }
     },
     {
         "isPopup": true,
@@ -106,6 +136,9 @@
         "icon": "img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
         "coordinates": [320, 1960],
-        "projectLogo":"./img/logos/mag.svg"
+        "projectLogo":{
+            "fill":"./img/logos/valori.svg",
+            "stroke":"./img/logos/valori.svg"
+        }
     }
 ]
