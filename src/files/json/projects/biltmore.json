@@ -3,7 +3,7 @@
 		"shadow": "img/projects/biltmore/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": -0.13,
-		"styles": ""
+		"styles": "--move-y: -10%"
 	},
 	"dots": {
 		"2-3-bedroom": {
