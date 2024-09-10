@@ -10,24 +10,14 @@ import testBtns from '@/components/testBtns';
 export default function pano(data) {
   const btns = document.querySelectorAll('[data-modal-open]');
   const modalIframe = document.querySelector('.pano__iframe');
-  const preloaderVal = document.querySelector('.preloader');
-  const preloaderLogoImg = document.querySelector('.preloader__logo-img img');
-  const preloaderLoadingImg = document.querySelector(
-    '.preloader__logo-loading img'
-  );
-  const projects = data.reduce((acc, el) => {
-    acc[el.dataTestName] = {
-      projectLogo: el.projectLogo,
-    };
-    return acc ;
-  }, {});
   let isPanoLoaded = false;
   btns.forEach((btn) => {
-    const dataModalLogo = btn.getAttribute('data-modal-logo')
     btn.addEventListener('click', (e) => {
-      preloaderVal.classList.add('in-project');
-      preloaderLogoImg.src = projects[dataModalLogo].projectLogo.stroke;
-      preloaderLoadingImg.src = projects[dataModalLogo].projectLogo.fill;
+      dispatchCustomEvent({
+        el: window,
+        event: 'node-change',
+        detail: { projectId: btn.getAttribute('data-modal-logo') },
+      });
       removeClassName(document.documentElement, 'preloader-hidden');
       setTimeout(() => {
         insertIframe(modalIframe, btn.getAttribute('data-modal-open'));
