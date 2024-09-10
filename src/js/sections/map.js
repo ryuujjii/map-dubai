@@ -76,9 +76,27 @@ export function map() {
 
     const centerCoordinates = [1100, 1250];
     map.setView(centerCoordinates, 0);
+    // map.setView([1100, 1249], 0);
+    // map.panTo([1100, 1250], { animate: true, duration: 0.7, });
 
     updateOverlay(darkMapWrapper);
     updateOverlay(lightMapWrapper);
+
+
+    // function smoothShakeMap() {
+    //   setTimeout(() => {
+    //     map.panTo([1100, 1350], { animate: true, duration: 0.7, });
+    //   }, 700);
+    //   setTimeout(() => {
+    //     map.panTo([1100, 1250], { animate: true, duration: 0.7, });
+    //   }, 1400)
+    //   setTimeout(() => {
+    //     map.panTo([1100, 1350], { animate: true, duration: 0.7, });
+    //   }, 2100)
+    // }
+
+    // smoothShakeMap()
+
 
     // Opening Markers in center viewport MB
     function zoomPinInViewport() {
@@ -171,45 +189,39 @@ export function map() {
             const icon = L.divIcon({
               className: 'map__marker',
               html: `
-                                <div class="map__marker-trigger">
-                                    <button class="map__marker-button" data-modal-logo="${
-                                      proj.dataTestName
-                                    }" data-test="${proj.dataTestName}"
-                                    ${
-                                      __SHOWPANO__
-                                        ? `data-modal-open="files/pano/${proj.dataName}"`
-                                        : ''
-                                    }>
-                                        <div class="map__marker-icon">
-                                            <img src="${proj.icon}" alt="">
-                                        </div>
-                                        <div class="map__marker-content">
-                                            <p class="map__marker-name">${
-                                              proj.name
-                                            }</p>
-                                            <p class="map__marker-text">Click to experience</p>
-                                        </div>
-                                    </button>
-                                </div>
-                                `,
+                  <div class="map__marker-trigger">
+                    <button class="map__marker-button" 
+                        data-modal-logo="${proj.dataTestName}" 
+                        data-test="${proj.dataTestName}" 
+                        ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
+                      <div class="map__marker-icon">
+                        <img src="${proj.icon}" alt="">
+                      </div>
+                      <div class="map__marker-content">
+                        <p class="map__marker-name">${proj.name}</p>
+                        <p class="map__marker-text">Click to experience</p>
+                      </div>
+                    </button>
+                  </div>
+                  `,
             });
             L.marker(proj.coordinates, { icon: icon }).addTo(map);
           } else {
             const icon = L.divIcon({
               className: 'map__marker map__marker--hot',
               html: `
-                                <div class="map__marker-trigger">
-                                    <button class="map__marker-button" data-marker-popup-btn="${proj.dataName}">
-                                        <div class="map__marker-icon">
-                                            <img src="${proj.icon}" alt="">
-                                        </div>
-                                        <div class="map__marker-content">
-                                            <p class="map__marker-name">${proj.name}</p>
-                                            <p class="map__marker-text">hot offer</p>
-                                        </div>
-                                    </button>
-                                </div>
-                                `,
+                  <div class="map__marker-trigger">
+                      <button class="map__marker-button" data-marker-popup-btn="${proj.dataName}">
+                          <div class="map__marker-icon">
+                              <img src="${proj.icon}" alt="">
+                          </div>
+                          <div class="map__marker-content">
+                              <p class="map__marker-name">${proj.name}</p>
+                              <p class="map__marker-text">hot offer</p>
+                          </div>
+                      </button>
+                  </div>
+                  `,
             });
             L.marker(proj.coordinates, { icon: icon }).addTo(map);
           }
@@ -269,12 +281,10 @@ export function map() {
         const circleHeightHalf = circleHeight / 2;
 
         lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`;
-        lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${
-          y - circleHeightHalf
-        }px`;
-        lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${
-          y - circleHeightHalf
-        }px`;
+        lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf
+          }px`;
+        lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf
+          }px`;
       });
     }
 
@@ -356,32 +366,36 @@ export function map() {
         const circleHeightHalf = circleHeight / 2;
 
         lightMapImg.style.maskSize = `${circleHeight}px ${circleHeight}px`;
-        lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${
-          y - circleHeightHalf
-        }px`;
-        lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${
-          y - circleHeightHalf
-        }px`;
+        lightMapImg.style.maskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf
+          }px`;
+        lightMapImg.style.webkitMaskPosition = `${x - circleHeightHalf}px ${y - circleHeightHalf
+          }px`;
       });
     } else {
       getBrowser();
     }
 
-        map.on('zoom viewreset move', () => {
-            updateOverlay(darkMapWrapper);
-            updateOverlay(lightMapWrapper);
-            zoomPinInViewport()
-            initializePinClickListeners()
-        });
+    map.on('zoom viewreset move', () => {
+      updateOverlay(darkMapWrapper);
+      updateOverlay(lightMapWrapper);
+      zoomPinInViewport()
+      initializePinClickListeners()
+    });
 
-        let dragMap = false
+    // map.on('moveend', function () {
+      // console.log('Map is fully loaded');
+      // map.panTo
+    // })
 
-        map.on('dragstart dragend', function () {
-            if (!dragMap) {
-                document.body.classList.add('dragged');
-                dragMap = true;
-            }
-        });
-    })
+
+    // let dragMap = false
+
+    // map.on('dragstart dragend', function () {
+    //     if (!dragMap) {
+    //         document.body.classList.add('dragged');
+    //         dragMap = true;
+    //     }
+    // });
+  })
 
 }
