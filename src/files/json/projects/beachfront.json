@@ -1,13 +1,13 @@
 {
 	"map": {
-		"shadow": "img/projects/beachfront/map/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/map/map-shadow.jpg",
 		"hoverShadows": [
 			{
-				"img": "img/projects/beachfront/map/hoverShadows/adress.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/map/hoverShadows/adress.jpg",
 				"id": "adress"
 			},
 			{
-				"img": "img/projects/beachfront/map/hoverShadows/grand-blue.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/map/hoverShadows/grand-blue.jpg",
 				"id": "grand-blue"
 			}
 		],
@@ -28,8 +28,8 @@
 			"info": {
 				"title": "Grand Bleu Tower",
 				"type": "by Elie Saab",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "grand-bleu-tower",
 				"classNames": "left",
 				"hoverId": "grand-blue"
@@ -47,8 +47,8 @@
 			"info": {
 				"title": "Address Residences",
 				"type": "The Bay",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "address-residences",
 				"classNames": "left",
 				"hoverId": "adress"
@@ -56,7 +56,7 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/beachfront/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -84,7 +84,7 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/beachfront/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/about-bg.jpg",
 				"classNames": [],
 				"styles": "object-position: center 10%;"
 			},
@@ -93,37 +93,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/beachfront/about/amenities/swimming.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/swimming.svg",
 							"title": "Swimming pool",
 							"text": "Where sunlight meets glass and water flows on the sweeping edges of sublime perspectives.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/beachfront/about/amenities/landscape.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/landscape.svg",
 							"title": "Landscaped Area",
 							"text": "Create peaceful spots amidst the city bustle, designed for enjoyment and relaxation.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/beachfront/about/amenities/fitness.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"text": "Achieve your fitness goals within a cutting-edge gymnasium, set amidst exclusuve surroundings.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/beachfront/about/amenities/playground.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "The kids' zone is equipped with modern play equipment and engaging activities for children.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/beachfront/about/amenities/car.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "The development includes covered parking facilities, providing convenient spaces for vehicles.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/beachfront/about/amenities/shop.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "Discover retail spaces offering convenient shopping options right at your doorstep.",
 							"classNames": ""
@@ -134,7 +134,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/beachfront/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 200,
 						"y": 700
@@ -245,13 +245,13 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/beachfront/developer/icon.svg",
-				"img": "img/projects/beachfront/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/beachfront/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/brochure.jpg",
 			"classNames": []
 		}
 	},
