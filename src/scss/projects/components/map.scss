@@ -22,7 +22,7 @@
 		width: max(var(--aspect-ratio-width) * 1%, 100%);
 		padding-bottom: max(var(--aspect-ratio-height) * 1%, 56%);
 		z-index: 1000 !important;
-		@media (min-width: 1366px){
+		@media (min-width: 1366px) {
 			cursor: default !important;
 		}
 		@media (max-width: 575.98px) {
@@ -64,6 +64,34 @@
 
 		&_map-shadow {
 			z-index: 2;
+		}
+	}
+
+	// .masterplan__hover-bgs
+
+	&__hover-bgs {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 2;
+	}
+
+	// .masterplan__hover-bg
+
+	&__hover-bg {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+		object-position: center;
+		opacity: 0;
+		transition: opacity 0.3s ease 0s;
+		&.active {
+			opacity: 1;
 		}
 	}
 

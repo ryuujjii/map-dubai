@@ -1,6 +1,16 @@
 {
 	"map": {
-		"shadow": "img/projects/beachfront/map-shadow.jpg",
+		"shadow": "img/projects/beachfront/map/map-shadow.jpg",
+		"hoverShadows": [
+			{
+				"img": "img/projects/beachfront/map/hoverShadows/adress.jpg",
+				"id": "adress"
+			},
+			{
+				"img": "img/projects/beachfront/map/hoverShadows/grand-blue.jpg",
+				"id": "grand-blue"
+			}
+		],
 		"img": "",
 		"centerPosotion": 0.05,
 		"styles": ""
@@ -21,7 +31,8 @@
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail-reversed.svg",
 				"dataModal360": "grand-bleu-tower",
-				"classNames": "left"
+				"classNames": "left",
+				"hoverId": "grand-blue"
 			}
 		},
 		"address-residences": {
@@ -39,7 +50,8 @@
 				"icon": "img/projects/icons/floorplan.svg",
 				"tail": "img/projects/icons/tail-reversed.svg",
 				"dataModal360": "address-residences",
-				"classNames": "left"
+				"classNames": "left",
+				"hoverId": "adress"
 			}
 		}
 	},

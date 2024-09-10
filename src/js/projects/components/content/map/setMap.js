@@ -1,6 +1,7 @@
 import imgLoader from '@/projects/components/content/imgLoader';
 import { getProjectItem } from '@/projects/components/content/utils';
 import centerMap from '@/projects/components/content/map/centerMap';
+import hoverShadowsHandler from '@/projects/components/content/map/hoverShadows';
 function getSetMapFn() {
   const mapEls = {
     // map: getProjectItem('map'),
@@ -13,6 +14,7 @@ function getSetMapFn() {
   
   return function ({ shadow, img, centerPosotion, styles, hoverShadows }) {
     // mapEls.map.setAttribute('src', img);
+    hoverShadowsHandler(hoverShadows)
     mapEls.mapParent.style.cssText = styles;
     mapEls.mapShadow.setAttribute('src', shadow);
     centerMap(centerPosotion);
