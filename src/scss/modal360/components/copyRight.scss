@@ -16,10 +16,16 @@
 	transition: top 0.3s ease;
 	@media (max-width: 767.98px) {
 		top: -71px;
+		.hide-swiper &{
+			top: -25px;
+		}
 	}
 	@media (max-width: 479.98px) {
 		font-size: 10px;
 		top: -90px;
+		.hide-swiper &{
+			top: -35px;
+		}
 	}
 	.fullscreen-enabled & {
 		top: -20px;
