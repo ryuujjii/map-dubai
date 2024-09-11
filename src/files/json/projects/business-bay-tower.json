@@ -1,7 +1,7 @@
 {
 	"map": {
-		"shadow": "img/projects/business-bay-tower/map-shadow.jpg",
-		"img": "img/projects/business-bay-tower/map.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/map-shadow.jpg",
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/map.jpg",
 		"centerPosotion": 0.135,
 		"styles": "--move-y: -10%"
 	},
@@ -18,8 +18,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "loft style A",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-l-A",
 				"classNames": "right"
 			}
@@ -36,8 +36,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "loft style B",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-l-B",
 				"classNames": "right"
 			}
@@ -54,8 +54,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "type B",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-t-B",
 				"classNames": "right"
 			}
@@ -72,8 +72,8 @@
 			"info": {
 				"title": "3-bedroom",
 				"type": "duplex",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-D",
 				"classNames": "left"
 			}
@@ -90,8 +90,8 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "duplex",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-D",
 				"classNames": "left"
 			}
@@ -108,8 +108,8 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "type B",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-t-B",
 				"classNames": "left"
 			}
@@ -126,8 +126,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "type A",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-t-A",
 				"classNames": "left"
 			}
@@ -144,15 +144,15 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "type A",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-t-A",
 				"classNames": "left"
 			}
 		}
 	},
 	"partner": {
-		"logo": "img/projects/business-bay-tower/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -180,7 +180,7 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/business-bay-tower/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/about-bg.jpg",
 				"classNames": [],
 				"styles": ""
 			},
@@ -189,37 +189,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/swimming.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/swimming.svg",
 							"title": "Swimming pool",
 							"text": "Designed to provide residents with a refreshing escape from the bustling city life.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/landscape.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/landscape.svg",
 							"title": "Landscaped Area",
 							"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/fitness.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/playground.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "A vibrant and engaging space designed to provide an enjoyable environment.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/car.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "Covered parking is an essential amenity that adds security and peace of mind.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/business-bay-tower/about/amenities/shop.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike.",
 							"classNames": ""
@@ -230,7 +230,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/business-bay-tower/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 650,
 						"y": 250
@@ -319,13 +319,13 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/business-bay-tower/developer/icon.svg",
-				"img": "img/projects/business-bay-tower/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/business-bay-tower/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/brochure.jpg",
 			"classNames": []
 		}
 	},

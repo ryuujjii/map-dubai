@@ -11,8 +11,8 @@
 		"info": {
 			"title": "1-bedroom",
 			"type": "loft style A",
-			"icon": "img/projects/icons/floorplan.svg",
-			"tail": "img/projects/icons/tail.svg",
+			"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+			"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 			"dataModal360": "files/modal360/1-bedroom-L1.html",
 			"classNames": "right"
 		}
@@ -29,8 +29,8 @@
 		"info": {
 			"title": "3-bedroom",
 			"type": "duplex",
-			"icon": "img/projects/icons/floorplan.svg",
-			"tail": "img/projects/icons/tail-reversed.svg",
+			"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+			"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 			"dataModal360": "files/modal360/3-bedroom-D.html",
 			"classNames": "left"
 		}
