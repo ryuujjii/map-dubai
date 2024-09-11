@@ -37,12 +37,12 @@
 				"content": [
 					{
 						"number": "113",
-						"text": "Private Residences",
+						"text": "Private <br> Residences",
 						"classNames": ""
 					},
 					{
 						"number": "2, 3, and 4",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{

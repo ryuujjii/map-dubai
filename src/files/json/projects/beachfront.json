@@ -67,17 +67,17 @@
 				"content": [
 					{
 						"number": "27",
-						"text": "Towers in Community",
+						"text": "Towers in <br> Community",
 						"classNames": ""
 					},
 					{
 						"number": "1, 2, 3 and 4",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "3.1",
-						"text": "Mln AED Starting Price",
+						"text": "Mln AED <br> Starting Price",
 						"classNames": "width-bigger"
 					}
 				],

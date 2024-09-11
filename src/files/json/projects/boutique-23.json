@@ -253,17 +253,17 @@
 				"content": [
 					{
 						"number": "23",
-						"text": "Building Levels",
+						"text": "Building <br> Levels",
 						"classNames": ""
 					},
 					{
 						"number": "Studio, 1, 2",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "462K AED",
-						"text": "Starting Price",
+						"text": "Starting <br> Price",
 						"classNames": ""
 					}
 				],

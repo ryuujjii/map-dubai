@@ -163,17 +163,17 @@
 				"content": [
 					{
 						"number": "49",
-						"text": "Building Levels",
+						"text": "Building <br> Levels",
 						"classNames": ""
 					},
 					{
 						"number": "1, 2, 3, 4, and 5",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "3.4",
-						"text": "Mln AED Starting Price",
+						"text": "Mln AED <br> Starting Price",
 						"classNames": "width-bigger"
 					}
 				],

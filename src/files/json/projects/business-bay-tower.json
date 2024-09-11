@@ -164,17 +164,17 @@
 					{
 						"classNames": "",
 						"number": "101",
-						"text": "Residential Floors"
+						"text": "Residential <br> Floors"
 					},
 					{
 						"classNames": "",
 						"number": "1, 2, and 3",
-						"text": "Bedroom Units"
+						"text": "Bedroom <br> Units"
 					},
 					{
 						"classNames": "",
 						"number": "2027 Q4",
-						"text": "Handover Date"
+						"text": "Handover <br> Date"
 					}
 				],
 				"classNames": []
