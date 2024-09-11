@@ -91,17 +91,17 @@
 				"content": [
 					{
 						"number": "44",
-						"text": "Building Levels",
+						"text": "Building <br> Levels",
 						"classNames": ""
 					},
 					{
 						"number": "480",
-						"text": "Private Residences",
+						"text": "Private <br> Residences",
 						"classNames": ""
 					},
 					{
 						"number": "Studio, 1, 2, and 3",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					}
 				],

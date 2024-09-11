@@ -73,17 +73,17 @@
 				"content": [
 					{
 						"number": "7 years",
-						"text": "Payment Plan",
+						"text": "Payment <br> Plan",
 						"classNames": ""
 					},
 					{
 						"number": "1-6 and 8",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "2026 Q4",
-						"text": "Handover Date",
+						"text": "Handover <br> Date",
 						"classNames": ""
 					}
 				],

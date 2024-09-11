@@ -91,17 +91,17 @@
 				"content": [
 					{
 						"number": "20",
-						"text": "Residential Floors",
+						"text": "Residential <br> Floors",
 						"classNames": ""
 					},
 					{
 						"number": "1 and 20",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "2026 Q1",
-						"text": "Handover Date",
+						"text": "Handover <br> Date",
 						"classNames": ""
 					}
 				],
