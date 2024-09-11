@@ -1,5 +1,5 @@
 import slideLayout from '@/modal360/content/slides/slideLayout';
-import { dispatchCustomEvent } from 'utils';
+import { dispatchCustomEvent, addClassName, removeClassName } from 'utils';
 function getPaintSwiperSlides() {
   const slidesParent = document.querySelector('.swiper-wrapper');
 
@@ -12,7 +12,8 @@ function getPaintSwiperSlides() {
   return function paintSwiperSlides(content) {
     slidesParent.innerHTML = "";
     const { exteriors, interiors } = content;
-    paintHelper('exteriors', exteriors);
+    interiors.img360.length > 1 ? removeClassName(document.body, "hide-swiper") : addClassName(document.body, "hide-swiper");
+    // paintHelper('exteriors', exteriors);
     paintHelper('interiors', interiors);
     dispatchCustomEvent({ el: window, event: "slides-painted" });
   };
