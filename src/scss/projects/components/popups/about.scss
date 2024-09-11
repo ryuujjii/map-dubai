@@ -129,6 +129,7 @@
       flex-direction: column;
       align-items: center;
       gap: 8px;
+
       div {
         width: 100%;
         max-width: 100%;
@@ -165,19 +166,9 @@
     font-size: 15px;
     font-weight: 300;
     line-height: 140%; /* 21px */
-    max-width: min-content;
-    @media (max-width: 768px) {
-      max-width: 100%;
-    }
-    .width-bigger & {
-      max-width: 100px;
+    br {
       @media (max-width: 768px) {
-        max-width: 100%;
-      }
-      br {
-        @media (max-width: 768px) {
-          display: none;
-        }
+        display: none;
       }
     }
   }

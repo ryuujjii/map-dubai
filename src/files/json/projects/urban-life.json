@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "img/projects/urban-life/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": -0.05,
 		"styles": "--move-y: -12%"
@@ -18,8 +18,8 @@
 			"info": {
 				"title": "1-bedroom",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom",
 				"classNames": "right"
 			}
@@ -36,8 +36,8 @@
 			"info": {
 				"title": "2-bedroom",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "2-bedroom",
 				"classNames": "right"
 			}
@@ -54,8 +54,8 @@
 			"info": {
 				"title": "Gents Gym",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "gents-gym",
 				"classNames": "right"
 			}
@@ -72,8 +72,8 @@
 			"info": {
 				"title": "Entrance",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "entrance",
 				"classNames": "right"
 			}
@@ -90,8 +90,8 @@
 			"info": {
 				"title": "Studio",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio",
 				"classNames": "left text-align-left"
 			}
@@ -108,15 +108,15 @@
 			"info": {
 				"title": "Ladies Gym",
 				"type": "",
-				"icon": "img/projects/icons/floorplan.svg",
-				"tail": "img/projects/icons/tail-reversed.svg",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "ladies-gym",
 				"classNames": "left text-align-left"
 			}
 		}
 	},
 	"partner": {
-		"logo": "img/projects/urban-life/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -127,24 +127,24 @@
 				"content": [
 					{
 						"number": "20",
-						"text": "Building Levels",
+						"text": "Building <br> Levels",
 						"classNames": ""
 					},
 					{
 						"number": "Studio, 1, 2",
-						"text": "Bedroom Units",
+						"text": "Bedroom <br> Units",
 						"classNames": ""
 					},
 					{
 						"number": "2026 Q2",
-						"text": "Handover Date",
+						"text": "Handover <br> Date",
 						"classNames": ""
 					}
 				],
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/urban-life/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/about-bg.jpg",
 				"classNames": [],
 				"styles": "object-position: center 35%;"
 			},
@@ -153,37 +153,37 @@
 				"items": {
 					"content": [
 						{
-							"img": "img/projects/urban-life/about/amenities/swimming.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/swimming.svg",
 							"title": "Swimming pool",
 							"text": "The pool offers a relaxing atmosphere where you can take a leisurely dip to cool off.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/urban-life/about/amenities/landscape.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/landscape.svg",
 							"title": "Open Garden",
 							"text": "It features lush greenery, colorful flowers, and comfortable seating areas to unwind and relax.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/urban-life/about/amenities/fitness.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/fitness.svg",
 							"title": "Fitness Centre",
 							"text": "For added comfort and privacy, the Fitness Centre also includes a dedicated Ladies Gym.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/urban-life/about/amenities/playground.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/playground.svg",
 							"title": "Kids’ playground",
 							"text": "With soft surfaces and shaded areas, parents can relax knowing their kids are playing safely.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/urban-life/about/amenities/car.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/car.svg",
 							"title": "Covered parking",
 							"text": "Urban Life offers covered parking, providing residents with the convenience and security.",
 							"classNames": ""
 						},
 						{
-							"img": "img/projects/urban-life/about/amenities/shop.svg",
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/shop.svg",
 							"title": "Retail shops",
 							"text": "The presence of diverse retail options enhances the convenience and lifestyle of the development.",
 							"classNames": ""
@@ -194,7 +194,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/urban-life/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 695,
 						"y": 320
@@ -286,13 +286,13 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/urban-life/developer/icon.svg",
-				"img": "img/projects/urban-life/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/urban-life/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/brochure.jpg",
 			"classNames": []
 		}
 	},
