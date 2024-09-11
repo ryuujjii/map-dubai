@@ -15,9 +15,8 @@ export default function projectLoader(data) {
     changeLogo(projectId);
   });
   function changeLogo(projectName) {
-
     preloaderVal.classList.add('in-project');
-    preloaderLogoImg.src = projects[projectName].projectLogo.stroke;
-    preloaderLoadingImg.src = projects[projectName].projectLogo.fill;
+    preloaderLogoImg.src = projects[projectName].projectLogo.logo;
+    preloaderLoadingImg.src = projects[projectName].projectLogo.logo;
   }
 }
