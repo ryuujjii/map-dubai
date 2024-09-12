@@ -3,7 +3,21 @@
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": 0.28,
-		"styles": "--move-y: -6%"
+		"styles": "--move-y: -6%",
+		"hoverShadows": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/apartments.jpg",
+				"id": "apartments"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/townhouse.jpg",
+				"id": "townhouse"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/villas.jpg",
+				"id": "villas"
+			}
+		]
 	},
 	"dots": {
 		"townhouses": {
@@ -21,7 +35,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "townhouses",
-				"classNames": "right"
+				"classNames": "right",
+				"hoverId": "townhouse"
 			}
 		},
 		"villas": {
@@ -39,7 +54,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "villas",
-				"classNames": "left text-align-left"
+				"classNames": "left text-align-left",
+				"hoverId": "villas"
 			}
 		},
 		"apartments": {
@@ -57,7 +73,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "apartments",
-				"classNames": "left text-align-left"
+				"classNames": "left text-align-left",
+				"hoverId": "apartments"
 			}
 		}
 	},
