@@ -15,14 +15,14 @@
 	pointer-events: none;
 	transition: top 0.3s ease;
 	@media (max-width: 767.98px) {
-		top: -71px;
+		top: -85px;
 		.hide-swiper &{
 			top: -25px;
 		}
 	}
 	@media (max-width: 479.98px) {
 		font-size: 10px;
-		top: -90px;
+		top: -95px;
 		.hide-swiper &{
 			top: -35px;
 		}
@@ -40,6 +40,9 @@
 	}
 	.fake-fullscreen-active & {
 		top: 5px;
+		@media (max-width: 578.98px){
+			top: 10px;
+		}
 	}
 }
 
