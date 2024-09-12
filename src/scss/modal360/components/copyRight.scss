@@ -1,7 +1,7 @@
 .copiryit-text {
 	position: absolute;
 	z-index: 100;
-	top: -80px;
+	top: -30px;
 	left: 50%;
 	transform: translateX(-50%);
 	max-width: 500px;
@@ -28,7 +28,7 @@
 		}
 	}
 	.fullscreen-enabled & {
-		top: -20px;
+		top: 40px;
 	}
 	.fancybox__container & {
 		top: auto;

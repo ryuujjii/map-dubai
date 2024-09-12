@@ -1,4 +1,4 @@
-import { COMMON_MEDIA_QUERIES } from 'utils';
+import {    queryMatches } from 'utils';
 
 export function config() {
   let widthViewerSlide;
@@ -6,7 +6,7 @@ export function config() {
   let conditionViewerSlides;
   let initialWidthViewerSwiper;
   let actualSwiperWidth;
-  if (!COMMON_MEDIA_QUERIES.TABLET) {
+  if (!queryMatches(1200)) {
     widthViewerSlide = 90;
     viewerSwiperPrerView = 5;
     initialWidthViewerSwiper = 500;
