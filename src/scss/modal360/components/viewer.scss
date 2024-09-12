@@ -367,6 +367,10 @@
     display: block !important;
     // flex: initial;
 
+	.mob-device & {
+		display: none !important;
+	}
+
     svg {
       width: 20px !important;
       height: 20px !important;
@@ -454,6 +458,8 @@
       }
     }
 
+
+
     svg {
       display: none;
     }
@@ -466,7 +472,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-image: url("../../../img/icons/fullscreen.svg");
+      background-image: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/icons/fullscreen.svg");
       background-repeat: no-repeat;
       background-size: cover;
       transition: transform 0.3s;
@@ -561,7 +567,7 @@ div.custom-gyro-btn {
     display: block !important;
   }
   &::after {
-    content: url("../../../img/icons/gyroscope.svg");
+    content: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/icons/gyroscope.svg");
     position: absolute;
     top: 50%;
     left: 50%;
