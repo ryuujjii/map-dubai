@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/urban-life-map-shadow.jpg",
 		"img": "",
 		"centerPosotion": -0.05,
 		"styles": "--move-y: -12%"
