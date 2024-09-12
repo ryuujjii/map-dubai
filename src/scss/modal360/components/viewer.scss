@@ -427,6 +427,10 @@
     .psv-zoom-range-handle {
       top: -2.5px;
     }
+
+	.mob-device & {
+		display: none !important;
+	}
   }
   .psv-fullscreen-button {
     background: linear-gradient(
