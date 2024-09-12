@@ -11,6 +11,7 @@ export default function pano(data) {
   const btns = document.querySelectorAll('[data-modal-open]');
   const modalIframe = document.querySelector('.pano__iframe');
   let isPanoLoaded = false;
+  let percentLoaded = 0;
   btns.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       dispatchCustomEvent({
@@ -43,16 +44,18 @@ export default function pano(data) {
           addClassName(document.documentElement, 'preloader-hidden');
         }, 1000);
       }
+      percentLoaded = e.detail.progress.percentLoaded > percentLoaded ? e.detail.progress.percentLoaded : percentLoaded;
       dispatchCustomEvent({
         el: window,
         event: 'media-loading',
-        detail: { progress: e.detail.progress.percentLoaded },
+        detail: { progress: percentLoaded },
       });
     });
   } else {
     testBtns();
   }
   window.addEventListener('close-pano', (e) => {
+    percentLoaded = 0;
     removeClassName(document.body, 'open-pano');
     removeLastEscEl('close-pano');
     isPanoLoaded = false;

@@ -74,12 +74,13 @@
     &-img {
       width: 100%;
       grid-area: 1/1;
+      opacity: 0.15;
       img {
-        width: 383px;
-    height: auto;
-    @media (max-width: 768px) {
-      width: 200px;
-    }
+        width: 30vw;
+        height: auto;
+        @media (max-width: 768px) {
+          width: 300px;
+        }
       }
     }
     &-loading {
@@ -88,11 +89,11 @@
       width: 0;
       overflow: hidden;
       img {
-        width: 383px;
-    height: auto;
-    @media (max-width: 768px) {
-      width: 200px;
-    }
+        width: 30vw;
+        height: auto;
+        @media (max-width: 768px) {
+          width: 300px;
+        }
       }
     }
   }
