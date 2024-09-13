@@ -1,0 +1,355 @@
+{
+	"map": {
+		"shadow": "img/projects/mag777/map-shadow.jpg",
+		"img": "",
+		"centerPosotion": 0,
+		"styles": "--move-y: -12%"
+	},
+	"dots": {
+		"1-bedroom-D": {
+			"sizes": {
+				"width": 155,
+				"height": 55
+			},
+			"position": {
+				"x": 495,
+				"y": 355
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "type D",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "1-bedroom-D",
+				"classNames": "right"
+			}
+		},
+		"2-bedroom-E": {
+			"sizes": {
+				"width": 155,
+				"height": 55
+			},
+			"position": {
+				"x": 860,
+				"y": 420
+			},
+			"info": {
+				"title": "2-bedroom",
+				"type": "type E",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "2-bedroom-E",
+				"classNames": "left"
+			}
+		}
+	},
+	"partner": {
+		"logo": "img/projects/mag777/project-icon.svg",
+		"classNames": []
+	},
+	"popup": {
+		"about": {
+			"projectName": "MAG 777",
+			"projectDescription": "As an architectural mural representing modernity, sophistication, and convenience, MAG 777 stands 22 floors high in the middle of Dubai Sports City. Every detail of the building’s design reflects contemporary elegance, with interiors that harmonize functionality and beauty. Expansive windows, high-end finishes, modern appliances, and thoughtfully maximized spaces create an unparalleled living experience where luxury and practicality coexist.",
+			"aboutItems": {
+				"content": [
+					{
+						"number": "19",
+						"text": "Residential <br> Floors",
+						"classNames": ""
+					},
+					{
+						"number": "2025 Q4",
+						"text": "Handover <br> Date",
+						"classNames": ""
+					},
+					{
+						"number": "3.4",
+						"text": "Mln AED <br> Starting Price",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"img": "img/projects/mag777/about/about-bg.jpg",
+				"classNames": [],
+				"styles": "object-position: center 15%;"
+			},
+			"amenities": {
+				"text": "MAG 777 offers an array of high-end amenities designed to elevate residents' lifestyles. The building provides 24/7 security and concierge services, ensuring safety and convenience. Thoughtfully designed common areas offer space for leisure and social interaction, while advanced home technology adds to the comfort of daily living. These amenities blend luxury with functionality, creating a balanced and sophisticated residential experience.",
+				"items": {
+					"content": [
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/swimming.svg",
+							"title": "Swimming pool",
+							"text": "A serene swimming pool and spacious sun deck provide the perfect environment for relaxation.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/fitness.svg",
+							"title": "Fitness Centre",
+							"text": "The building features a state-of-the-art fitness centre, complete with modern equipment.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/landscape.svg",
+							"title": "Landscaped Area",
+							"text": "MAG 777 offers a tranquil outdoor space for residents to unwind and connect with nature.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "A vibrant kids' playground, thoughtfully designed with safe and engaging equipment to provide a fun.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/car.svg",
+							"title": "Covered parking",
+							"text": "Benefit from ample covered parking options that offer protection and easy access.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/shop.svg",
+							"title": "Retail shops",
+							"text": "Take advantage of the in-house retail stores that offer a variety of shopping options.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
+			},
+			"location": {
+				"dot": {
+					"icon": "img/projects/mag777/about/location/dot-icon.svg",
+					"centerPosotion": {
+						"x": 870,
+						"y": 120
+					},
+					"sizes": {
+						"width": 50,
+						"height": 55
+					},
+					"position": {
+						"x": 1030,
+						"y": 205
+					},
+					"styles": "width: 26px"
+				}
+			}
+		},
+		"payment": {
+			"items": {
+				"content": [
+					{
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "on booking"
+							},
+							{
+								"number": "50",
+								"text": "during construction"
+							},
+							{
+								"number": "40",
+								"text": "on handover"
+							}
+						]
+					}
+				],
+				"classNames": []
+			},
+			"descriptions": {
+				"content": [
+					{
+						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+						"classNames": ""
+					},
+					{
+						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			}
+		},
+		"developer": {
+			"descriptions": {
+				"content": [
+					{
+						"text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents.",
+						"classNames": []
+					},
+					{
+						"text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "15",
+						"text": "Years of Expereance",
+						"classNames": ""
+					},
+					{
+						"number": "2+",
+						"text": "Projects",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			},
+			"media": {
+				"projectlogo": "img/projects/mag777/developer/icon.svg",
+				"img": "img/projects/mag777/developer/bg.jpg",
+				"classNames": []
+			}
+		},
+		"brochure": {
+			"brochureImg": "img/projects/mag777/brochure.jpg",
+			"classNames": []
+		}
+	},
+	"modal360": {
+		"1-bedroom-D": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_002.jpg"
+			]
+		},
+		"1-bedroom-E": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_002.jpg"
+			]
+		},
+		"2-bedroom-E": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_Bedroom_type_3_bedroom_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_001_type3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_002_type3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_bedroom_type3_bathroom_VR.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_Bedroom_type_3_bedroom_VR.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_001_type3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_002_type3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_bedroom_type3_bathroom_VR.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_002.jpg"
+			]
+		},
+		"2-bedroom-B": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_002.jpg"
+			]
+		}
+	}
+}

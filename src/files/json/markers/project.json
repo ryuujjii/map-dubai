@@ -120,6 +120,18 @@
         }
     },
     {
+        "isPopup": false,
+        "name": "Mag 777",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/mag777.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/mag777.jpg",
+        "dataTestName": "mag777",
+        "dataName": "#node6",
+        "coordinates": [565, 1820],
+        "projectLogo":{
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/mag.svg"
+        }
+    },
+    {
         "isPopup": true,
         "name": "Damac Lagoons",
         "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/damac-lagoons.jpg",
