@@ -21,7 +21,7 @@ function getLocationDotLayout({ dot }) {
 function getCenterLocationFn() {
   const locationScroll = document.querySelector('.location-about__map-scroll');
   return function centerLocation({ dot }) {
-    // removeClassName(locationScroll, 'no-scroll');
+    removeClassName(locationScroll, 'no-scroll');
     gsap.to(locationScroll, {
       scrollTo: {
         x: 0,
@@ -34,7 +34,7 @@ function getCenterLocationFn() {
             y: '.shadow-dot',
           },
           onComplete() {
-            // addClassName(locationScroll, 'no-scroll');
+            addClassName(locationScroll, 'no-scroll');
           }
         });
       }
