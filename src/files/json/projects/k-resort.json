@@ -42,7 +42,7 @@
 				"type": "",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "L-Shape-l2",
+				"dataModal360": "L-Shape-l1",
 				"classNames": "right",
 				"hoverId": "l-shape"
 			}
