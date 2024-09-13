@@ -7,6 +7,8 @@ export function mediaLoading() {
     const preloaderTotal = document.querySelector('.preloader__total span');
     const preloaderMap = document.querySelector('.preloader__map');
     const preloaderLogo = document.querySelector('.preloader__logo-loading');
+    const preloaderImg = document.querySelector('.preloader__logo-img');
+
     let path;
     let mapProgress;
     if (preloaderTotal) {
@@ -15,7 +17,7 @@ export function mediaLoading() {
         mapProgress = (4000 * path) / 100;
         preloaderTotal.innerHTML = Math.floor(path);
         preloaderMap.style.strokeDashoffset = 4000 - mapProgress;
-        preloaderLogo.style.width = `${path}%`;
+        preloaderLogo.style.clipPath = `inset(0 ${100-path}% 0 0)`;
       };
     } else {
       return function animatePreloader(value) {

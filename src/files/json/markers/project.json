@@ -8,7 +8,8 @@
         "dataName": "#node11",
         "coordinates": [1940, 2800],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/valori.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
+            "width":234
         }
     },
     {
@@ -20,7 +21,8 @@
         "dataName": "#node10",
         "coordinates": [1840, 2680],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/k-resort.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-resort.svg",
+            "width":287
         }
     },
     {
@@ -32,7 +34,8 @@
         "dataName": "#node12",
         "coordinates": [1710, 2320],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/Downtown-terraces.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/Downtown-terraces.svg",
+            "width":281
         }
     },
     {
@@ -44,7 +47,8 @@
         "dataName": "#node5",
         "coordinates": [2000, 2790],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/boutique-23.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/boutique-23.svg",
+            "width":382
         }
     },
     {
@@ -56,7 +60,8 @@
         "dataName": "#node8",
         "coordinates": [1100, 1250],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/emaar.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/emaar.svg",
+            "width":331
         }
     },
     {
@@ -68,7 +73,8 @@
         "dataName": "#node3",
         "coordinates": [1170, 1040],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/sls.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/sls.svg",
+            "width":213
         }
     },
     {
@@ -80,7 +86,8 @@
         "dataName": "#node7",
         "coordinates": [1420, 2360],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/k-reserve.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-reserve.svg",
+            "width":359
         }
     },
     {
@@ -92,7 +99,8 @@
         "dataName": "#node9",
         "coordinates": [1650, 2350],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/urban.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/urban.svg",
+            "width":235
         }
     },
     {
@@ -104,7 +112,8 @@
         "dataName": "#node4",
         "coordinates": [1160, 1560],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/biltmore.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/biltmore.svg",
+            "width":321
         }
     },
     {
@@ -116,7 +125,8 @@
         "dataName": "#node6",
         "coordinates": [1040, 1280],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/damac.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damac.svg",
+            "width":234
         }
     },
     {
@@ -139,7 +149,8 @@
         "dataName": "damac-lagoons",
         "coordinates": [320, 1960],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/valori.svg"
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
+            "width":300
         }
     }
 ]
