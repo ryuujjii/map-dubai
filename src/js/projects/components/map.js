@@ -38,4 +38,6 @@ function drag() {
 	hand.addEventListener("touchstart", () => {
 		hand.classList.add("hide");
 	});
+
 }
+

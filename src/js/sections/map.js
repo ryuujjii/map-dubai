@@ -410,3 +410,33 @@ export function map() {
   })
 
 }
+
+export function dragHandFn() {
+	let tlDragHand = gsap.timeline({
+		defaults: {
+			stagger: 0.1,
+		}, repeat: -1, repeatDelay: 5
+	});
+	tlDragHand.to(".map__draggable-hand-decor", {
+		xPercent: -130,
+		duration: 0.7,
+	});
+
+	tlDragHand.to(".map__draggable-hand-decor", {
+		opacity: 0,
+	}, 0.4);
+
+	tlDragHand.to(".map__draggable-hand-decor", {
+		xPercent: 100,
+		duration: 0.01,
+	},">");
+
+	tlDragHand.to(".map__draggable-hand-decor", {
+		opacity: 1,
+	},">");
+
+	tlDragHand.to(".map__draggable-hand-decor", {
+		xPercent: 0,
+		duration: 0.5,
+	},"<");
+}

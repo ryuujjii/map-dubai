@@ -3,6 +3,7 @@
  ** data-preload-query="991.98, max"
  */
 import 'latest-createjs/lib/preloadjs/preloadjs.js';
+import {dragHandFn} from '@/sections/map'
 
 import {
   queryMatches,
@@ -118,6 +119,10 @@ function commonInstructions() {
     // lenisScroll.start();
     // ScrollTrigger.refresh(true);
   }, 500);
+  setTimeout(() => {
+    dragHandFn()
+    
+  }, 1500);
 
   validVideo();
 }

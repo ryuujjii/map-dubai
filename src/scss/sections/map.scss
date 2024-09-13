@@ -111,7 +111,6 @@
   z-index: 999;
   transition: 0.4s ease;
 
-
   .dragged & {
     opacity: 0;
     visibility: hidden;
@@ -178,22 +177,31 @@
       pointer-events: none;
     }
 
-    &::before {
-      content: "";
-      position: absolute;
-      right: 0;
-      bottom: 0;
-      width: 80%;
-      height: 100%;
-      background: linear-gradient(
-        100deg,
-        #905d44 0%,
-        rgba(144, 93, 68, 0) 100%
-      );
-      opacity: 0.1;
-      clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
-    }
+
+    // .loaded & {
+    //   &::before {
+    //     animation: 
+    //       glareShakeFirst 3s cubic-bezier(0.770, 0.000, 0.175, 1.000) forwards, /* Первая анимация */
+    //       glareShakeSecond 8s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite 10s forwards; /* Вторая анимация с задержкой 5 секунд */
+    //   }
+    // }
   }
+
+  &-decor {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80%;
+    height: 100%;
+    transform: translateX(0%);
+    background-image: linear-gradient(
+      100deg,
+      rgba(144, 93, 68, 0.1) 0%,
+      rgba(144, 93, 68, 0) 100%
+    );
+    clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
 
   &-arrow {
     height: 14px;
@@ -217,6 +225,63 @@
   }
 }
 
+// @keyframes glareShakeFirst {
+//   0% {
+//     transform: translateX(0%);
+//   }
+//   50% {
+//     transform: translateX(-110%);
+//   }
+//   55% {
+//     transform: translateX(-110%);
+//     opacity: 0;
+//   }
+//   60% {
+//     transform: translateX(110%);
+//     opacity: 0;
+//   }
+
+//   65% {
+//     opacity: 1;
+//   }
+
+//   100% {
+//     transform: translateX(0%);
+//   }
+// }
+
+// @keyframes glareShakeSecond {
+//   0% {
+//     transform: translateX(0%);
+//   }
+//   10% {
+//     transform: translateX(-110%);
+//   }
+//   15% {
+//     transform: translateX(-110%);
+//     opacity: 0;
+//   }
+//   // 60% {
+//   //   transform: translateX(-100%);
+//   // }
+//   // 60% {
+//   //   transform: translateX(0%);
+//   //   opacity: 0;
+//   // }
+//   90% {
+//     transform: translateX(110%);
+//     opacity: 0;
+//   }
+
+//   95% {
+//     // transform: translateX(110%);
+//     opacity: 1;
+//   }
+
+//   100% {
+//     transform: translateX(0%);
+//   }
+// }
 @keyframes identifier {
   0% {
     transform: translateX(0);
