@@ -159,16 +159,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 770,
-						"y": 410
+						"x": 785,
+						"y": 185
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 895,
-						"y": 530
+						"x": 910,
+						"y": 290
 					},
 					"styles": "width: 40px; padding-top: 3px"
 				}

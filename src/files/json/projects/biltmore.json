@@ -110,7 +110,7 @@
 			"projectView": {
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/biltmore/about/about-bg.jpg",
 				"classNames": [],
-				"styles": ""
+				"styles": "object-position: center 15%;"
 			},
 			"amenities": {
 				"text": "The Biltmore Residences Sufouh sets a new standard for luxury living, providing a wide array of amenities designed for varied lifestyles. Every aspect, from shopping to leisure and fitness, is carefully curated to ensure maximum comfort. These exceptional offerings create a seamless blend of luxury, convenience, and wellness, making Biltmore Residences a premier destination in Dubai.",
@@ -160,16 +160,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/biltmore/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 345,
-						"y": 600
+						"x": 415,
+						"y": 270
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 485,
-						"y": 655
+						"x": 555,
+						"y": 365
 					},
 					"styles": "width: 26px"
 				}

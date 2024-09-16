@@ -2,7 +2,7 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/boutique-23/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": -0.13,
+		"centerPosotion": 0.07,
 		"styles": "--move-y: -6%"
 	},
 	"dots": {
@@ -272,7 +272,7 @@
 			"projectView": {
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/boutique-23/about/about-bg.jpg",
 				"classNames": [],
-				"styles": "object-position: center 0%;"
+				"styles": "object-position: center 22%;"
 			},
 			"amenities": {
 				"text": "Boutique 23 offers residents an impressive array of amenities aimed at elevating their living experience. These include a refreshing swimming pool, a state-of-the-art gym, ample underground and podium parking, and a tranquil courtyard for relaxation. Additionally, on-site retail outlets provide convenient shopping and dining options, contributing to a vibrant and self-sufficient community.",
@@ -322,16 +322,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/boutique-23/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 895,
-						"y": 145
+						"x": 910,
+						"y": -45
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 1050,
-						"y": 195
+						"x": 1065,
+						"y": 25
 					},
 					"styles": "width: 38px; padding-top: 2px"
 				}

@@ -106,16 +106,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 150,
-						"y": 670
+						"x": 290,
+						"y": 260
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 205,
-						"y": 660
+						"x": 335,
+						"y": 355
 					},
 					"styles": ""
 				}

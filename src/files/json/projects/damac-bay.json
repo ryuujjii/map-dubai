@@ -198,9 +198,9 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/about/about-bg1.jpg",
 				"classNames": [],
-				"styles": "object-position: center 23%;"
+				"styles": "object-position: center 62%;"
 			},
 			"amenities": {
 				"text": "DAMAC Bay offers a wealth of world-class amenities designed to elevate luxury living. Nature-inspired designs blend seamlessly with contemporary luxury, offering serene spaces surrounded by greenery and waterfront views. The development also features floating relaxation pods, infinity pools, wellness centers, and climate-controlled environments, creating a harmonious balance between comfort, well-being, and natural beauty.",
@@ -250,16 +250,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 230,
-						"y": 600
+						"x": 315,
+						"y": 260
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 335,
-						"y": 710
+						"x": 435,
+						"y": 400
 					},
 					"styles": "width: 40px"
 				}
@@ -341,7 +341,7 @@
 			},
 			"media": {
 				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/developer/icon.svg",
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/developer/bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/developer/bg1.jpg",
 				"classNames": []
 			}
 		},
