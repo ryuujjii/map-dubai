@@ -108,9 +108,9 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/about-bg1.jpg",
 				"classNames": [],
-				"styles": "object-position: center 15%;"
+				"styles": "object-position: center 42%;"
 			},
 			"amenities": {
 				"text": "Montage by Valori offers a range of exceptional amenities designed to enhance the living experience. Residents can enjoy access to the Jaddaf Waterfront Sculpture Park, a first in the area, which brings art and culture into everyday life. The development also features modern fitness facilities, serene landscaped areas, a luxurious swimming pool, and dedicated children's playgrounds, providing a blend of leisure, relaxation, and active living.",
@@ -160,16 +160,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 870,
-						"y": 120
+						"x": 910,
+						"y": -45
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 1030,
-						"y": 205
+						"x": 1045,
+						"y": 25
 					},
 					"styles": "width: 26px"
 				}
@@ -245,7 +245,7 @@
 			},
 			"media": {
 				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/icon.svg",
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/bg1.jpg",
 				"classNames": []
 			}
 		},

@@ -2,7 +2,7 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0,
+		"centerPosotion": -0.1,
 		"styles": "--move-y: -5%",
 		"hoverShadows": [
 			{
@@ -225,16 +225,16 @@
 				"dot": {
 					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/location/dot-icon.svg",
 					"centerPosotion": {
-						"x": 855,
-						"y": 160
+						"x": 910,
+						"y": -45
 					},
 					"sizes": {
 						"width": 50,
 						"height": 55
 					},
 					"position": {
-						"x": 1020,
-						"y": 240
+						"x": 1030,
+						"y": 55
 					},
 					"styles": "width: 19px"
 				}
