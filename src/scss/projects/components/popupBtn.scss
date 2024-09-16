@@ -112,6 +112,11 @@
       visibility: visible;
       mask: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg") no-repeat center;
     }
+    &.contact{
+      @media(max-width:992px){
+        display: none;
+      }
+    }
   }
 
   // .popupBtn__text

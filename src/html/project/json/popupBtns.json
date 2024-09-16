@@ -22,5 +22,11 @@
 		"text": "AX CAPITAL",
 		"classNames": "ax",
 		"dataPopupId": "ax"
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+		"text": "Contact us",
+		"classNames": "contact",
+		"dataPopupId": "contact"
 	}
 ]
