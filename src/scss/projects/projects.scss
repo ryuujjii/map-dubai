@@ -213,7 +213,7 @@
 
 	&__brochure-btn {
 		position: absolute;
-		bottom: 0;
+		bottom: 2px;
 		right: 0;
 		color: var(--light-color);
 		font-size: 15px;
@@ -292,7 +292,12 @@
 				}
 			}
 		}
-		@media (max-width: 768px) {
+		@media(max-width:992px)
+	{
+padding: 10px 22px;
+bottom: 1px;
+	}	
+	@media (max-width: 768px) {
 			position: fixed;
 			top: 16px;
 			right: 16px;
