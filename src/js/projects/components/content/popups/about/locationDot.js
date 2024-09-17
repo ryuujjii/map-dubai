@@ -10,11 +10,7 @@ function getLocationDotLayout({ dot }) {
       class="location-dot"
     >
       <div class="location-dot__wrapper">
-        <div class="location-dot__icon" style="${dot.styles}">
-	<span style="mask: url(${dot.icon}) no-repeat center"></span>
-        
-        </div>
-
+        <div class="location-dot__icon" style="${dot.styles}"><img src="${dot.icon}" alt=""></div>
       </div>
     </foreignObject>
         <foreignObject width="30" height="30" x="${dot.centerPosotion.x}" y="${dot.centerPosotion.y}">
