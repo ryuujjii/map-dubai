@@ -1,3 +1,5 @@
+/** @format */
+
 import { addClassName, removeClassName } from "utils";
 import collectEscEls from "@/components/esc/collectEscEls";
 import removeLastEscEl from "@/components/esc/removeLastEscEl";
@@ -41,10 +43,11 @@ class ViewPopup {
             this.closePopup();
           }
         }
-          popupBackground.classList.add("active");
-          if (popupId == "brochure" || popupId == "contact" ) {
-            popupBackground.classList.add("brochure-open")
-          }
+        popupBackground.classList.add("active");
+        if (popupId == "brochure" || popupId == "contact") {
+          popupBackground.classList.add("brochure-open");
+          document.body.classList.add("hide-btn");
+        }
 
         collectEscEls("close-popup");
         addClassName(neededPopup, this.attributes.classNames.show);
@@ -60,7 +63,6 @@ class ViewPopup {
         }, 100);
       });
     });
-    
   }
 
   close() {
@@ -68,15 +70,17 @@ class ViewPopup {
       this.closePopup();
       popupBackground.classList.remove("active");
       popupBackground.classList.remove("brochure-open");
+      document.body.classList.remove("hide-btn");
     });
 
-    document.querySelector('.home-popup').addEventListener('click', (e) => {
-      if (e.target.closest('.home-popup__inner')) {
+    document.querySelector(".home-popup").addEventListener("click", (e) => {
+      if (e.target.closest(".home-popup__inner")) {
         return;
       }
       this.closePopup();
       popupBackground.classList.remove("active");
       popupBackground.classList.remove("brochure-open");
+      document.body.classList.remove("hide-btn");
     });
 
     // document.addEventListener('keydown', (event) => {
@@ -86,17 +90,15 @@ class ViewPopup {
     // });
 
     document.addEventListener("click", (e) => {
-      const target = e.target;  
+      const target = e.target;
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
         popupBackground.classList.remove("active");
-      popupBackground.classList.remove("brochure-open");
-      }
-      
-    });
-    
-  
+        popupBackground.classList.remove("brochure-open");
+      document.body.classList.remove("hide-btn");
 
+      }
+    });
   }
 
   closePopup() {
@@ -106,6 +108,7 @@ class ViewPopup {
     removeClassName(projectCloseBtn, "hidden");
     popupBackground.classList.remove("active");
     popupBackground.classList.remove("brochure-open");
+    document.body.classList.remove("hide-btn");
     this.activePopup = null;
     this.activeBtn = null;
     this.canClose = false;

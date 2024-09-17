@@ -205,6 +205,10 @@
   &__logo {
     display: flex;
     justify-content: center;
+    width: 96px;
+    img{
+      width: 100%;
+    }
   }
   .brochure__text-p {
     // margin-top: 16px;

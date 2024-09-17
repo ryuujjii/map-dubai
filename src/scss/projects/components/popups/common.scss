@@ -13,7 +13,7 @@
   // 	opacity: 1;
   // 	pointer-events: auto;
   // }
-  &[data-popup='about'] {
+  &[data-popup="about"] {
     .popup__content {
       @media (min-width: 2559px) {
         padding: 104px 12px 128px 24px;
@@ -47,8 +47,8 @@
       bottom: 80px;
     }
     svg {
-      circle{
-          animation: scrollMouseAnim 3s ease infinite;
+      circle {
+        animation: scrollMouseAnim 3s ease infinite;
       }
     }
     @media (max-width: 768px) {
@@ -69,7 +69,7 @@
       transform: translateY(0%);
     }
   }
-  &[data-popup='about'] & {
+  &[data-popup="about"] & {
     &__scrollmouse {
       opacity: 1;
     }
@@ -87,7 +87,7 @@
     opacity: 0;
     pointer-events: none;
     &::before {
-      content: '';
+      content: "";
       background: rgba(22, 22, 22, 1);
       position: absolute;
       left: 24px;
@@ -104,8 +104,8 @@
     &.active {
       opacity: 1;
     }
-    &.brochure-open{
-      &::before{
+    &.brochure-open {
+      &::before {
         opacity: 0;
       }
     }
@@ -220,6 +220,13 @@
       opacity: 0;
       visibility: hidden;
       pointer-events: none;
+    }
+  }
+}
+.hide-btn {
+  @media (max-width: 768px) {
+    .project__btns {
+      z-index: 9999;
     }
   }
 }
