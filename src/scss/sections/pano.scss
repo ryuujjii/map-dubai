@@ -28,10 +28,8 @@
 
 	&__close-btn {
 		.hide-close-pano & {
-			@media (max-width: 479px) {
-				opacity: 0;
-				visibility: hidden;
-			}
+			opacity: 0;
+			visibility: hidden;
 		}
 	}
 }
