@@ -42,7 +42,7 @@ class ViewPopup {
           }
         }
           popupBackground.classList.add("active");
-          if (popupId == "brochure") {
+          if (popupId == "brochure" || popupId == "contact" ) {
             popupBackground.classList.add("brochure-open")
           }
 
@@ -60,10 +60,20 @@ class ViewPopup {
         }, 100);
       });
     });
+    
   }
 
   close() {
     window.addEventListener("close-popup", (e) => {
+      this.closePopup();
+      popupBackground.classList.remove("active");
+      popupBackground.classList.remove("brochure-open");
+    });
+
+    document.querySelector('.home-popup').addEventListener('click', (e) => {
+      if (e.target.closest('.home-popup__inner')) {
+        return;
+      }
       this.closePopup();
       popupBackground.classList.remove("active");
       popupBackground.classList.remove("brochure-open");
@@ -77,13 +87,18 @@ class ViewPopup {
 
     document.addEventListener("click", (e) => {
       const target = e.target;
+      console.log(target);
+  
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
         popupBackground.classList.remove("active");
       popupBackground.classList.remove("brochure-open");
-
       }
+      
     });
+    
+  
+
   }
 
   closePopup() {

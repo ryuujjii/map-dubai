@@ -1,0 +1,32 @@
+/** @format */
+
+.popup {
+
+  &[data-popup="contact"] {
+  //   padding: 0;
+  // left: 50%;
+  // top: 50%;
+  // width: 100%;
+  // height: 100%;
+  // transform: translate(-50%,-50%);
+  // @media(max-width:768px){
+  //   width:  100%;
+  // }
+    .hot-popup {
+      opacity: 1;
+      visibility: visible;
+      backdrop-filter: unset;
+      // transform: translate(-50%,-50%);
+      padding: 20px;
+      background-color: unset;
+      // position: static;
+    }
+    .popup__wrapper {
+      background: none;
+      padding: 0;
+    }
+    .popup__close-btn {
+      display: none;
+    }
+  }
+}
