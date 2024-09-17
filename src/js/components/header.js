@@ -7,6 +7,8 @@ export function header() {
   const menu = document.querySelector('.menu');
   const menuLinks = document.querySelectorAll('.menu__link-item');
   const menuTitle = document.querySelector('.menu__title span');
+  const socialsToggleBtn = document.querySelector('.header__socials--toggle');
+  const headerSocials = document.querySelector('.header__socials');
   const LAPTOP_MIN = queryMatches(992, 'min');
 
   let isMenuOpen = false;
@@ -24,11 +26,7 @@ export function header() {
     },
   });
   tl.to(
-    menu,
-    {
-      clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)',
-    },
-    0
+    menu, { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', }, 0
   );
   tl.to(
     menuTitle,
@@ -53,20 +51,24 @@ export function header() {
     );
   }
 
-    toggleMenuBtn.addEventListener('click', () => {
-        if (isMenuOpen) {
-            tl.timeScale(1.7).reverse();
-        } else {
-            tl.timeScale(1).play();
-        }
-        isMenuOpen = !isMenuOpen;
-    });
+  toggleMenuBtn.addEventListener('click', () => {
+    if (isMenuOpen) {
+      tl.timeScale(1.7).reverse();
+    } else {
+      tl.timeScale(1).play();
+    }
+    isMenuOpen = !isMenuOpen;
+  });
 
-    menuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            tl.timeScale(1.7).reverse();
-            isMenuOpen = !isMenuOpen;
-        })
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      tl.timeScale(1.7).reverse();
+      isMenuOpen = !isMenuOpen;
     })
+  })
+
+  socialsToggleBtn.addEventListener('click', () => {
+    headerSocials.classList.toggle('opened')
+  })
 
 }
