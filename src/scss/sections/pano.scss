@@ -27,9 +27,12 @@
 	// .pano__close-btn
 
 	&__close-btn {
+		transition: opacity 0.15s ease 200ms;
+
 		.hide-close-pano & {
 			opacity: 0;
-			visibility: hidden;
+			pointer-events: none;
+			transition-delay: 0s;
 		}
 	}
 }
