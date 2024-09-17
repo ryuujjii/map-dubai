@@ -12,16 +12,16 @@
 				"height": 55
 			},
 			"position": {
-				"x": 895,
-				"y": 160
+				"x": 565,
+				"y": 200
 			},
 			"info": {
 				"title": "2, 3-bedroom",
 				"type": "",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "2-3-bedroom",
-				"classNames": "left"
+				"classNames": "right"
 			}
 		},
 		"1-2-bedroom": {
@@ -30,16 +30,16 @@
 				"height": 55
 			},
 			"position": {
-				"x": 895,
-				"y": 290
+				"x": 565,
+				"y": 320
 			},
 			"info": {
 				"title": "1, 2-bedroom",
 				"type": "",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-2-bedroom",
-				"classNames": "left"
+				"classNames": "right"
 			}
 		},
 		"gym": {
