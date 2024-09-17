@@ -3,23 +3,12 @@
 .popup {
 
   &[data-popup="contact"] {
-  //   padding: 0;
-  // left: 50%;
-  // top: 50%;
-  // width: 100%;
-  // height: 100%;
-  // transform: translate(-50%,-50%);
-  // @media(max-width:768px){
-  //   width:  100%;
-  // }
     .hot-popup {
       opacity: 1;
       visibility: visible;
       backdrop-filter: unset;
-      // transform: translate(-50%,-50%);
       padding: 20px;
       background-color: unset;
-      // position: static;
     }
     .popup__wrapper {
       background: none;
@@ -28,5 +17,47 @@
     .popup__close-btn {
       display: none;
     }
+    .popup__scrollmouse {
+      opacity: 0 !important;
+    }
+    .brochure__bot{
+      display: none;
+    }
+    @media(max-width:768px){
+      .home-popup__content-row{
+        display: none;
+      }
+      .home-popup__content{
+        background: none;
+        padding: 0;
+      }
+      .home-popup__inner{
+        padding: 24px 52px;
+      }
+      .home-popup__close{
+        padding: 4px;
+        top: 20px;
+        right: 20px;
+      }
+      .home-popup__title{
+        font-size: 24px;
+      }
+      .home-popup__row{
+        gap: 32px;
+      }
+      .home-popup__form{
+        margin-top: 8px;
+      }
+      .brochure__bot{
+        margin-top: 0;
+        display: flex;
+      }
+      
+    }
+    @media(max-width:420px){
+    
+    .home-popup__inner{
+      padding: 24px 32px;
+    }}
   }
 }

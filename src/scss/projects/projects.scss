@@ -49,6 +49,9 @@
 			opacity: 1;
 			pointer-events: auto;
 		}
+		@media (max-width: 992px) {
+			z-index: 9999;
+		}
 		@media (max-width: 768px) {
 			--shift: 16px;
 		}

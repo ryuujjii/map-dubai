@@ -9,22 +9,6 @@
     top: 50%;
     transform: translateY(-50%);
     @media (max-width: 992px) {
-      padding: 24px 40px 90px;
-    }
-    // @media (max-width: 992px) and (max-height: 800px) {
-    //   padding: 24px 40px 0;
-    // }
-    // @media (max-width: 992px) and (max-height: 760px) {
-    //   padding: 24px 40px 30px;
-    // }
-    // @media (max-width: 992px) and (max-height: 650px) {
-    //   padding: 24px 40px 0;
-    // }
-    // @media (max-width: 992px) and (max-height: 620px) {
-    //   align-items: flex-start;
-    //   margin-top: 5px;
-    // }
-    @media (max-width: 768px) {
       padding: 0 16px;
     }
     .popup__wrapper {
@@ -41,6 +25,7 @@
 
       @media (max-width: 768px) {
         border-radius: 4px;
+        
       }
     }
     .popup__content {
@@ -55,18 +40,8 @@
       left: auto;
       right: -32px;
       @media (max-width: 992px) {
-        top: 8px;
-        bottom: auto;
-        right: 24px;
-      }
-      @media (max-width: 768px) {
-        top: 8px;
-        bottom: auto;
-        right: 8px;
-      }
-      @media (max-width: 576px) {
-        top: 4px;
-        right: 4px;
+        top: -8px;
+        right: -16px;
       }
     }
     .popup__wp {
@@ -78,21 +53,24 @@
       @media (max-width: 992px) {
         max-height: 100%;
         height: max-content;
+        padding: 0;
       }
       @media (max-width: 768px) {
-        height: calc(100% - 56px);
-        width: calc(100% - 32px);
+        width: 100%;
         position: absolute;
-        top: 0;
+        top: 50%;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%, -50%);
         max-height: 100%;
         backdrop-filter: none;
         background: none;
-        padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+      @media (max-width:576px) {
+        width: calc(100% - 32px);
+        
       }
     }
     .popup__scrollmouse {
@@ -105,7 +83,7 @@
         height: max-content;
         background: rgba(22, 22, 22, 0.96);
         backdrop-filter: blur(4px);
-        padding: 8px 8px 32px;
+        padding: 24px 32px;
         overflow-y: auto;
       }
       @media (max-width: 768px) and (max-height: 590px) {
@@ -135,7 +113,7 @@
       gap: 33px;
     }
     @media (max-width: 992px) {
-      padding: 0 15px;
+      padding: 24px 32px;
       gap: 0;
     }
     @media (max-width: 768px) and (max-height: 710px) {
@@ -146,6 +124,12 @@
 
   &__top {
     position: relative;
+    @media(max-width:992px){
+
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: 32px;
+    }
   }
 
   &__img {
@@ -177,17 +161,51 @@
       }
     }
     @media (max-height: 720px) and (max-width: 768px) {
-      height: 180px;
+      height: 156px;
     }
   }
 
   &__cta {
     // margin-top: 66px;
-    input{
+    input {
       color: var(--light-color);
     }
   }
-
+  &__bot {
+    display: none;
+    order: 4;
+    @media (max-width: 992px) {
+      margin-top: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+    @media (max-height: 590px) {
+      padding-bottom: 24px;
+    }
+  }
+  &__socials {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    div {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    span{
+     display: block;
+      width: 16px;
+      height: 16px;
+      &:nth-of-type(1){
+        height: 14px;
+      }
+    }
+  }
+  &__logo {
+    display: flex;
+    justify-content: center;
+  }
   .brochure__text-p {
     // margin-top: 16px;
     // margin-bottom: 32px;
@@ -211,12 +229,12 @@
       padding-top: 16px;
       padding-left: 32px;
       padding: 0;
-      margin-top: 16px;
-      margin-bottom: 32px;
+      //  margin-top: 16px;
+      margin-bottom: 16px;
     }
     @media (max-width: 768px) {
-      font-size: 32px;
-      padding: 0 8px;
+      font-size: 24px;
+      // padding: 0 8px;
     }
   }
 
@@ -243,14 +261,42 @@
     &__cta {
       order: 3;
       .cta-about__form {
-        padding: 0 8px;
+        padding: 0;
         gap: 32px;
-        @media (max-height:590px) {
-          padding: 0 8px 16px!important;
-        }
       }
       .cta-about__inputs {
         gap: 32px;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  .popup {
+    &[data-popup="brochure"] {
+      .popup__close-btn {
+        top: 16px;
+        right: 16px;
+        background: none;
+        padding: 0;
+        height: 16px;
+        p {
+          display: none;
+        }
+        img {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+}
+@media (max-width:768px) {
+  .popup {
+    &[data-popup="brochure"] {
+      .popup__close-btn {
+        top: -8px;
+        right: -16px;
+
       }
     }
   }

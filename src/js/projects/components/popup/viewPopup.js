@@ -86,9 +86,7 @@ class ViewPopup {
     // });
 
     document.addEventListener("click", (e) => {
-      const target = e.target;
-      console.log(target);
-  
+      const target = e.target;  
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
         this.closePopup();
         popupBackground.classList.remove("active");

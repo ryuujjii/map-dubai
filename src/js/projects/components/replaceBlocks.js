@@ -8,7 +8,7 @@ export default function replaceBlocks() {
   if (queryMatches(992)) {
     developerInfoBlock.appendChild(developeIMGBlock);
   }
-  if (queryMatches(768)) {
+  if (queryMatches(992)) {
     closeBtn.classList.add("pano-btn");
   }
 }
