@@ -3,13 +3,16 @@
 .popup {
 
   &[data-popup="contact"] {
-z-index: 10002;
+    // z-index: 10002;
     .hot-popup {
       opacity: 1;
       visibility: visible;
       backdrop-filter: unset;
       padding: 20px;
       background-color: unset;
+      // height: max-content;
+      // bottom: 50%;
+      // transform: translateY(50%);
     }
     .popup__wrapper {
       background: none;

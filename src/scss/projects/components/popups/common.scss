@@ -1,3 +1,5 @@
+/** @format */
+
 .popup {
   position: fixed;
   top: 0;
@@ -224,12 +226,9 @@
   }
 }
 .hide-btn {
-  @media (max-width: 768px) {
-    .popup__background{
-      &.brochure-open{
-        z-index: 10001;
-      }
-      
+  @media (max-width: 992px) {
+    .project__btns {
+      display: none;
     }
   }
 }

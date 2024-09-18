@@ -83,12 +83,6 @@ class ViewPopup {
       document.body.classList.remove("hide-btn");
     });
 
-    // document.addEventListener('keydown', (event) => {
-    //   if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
-    //     this.activePopup ? this.closePopup() : null;
-    //   }
-    // });
-
     document.addEventListener("click", (e) => {
       const target = e.target;
       if (this.canClose && !target.closest(`.popup__wrapper`) && !target.closest(`.project__popupBtns-open`)) {
@@ -99,6 +93,12 @@ class ViewPopup {
 
       }
     });
+
+        // document.addEventListener('keydown', (event) => {
+    //   if (event.key === 'Escape' || event.key === 'Esc' || event.keyCode === 27) {
+    //     this.activePopup ? this.closePopup() : null;
+    //   }
+    // });
   }
 
   closePopup() {
