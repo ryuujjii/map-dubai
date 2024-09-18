@@ -8,6 +8,7 @@
     padding: 78px 40px 118px;
     top: 50%;
     transform: translateY(-50%);
+    z-index: 10002;
     @media (max-width: 992px) {
       padding: 0 16px;
     }

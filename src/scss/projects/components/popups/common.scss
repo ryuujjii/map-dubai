@@ -225,8 +225,11 @@
 }
 .hide-btn {
   @media (max-width: 768px) {
-    .project__btns {
-      z-index: 9999;
+    .popup__background{
+      &.brochure-open{
+        z-index: 10001;
+      }
+      
     }
   }
 }

@@ -3,6 +3,7 @@
 .popup {
 
   &[data-popup="contact"] {
+z-index: 10002;
     .hot-popup {
       opacity: 1;
       visibility: visible;
