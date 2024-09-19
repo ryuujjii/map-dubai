@@ -128,42 +128,42 @@
 
       &::after {
         pointer-events: none;
-        content: '';
+        content: "";
         position: absolute;
         top: 4px;
         right: 4px;
         left: 4px;
         bottom: 4px;
-        -webkit-mask: -webkit-gradient(
-              linear,
-              left top,
-              left bottom,
-              color-stop(0, #fff)
-            )
-            padding-box,
+        -webkit-mask:
+          -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box,
           -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        -webkit-mask:
+          linear-gradient(#fff 0 0) padding-box,
           linear-gradient(#fff 0 0);
         -webkit-mask-composite: destination-out;
         mask-composite: exclude;
-        background: -o-linear-gradient(
-            315deg,
-            #d79970 0,
-            #905d44 50%,
-            #d79970 100%
-          )
-          border-box;
-        background: linear-gradient(
-            135deg,
-            #d79970 0,
-            #905d44 50%,
-            #d79970 100%
-          )
-          border-box;
+        background: -o-linear-gradient(315deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
+        background: linear-gradient(135deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
         background-size: 200% 100%;
         background-position: 0 100%;
         border: 1.5px solid transparent;
         border-radius: 100px;
+      }
+
+      animation: social-pulse 3s linear infinite;
+      @keyframes social-pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(215, 153, 112, 0.7), 0 0 0 0 rgba(215, 153, 112, 0.7);
+        }
+        40% {
+          box-shadow:0 0 0 20px rgba(215, 153, 112, 0), 0 0 0 0 rgba(215, 153, 112, 0.7);
+        }
+        80% {
+          box-shadow: 0 0 0 20px rgba(215, 153, 112, 0), 0 0 0 10px rgba(215, 153, 112, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(215, 153, 112, 0), 0 0 0 10px rgba(215, 153, 112, 0);
+        }
       }
     }
   }
@@ -185,7 +185,7 @@
       @include flex;
 
       &::after {
-        content: url('../img/icons/message_icon.svg');
+        content: url("../img/icons/message_icon.svg");
         width: 22px;
         height: 22px;
         position: absolute;
@@ -194,7 +194,7 @@
           width: 32px;
           height: 32px;
           bottom: 12px;
-          content: url('../img/icons/gold-close.svg');
+          content: url("../img/icons/gold-close.svg");
         }
       }
     }
@@ -218,39 +218,23 @@
       }
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         bottom: 0;
         width: 100%;
         height: 100%;
         border-radius: 4px;
-        -webkit-mask: -webkit-gradient(
-              linear,
-              left top,
-              left bottom,
-              color-stop(0, #fff)
-            )
-            padding-box,
+        -webkit-mask:
+          -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box,
           -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
-        -webkit-mask: linear-gradient(#fff 0 0) padding-box,
+        -webkit-mask:
+          linear-gradient(#fff 0 0) padding-box,
           linear-gradient(#fff 0 0);
         -webkit-mask-composite: destination-out;
         mask-composite: exclude;
-        background: -o-linear-gradient(
-            315deg,
-            #d79970 0,
-            #905d44 50%,
-            #d79970 100%
-          )
-          border-box;
-        background: linear-gradient(
-            135deg,
-            #d79970 0,
-            #905d44 50%,
-            #d79970 100%
-          )
-          border-box;
+        background: -o-linear-gradient(315deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
+        background: linear-gradient(135deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
         background-size: 200% 100%;
         background-position: 0 100%;
         border: 1.5px solid transparent;
@@ -356,8 +340,7 @@
     width: 100%;
     height: 2px;
     border-radius: 2px;
-    background: linear-gradient(135deg, #d79970 0, #905d44 50%, #d79970 100%)
-      border-box;
+    background: linear-gradient(135deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
     transition: 0.4s ease;
 
     @include _1700-min {
@@ -369,18 +352,12 @@
       position: relative;
 
       &::after {
-        content: '';
+        content: "";
         width: 100%;
         position: absolute;
         height: 100%;
         border-radius: 2px;
-        background: linear-gradient(
-            135deg,
-            #d79970 0,
-            #905d44 50%,
-            #d79970 100%
-          )
-          border-box;
+        background: linear-gradient(135deg, #d79970 0, #905d44 50%, #d79970 100%) border-box;
         display: block;
         transition: 0.3s ease 0s;
       }

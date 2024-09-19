@@ -6,8 +6,10 @@ import { directionDots } from '@/sections/directionDots';
 import { popup } from '@/components/popup';
 
 export function map() {
-  let darkMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/map-dark.jpg';
-  let lightMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/light.png';
+  // let darkMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/map-dark.jpg';
+  // let lightMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/light.png';
+  let darkMap = "../img/map.jpg"
+  let lightMap = "../img/building.png"
 
   window.addEventListener('media-loaded', () => {
     // const bounds = [[0, 0], [2304, 4072]];
@@ -76,42 +78,25 @@ export function map() {
 
     const centerCoordinates = [1100, 1250];
     map.setView(centerCoordinates, 0);
-    // map.setView([1100, 1249], 0);
-    // map.panTo([1100, 1250], { animate: true, duration: 0.7, });
 
     updateOverlay(darkMapWrapper);
     updateOverlay(lightMapWrapper);
-
-
-    // function smoothShakeMap() {
-    //   setTimeout(() => {
-    //     map.panTo([1100, 1350], { animate: true, duration: 0.7, });
-    //   }, 700);
-    //   setTimeout(() => {
-    //     map.panTo([1100, 1250], { animate: true, duration: 0.7, });
-    //   }, 1400)
-    //   setTimeout(() => {
-    //     map.panTo([1100, 1350], { animate: true, duration: 0.7, });
-    //   }, 2100)
-    // }
-
-    // smoothShakeMap()
 
 
     // Opening Markers in center viewport MB
     function zoomPinInViewport() {
       if (isMobileOrTablet()) {
         function addZoomClassToMarker(marker) {
-          marker.parentElement.classList.add('_zoom');
+          marker.classList.add('_zoom');
         }
 
         function removeZoomClassFromMarker(marker) {
-          marker.parentElement.classList.remove('_zoom');
+          marker.classList.remove('_zoom');
         }
 
         function isMarkerInCenterViewport(entry) {
-          const centralViewportWidth = window.innerWidth * 0.8;
-          const centralViewportHeight = window.innerWidth * 0.8;
+          const centralViewportWidth = window.innerWidth * 0.9;
+          const centralViewportHeight = window.innerWidth * 0.9;
           const centralViewportLeft =
             (window.innerWidth - centralViewportWidth) / 2;
           const centralViewportTop =
@@ -134,6 +119,7 @@ export function map() {
             entries.forEach((entry) => {
               if (isMarkerInCenterViewport(entry)) {
                 addZoomClassToMarker(entry.target);
+
               } else {
                 removeZoomClassFromMarker(entry.target);
               }
@@ -382,17 +368,8 @@ export function map() {
       initializePinClickListeners()
     });
 
-    // map.on('moveend', function () {
-    // console.log('Map is fully loaded');
-    // map.panTo
-    // })
-
 
     let dragMap = false
-
-    function disableDrag() {
-
-    }
 
     map.addEventListener('click', () => {
       if (!dragMap) {

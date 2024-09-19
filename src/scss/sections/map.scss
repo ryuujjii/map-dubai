@@ -156,21 +156,12 @@
       bottom: 0;
       padding: 1px;
       border-radius: 16px;
-      background: linear-gradient(
-        130deg,
-        #b47658 0%,
-        rgba(198, 123, 85, 0.1) 46%,
-        #a97359 100%
-      );
-      -webkit-mask: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #fff)
-          )
-          content-box,
+      background: linear-gradient(130deg, #b47658 0%, rgba(198, 123, 85, 0.1) 46%, #a97359 100%);
+      -webkit-mask:
+        -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box,
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
-      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
       -webkit-mask-composite: destination-out;
       mask-composite: exclude;
@@ -185,14 +176,9 @@
     width: 80%;
     height: 100%;
     transform: translateX(0%);
-    background-image: linear-gradient(
-      100deg,
-      rgba(144, 93, 68, 0.1) 0%,
-      rgba(144, 93, 68, 0) 100%
-    );
+    background-image: linear-gradient(100deg, rgba(144, 93, 68, 0.1) 0%, rgba(144, 93, 68, 0) 100%);
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
   }
-
 
   &-arrow {
     height: 14px;
@@ -266,12 +252,7 @@
       z-index: -1;
       margin: -$border;
       border-radius: inherit;
-      background: linear-gradient(
-        135deg,
-        #d79970 0%,
-        #905d44 50%,
-        #d79970 100%
-      );
+      background: linear-gradient(135deg, #d79970 0%, #905d44 50%, #d79970 100%);
     }
 
     &::after {
@@ -309,17 +290,20 @@
 
     .mob-device & {
       grid-template-columns: max-content 1fr;
+    }
+  }
 
-      // map__marker-trigger
-      &-trigger {
-        transform: scale(0.7);
-        transition: transform 0.3s linear;
-        will-change: transform;
-
-        &._zoom {
-          transform: scale(1.2);
-        }
-      }
+  .mob-device & {
+    // map__marker-trigger
+    &-trigger {
+      transform: scale(0.7);
+      transition: transform 0.3s linear;
+      will-change: transform;
+    }
+  }
+  .mob-device &._zoom {
+    .map__marker-trigger {
+      transform: scale(1.1);
     }
   }
 
@@ -391,17 +375,39 @@
 
   &--hot {
     filter: drop-shadow(0px 0px 20px #d77070);
-    // backdrop-filter: drop-shadow(#D77070 16px 16px 20px);
+
+    .map__marker-trigger {
+      animation: animate-pulse 3s linear infinite;
+      border-radius: 50px;
+    }
+
+    @keyframes animate-pulse {
+      0% {
+        box-shadow:
+          0 0 0 0 rgba(215, 112, 112, 0.6),
+          0 0 0 0 rgba(215, 112, 112, 0.6);
+      }
+      40% {
+        box-shadow:
+          0 0 0 24px rgba(215, 112, 112, 0),
+          0 0 0 0 rgba(215, 112, 112, 0.6);
+      }
+      80% {
+        box-shadow:
+          0 0 0 24px rgba(215, 112, 112, 0),
+          0 0 0 18px rgba(215, 112, 112, 0);
+      }
+      100% {
+        box-shadow:
+          0 0 0 0 rgba(215, 112, 112, 0),
+          0 0 0 18px rgba(215, 112, 112, 0);
+      }
+    }
 
     .map__marker-button {
       border-radius: 80px;
       &::before {
-        background: linear-gradient(
-          135deg,
-          #d77070 0%,
-          #904444 50%,
-          #d77070 100%
-        );
+        background: linear-gradient(135deg, rgb(215, 112, 112) 0%, #904444 50%, #d77070 100%);
       }
     }
 
