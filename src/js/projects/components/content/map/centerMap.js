@@ -11,7 +11,8 @@ function getCenterMap() {
     let y = calculateNewPos(window.innerHeight, containerHeight, centerPosotion.y);
     gsap.to(masterplanWrapper, {
       scrollTo: {
-        x: 0
+        x: 0,
+        y: 0
       },
       onComplete: () => {
         gsap.to(masterplanWrapper, {
