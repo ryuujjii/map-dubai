@@ -12,8 +12,11 @@
 			}
 		],
 		"img": "",
-		"centerPosotion": 0.05,
-		"styles": "--move-y: -6%"
+		"centerPosotion": {
+			"x": 0.05,
+			"y": 0
+		},
+		"styles": ""
 	},
 	"dots": {
 		"grand-bleu-tower": {

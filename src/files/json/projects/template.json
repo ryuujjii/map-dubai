@@ -2,7 +2,10 @@
 	"map": {
 		"shadow": "",
 		"img": "",
-		"centerPosotion": 0.15,
+		"centerPosotion": {
+			"x": 0,
+			"y": 0
+		},
 		"styles": "",
 		"hoverShadows": [
 			{

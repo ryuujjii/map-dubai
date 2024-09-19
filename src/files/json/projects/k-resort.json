@@ -2,8 +2,11 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": -0.1,
-		"styles": "--move-y: -5%",
+		"centerPosotion": {
+			"x": -0.1,
+			"y": 0.05
+		},
+		"styles": "",
 		"hoverShadows": [
 			{
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/earth.jpg",

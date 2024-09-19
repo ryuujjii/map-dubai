@@ -2,8 +2,11 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/map-shadow.jpg",
 		"img": "",
-		"centerPosotion": 0,
-		"styles": "--move-y: -12%"
+		"centerPosotion": {
+			"x": 0,
+			"y": 1
+		},
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom-D": {
