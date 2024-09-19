@@ -8,8 +8,8 @@ import { popup } from '@/components/popup';
 export function map() {
   // let darkMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/map-dark.jpg';
   // let lightMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/light.png';
-  let darkMap = "../img/map.jpg"
-  let lightMap = "../img/building.png"
+  let darkMap = "img/map.jpg"
+  let lightMap = "img/building.png"
 
   window.addEventListener('media-loaded', () => {
     // const bounds = [[0, 0], [2304, 4072]];
