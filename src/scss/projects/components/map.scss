@@ -1,14 +1,16 @@
 .masterplan {
+	height: 100%;
 	// .masterplan__wrapper
 
 	&__wrapper {
 		width: 100%;
-		overflow-x: scroll;
-		&::-webkit-scrollbar {
-			display: none;
-		}
+		height: 100%;
+		overflow: scroll;
 		&.no-scroll {
 			overflow: hidden;
+			&::-webkit-scrollbar {
+				display: none;
+			}
 		}
 	}
 
@@ -30,6 +32,7 @@
 		height: 0;
 		width: max(var(--aspect-ratio-width) * 1%, 100%);
 		padding-bottom: max(var(--aspect-ratio-height) * 1%, 56%);
+		// height: var(--vh);
 		z-index: 1000 !important;
 		@media (min-width: 1366px) {
 			cursor: default !important;

@@ -2,8 +2,11 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/main.jpg",
 		"img": "",
-		"centerPosotion": 0.28,
-		"styles": "--move-y: -6%",
+		"centerPosotion": {
+			"x": 0.28,
+			"y": 0
+		},
+		"styles": "",
 		"hoverShadows": [
 			{
 				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/apartments.jpg",

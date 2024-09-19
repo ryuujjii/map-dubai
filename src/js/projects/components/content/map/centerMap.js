@@ -5,8 +5,10 @@ function getCenterMap() {
   const masterplanMedia = document.querySelector('.masterplan__media');
   return function centerImg(centerPosotion) {
     const containerWidth = masterplanMedia.offsetWidth;
-    // removeClassName(masterplanWrapper, 'no-scroll');
-    let res = Math.abs(containerWidth / 2 - window.innerWidth / 2 - containerWidth * centerPosotion);
+    const containerHeight = masterplanMedia.offsetHeight;
+    removeClassName(masterplanWrapper, 'no-scroll');
+    let x = calculateNewPos(window.innerWidth, containerWidth, centerPosotion.x);
+    let y = calculateNewPos(window.innerHeight, containerHeight, centerPosotion.y);
     gsap.to(masterplanWrapper, {
       scrollTo: {
         x: 0
@@ -14,17 +16,20 @@ function getCenterMap() {
       onComplete: () => {
         gsap.to(masterplanWrapper, {
           scrollTo: {
-            x: res
+            x,
+            y
           },
           onComplete() {
-            // addClassName(masterplanWrapper, 'no-scroll');
+            addClassName(masterplanWrapper, 'no-scroll');
           }
         });
       }
     });
   };
 }
-
+function calculateNewPos(parentSize, mediaSize, offset) {
+  return Math.abs(mediaSize / 2 - parentSize / 2 - mediaSize * offset);
+}
 const centerMap = getCenterMap();
 
 export default centerMap;

@@ -2,8 +2,11 @@
 	"map": {
 		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/map-shadow.jpg",
 		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/map.jpg",
-		"centerPosotion": 0.135,
-		"styles": "--move-y: -10%"
+		"centerPosotion": {
+			"x": 0.135,
+			"y": 0
+		},
+		"styles": ""
 	},
 	"dots": {
 		"1-bedroom-l-A": {
