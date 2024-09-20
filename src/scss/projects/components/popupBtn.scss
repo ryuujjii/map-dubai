@@ -62,7 +62,13 @@
 		width: 24px;
 	}
   }
-
+  @media (hover:hover){
+    &:hover{
+      .popupBtn__container::before{
+        opacity: 1;
+      }
+    }
+  }
   // .popupBtn__icon-inner
   &__icon-inner {
     height: 26px;
@@ -83,6 +89,7 @@
     .ax.active & img {
       opacity: 0;
     }
+   
     @media (max-width: 768px) {
       width: 24px;
 	  height: 24px;
