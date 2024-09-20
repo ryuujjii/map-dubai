@@ -1,3 +1,9 @@
+@property --angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
 .map {
   background-color: #191919;
   height: 100dvh;
@@ -156,7 +162,7 @@
       bottom: 0;
       padding: 1px;
       border-radius: 16px;
-      background: linear-gradient(130deg, #b47658 0%, rgba(198, 123, 85, 0.1) 46%, #a97359 100%);
+      background: linear-gradient(var(--angle), #b47658 0%, rgba(198, 123, 85, 0.3) 46%, #a97359 100%);
       -webkit-mask:
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) content-box,
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
@@ -166,6 +172,16 @@
       -webkit-mask-composite: destination-out;
       mask-composite: exclude;
       pointer-events: none;
+      animation: rotate 8s linear forwards infinite;
+    }
+
+    @keyframes rotate {
+      0% {
+        --angle: 0deg;
+      }
+      100% {
+        --angle: 360deg;
+      }
     }
   }
 
@@ -178,6 +194,7 @@
     transform: translateX(0%);
     background-image: linear-gradient(100deg, rgba(144, 93, 68, 0.1) 0%, rgba(144, 93, 68, 0) 100%);
     clip-path: polygon(80% 0, 100% 0, 100% 100%, 0% 100%);
+    pointer-events: none;
   }
 
   &-arrow {
@@ -193,32 +210,51 @@
       display: flex;
       align-items: center;
       text-align: center;
-      color: #ffffff;
+      color: #8c8c8c;
+    }
+  }
+
+  &-text-1 {
+    span {
+      color: #fff;
     }
   }
 
   &-img {
-    animation: handShake 5s linear forwards infinite;
+    animation: handShake2 5s linear forwards infinite;
+    position: relative;
+    left: 5px;
+
+    .touch-device {
+      display: none;
+    }
+    .mob-device & {
+      left: 8px;
+      .touch-device {
+        display: block;
+      }
+      .desktop-device {
+        display: none;
+      }
+    }
   }
 }
 
-@keyframes identifier {
+@keyframes handShake2 {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   25% {
-    transform: translateX(-35%);
+    transform: translateX(-15%);
   }
   50% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
-
   75% {
-    transform: translateX(35%);
+    transform: translateX(15%);
   }
-
   100% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
 }
 

@@ -121,8 +121,7 @@ function commonInstructions() {
   }, 500);
   setTimeout(() => {
     dragHandFn()
-    
-  }, 1500);
+  }, 1000);
 
   validVideo();
 }

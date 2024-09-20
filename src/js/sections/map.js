@@ -392,7 +392,8 @@ export function dragHandFn() {
 	let tlDragHand = gsap.timeline({
 		defaults: {
 			stagger: 0.1,
-		}, repeat: -1, repeatDelay: 5
+		}, 
+    // repeat: -1, repeatDelay: 5
 	});
 	tlDragHand.to(".map__draggable-hand-decor", {
 		xPercent: -130,
