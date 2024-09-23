@@ -226,11 +226,11 @@
   }
 }
 .hide-btn {
-  @media (max-width: 992px) {
+  // @media (max-width: 992px) {
     .project__btns {
       display: none;
     }
-  }
+  // }
 }
 .popup-subtitle {
   color: var(--gold);
