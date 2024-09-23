@@ -2,20 +2,34 @@
 	cursor: pointer;
 	transition: opacity 0.3s ease 0s;
 	@media (hover: hover) {
-      &:has(~ &:hover) {
-        opacity: 0.5;
-      }
-
-      &:hover {
-        opacity: 1;
-
-      }
-
-      &:hover ~ & {
-        opacity: 0.5;
-
-      }
-    }
+		&:has(~ &:hover) {
+			opacity: 0.5;
+			.dots-tabs-active & {
+				&:not(.active) {
+					opacity: 0;
+				}
+			}
+		}
+		&:hover {
+			opacity: 1;
+		}
+		&:hover ~ & {
+			opacity: 0.5;
+			.dots-tabs-active & {
+				&:not(.active) {
+					opacity: 0;
+				}
+			}
+		}
+	}
+	.dots-tabs-active & {
+		opacity: 0;
+		pointer-events: none;
+		&.active {
+			opacity: 1;
+			pointer-events: auto;
+		}
+	}
 }
 .dot-project {
 	// .dot-project__container

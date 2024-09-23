@@ -1,6 +1,11 @@
 export default function dotsLayout(data) {
   return `
-  <g class="hover-g"  ${data.info.hoverId ? `data-hover-id="${data.info.hoverId}"` : ''} data-modal360="${data.info.dataModal360}">
+  <g 
+  class="hover-g"
+  ${data.info.hoverId ? `data-hover-id="${data.info.hoverId}"` : ''} 
+  data-modal360="${data.info.dataModal360}" 
+  ${data.info.dataModal360Category ? `data-modal360-category="${data.info.dataModal360Category}"` : ''} 
+  >
       <foreignObject
       width="${data.sizes.width}"
       height="${data.sizes.height}"

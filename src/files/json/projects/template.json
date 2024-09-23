@@ -12,7 +12,13 @@
 				"img": "if needed",
 				"id": "if needed"
 			}
-		]
+		],
+		"dotsTabs": {
+			"if needs": {
+				"title": "if needs",
+				"dataModal360Category": "if needs"
+			}
+		}
 	},
 	"dots": {
 		"1-bedroom": {

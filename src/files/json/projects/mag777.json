@@ -6,6 +6,20 @@
 			"x": 0,
 			"y": 0.02
 		},
+		"dotsTabs": {
+			"studio": {
+				"title": "Studio",
+				"dataModal360Tab": "studio"
+			},
+			"1-bedroom": {
+				"title": "1-Bedroom",
+				"dataModal360Tab": "1-bedroom"
+			},
+			"2-bedroom": {
+				"title": "2-Bedroom",
+				"dataModal360Tab": "2-bedroom"
+			}
+		},
 		"styles": ""
 	},
 	"dots": {
@@ -24,7 +38,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "studio-105",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "studio"
 			}
 		},
 		"1-bedroom-106": {
@@ -42,7 +57,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-106",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"1-bedroom-108": {
@@ -60,7 +76,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-108",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"studio-109": {
@@ -78,7 +95,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "studio-109",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "studio"
 			}
 		},
 		"1-bedroom-110": {
@@ -96,7 +114,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-110",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"1-bedroom-112": {
@@ -114,7 +133,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-112",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"1-bedroom-113": {
@@ -132,10 +152,10 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-113",
-				"classNames": "right"
+				"classNames": "right",
+				"dataModal360Category": "studio"
 			}
 		},
-		
 		"2-bedroom-107": {
 			"sizes": {
 				"width": 155,
@@ -151,7 +171,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-107",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "2-bedroom"
 			}
 		},
 		"1-bedroom-101": {
@@ -169,7 +190,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-101",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"studio-102": {
@@ -187,7 +209,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-102",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "studio"
 			}
 		},
 		"1-bedroom-103": {
@@ -205,7 +228,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-103",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "1-bedroom"
 			}
 		},
 		"studio-104": {
@@ -223,7 +247,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-104",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "studio"
 			}
 		},
 		"studio-111": {
@@ -241,7 +266,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-111",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "studio"
 			}
 		},
 		"1-bedroom-114": {
@@ -259,7 +285,8 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-114",
-				"classNames": "left"
+				"classNames": "left",
+				"dataModal360Category": "1-bedroom"
 			}
 		}
 	},
@@ -679,7 +706,6 @@
 			]
 		},
 
-		
 		"2-bedroom-107": {
 			"slides": {
 				"interiors": {
