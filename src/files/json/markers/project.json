@@ -2,7 +2,7 @@
     {
         "isPopup": false,
         "name": "Montage by Valori",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/valori.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/valori.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/valori.jpg",
         "dataTestName": "valori",
         "dataName": "#node11",
@@ -15,7 +15,7 @@
     {
         "isPopup": false,
         "name": "Keturah Resort",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/keturah-resort.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/keturah-resort.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-resort.jpg",
         "dataTestName": "k-resort",
         "dataName": "#node10",
@@ -28,7 +28,7 @@
     {
         "isPopup": false,
         "name": "Business Bay Tower",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/business-bay-tower.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/business-bay-tower.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/business-bay-tower.jpg",
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
@@ -41,7 +41,7 @@
     {
         "isPopup": false,
         "name": "Boutique 23",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/boutique23.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/boutique23.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/boutique23.jpg",
         "dataTestName": "boutique-23",
         "dataName": "#node5",
@@ -54,7 +54,7 @@
     {
         "isPopup": false,
         "name": "EMAAR Beachfront",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/Emaar-beachfront.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/Emaar-beachfront.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/Emaar-beachfront.jpg",
         "dataTestName": "beachfront",
         "dataName": "#node8",
@@ -67,7 +67,7 @@
     {
         "isPopup": false,
         "name": "SLS Residence",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/sls-residence.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/sls-residence.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/sls-residence.jpg",
         "dataTestName": "sls",
         "dataName": "#node3",
@@ -80,7 +80,7 @@
     {
         "isPopup": false,
         "name": "Keturah Reserve",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/keturah-reserve.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/keturah-reserve.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-reserve.jpg",
         "dataTestName": "k-reserve",
         "dataName": "#node7",
@@ -93,7 +93,7 @@
     {
         "isPopup": false,
         "name": "Urban Life",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/urban-life.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/urban-life.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/urban-life.jpg",
         "dataTestName": "urban-life",
         "dataName": "#node9",
@@ -106,7 +106,7 @@
     {
         "isPopup": false,
         "name": "Biltmore Residences",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/biltmore-residences.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/biltmore-residences.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/biltmore-residences.jpg",
         "dataTestName": "biltmore",
         "dataName": "#node4",
@@ -119,7 +119,7 @@
     {
         "isPopup": false,
         "name": "Damac Bay",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/damac-bay.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-bay.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-bay.jpg",
         "dataTestName": "damac-bay",
         "dataName": "#node6",
@@ -132,7 +132,7 @@
     {
         "isPopup": false,
         "name": "Mag 777",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/mag777.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/mag777.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/mag777.jpg",
         "dataTestName": "mag777",
         "dataName": "#node6",
@@ -144,7 +144,7 @@
     {
         "isPopup": true,
         "name": "Damac Lagoons",
-        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/damac-lagoons.jpg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-lagoons.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
         "coordinates": [320, 1960],
