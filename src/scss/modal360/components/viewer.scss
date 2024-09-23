@@ -367,9 +367,9 @@
     display: block !important;
     // flex: initial;
 
-	.mob-device & {
-		display: none !important;
-	}
+    .mob-device & {
+      display: none !important;
+    }
 
     svg {
       width: 20px !important;
@@ -428,9 +428,9 @@
       top: -2.5px;
     }
 
-	.mob-device & {
-		display: none !important;
-	}
+    .mob-device & {
+      display: none !important;
+    }
   }
   .psv-fullscreen-button {
     background: linear-gradient(
@@ -461,8 +461,6 @@
         opacity: 0;
       }
     }
-
-
 
     svg {
       display: none;
@@ -583,4 +581,37 @@ div.custom-gyro-btn {
 
 div.psv-menu-button {
   display: none !important;
+}
+
+.psv-loader-container {
+  display: none !important;
+}
+
+.viewer {
+  // .viewer__loader
+
+  &__loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 150px;
+    &.ready {
+      display: none;
+    }
+  }
+
+  // .viewer__loader-text
+
+  &__loader-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+  }
 }
