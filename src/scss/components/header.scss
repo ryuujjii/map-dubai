@@ -79,6 +79,11 @@
     padding-bottom: 24px;
     padding-left: 18px;
 
+    .isMenuOpened & {
+      opacity: 0;
+      visibility: hidden
+    }
+
     &-wrapper {
       @include flex(center, flex-start);
       flex-direction: column;
@@ -150,7 +155,10 @@
         border-radius: 100px;
       }
 
-      animation: social-pulse 3s linear infinite;
+      &:not(.opened) {
+        animation: social-pulse 3s linear infinite;
+      }
+
       @keyframes social-pulse {
         0% {
           box-shadow: 0 0 0 0 rgba(215, 153, 112, 0.7), 0 0 0 0 rgba(215, 153, 112, 0.7);
@@ -399,16 +407,18 @@
 
   @include _991-max {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    // overflow-y: scroll;
-    // &::-webkit-scrollbar {
-    //     display: none;
-    // }
+    --tw-backdrop-blur: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
   }
 
   // .menu__bg
-  .isMenuOpened &__bg {
+  &__bg {
+    // background-color: red;
     background-color: rgba(22, 22, 22, 0.85);
-    backdrop-filter: blur(24px);
+    // --tw-backdrop-blur: blur(24px);
+    // -webkit-backdrop-filter: blur(24px);
+    // backdrop-filter: blur(24px);
     width: 100%;
     height: 100%;
     @include position(fixed);
