@@ -11,6 +11,7 @@ import showProjects from '@/projects/components/showProjects';
 import replaceBlocks from '@/projects/components/replaceBlocks';
 import { mediaLoading } from '@/components/preloaderAnim';
 import { popup } from '@/components/popup';
+import { canvasPopup } from '@/components/canvasPopup';
 window.addEventListener('onbeforeunload', function () {
   window.scrollTo(0, 0);
   gsap.to(window, { duration: 0, scrollTo: 0 });
@@ -36,6 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
   showProjects();
   replaceBlocks();
   // popup()
+  canvasPopup()
 
   document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
