@@ -129,3 +129,7 @@ select {
 		object-fit: contain;
 	}
 }
+
+div:where(.swal2-container) {
+	z-index: 11000 !important;
+}
