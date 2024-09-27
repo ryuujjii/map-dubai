@@ -10,7 +10,7 @@
 
   &__nav {
     position: absolute;
-    z-index: 2;
+    z-index: 100;
     bottom: 24px;
     left: 50%;
     transform: translateX(-50%);
@@ -75,7 +75,7 @@
     position: absolute;
     bottom: 24px;
     right: 116px;
-    z-index: 2;
+    z-index: 100;
     @media (max-width: 991.98px) {
       right: 75px;
     }
