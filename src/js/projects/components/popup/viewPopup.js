@@ -73,15 +73,6 @@ class ViewPopup {
       document.body.classList.remove("hide-btn");
     });
 
-    document.querySelector(".home-popup").addEventListener("click", (e) => {
-      if (e.target.closest(".home-popup__inner")) {
-        return;
-      }
-      this.closePopup();
-      popupBackground.classList.remove("active");
-      popupBackground.classList.remove("brochure-open");
-      document.body.classList.remove("hide-btn");
-    });
 
     document.addEventListener("click", (e) => {
       const target = e.target;
