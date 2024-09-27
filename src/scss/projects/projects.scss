@@ -39,6 +39,8 @@
   // .project__btns
 
   &__btns {
+    --scaleX:1.018;
+    --scaleY:1.06;
     --shift: 20px;
     position: absolute;
     bottom: var(--shift);

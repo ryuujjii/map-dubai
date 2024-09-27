@@ -357,7 +357,7 @@
         background-position: 250% 200%;
       }
       &:before {
-        transform: scaleX(1.01) scaleY(1.01);
+        transform: scaleX(var(--scaleX)) scaleY(var(--scaleY));
       }
     }
   }

@@ -2,6 +2,8 @@
 
 .popup {
   &[data-popup="contact"] {
+    --scaleY:1.06;
+    --scaleX:1.008;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -79,8 +81,16 @@
       display: flex;
       gap: 10px;
       align-items: center;
+      @media (hover: hover) {
+        &:hover {
+          p {
+            color: #fff;
+          }
+        }
+      }
     }
     p {
+      transition: all 0.3s ease-in-out;
       color: #f3f2ef;
       font-size: 16px;
       line-height: 210.2%; /* 33.632px */
