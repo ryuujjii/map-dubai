@@ -215,6 +215,20 @@
 
   &__payment {
   }
+
+  input {
+    transition: all 400ms ease-in-out;
+    border-bottom: 1px solid var(--grey);
+    &::placeholder {
+      transition: all 400ms ease-in-out;
+    }
+    &:focus {
+      border-bottom: 1px solid white;
+      &::placeholder {
+        color: #fff;
+      }
+    }
+  }
 }
 .popup-active {
   @media (max-width: 768px) {
@@ -227,9 +241,9 @@
 }
 .hide-btn {
   // @media (max-width: 992px) {
-    .project__btns {
-      display: none;
-    }
+  .project__btns {
+    display: none;
+  }
   // }
 }
 .popup-subtitle {
@@ -262,5 +276,89 @@
   padding-bottom: 0;
   @media (max-width: 768px) {
     padding: 0;
+  }
+}
+
+.btn-gradient {
+  background-color: var(--gold);
+  border-radius: 4px;
+  padding: 16px 22px;
+  color: var(--light-color);
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  span:nth-child(1) {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  // .project__brocure-btn_bg
+
+  span:nth-child(2) {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    background-image: linear-gradient(
+      0deg,
+      #ae6e56 -140.3%,
+      #c99179 -130.99%,
+      #dfac95 -121.47%,
+      #efc0a9 -111.84%,
+      #f8ccb5 -102.29%,
+      #fbd0b9 -92.73%,
+      #f6cab3 -77.68%,
+      #e9baa2 -57.45%,
+      #e5b59d -52.92%,
+      #e0ae96 -51.81%,
+      #cc957b -46.89%,
+      #bc8065 -41.21%,
+      #b07054 -34.6%,
+      #a76449 -26.41%,
+      #a25e42 -14.92%,
+      #a15c40 16.99%,
+      #b96f50 38.18%,
+      #cf7f5f 63.29%,
+      #dc8a68 87.65%,
+      #e08d6b 110.21%,
+      #dd8b69 111.04%,
+      #c7795a 117.83%,
+      #b66c4e 125.77%,
+      #aa6346 135.58%,
+      #a35d41 149.16%,
+      #a15c40 184.9%
+    );
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 200% 200%;
+    background-position: 250% 270%;
+    transition: background-position 0.3s ease 0s;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: -2px;
+    left: -2px;
+    background-color: #654132;
+    border-radius: 4px;
+    display: block;
+    transition: transform 0.3s ease 0s;
+  }
+  @media (any-hover: hover) {
+    &:hover {
+      .cta-about__btn-bg {
+        background-position: 250% 200%;
+      }
+      &:before {
+        transform: scaleX(var(--scaleX)) scaleY(var(--scaleY));
+      }
+    }
   }
 }

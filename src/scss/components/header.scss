@@ -405,11 +405,13 @@
   z-index: 5;
   clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 
+  --tw-backdrop-blur: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(24px);
+
   @include _991-max {
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    --tw-backdrop-blur: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-    backdrop-filter: blur(24px);
+
   }
 
   // .menu__bg

@@ -1,5 +1,7 @@
 .popup {
   &[data-popup="about"] {
+    --scaleY:1.07;
+    --scaleX:1.02;
     .popup__wrapper {
       padding-bottom: 0;
     }
@@ -483,10 +485,11 @@
   // .cta-about__input
 
   &__input {
-    border-bottom: 1px solid var(--grey);
+    // border-bottom: 1px solid var(--grey);
     width: 100%;
-    padding-bottom: 9px;
+    // padding-bottom: 9px;
     input {
+    padding-bottom: 9px;
       width: 100%;
       color: var(--light-color);
       font-size: 15px;

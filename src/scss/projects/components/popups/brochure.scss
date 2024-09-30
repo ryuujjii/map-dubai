@@ -2,6 +2,8 @@
 
 .popup {
   &[data-popup="brochure"] {
+    --scaleY:1.06;
+    --scaleX:1.03;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +206,7 @@
     }
   }
   &__logo {
+    align-self: center;
     display: flex;
     justify-content: center;
     width: 96px;

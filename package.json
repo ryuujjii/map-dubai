@@ -51,7 +51,8 @@
 		"preloadjs": "^1.0.1",
 		"sass": "1.62.1",
 		"splitting": "^1.0.6",
-		"swiper": "^11.1.9"
+		"swiper": "^11.1.9",
+		"three": "^0.168.0"
 	},
 	"browserslist": {
 		"development": [

@@ -1,3 +1,5 @@
+/** @format */
+
 .project {
   --brochureBtnW: 183px;
   position: fixed;
@@ -37,6 +39,8 @@
   // .project__btns
 
   &__btns {
+    --scaleX:1.018;
+    --scaleY:1.06;
     --shift: 20px;
     position: absolute;
     bottom: var(--shift);
@@ -80,7 +84,7 @@
     background: rgba(255, 255, 255, 0.2);
     overflow: hidden;
     &::before {
-      content: '';
+      content: "";
       position: absolute;
       width: 100%;
       height: 100%;
@@ -89,30 +93,13 @@
       left: 0;
       border: 1.5px solid transparent;
       pointer-events: none;
-      -webkit-mask: -webkit-gradient(
-            linear,
-            left top,
-            left bottom,
-            color-stop(0, #fff)
-          )
-          padding-box,
+      -webkit-mask: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff)) padding-box,
         -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff));
-      -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-        linear-gradient(#fff 0 0);
+      -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
       -webkit-mask-composite: destination-out;
       mask-composite: exclude;
-      background: -o-linear-gradient(
-          315deg,
-          #bcbcbc 0,
-          rgba(188, 188, 188, 0.1) 50%
-        )
-        border-box;
-      background: linear-gradient(
-          135deg,
-          #bcbcbc 0,
-          rgba(188, 188, 188, 0.1) 50%
-        )
-        border-box;
+      background: -o-linear-gradient(315deg, #bcbcbc 0, rgba(188, 188, 188, 0.1) 50%) border-box;
+      background: linear-gradient(135deg, #bcbcbc 0, rgba(188, 188, 188, 0.1) 50%) border-box;
       background-size: 200% 100%;
       background-position: 0 center;
       animation: shine 3s cubic-bezier(0.4, 0.4, 0.4, 1) infinite;
@@ -170,7 +157,7 @@
         }
       }
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         width: calc(100% - 4px);
         height: calc(100% - 4px);
@@ -212,96 +199,25 @@
 
   &__popupBtn {
     flex-shrink: 0;
+    &.contact {
+      padding: 0;
+      .popupBtn__container {
+        width: 100%;
+      }
+    }
   }
   // .project__brochure-btn
 
   &__brochure-btn {
-    position: absolute;
+    position: absolute!important;
     bottom: 2px;
     right: 0;
-    color: var(--light-color);
-    font-size: 15px;
-    font-weight: 500;
-    background-color: var(--gold);
-    border-radius: 4px;
-    padding: 16px 22px;
-    &_txt {
-      position: relative;
-      z-index: 2;
-    }
-    // .project__brochure-btn_bg
-
-    &_bg {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      border-radius: 4px;
-      background-image: linear-gradient(
-        0deg,
-        #ae6e56 -140.3%,
-        #c99179 -130.99%,
-        #dfac95 -121.47%,
-        #efc0a9 -111.84%,
-        #f8ccb5 -102.29%,
-        #fbd0b9 -92.73%,
-        #f6cab3 -77.68%,
-        #e9baa2 -57.45%,
-        #e5b59d -52.92%,
-        #e0ae96 -51.81%,
-        #cc957b -46.89%,
-        #bc8065 -41.21%,
-        #b07054 -34.6%,
-        #a76449 -26.41%,
-        #a25e42 -14.92%,
-        #a15c40 16.99%,
-        #b96f50 38.18%,
-        #cf7f5f 63.29%,
-        #dc8a68 87.65%,
-        #e08d6b 110.21%,
-        #dd8b69 111.04%,
-        #c7795a 117.83%,
-        #b66c4e 125.77%,
-        #aa6346 135.58%,
-        #a35d41 149.16%,
-        #a15c40 184.9%
-      );
-      background-origin: border-box;
-      background-clip: padding-box, border-box;
-      background-size: 200% 200%;
-      background-position: 250% 270%;
-      transition: background-position 0.3s ease 0s;
-    }
-
-    &:before {
-      content: '';
-      position: absolute;
-      width: calc(100% + 4px);
-      height: calc(100% + 4px);
-      top: -2px;
-      left: -2px;
-      background-color: #654132;
-      border-radius: 4px;
-      display: block;
-      transition: transform 0.3s ease 0s;
-    }
-    @media (any-hover: hover) {
-      &:hover {
-        .project__brochure-btn_bg {
-          background-position: 250% 200%;
-        }
-        &:before {
-          transform: scaleX(1.01) scaleY(1.02);
-        }
-      }
-    }
     @media (max-width: 992px) {
       padding: 10px 22px;
       bottom: 1px;
     }
     @media (max-width: 768px) {
-      position: fixed;
+      position: fixed!important;
       top: 16px;
       right: 16px;
       bottom: auto;
@@ -405,16 +321,16 @@
     padding-right: 0px;
   }
 }
-@import './components/dot';
-@import './components/dotTabs';
-@import './components/partner';
-@import './components/popupBtn';
-@import './components/popups/common';
-@import './components/popups/about';
-@import './components/popups/developer';
-@import './components/popups/ax';
-@import './components/popups/payment';
-@import './components/popups/brochure';
-@import './components/popups/contact';
-@import './components/map';
-@import './components/modal360';
+@import "./components/dot";
+@import "./components/dotTabs";
+@import "./components/partner";
+@import "./components/popupBtn";
+@import "./components/popups/common";
+@import "./components/popups/about";
+@import "./components/popups/developer";
+@import "./components/popups/ax";
+@import "./components/popups/payment";
+@import "./components/popups/brochure";
+@import "./components/popups/contact";
+@import "./components/map";
+@import "./components/modal360";
