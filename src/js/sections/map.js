@@ -8,14 +8,14 @@ import { popup } from '@/components/popup';
 export function map() {
   // let darkMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/map-dark.jpg';
   // let lightMap = 'https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/light.png';
-  let darkMap = "img/map.jpg"
-  let lightMap = "img/building.png"
+  let darkMap = "img/road_8k.jpg"
+  let lightMap = "img/123.png"
 
   window.addEventListener('media-loaded', () => {
     // const bounds = [[0, 0], [2304, 4072]];
     const bounds = [
       [0, 0],
-      [2160, 3840],
+      [2600, 3840],
     ];
 
     const map = L.map('map', {
@@ -76,7 +76,7 @@ export function map() {
       wrapper.style.marginTop = -bounds[1][0] + 'px';
     }
 
-    const centerCoordinates = [1100, 1250];
+    const centerCoordinates = [1500, 1390];
     map.setView(centerCoordinates, 0);
 
     updateOverlay(darkMapWrapper);
@@ -279,19 +279,59 @@ export function map() {
 
       const lightMap = document.querySelector('.light-map');
       const maskCircle = document.querySelector('circle');
+      const radius = window.innerHeight / 4;
+      maskCircle.setAttribute('r', radius);
+      // maskCircle.style.cssText = `
+      // transform: skew(45deg, 0deg)
+      // `
 
       document.addEventListener('mousemove', (event) => {
         const rect = lightMap.getBoundingClientRect();
-        const x = event.clientX - rect.left;
-        const y = event.clientY - rect.top;
+        const mouseX = event.clientX - rect.left;
+        const mouseY = event.clientY - rect.top;
 
-        const radius = window.innerHeight / 4;
+        // maskCircle.style.cssText = `
+        // transform: 
+        // translate(-${radius}px, -${radius / 5}px)
+        // skew(15deg, 0deg)
+        // `
 
-        maskCircle.setAttribute('r', radius);
-        maskCircle.setAttribute('cx', x);
-        maskCircle.setAttribute('cy', y);
+        maskCircle.setAttribute('cx', mouseX);
+        maskCircle.setAttribute('cy', mouseY);
       });
     }
+
+
+    // function svgMaskEffect() {
+    //   document.body.classList.add('svgMaskEffect');
+    //   const lightMap = document.querySelector('.light-map');
+    //   const maskCircle = document.querySelector('circle');
+
+    //   const radius = window.innerHeight / 4;
+    //   maskCircle.setAttribute('r', radius);
+
+    //   document.addEventListener('mousemove', (event) => {
+    //     const rect = lightMap.getBoundingClientRect();
+    //     const mouseX = event.clientX - rect.left; // Mouse X relative to lightMap
+    //     const mouseY = event.clientY - rect.top;  // Mouse Y relative to lightMap
+
+    //     // Update the position of the circle
+    //     maskCircle.setAttribute('cx', mouseX);
+    //     maskCircle.setAttribute('cy', mouseY);
+
+    //     // Apply the 3D rotation while keeping the mask centered on the mouse
+    //     const rotationX = 3;  // X-axis rotation factor
+    //     const rotationY = 2;  // Y-axis rotation factor
+    //     const rotationZ = 0;  // Z-axis rotation factor
+    //     const angle = 45;     // The angle to rotate the mask
+
+    //     maskCircle.style.transform = `
+    //     translate(${mouseX / radius}px, ${mouseY / radius}px)
+    //     rotate3d(${rotationX}, ${rotationY}, ${rotationZ}, ${angle}deg)
+    //   `;
+
+    //   });
+    // }
 
     function getBrowser() {
       const userAgent = navigator.userAgent;
@@ -389,32 +429,32 @@ export function map() {
 }
 
 export function dragHandFn() {
-	let tlDragHand = gsap.timeline({
-		defaults: {
-			stagger: 0.1,
-		}, 
+  let tlDragHand = gsap.timeline({
+    defaults: {
+      stagger: 0.1,
+    },
     // repeat: -1, repeatDelay: 5
-	});
-	tlDragHand.to(".map__draggable-hand-decor", {
-		xPercent: -130,
-		duration: 0.7,
-	});
+  });
+  tlDragHand.to(".map__draggable-hand-decor", {
+    xPercent: -130,
+    duration: 0.7,
+  });
 
-	tlDragHand.to(".map__draggable-hand-decor", {
-		opacity: 0,
-	}, 0.4);
+  tlDragHand.to(".map__draggable-hand-decor", {
+    opacity: 0,
+  }, 0.4);
 
-	tlDragHand.to(".map__draggable-hand-decor", {
-		xPercent: 100,
-		duration: 0.01,
-	},">");
+  tlDragHand.to(".map__draggable-hand-decor", {
+    xPercent: 100,
+    duration: 0.01,
+  }, ">");
 
-	tlDragHand.to(".map__draggable-hand-decor", {
-		opacity: 1,
-	},">");
+  tlDragHand.to(".map__draggable-hand-decor", {
+    opacity: 1,
+  }, ">");
 
-	tlDragHand.to(".map__draggable-hand-decor", {
-		xPercent: 0,
-		duration: 0.5,
-	},"<");
+  tlDragHand.to(".map__draggable-hand-decor", {
+    xPercent: 0,
+    duration: 0.5,
+  }, "<");
 }
