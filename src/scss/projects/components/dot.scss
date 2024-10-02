@@ -70,6 +70,9 @@
 
 	&__info {
 		display: grid;
+		.left &{
+			justify-items: start;
+		}
 	}
 
 	// .dot-project__title
