@@ -6,7 +6,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/valori.jpg",
         "dataTestName": "valori",
         "dataName": "#node11",
-        "coordinates": [1940, 2800],
+        "coordinates": [2105, 3470],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
             "width":234
@@ -19,7 +19,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-resort.jpg",
         "dataTestName": "k-resort",
         "dataName": "#node10",
-        "coordinates": [1840, 2680],
+        "coordinates": [2040, 3300],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-resort.svg",
             "width":287
@@ -32,7 +32,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/business-bay-tower.jpg",
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
-        "coordinates": [1710, 2320],
+        "coordinates": [1970, 2850],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/Downtown-terraces.svg",
             "width":281
@@ -45,7 +45,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/boutique23.jpg",
         "dataTestName": "boutique-23",
         "dataName": "#node5",
-        "coordinates": [2000, 2790],
+        "coordinates": [2160, 3460],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/boutique-23.svg",
             "width":382
@@ -58,7 +58,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/Emaar-beachfront.jpg",
         "dataTestName": "beachfront",
         "dataName": "#node8",
-        "coordinates": [1100, 1250],
+        "coordinates": [1500, 1390],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/emaar.svg",
             "width":331
@@ -71,7 +71,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/sls-residence.jpg",
         "dataTestName": "sls",
         "dataName": "#node3",
-        "coordinates": [1170, 1040],
+        "coordinates": [1580, 1100],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/sls.svg",
             "width":213
@@ -84,7 +84,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-reserve.jpg",
         "dataTestName": "k-reserve",
         "dataName": "#node7",
-        "coordinates": [1420, 2360],
+        "coordinates": [1715, 2910],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-reserve.svg",
             "width":359
@@ -97,7 +97,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/urban-life.jpg",
         "dataTestName": "urban-life",
         "dataName": "#node9",
-        "coordinates": [1650, 2350],
+        "coordinates": [1910, 2885],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/urban.svg",
             "width":235
@@ -110,7 +110,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/biltmore-residences.jpg",
         "dataTestName": "biltmore",
         "dataName": "#node4",
-        "coordinates": [1160, 1560],
+        "coordinates": [1540, 1815],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/biltmore.svg",
             "width":321
@@ -123,7 +123,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-bay.jpg",
         "dataTestName": "damac-bay",
         "dataName": "#node6",
-        "coordinates": [1040, 1280],
+        "coordinates": [1430, 1420],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damac.svg",
             "width":234
@@ -136,7 +136,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/mag777.jpg",
         "dataTestName": "mag777",
         "dataName": "#node13",
-        "coordinates": [565, 1820],
+        "coordinates": [985, 2110],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/mag.svg"
         }
@@ -147,7 +147,7 @@
         "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-lagoons.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
-        "coordinates": [320, 1960],
+        "coordinates": [700, 2280],
         "projectLogo":{
             "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
             "width":300

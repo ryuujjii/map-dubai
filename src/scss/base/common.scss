@@ -38,7 +38,7 @@ body {
 	background-color: var(--dark-color);
 	overflow: hidden;
 	font-family: var(--font);
-	// touch-action: manipulation;
+	overflow: hidden;
 
 	&::-webkit-scrollbar {
 		display: none;
