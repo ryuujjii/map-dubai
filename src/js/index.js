@@ -37,7 +37,7 @@ window.addEventListener('DOMContentLoaded', () => {
   showProjects();
   replaceBlocks();
   // popup()
-  canvasPopup()
+  // canvasPopup()
 
   document.addEventListener('gesturestart', function (e) {
     e.preventDefault();
