@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "img/projects/mag777/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": {
 			"x": 0,
@@ -23,7 +23,7 @@
 		"styles": ""
 	},
 	"dots": {
-		"studio-105": {
+		"floor-20": {
 			"sizes": {
 				"width": 115,
 				"height": 55
@@ -31,6 +31,42 @@
 			"position": {
 				"x": 560,
 				"y": 205
+			},
+			"info": {
+				"title": "20 Floor",
+				"type": "105",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "floor-20",
+				"classNames": "right"
+			}
+		},
+		"floor-21": {
+			"sizes": {
+				"width": 115,
+				"height": 55
+			},
+			"position": {
+				"x": 520,
+				"y": 205
+			},
+			"info": {
+				"title": "21 Floor",
+				"type": "105",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "floor-21",
+				"classNames": "left"
+			}
+		},
+		"studio-105": {
+			"sizes": {
+				"width": 115,
+				"height": 55
+			},
+			"position": {
+				"x": 520,
+				"y": 325
 			},
 			"info": {
 				"title": "Studio",
@@ -48,8 +84,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 255
+				"x": 490,
+				"y": 325
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -67,7 +103,7 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
+				"x": 490,
 				"y": 305
 			},
 			"info": {
@@ -86,8 +122,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 560,
-				"y": 355
+				"x": 520,
+				"y": 390
 			},
 			"info": {
 				"title": "Studio",
@@ -105,7 +141,7 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
+				"x": 490,
 				"y": 405
 			},
 			"info": {
@@ -124,7 +160,7 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
+				"x": 490,
 				"y": 455
 			},
 			"info": {
@@ -137,21 +173,21 @@
 				"dataModal360Category": "1-bedroom"
 			}
 		},
-		"1-bedroom-113": {
+		"studio-113": {
 			"sizes": {
-				"width": 155,
+				"width": 115,
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 505
+				"x": 520,
+				"y": 460
 			},
 			"info": {
-				"title": "1-bedroom",
+				"title": "Studio",
 				"type": "113",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "1-bedroom-113",
+				"dataModal360": "studio-113",
 				"classNames": "right",
 				"dataModal360Category": "studio"
 			}
@@ -200,8 +236,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 315
+				"x": 825,
+				"y": 340
 			},
 			"info": {
 				"title": "Studio",
@@ -238,8 +274,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 415
+				"x": 825,
+				"y": 410
 			},
 			"info": {
 				"title": "Studio",
@@ -257,8 +293,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 465
+				"x": 825,
+				"y": 475
 			},
 			"info": {
 				"title": "Studio",
@@ -291,7 +327,7 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/mag777/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -319,7 +355,7 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/mag777/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/about/about-bg.jpg",
 				"classNames": [],
 				"styles": "object-position: center 15%;"
 			},
@@ -369,7 +405,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/mag777/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/about/location/dot-icon.svg",
 					"centerPosotion": {
 						"x": 545,
 						"y": 495
@@ -461,17 +497,43 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/mag777/developer/icon.svg",
-				"img": "img/projects/mag777/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/mag777/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/brochure.jpg",
 			"classNames": []
 		}
 	},
 	"modal360": {
+		"floor-20": {
+			"slides": {
+				"interiors": {
+					"img360": [],
+					"img360Preview": []
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": []
+		},
+		"floor-21": {
+			"slides": {
+				"interiors": {
+					"img360": [],
+					"img360Preview": []
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": []
+		},
 		"studio-105": {
 			"slides": {
 				"interiors": {
@@ -676,7 +738,7 @@
 				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_012.jpg"
 			]
 		},
-		"1-bedroom-113": {
+		"studio-113": {
 			"slides": {
 				"interiors": {
 					"img360": [
