@@ -39,6 +39,7 @@
 	}
 }
 .dot-project {
+	padding-bottom: 20px;
 	// .dot-project__container
 
 	&__container {
@@ -70,7 +71,7 @@
 
 	&__info {
 		display: grid;
-		.left &{
+		.left & {
 			justify-items: start;
 		}
 	}
