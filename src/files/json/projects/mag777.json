@@ -1,6 +1,6 @@
 {
 	"map": {
-		"shadow": "img/projects/mag777/map-shadow.jpg",
+		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/map-shadow.jpg",
 		"img": "",
 		"centerPosotion": {
 			"x": 0,
@@ -23,14 +23,52 @@
 		"styles": ""
 	},
 	"dots": {
+		"floor-20": {
+			"sizes": {
+				"width": 145,
+				"height": 55
+			},
+			"position": {
+				"x": 505,
+				"y": 250
+			},
+			"info": {
+				"title": "20 Floor",
+				"type": "",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "floor-20",
+				"classNames": "right",
+				"dataModal360Category": "always"
+			}
+		},
+		"floor-21": {
+			"sizes": {
+				"width": 145,
+				"height": 55
+			},
+			"position": {
+				"x": 830,
+				"y": 235
+			},
+			"info": {
+				"title": "21 Floor",
+				"type": "",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "floor-21",
+				"classNames": "left",
+				"dataModal360Category": "always"
+			}
+		},
 		"studio-105": {
 			"sizes": {
 				"width": 115,
 				"height": 55
 			},
 			"position": {
-				"x": 560,
-				"y": 205
+				"x": 520,
+				"y": 315
 			},
 			"info": {
 				"title": "Studio",
@@ -48,8 +86,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 255
+				"x": 490,
+				"y": 310
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -67,8 +105,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 305
+				"x": 490,
+				"y": 370
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -86,8 +124,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 560,
-				"y": 355
+				"x": 520,
+				"y": 380
 			},
 			"info": {
 				"title": "Studio",
@@ -105,8 +143,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 405
+				"x": 490,
+				"y": 435
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -124,8 +162,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 455
+				"x": 490,
+				"y": 495
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -137,21 +175,21 @@
 				"dataModal360Category": "1-bedroom"
 			}
 		},
-		"1-bedroom-113": {
+		"studio-113": {
 			"sizes": {
-				"width": 155,
+				"width": 115,
 				"height": 55
 			},
 			"position": {
-				"x": 530,
-				"y": 505
+				"x": 520,
+				"y": 450
 			},
 			"info": {
-				"title": "1-bedroom",
+				"title": "Studio",
 				"type": "113",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "1-bedroom-113",
+				"dataModal360": "studio-113",
 				"classNames": "right",
 				"dataModal360Category": "studio"
 			}
@@ -162,8 +200,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 215
+				"x": 830,
+				"y": 330
 			},
 			"info": {
 				"title": "2-bedroom",
@@ -181,8 +219,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 265
+				"x": 830,
+				"y": 320
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -200,8 +238,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 315
+				"x": 825,
+				"y": 340
 			},
 			"info": {
 				"title": "Studio",
@@ -219,8 +257,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 365
+				"x": 830,
+				"y": 385
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -238,8 +276,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 415
+				"x": 825,
+				"y": 410
 			},
 			"info": {
 				"title": "Studio",
@@ -257,8 +295,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 465
+				"x": 825,
+				"y": 475
 			},
 			"info": {
 				"title": "Studio",
@@ -276,8 +314,8 @@
 				"height": 55
 			},
 			"position": {
-				"x": 960,
-				"y": 515
+				"x": 830,
+				"y": 455
 			},
 			"info": {
 				"title": "1-bedroom",
@@ -291,7 +329,7 @@
 		}
 	},
 	"partner": {
-		"logo": "img/projects/mag777/project-icon.svg",
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/project-icon.svg",
 		"classNames": []
 	},
 	"popup": {
@@ -319,7 +357,7 @@
 				"classNames": []
 			},
 			"projectView": {
-				"img": "img/projects/mag777/about/about-bg.jpg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/about/about-bg.jpg",
 				"classNames": [],
 				"styles": "object-position: center 15%;"
 			},
@@ -369,7 +407,7 @@
 			},
 			"location": {
 				"dot": {
-					"icon": "img/projects/mag777/about/location/dot-icon.svg",
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/about/location/dot-icon1.svg",
 					"centerPosotion": {
 						"x": 545,
 						"y": 495
@@ -461,17 +499,109 @@
 				"classNames": []
 			},
 			"media": {
-				"projectlogo": "img/projects/mag777/developer/icon.svg",
-				"img": "img/projects/mag777/developer/bg.jpg",
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/developer/bg.jpg",
 				"classNames": []
 			}
 		},
 		"brochure": {
-			"brochureImg": "img/projects/mag777/brochure.jpg",
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/brochure.jpg",
 			"classNames": []
 		}
 	},
 	"modal360": {
+		"floor-20": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG777_HALL_20_Floor_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG777_HALL_20_Floor_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/Female+bathroom_Floor+20_VR001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/Female+bathroom_Floor+20_VR002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/GYM+360+002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/GYM+360+003.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG+777+COLD+PLUNGE+ROOM_VR360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MALE+BATHROOM_360_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/RECEPTION+LOBBY+360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/SAUNA+5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/STEAM+5.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG777_HALL_20_Floor_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG777_HALL_20_Floor_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/Female+bathroom_Floor+20_VR001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/Female+bathroom_Floor+20_VR002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/GYM+360+002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/GYM+360+003.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG+777+COLD+PLUNGE+ROOM_VR360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MALE+BATHROOM_360_002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/RECEPTION+LOBBY+360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/SAUNA+5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/STEAM+5.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/COLD+PLUNGE+ROOM+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/COLD+PLUNGE+ROOM+2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/GYM+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/GYM+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/MALE+BATHROOM+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/MALE+BATHROOM+9.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/SAUNA+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/SAUNA+3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/STEAM+1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/STEAM+4.jpg"
+			]
+		},
+		"floor-21": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/Mag777+21+floor_koridor_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR003.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/Mag777+21+floor_koridor_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR001.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR002.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR003.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_005.jpg"
+			]
+		},
 		"studio-105": {
 			"slides": {
 				"interiors": {
@@ -492,12 +622,12 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-105/gallery/MAG_777_105_08.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_07.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-105/gallery/MAG_777_105_08.jpg"
 			]
 		},
 		"1-bedroom-106": {
@@ -522,19 +652,19 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_08.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_09.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_10.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_12.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_13.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-106/gallery/MAG_777_106_14.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_07.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_08.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_09.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_10.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_06.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_12.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_13.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-106/gallery/MAG_777_106_14.jpg"
 			]
 		},
 		"1-bedroom-108": {
@@ -559,17 +689,17 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_08.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_09.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_10.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-108/gallery/MAG_777_1B2_11.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_06.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_07.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_08.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_09.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_10.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-108/gallery/MAG_777_1B2_11.jpg"
 			]
 		},
 		"studio-109": {
@@ -590,15 +720,15 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/7.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/8.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-109/gallery/9.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/6.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/7.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/8.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-109/gallery/9.jpg"
 			]
 		},
 		"1-bedroom-110": {
@@ -625,18 +755,18 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/009.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/010.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/011.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/012.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/006.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/007.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-110/gallery/008.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/009.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/010.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/011.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/012.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-110/gallery/008.jpg"
 			]
 		},
 		"1-bedroom-112": {
@@ -663,23 +793,23 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_006.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_007.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_008.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_009.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_010.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_011.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-112/gallery/MAG+777_112_012.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_009.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_010.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_011.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-112/gallery/MAG+777_112_012.jpg"
 			]
 		},
-		"1-bedroom-113": {
+		"studio-113": {
 			"slides": {
 				"interiors": {
-					"img360": [
+					"img360":[
 						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/360/VR_113_001.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/360/VR_113_002.jpg"
 					],
@@ -694,15 +824,15 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Bed_001d.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Wardrobe_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Console_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Sofa_001d.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Kitchen_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_TV_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Bathroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Bathroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/gallery/Mag_777_Bathroom_003.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Bed_001d.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Wardrobe_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Console_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Sofa_001d.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Kitchen_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_TV_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Bathroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Bathroom_003.jpg"
 			]
 		},
 
@@ -734,23 +864,24 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/012.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/013.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/014.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/006.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/007.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/008.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/009.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/010.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/011.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/015.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/016.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/2-bed-107/gallery/017.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/012.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/013.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/014.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/009.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/010.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/011.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/015.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/016.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/017.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/2-bed-107/gallery/018.jpg"
 			]
 		},
 		"1-bedroom-101": {
@@ -777,20 +908,19 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/1_bedroom_L1/gallery/Business_bay_tower_1bdrmloft_7.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bedroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bedroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bedroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bedroom_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bathroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bathroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Bathroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-101/gallery/MAG_777_101_1B_Guest+Bathroom_001.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bedroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bedroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bedroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bedroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_LivingRoom_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bathroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Bathroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-101/gallery/MAG_777_101_1B_Guest+Bathroom_001.jpg"
 			]
 		},
 		"studio-102": {
@@ -813,17 +943,17 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_006.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_007.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_008.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_009.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_010.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-102/gallery/MAG+777_102_011.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_006.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_007.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_008.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_009.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_010.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-102/gallery/MAG+777_102_011.jpg"
 			]
 		},
 		"1-bedroom-103": {
@@ -846,18 +976,18 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bedroom_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bedroom_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bedroom_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bedroom_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bathroom_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bathroom_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-103/gallery/MAG_777_103_Bathroom_03.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bedroom_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bedroom_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bedroom_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bedroom_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Livingroom%2BKitchen%2BHall_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bathroom_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bathroom_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-103/gallery/MAG_777_103_Bathroom_03.jpg"
 			]
 		},
 		"studio-104": {
@@ -880,14 +1010,14 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_09.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-104/gallery/MAG_777_104_10.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_06.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_09.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-104/gallery/MAG_777_104_10.jpg"
 			]
 		},
 		"studio-111": {
@@ -910,16 +1040,19 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_08.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_09.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_10.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-111/gallery/111_07.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_06.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_08.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_09.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_10.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_07.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_11.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_12.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-111/gallery/111_13.jpg"
 			]
 		},
 		"1-bedroom-114": {
@@ -946,19 +1079,19 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bedroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bedroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bedroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bedroom_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_005.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bathroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bathroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Bathroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/1-bed-114/gallery/MAG_777_114_1B_Guest+Bathroom_001.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bedroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bedroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bedroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bedroom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_004.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_LivingRoom_005.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bathroom_001.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bathroom_002.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Bathroom_003.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/1-bed-114/gallery/MAG_777_114_1B_Guest+Bathroom_001.jpg"
 			]
 		}
 	}
