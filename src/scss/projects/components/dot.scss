@@ -8,6 +8,9 @@
 				&:not(.active) {
 					opacity: 0;
 				}
+				&[data-modal360-category='always'] {
+					opacity: 0.5;
+				}
 			}
 		}
 		&:hover {
@@ -19,13 +22,17 @@
 				&:not(.active) {
 					opacity: 0;
 				}
+				&[data-modal360-category='always'] {
+					opacity: 0.5;
+				}
 			}
 		}
 	}
 	.dots-tabs-active & {
 		opacity: 0;
 		pointer-events: none;
-		&.active {
+		&.active,
+		&[data-modal360-category='always'] {
 			opacity: 1;
 			pointer-events: auto;
 		}
