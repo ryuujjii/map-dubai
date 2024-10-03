@@ -39,6 +39,7 @@
 	}
 }
 .dot-project {
+	padding-bottom: 20px;
 	// .dot-project__container
 
 	&__container {
@@ -70,6 +71,9 @@
 
 	&__info {
 		display: grid;
+		.left & {
+			justify-items: start;
+		}
 	}
 
 	// .dot-project__title

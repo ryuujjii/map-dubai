@@ -13,48 +13,143 @@
 		],
 		"img": "",
 		"centerPosotion": {
-			"x": 0.05,
+			"x": 0.25,
 			"y": 0
 		},
 		"styles": ""
 	},
 	"dots": {
-		"grand-bleu-tower": {
+		"3-bedroom-address": {
+			"sizes": {
+				"width": 200,
+				"height": 60
+			},
+			"position": {
+				"x": 195,
+				"y": 370
+			},
+			"info": {
+				"title": "3-bedroom",
+				"type": "Address Residences",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "3-bedroom-address",
+				"classNames": "right",
+				"hoverId": "adress"
+			}
+		},
+		"1-bedroom-address": {
+			"sizes": {
+				"width": 200,
+				"height": 60
+			},
+			"position": {
+				"x": 205,
+				"y": 430
+			},
+			"info": {
+				"title": "1-bedroom",
+				"type": "Address Residences",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "1-bedroom-address",
+				"classNames": "right",
+				"hoverId": "adress"
+			}
+		},
+		"2-bedroom-address": {
+			"sizes": {
+				"width": 200,
+				"height": 55
+			},
+			"position": {
+				"x": 150,
+				"y": 490
+			},
+			"info": {
+				"title": "2-bedroom",
+				"type": "Address Residences",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+				"dataModal360": "2-bedroom-address",
+				"classNames": "right",
+				"hoverId": "adress"
+			}
+		},
+		"4-bedroom-gandBlue": {
+			"sizes": {
+				"width": 210,
+				"height": 60
+			},
+			"position": {
+				"x": 520,
+				"y": 280
+			},
+			"info": {
+				"title": "4-bedroom",
+				"type": "Grand Bleu Tower",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "4-bedroom-gandBlue",
+				"classNames": "left",
+				"hoverId": "grand-blue"
+			}
+		},
+		"1-bedroom-A-gandBlue": {
+			"sizes": {
+				"width": 210,
+				"height": 60
+			},
+			"position": {
+				"x": 605,
+				"y": 340
+			},
+			"info": {
+				"title": "1-bedroom A",
+				"type": "Grand Bleu Tower",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "1-bedroom-A-gandBlue",
+				"classNames": "left",
+				"hoverId": "grand-blue"
+			}
+		},
+		"1-bedroom-B-gandBlue": {
+			"sizes": {
+				"width": 210,
+				"height": 60
+			},
+			"position": {
+				"x": 605,
+				"y": 400
+			},
+			"info": {
+				"title": "1-bedroom B",
+				"type": "Grand Bleu Tower",
+				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+				"dataModal360": "1-bedroom-B-gandBlue",
+				"classNames": "left",
+				"hoverId": "grand-blue"
+			}
+		},
+		"3-bedroom-gandBlue": {
 			"sizes": {
 				"width": 210,
 				"height": 55
 			},
 			"position": {
-				"x": 605,
+				"x": 580,
 				"y": 460
 			},
 			"info": {
-				"title": "Grand Bleu Tower",
-				"type": "by Elie Saab",
+				"title": "3-bedroom",
+				"type": "Grand Bleu Tower",
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "grand-bleu-tower",
+				"dataModal360": "3-bedroom-gandBlue",
 				"classNames": "left",
 				"hoverId": "grand-blue"
-			}
-		},
-		"address-residences": {
-			"sizes": {
-				"width": 220,
-				"height": 55
-			},
-			"position": {
-				"x": 480,
-				"y": 530
-			},
-			"info": {
-				"title": "Address Residences",
-				"type": "The Bay",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "address-residences",
-				"classNames": "left",
-				"hoverId": "adress"
 			}
 		}
 	},
@@ -259,170 +354,33 @@
 		}
 	},
 	"modal360": {
-		"grand-bleu-tower": {
+		"3-bedroom-address": {
 			"slides": {
 				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_1bedroom_tow2_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_1bedroom_tower1_lvl37_VR_post.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_3+Bedroom_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_4+Bedroom_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_bedroom_37_level_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_livingroom_37_level__1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_sanuzel_37_level_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_2.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_4.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_5.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_6.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_7.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBathroom_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBathroom_4brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_2.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_4.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_5.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_1_Beach+front_Elie+Saab_Living.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_2_Beach+front_Elie+Saab_LivingRoom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_3_Beach+front_Elie+Saab_Bedroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_4_Beach+front_Elie+Saab_Bathroom.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_1bedroom_tow2_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_1bedroom_tower1_lvl37_VR_post.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_3+Bedroom_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_4+Bedroom_terrace.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_bedroom_37_level_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_livingroom_37_level__1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_sanuzel_37_level_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_2.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_4.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_5.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_6.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_7.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBathroom_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBathroom_4brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_3brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_2.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_4.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_5.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_1_Beach+front_Elie+Saab_Living.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_2_Beach+front_Elie+Saab_LivingRoom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_3_Beach+front_Elie+Saab_Bedroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_4_Beach+front_Elie+Saab_Bathroom.jpg"
-					]
+					"img360": [],
+					"img360Preview": []
 				},
 				"exteriors": {
 					"img360": [],
 					"img360Preview": []
 				}
 			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_3brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_4(2).jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_7.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_7(2).jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_8.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_8(2).jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_9.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_10.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_11.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_7.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_8.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_sanuzel_37_level_1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_sanuzel_37_level_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie-Saab_1bedroom_tow2_terrace_static.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie-Saab_1bedroom_tower1_static_post.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_3brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_3brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_4brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_4brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_04.jpg"
-			]
+			"gallery": []
 		},
-		"address-residences": {
+		"1-bedroom-address": {
 			"slides": {
 				"interiors": {
 					"img360": [
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/address_1bedroom_living_vr360.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/address_1bedroom_master+bathroom_vr360.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/address_1bedroom_master+bedroom_vr360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/address_living_36_floor_06.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_003.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/Bedroom_54_level___3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_address_bathroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_address_bedroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_1bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_2bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_3bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_WC_01.jpg"
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_1bdr_balcony.jpg"
 					],
 					"img360Preview": [
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_1bedroom_living_vr360.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_1bedroom_master+bathroom_vr360.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_1bedroom_master+bedroom_vr360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_living_36_floor_06.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_003.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/Bedroom_54_level___3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_address_bathroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_address_bedroom.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_1bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_2bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_3bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_WC_01.jpg"
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_1bdr_balcony.jpg"
 					]
 				},
 				"exteriors": {
@@ -431,7 +389,6 @@
 				}
 			},
 			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/3address_3_brd_balcony.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_balcony.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_living_1.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_living_2.jpg",
@@ -440,7 +397,31 @@
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_master-bathroom_2.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_master-bedroom_1.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_master-bedroom_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_master-bedroom_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_1bedroom_master-bedroom_3.jpg"
+			]
+		},
+		"2-bedroom-address": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_address_bathroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_address_bedroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_2bdr_balcony.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/address_living_36_floor_06.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_address_bathroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_address_bedroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_2bdr_balcony.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/address_living_36_floor_06.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_2brd_balcony_01.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_2brd_balcony_02.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_bedroom_36_1.jpg",
@@ -457,24 +438,183 @@
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_wc_36_1.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_wc_36_2.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_wc_36_3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_wc_36_4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_08.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Beadroom_54_level___1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Beadroom_54_level___2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___7.jpg"
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/address_wc_36_4.jpg"
+			]
+		},
+		"4-bedroom-gandBlue": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_4+Bedroom_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_6.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_4brm_ElieSaab_360_7.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBathroom_4brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_4brm_ElieSaab_360_5.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_4+Bedroom_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_5.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_6.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_4brm_ElieSaab_360_7.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBathroom_4brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_2.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_4.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_4brm_ElieSaab_360_5.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_4brm_ElieSaab_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_4brm_ElieSaab_06.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_4brm_ElieSaab_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_4brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_4brm_ElieSaab_02.jpg"
+			]
+		},
+		"1-bedroom-A-gandBlue": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_1bedroom_tow2_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_1_Beach+front_Elie+Saab_Living.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_4_Beach+front_Elie+Saab_Bathroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_2_Beach+front_Elie+Saab_LivingRoom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/VR_3_Beach+front_Elie+Saab_Bedroom.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_1bedroom_tow2_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_1_Beach+front_Elie+Saab_Living.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_4_Beach+front_Elie+Saab_Bathroom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_2_Beach+front_Elie+Saab_LivingRoom.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/VR_3_Beach+front_Elie+Saab_Bedroom.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_8(2).jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_11.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_7(2).jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_4(2).jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie-Saab_1bedroom_tow2_terrace_static.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_8.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_6.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_7.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_9.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Beach-front_Elie-Saab_Bedroom1_10.jpg"
+			]
+		},
+		"1-bedroom-B-gandBlue": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_1bedroom_tower1_lvl37_VR_post.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_bedroom_37_level_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_livingroom_37_level__1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie_Saab_1_sanuzel_37_level_3.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_1bedroom_tower1_lvl37_VR_post.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_bedroom_37_level_3.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_livingroom_37_level__1.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie_Saab_1_sanuzel_37_level_3.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_bedroom_37_level_5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_3.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_4.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_5.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_6.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_7.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_livingroom_37_level_8.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_sanuzel_37_level_1.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie_Saab_1_sanuzel_37_level_2.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Elie-Saab_1bedroom_tower1_static_post.jpg"
+			]
+		},
+		"3-bedroom-gandBlue": {
+			"slides": {
+				"interiors": {
+					"img360": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Elie+Saab_3+Bedroom_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/Living_Dining_Kitchen_3brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBathroom_3brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/360/MasterBedroom_3brm_ElieSaab_360.jpg"
+					],
+					"img360Preview": [
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Elie+Saab_3+Bedroom_terrace.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/Living_Dining_Kitchen_3brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBathroom_3brm_ElieSaab_360.jpg",
+						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/preview/MasterBedroom_3brm_ElieSaab_360.jpg"
+					]
+				},
+				"exteriors": {
+					"img360": [],
+					"img360Preview": []
+				}
+			},
+			"gallery": [
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Balcony_3brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/Living_Dining_Kitchen_3brm_ElieSaab_05.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_02.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_03.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBedroom_3brm_ElieSaab_04.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_3brm_ElieSaab_01.jpg",
+				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ELIE-SAAB-(GRAND-BLUE)/gallery/MasterBathroom_3brm_ElieSaab_02.jpg"
 			]
 		}
 	}
