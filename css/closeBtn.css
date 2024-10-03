@@ -1,0 +1,130 @@
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 8px;
+          column-gap: 8px;
+  z-index: var(--z-index);
+  background-color: transparent;
+}
+
+@media (max-width: 768px) {
+  .close {
+    right: 16px;
+    top: 16px;
+  }
+}
+
+.close__text {
+  color: var(--light-color);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.close__icon {
+  width: 26px;
+  aspect-ratio: 1;
+  position: relative;
+}
+
+.close__icon img {
+  position: relative;
+  z-index: 2;
+}
+
+.close__icon::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  top: 0.5px;
+  left: 0.5px;
+  background-color: var(--black-color);
+  border-radius: 3px;
+}
+
+.close__icon.project-btn, .close__icon.pano-btn {
+  display: none;
+}
+
+.close.project-btn {
+  border-radius: 2px;
+  background: #16161680;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 11px 16px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.close.project-btn .close__icon {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: none;
+}
+
+.close.project-btn .close__icon::before {
+  display: none;
+}
+
+.close.project-btn .close__icon.project-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .close.project-btn {
+    border-radius: 4px;
+    background: #16161680;
+    -webkit-backdrop-filter: blur(4px);
+            backdrop-filter: blur(4px);
+    top: 16px;
+    left: 16px;
+  }
+}
+
+.close.pano-btn, .close.modal360__close-btn {
+  border-radius: 2px;
+  background: #16161680;
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  padding: 11px 16px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.close.pano-btn .close__icon, .close.modal360__close-btn .close__icon {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.close.pano-btn .close__icon::before, .close.modal360__close-btn .close__icon::before {
+  display: none;
+}
+
+.close.pano-btn .close__icon.pano-btn, .close.modal360__close-btn .close__icon.pano-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

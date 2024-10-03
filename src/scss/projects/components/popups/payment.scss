@@ -213,13 +213,18 @@
 
   //payment__nav-wrapper
   &__nav-wrapper {
-    @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 500px) {
       position: relative;
       overflow: hidden;
       margin-bottom: 24px;
+      justify-content: flex-start;
+      align-items: flex-start;
     }
     &::after {
-      @media (max-width: 768px) {
+      @media (max-width: 500px) {
         content: "";
         width: 130px;
         height: 100%;
@@ -236,9 +241,13 @@
         opacity: 0;
         transition: 0.3s ease;
       }
+
+      .disable-arrows & {
+        display: none;
+      }
     }
     &::before {
-      @media (max-width: 768px) {
+      @media (max-width: 500px) {
         content: "";
         width: 130px;
         height: 100%;
@@ -255,6 +264,10 @@
         z-index: 1;
         opacity: 0;
         transition: 0.3s ease;
+      }
+
+      .disable-arrows & {
+        display: none;
       }
     }
 
@@ -273,13 +286,13 @@
 
   //payment__nav-container
   &__nav-container {
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       overflow: auto;
       scrollbar-width: none;
       -ms-overflow-style: none
     }
     &::-webkit-scrollbar {
-      @media (max-width: 768px) {
+      @media (max-width: 500px) {
         display: none;
       }
     }
@@ -288,7 +301,7 @@
   // payment__nav-inner
   &__nav-inner {
     width: max-content;
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       padding: 0 40px;
     }
   }
@@ -309,7 +322,7 @@
       margin-bottom: 24px;
       margin-top: 0;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       // margin-left: 40px;
       margin-bottom: 0px;
       // margin-right: 40px;
@@ -338,7 +351,7 @@
       pointer-events: none;
       opacity: 0.5;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 500px) {
       display: flex;
       pointer-events: auto;
     }
@@ -348,6 +361,10 @@
     }
     &-next {
       right: 0px;
+    }
+
+    .disable-arrows & {
+      display: none;
     }
   }
 

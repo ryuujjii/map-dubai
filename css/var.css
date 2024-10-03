@@ -1,0 +1,11 @@
+:root {
+  --vh: 100lvh;
+  --font: "Raleway", sans-serif;
+  --light-color: #fff;
+  --dark-color: #000;
+  --main-color: #B26A4B;
+  --black-color: #161616;
+  --gold:#D79970;
+  --grey:#8c8c8c;
+  --z-index:1000;
+}
