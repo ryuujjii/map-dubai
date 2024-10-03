@@ -428,20 +428,58 @@
 			"items": {
 				"content": [
 					{
-						"title": "",
+						"title": "Studio Options",
 						"isActive": true,
 						"classNames": [],
 						"content": [
 							{
 								"number": "20",
-								"text": "on booking"
-							},
-							{
-								"number": "60",
-								"text": "during construction"
+								"text": "down payment"
 							},
 							{
 								"number": "20",
+								"text": "during construction"
+							},
+							{
+								"number": "60",
+								"text": "on handover"
+							}
+						]
+					},
+					{
+						"title": "1-Bedroom Options",
+						"isActive": false,
+						"classNames": [],
+						"content": [
+							{
+								"number": "20",
+								"text": "down payment"
+							},
+							{
+								"number": "20",
+								"text": "during construction"
+							},
+							{
+								"number": "60",
+								"text": "on handover"
+							}
+						]
+					},
+					{
+						"title": "2-Bedroom Options",
+						"isActive": false,
+						"classNames": [],
+						"content": [
+							{
+								"number": "10",
+								"text": "down payment"
+							},
+							{
+								"number": "20",
+								"text": "during construction"
+							},
+							{
+								"number": "70",
 								"text": "on handover"
 							}
 						]
