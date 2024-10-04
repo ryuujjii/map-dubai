@@ -47,28 +47,39 @@ export default function tabPatment() {
     });
 
 
+    // scrollContent.addEventListener('scroll', () => {
+    //     const scrollLeft = scrollContent.scrollLeft;
+
+    //     if(scrollLeft >= 10) {
+    //         paymentWrapperNav.classList.add('scroll-left')
+    //         paymentPrevBtn.classList.remove('disabled')
+    //     }
+
+    //     if(scrollLeft < 10) {
+    //         paymentWrapperNav.classList.remove('scroll-left')
+    //         paymentPrevBtn.classList.add('disabled')
+    //     }
+
+    //     if(scrollLeft >= 100) {
+    //         paymentWrapperNav.classList.remove('scroll-right')
+    //         paymentNextBtn.classList.add('disabled')
+    //     }
+
+    //     if(scrollLeft < 100) {
+    //         paymentWrapperNav.classList.add('scroll-right')
+    //         paymentNextBtn.classList.remove('disabled')
+    //     }
+    // });
+
     scrollContent.addEventListener('scroll', () => {
         const scrollLeft = scrollContent.scrollLeft;
-        
-        if(scrollLeft >= 10) {
-            paymentWrapperNav.classList.add('scroll-left')
-            paymentPrevBtn.classList.remove('disabled')
-        }
-
-        if(scrollLeft < 10) {
-            paymentWrapperNav.classList.remove('scroll-left')
-            paymentPrevBtn.classList.add('disabled')
-        }
-
-        if(scrollLeft >= 100) {
-            paymentWrapperNav.classList.remove('scroll-right')
-            paymentNextBtn.classList.add('disabled')
-        }
-
-        if(scrollLeft < 100) {
-            paymentWrapperNav.classList.add('scroll-right')
-            paymentNextBtn.classList.remove('disabled')
-        }
+        const maxScrollLeft = scrollContent.scrollWidth - scrollContent.clientWidth;
+    
+        paymentWrapperNav.classList.toggle('scroll-left', scrollLeft >= 10);
+        paymentPrevBtn.classList.toggle('disabled', scrollLeft < 10);
+    
+        const nearMaxScroll = scrollLeft >= (maxScrollLeft - 30);
+        paymentWrapperNav.classList.toggle('scroll-right', !nearMaxScroll);
+        paymentNextBtn.classList.toggle('disabled', nearMaxScroll);
     });
-
 }
