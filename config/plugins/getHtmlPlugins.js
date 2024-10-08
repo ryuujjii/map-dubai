@@ -36,6 +36,13 @@ export default function getHtmlPlugins({ paths }) {
       chunksSortMode: 'manual',
       template: resolve(paths.src, 'modal360/index.html'),
       minify: true
+    }),
+    new HtmlWebpackPlugin({
+      filename: `modal360/index-popup.html`,
+      chunks: ['indexPopup'],
+      chunksSortMode: 'manual',
+      template: resolve(paths.src, 'modal360/index-popup.html'),
+      minify: true
     })
   ];
 };
