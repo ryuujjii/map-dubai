@@ -332,11 +332,13 @@
 
   .psv-navbar {
     background-color: transparent;
-    height: 50px !important;
-    bottom: 24px;
+    height: auto !important;
+    top: 28px;
+    bottom: 17px;
     left: 24px;
     right: 24px;
     width: auto !important;
+    pointer-events: none;
     @media (max-width: 991.98px) {
       left: 16px;
       right: 16px;
@@ -350,22 +352,21 @@
       height: 48px !important;
     }
   }
+  .psv-caption{
+    display: none;
+  }
   .psv-caption-content {
     display: none;
   }
   .psv-zoom-button {
-    background: linear-gradient(
-        0deg,
-        rgba(22, 22, 22, 0.4),
-        rgba(22, 22, 22, 0.4)
-      ),
-      rgba(22, 22, 22, 0.8);
+    background: linear-gradient(0deg, rgba(22, 22, 22, 0.4), rgba(22, 22, 22, 0.4)), rgba(22, 22, 22, 0.8);
     backdrop-filter: blur(16px);
     padding: 0;
-    width: 45px !important;
-    height: 50px !important;
+    width: 36px !important;
+    height: 34px !important;
     display: block !important;
-    // flex: initial;
+    pointer-events: all;
+    
 
     .mob-device & {
       display: none !important;
@@ -389,6 +390,7 @@
     &[title="Zoom out"] {
       border-radius: 4px 0 0 4px;
       svg {
+        left: initial;
         right: 5px;
       }
     }
@@ -401,26 +403,26 @@
     }
   }
   .psv-zoom-range {
-    background: linear-gradient(
-        0deg,
-        rgba(22, 22, 22, 0.4),
-        rgba(22, 22, 22, 0.4)
-      ),
-      rgba(22, 22, 22, 0.8);
+    background: linear-gradient(0deg, rgba(22, 22, 22, 0.4), rgba(22, 22, 22, 0.4)), rgba(22, 22, 22, 0.8);
     backdrop-filter: blur(16px);
-    height: 100% !important;
+    height: 34px !important;
     margin: 0;
     padding: 0;
     max-width: 100% !important;
-    width: 66px !important;
+    width: 70px !important;
     display: block !important;
+    pointer-events: all;
+    // position: absolute;
+    // top: 28px;
+    // left: 24px;
+
 
     .psv-zoom-range-line {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      width: 42px !important;
+      width: 48px !important;
       height: 2px !important;
       border-radius: 10px;
     }
@@ -433,18 +435,17 @@
     }
   }
   .psv-fullscreen-button {
-    background: linear-gradient(
-        0deg,
-        rgba(22, 22, 22, 0.4),
-        rgba(22, 22, 22, 0.4)
-      ),
-      rgba(22, 22, 22, 0.8);
+    background: linear-gradient(0deg, rgba(22, 22, 22, 0.4), rgba(22, 22, 22, 0.4)), rgba(22, 22, 22, 0.8);
     backdrop-filter: blur(16px);
     border-radius: 4px;
     padding: 0;
-    width: 68px !important;
-    height: 50px !important;
-    // flex: initial;
+    width: 48px !important;
+    height: 48px !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    pointer-events: all;
+
     @media (max-width: 991.98px) {
       width: 50px !important;
     }
