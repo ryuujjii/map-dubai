@@ -206,7 +206,17 @@
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-bay/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 3.4 mln",
+				"about": "prices from"
+			},
+			{
+				"price": "20%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {
