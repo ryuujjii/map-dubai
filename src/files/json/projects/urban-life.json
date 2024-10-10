@@ -24,7 +24,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": ""
+				}
 			}
 		},
 		"2-bedroom": {
@@ -42,7 +46,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "2-bedroom",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": ""
+				}
 			}
 		},
 		"gents-gym": {
@@ -60,7 +68,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "gents-gym",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "Gents Gym",
+					"type": ""
+				}
 			}
 		},
 		"entrance": {
@@ -78,7 +90,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "entrance",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "Entrance",
+					"type": ""
+				}
 			}
 		},
 		"studio": {
@@ -96,7 +112,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio",
-				"classNames": "left text-align-left"
+				"classNames": "left text-align-left",
+				"closeInfo": {
+					"title": "Studio",
+					"type": ""
+				}
 			}
 		},
 		"ladies-gym": {
@@ -114,7 +134,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "ladies-gym",
-				"classNames": "left text-align-left"
+				"classNames": "left text-align-left",
+				"closeInfo": {
+					"title": "Ladies Gym",
+					"type": ""
+				}
 			}
 		}
 	},
