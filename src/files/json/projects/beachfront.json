@@ -35,7 +35,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "3-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress"
+				"hoverId": "adress",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "Address Residences"
+				}
 			}
 		},
 		"1-bedroom-address": {
@@ -54,7 +58,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress"
+				"hoverId": "adress",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "Address Residences"
+				}
 			}
 		},
 		"2-bedroom-address": {
@@ -73,7 +81,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "2-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress"
+				"hoverId": "adress",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "Address Residences"
+				}
 			}
 		},
 		"4-bedroom-gandBlue": {
@@ -92,7 +104,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "4-bedroom-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue"
+				"hoverId": "grand-blue",
+				"closeInfo": {
+					"title": "4-bedroom",
+					"type": "Grand Bleu Tower"
+				}
 			}
 		},
 		"1-bedroom-A-gandBlue": {
@@ -111,7 +127,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-A-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue"
+				"hoverId": "grand-blue",
+				"closeInfo": {
+					"title": "1-bedroom A",
+					"type": "Grand Bleu Tower"
+				}
 			}
 		},
 		"1-bedroom-B-gandBlue": {
@@ -130,7 +150,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-B-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue"
+				"hoverId": "grand-blue",
+				"closeInfo": {
+					"title": "1-bedroom B",
+					"type": "Grand Bleu Tower"
+				}
 			}
 		},
 		"3-bedroom-gandBlue": {
@@ -149,7 +173,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue"
+				"hoverId": "grand-blue",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "Grand Bleu Tower"
+				}
 			}
 		}
 	},

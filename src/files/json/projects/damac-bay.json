@@ -35,7 +35,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "3-bedroom-sl-DB2",
 				"classNames": "right",
-				"hoverId": "leftHover"
+				"hoverId": "leftHover",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "DAMAC Bay 2"
+				}
 			}
 		},
 		"1-bedroom-l-DB2": {
@@ -54,7 +58,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-l-DB2",
 				"classNames": "right",
-				"hoverId": "leftHover"
+				"hoverId": "leftHover",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "DAMAC Bay 2"
+				}
 			}
 		},
 		"4-bedroom-sl-DB2": {
@@ -73,7 +81,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "4-bedroom-sl-DB2",
 				"classNames": "left",
-				"hoverId": "leftHover"
+				"hoverId": "leftHover",
+				"closeInfo": {
+					"title": "4-bedroom",
+					"type": "DAMAC Bay 2"
+				}
 			}
 		},
 		"2-bedroom-l-DB2": {
@@ -92,7 +104,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-l-DB2",
 				"classNames": "left",
-				"hoverId": "leftHover"
+				"hoverId": "leftHover",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "DAMAC Bay 2"
+				}
 			}
 		},
 		"3-bedroom-sl-DB": {
@@ -111,7 +127,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-sl-DB",
 				"classNames": "left",
-				"hoverId": "rightHover"
+				"hoverId": "rightHover",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "DAMAC Bay"
+				}
 			}
 		},
 		"1-bedroom-l-DB": {
@@ -130,7 +150,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-l-DB",
 				"classNames": "left",
-				"hoverId": "rightHover"
+				"hoverId": "rightHover",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "DAMAC Bay"
+				}
 			}
 		},
 		"5-bedroom-sl-DB": {
@@ -149,7 +173,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "5-bedroom-sl-DB",
 				"classNames": "left",
-				"hoverId": "rightHover"
+				"hoverId": "rightHover",
+				"closeInfo": {
+					"title": "5-bedroom",
+					"type": "DAMAC Bay"
+				}
 			}
 		},
 		"3-bedroom-l-DB": {
@@ -168,7 +196,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-sl-DB",
 				"classNames": "left",
-				"hoverId": "rightHover"
+				"hoverId": "rightHover",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "DAMAC Bay"
+				}
 			}
 		}
 	},

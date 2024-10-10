@@ -24,7 +24,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-D",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type D"
+				}
 			}
 		},
 		"1-bedroom-E": {
@@ -42,7 +46,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-E",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type E"
+				}
 			}
 		},
 		"2-bedroom-E": {
@@ -60,7 +68,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-E",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "type E"
+				}
 			}
 		},
 		"2-bedroom-B": {
@@ -78,7 +90,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-B",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "type B"
+				}
 			}
 		}
 	},
