@@ -18,13 +18,13 @@
     align-items: center;
     justify-content: center;
     height: 55px;
+    transition: all 0.3s ease 0s;
+    opacity: 0;
+    visibility: hidden;
     @media (max-width: 767.98px) {
       bottom: 56px;
       z-index: 100;
     }
-    transition: all 0.3s ease 0s;
-    opacity: 0;
-    visibility: hidden;
     .viewer-ready & {
       opacity: 1;
       visibility: visible;
@@ -219,6 +219,7 @@
       }
     }
     &_int {
+      z-index: 2;
       .active-int-slides & {
         opacity: 1;
         visibility: visible;
@@ -230,7 +231,6 @@
           color: #808080;
         }
       }
-      z-index: 2;
     }
   }
 
