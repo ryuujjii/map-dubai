@@ -188,7 +188,17 @@
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "2027 Q4",
+				"about": "Handover Date"
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {

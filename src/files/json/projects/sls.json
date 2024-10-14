@@ -33,8 +33,18 @@
 		}
 	},
 	"partner": {
-		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/project-icon.svg",
-		"classNames": []
+		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/project-icon2.svg",
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 7 Mln",
+				"about": "prices from" 
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {

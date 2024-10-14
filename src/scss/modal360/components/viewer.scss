@@ -291,6 +291,7 @@
       }
     }
     &_int {
+      z-index: 2;
       .active-int-slides & {
         opacity: 1;
         visibility: visible;
@@ -302,7 +303,6 @@
           color: #808080;
         }
       }
-      z-index: 2;
     }
   }
 
