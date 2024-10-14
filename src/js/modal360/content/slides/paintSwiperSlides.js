@@ -2,7 +2,6 @@ import slideLayout from '@/modal360/content/slides/slideLayout';
 import { dispatchCustomEvent, addClassName, removeClassName } from 'utils';
 function getPaintSwiperSlides() {
   const slidesParent = document.querySelector('.swiper-wrapper');
-
   function paintHelper(type, data) {
     const { img360, img360Preview } = data;
     img360.forEach((el, i) => {
