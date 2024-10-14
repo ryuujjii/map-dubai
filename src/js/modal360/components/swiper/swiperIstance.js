@@ -5,9 +5,24 @@ import 'swiper/css';
 
 
 export const swiperInstance = new Swiper(".swiper", {
-  spaceBetween: 2,
+  // spaceBetween: 4,
+  spaceBetween: 3,
+  // direction: "vertical",
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+    767: {
+      direction: "horizontal", 
+      spaceBetween: 3,
+
+    },
+    768: {
+      direction: "vertical", 
+      spaceBetween: 4,
+
+    },
   },
 });

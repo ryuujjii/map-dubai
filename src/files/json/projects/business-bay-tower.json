@@ -24,7 +24,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-l-A",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "loft style A"
+				}
 			}
 		},
 		"1-bedroom-l-B": {
@@ -42,7 +46,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-l-B",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "loft style B"
+				}
 			}
 		},
 		"1-bedroom-t-B": {
@@ -60,7 +68,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-t-B",
-				"classNames": "right"
+				"classNames": "right",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type B"
+				}
 			}
 		},
 		"3-bedroom-D": {
@@ -78,7 +90,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-D",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "3-bedroom",
+					"type": "duplex"
+				}
 			}
 		},
 		"2-bedroom-D": {
@@ -96,7 +112,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-D",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "duplex"
+				}
 			}
 		},
 		"2-bedroom-t-B": {
@@ -114,7 +134,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-t-B",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "type B"
+				}
 			}
 		},
 		"1-bedroom-t-A": {
@@ -132,7 +156,11 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-t-A",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type A"
+				}
 			}
 		},
 		"2-bedroom-t-A": {
@@ -150,13 +178,27 @@
 				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-t-A",
-				"classNames": "left"
+				"classNames": "left",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "type A"
+				}
 			}
 		}
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "2027 Q4",
+				"about": "Handover Date"
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {
@@ -408,7 +450,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				[
 					"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img5/1_bedroom_L2/gallery/1br_loft%232_bedroom01.jpg",
@@ -451,7 +492,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				[
 					"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/1_bedroom_T2/gallery/1br%232_Bedroom_1.jpg",
@@ -574,7 +614,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_Bedroom_D/gallery/2br_duplex_guest_bedroom_001.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_Bedroom_D/gallery/2br_duplex_guest_bedroom_002.jpg",
@@ -631,7 +670,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_bedroom_T2/gallery/2bdrm2_Mbedroom_01.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_bedroom_T2/gallery/2bdrm2_Mbedroom_02.jpg",
@@ -675,7 +713,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/1_bedroom_T1/gallery/bedroom_1BR_001.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/1_bedroom_T1/gallery/bedroom_1BR_002.jpg",
@@ -725,7 +762,6 @@
 					"img360Preview": []
 				}
 			},
-
 			"gallery": [
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_bedroom_T1/gallery/BB_Tower_2bdrm1_Master_Bedroom_001.jpg",
 				"https://d3b6muno9lbfvx.cloudfront.net/business-bay-tower-vr/files/modal-360-img/img2/2_bedroom_T1/gallery/BB_Tower_2bdrm1_Master_Bedroom_002.jpg",

@@ -25,6 +25,9 @@ export default function modal360() {
         panoIframe.innerHTML = "";
         removeClassName(document.documentElement, 'preloader-hidden');
         sendDataToModal360(btn.getAttribute('data-modal360'));
+        getProjectTitle(btn)
+        // console.log(btn.getAttribute('data-modal360-close-info-title'));
+        // console.log(btn.getAttribute('data-modal360-close-info-type'));
         setTimeout(() => {
           dispatchCustomEvent({
             el: iframeWindow.contentWindow, event: "loader-shown"
@@ -36,3 +39,37 @@ export default function modal360() {
     });
   });
 };
+
+
+function getProjectTitle(btn) {
+  const { title: mainDotTitle, type: mainDotType } = {
+    title: btn.getAttribute('data-modal360-close-info-title'),
+    type: btn.getAttribute('data-modal360-close-info-type')
+  };
+  const { title: moda360BtnTitle, type: moda360BtnType } = {
+    title: document.querySelector(".modal360__close-btn-title h5"),
+    type: document.querySelector(".modal360__close-btn-title p")
+  };
+  const modal360CloseBtn = document.querySelector(".modal360__close-btn")
+
+
+
+  if (moda360BtnTitle && moda360BtnType) {
+    moda360BtnTitle.textContent = mainDotTitle;
+    moda360BtnType.textContent = mainDotType;
+
+    if (mainDotType === "") {
+      moda360BtnTitle.classList.add('empty-title');
+      moda360BtnType.style.display = "none"
+    }
+  }
+
+  modal360CloseBtn.addEventListener('click', () => {
+    setTimeout(() => {
+      moda360BtnTitle.classList.remove('empty-title');
+      moda360BtnType.style.display = "flex"
+      
+    }, 500);
+  })
+
+}

@@ -47,7 +47,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "L-Shape-l1",
 				"classNames": "right",
-				"hoverId": "l-shape"
+				"hoverId": "l-shape",
+				"closeInfo": {
+					"title": "L-Shape",
+					"type": ""
+				}
 			}
 		},
 		"V-Shape-V1": {
@@ -66,7 +70,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "V-Shape-V1",
 				"classNames": "left text-align-left",
-				"hoverId": "v-shape"
+				"hoverId": "v-shape",
+				"closeInfo": {
+					"title": "V-Shape",
+					"type": ""
+				}
 			}
 		},
 		"V-Shape-V2": {
@@ -85,8 +93,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "V-Shape-V2",
 				"classNames": "left text-align-left",
-				"hoverId": "v-shape"
-				
+				"hoverId": "v-shape",
+				"closeInfo": {
+					"title": "V-Shape",
+					"type": ""
+				}
 			}
 		},
 		"mansions-m2": {
@@ -105,7 +116,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "mansions-m2",
 				"classNames": "left text-align-left",
-				"hoverId": "sky"
+				"hoverId": "sky",
+				"closeInfo": {
+					"title": "Sky Mansion",
+					"type": ""
+				}
 			}
 		},
 		"mansions-m3": {
@@ -124,7 +139,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "mansions-m3",
 				"classNames": "left text-align-left",
-				"hoverId": "earth"
+				"hoverId": "earth",
+				"closeInfo": {
+					"title": "Earth Mansion",
+					"type": ""
+				}
 			}
 		},
 		"mansions-m5": {
@@ -143,13 +162,27 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "mansions-m5",
 				"classNames": "left text-align-left",
-				"hoverId": "water"
+				"hoverId": "water",
+				"closeInfo": {
+					"title": "Water Mansion",
+					"type": ""
+				}
 			}
 		}
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 6.9 mln",
+				"about": "prices from"
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {

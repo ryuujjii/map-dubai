@@ -37,13 +37,27 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom",
 				"classNames": "right",
-				"hoverId": "if needed"
+				"hoverId": "if needed",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "loft style A"
+				}
 			}
 		}
 	},
 	"partner": {
 		"logo": "",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "2027 Q4",
+				"about": "Handover Date"
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {

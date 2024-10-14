@@ -5,6 +5,8 @@ import { removeClassToAlter } from "@/modal360/components/alterParentWindow.js";
 import updateInstanceOnContentChange from "@/modal360/components/updateInstanceOnContentChange.js";
 import { isMobileOrTablet, addClassName } from "@/components/utils";
 import recieveMsg from "@/modal360/content/recieveMsg";
+import btnSocials from "@/modal360/content/btnSocials";
+
 
 window.addEventListener("DOMContentLoaded", (params) => {
   isMobileOrTablet()
@@ -14,6 +16,7 @@ window.addEventListener("DOMContentLoaded", (params) => {
   viewer();
   gallery();
   updateInstanceOnContentChange();
+  btnSocials('')
 });
 
 window.addEventListener("unload", function (event) {

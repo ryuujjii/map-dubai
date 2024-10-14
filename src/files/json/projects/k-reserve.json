@@ -39,7 +39,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "townhouses",
 				"classNames": "right",
-				"hoverId": "townhouse"
+				"hoverId": "townhouse",
+				"closeInfo": {
+					"title": "Townhouses",
+					"type": ""
+				}
 			}
 		},
 		"villas": {
@@ -58,7 +62,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "villas",
 				"classNames": "left text-align-left",
-				"hoverId": "villas"
+				"hoverId": "villas",
+				"closeInfo": {
+					"title": "Villas",
+					"type": ""
+				}
 			}
 		},
 		"apartments": {
@@ -77,13 +85,27 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "apartments",
 				"classNames": "left text-align-left",
-				"hoverId": "apartments"
+				"hoverId": "apartments",
+				"closeInfo": {
+					"title": "Apartments",
+					"type": ""
+				}
 			}
 		}
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 3.8 mln",
+				"about": "prices from"
+			},
+			{
+				"price": "20%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {

@@ -4,8 +4,9 @@ export function getUpdateSwiper(getUpdatedSwiperConfig, getSlidesPerView, swiper
   return function updateSwiper(slidesLength) {
     const { swiperWidth } = getUpdatedSwiperConfig(slidesLength);
     swiper.params.slidesPerView = getSlidesPerView(slidesLength);
-    viewerSwiper.style.cssText =
-      `width:${swiperWidth}px;`;
+    viewerSwiper.style.setProperty('--swiperSize', `${swiperWidth}px`);
+    // viewerSwiper.style.cssText =
+    //   `height:${swiperWidth}px;`;
     swiper.update();
   };
 }

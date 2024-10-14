@@ -39,7 +39,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "floor-20",
 				"classNames": "right",
-				"dataModal360Category": "always"
+				"dataModal360Category": "always",
+				"closeInfo": {
+					"title": "20 Floor",
+					"type": ""
+				}
 			}
 		},
 		"floor-21": {
@@ -58,7 +62,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "floor-21",
 				"classNames": "left",
-				"dataModal360Category": "always"
+				"dataModal360Category": "always",
+				"closeInfo": {
+					"title": "21 Floor",
+					"type": ""
+				}
 			}
 		},
 		"studio-105": {
@@ -77,7 +85,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "studio-105",
 				"classNames": "right",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 105"
+				}
 			}
 		},
 		"1-bedroom-106": {
@@ -96,7 +108,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-106",
 				"classNames": "right",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 106"
+				}
 			}
 		},
 		"1-bedroom-108": {
@@ -115,7 +131,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-108",
 				"classNames": "right",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 108"
+				}
 			}
 		},
 		"studio-109": {
@@ -134,7 +154,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "studio-109",
 				"classNames": "right",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 109"
+				}
 			}
 		},
 		"1-bedroom-110": {
@@ -153,7 +177,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-110",
 				"classNames": "right",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 110"
+				}
 			}
 		},
 		"1-bedroom-112": {
@@ -172,7 +200,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-112",
 				"classNames": "right",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 112"
+				}
 			}
 		},
 		"studio-113": {
@@ -191,7 +223,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "studio-113",
 				"classNames": "right",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 113"
+				}
 			}
 		},
 		"2-bedroom-107": {
@@ -210,7 +246,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "2-bedroom-107",
 				"classNames": "left",
-				"dataModal360Category": "2-bedroom"
+				"dataModal360Category": "2-bedroom",
+				"closeInfo": {
+					"title": "2-bedroom",
+					"type": "type 107"
+				}
 			}
 		},
 		"1-bedroom-101": {
@@ -229,7 +269,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-101",
 				"classNames": "left",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 101"
+				}
 			}
 		},
 		"studio-102": {
@@ -248,7 +292,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-102",
 				"classNames": "left",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 102"
+				}
 			}
 		},
 		"1-bedroom-103": {
@@ -267,7 +315,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-103",
 				"classNames": "left",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 103"
+				}
 			}
 		},
 		"studio-104": {
@@ -286,7 +338,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-104",
 				"classNames": "left",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 104"
+				}
 			}
 		},
 		"studio-111": {
@@ -305,7 +361,11 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "studio-111",
 				"classNames": "left",
-				"dataModal360Category": "studio"
+				"dataModal360Category": "studio",
+				"closeInfo": {
+					"title": "Studio",
+					"type": "type 111"
+				}
 			}
 		},
 		"1-bedroom-114": {
@@ -324,13 +384,27 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-114",
 				"classNames": "left",
-				"dataModal360Category": "1-bedroom"
+				"dataModal360Category": "1-bedroom",
+				"closeInfo": {
+					"title": "1-bedroom",
+					"type": "type 114"
+				}
 			}
 		}
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/mag777/project-icon.svg",
-		"classNames": []
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 777K",
+				"about": "prices from"
+			},
+			{
+				"price": "20%",
+				"about": "on Booking"
+			}
+		]
 	},
 	"popup": {
 		"about": {
@@ -847,7 +921,7 @@
 		"studio-113": {
 			"slides": {
 				"interiors": {
-					"img360":[
+					"img360": [
 						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/360/VR_113_001.jpg",
 						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/studio-113/360/VR_113_002.jpg"
 					],
@@ -873,7 +947,6 @@
 				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/studio-113/gallery/Mag_777_Bathroom_003.jpg"
 			]
 		},
-
 		"2-bedroom-107": {
 			"slides": {
 				"interiors": {

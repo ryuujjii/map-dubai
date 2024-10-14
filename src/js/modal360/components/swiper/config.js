@@ -1,4 +1,4 @@
-import {    queryMatches } from 'utils';
+import { queryMatches } from 'utils';
 
 export function config() {
   let widthViewerSlide;
@@ -6,14 +6,15 @@ export function config() {
   let conditionViewerSlides;
   let initialWidthViewerSwiper;
   let actualSwiperWidth;
-  if (!queryMatches(1200)) {
-    widthViewerSlide = 90;
+  if (!queryMatches(767)) {
+    widthViewerSlide = 60;
     viewerSwiperPrerView = 5;
-    initialWidthViewerSwiper = 500;
+    initialWidthViewerSwiper = 280;
   } else {
     widthViewerSlide = 100;
     viewerSwiperPrerView = 3;
-    initialWidthViewerSwiper = 300;
+    initialWidthViewerSwiper = 340;
+
   }
 
   return {
