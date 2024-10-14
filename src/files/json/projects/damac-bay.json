@@ -38,7 +38,7 @@
 				"hoverId": "leftHover",
 				"closeInfo": {
 					"title": "3-bedroom",
-					"type": "DAMAC Bay 2"
+					"type": ""
 				}
 			}
 		},
@@ -61,7 +61,7 @@
 				"hoverId": "leftHover",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "DAMAC Bay 2"
+					"type": ""
 				}
 			}
 		},
@@ -84,7 +84,7 @@
 				"hoverId": "leftHover",
 				"closeInfo": {
 					"title": "4-bedroom",
-					"type": "DAMAC Bay 2"
+					"type": ""
 				}
 			}
 		},
@@ -107,7 +107,7 @@
 				"hoverId": "leftHover",
 				"closeInfo": {
 					"title": "2-bedroom",
-					"type": "DAMAC Bay 2"
+					"type": ""
 				}
 			}
 		},
@@ -130,7 +130,7 @@
 				"hoverId": "rightHover",
 				"closeInfo": {
 					"title": "3-bedroom",
-					"type": "DAMAC Bay"
+					"type": ""
 				}
 			}
 		},
@@ -153,7 +153,7 @@
 				"hoverId": "rightHover",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "DAMAC Bay"
+					"type": ""
 				}
 			}
 		},
@@ -176,7 +176,7 @@
 				"hoverId": "rightHover",
 				"closeInfo": {
 					"title": "5-bedroom",
-					"type": "DAMAC Bay"
+					"type": ""
 				}
 			}
 		},
@@ -199,7 +199,7 @@
 				"hoverId": "rightHover",
 				"closeInfo": {
 					"title": "3-bedroom",
-					"type": "DAMAC Bay"
+					"type": ""
 				}
 			}
 		}

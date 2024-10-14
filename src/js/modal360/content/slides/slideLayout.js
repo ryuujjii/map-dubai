@@ -2,11 +2,11 @@ function getSlideLayout() {
   const source = {
     exteriors: {
       class: "ext",
-      text: "Exterior"
+      text: "360"
     },
     interiors: {
       class: "int",
-      text: "Interior"
+      text: "360"
     }
   };
   return function slideLayout(type, img360, img360Preview) {

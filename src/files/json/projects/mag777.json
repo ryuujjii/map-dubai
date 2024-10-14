@@ -88,7 +88,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "105"
+					"type": "type 105"
 				}
 			}
 		},
@@ -111,7 +111,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "106"
+					"type": "type 106"
 				}
 			}
 		},
@@ -134,7 +134,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "108"
+					"type": "type 108"
 				}
 			}
 		},
@@ -157,7 +157,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "109"
+					"type": "type 109"
 				}
 			}
 		},
@@ -180,7 +180,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "110"
+					"type": "type 110"
 				}
 			}
 		},
@@ -203,7 +203,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "112"
+					"type": "type 112"
 				}
 			}
 		},
@@ -226,7 +226,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "113"
+					"type": "type 113"
 				}
 			}
 		},
@@ -249,7 +249,7 @@
 				"dataModal360Category": "2-bedroom",
 				"closeInfo": {
 					"title": "2-bedroom",
-					"type": "107"
+					"type": "type 107"
 				}
 			}
 		},
@@ -272,7 +272,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "101"
+					"type": "type 101"
 				}
 			}
 		},
@@ -295,7 +295,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "102"
+					"type": "type 102"
 				}
 			}
 		},
@@ -318,7 +318,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "103"
+					"type": "type 103"
 				}
 			}
 		},
@@ -341,7 +341,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "104"
+					"type": "type 104"
 				}
 			}
 		},
@@ -364,7 +364,7 @@
 				"dataModal360Category": "studio",
 				"closeInfo": {
 					"title": "Studio",
-					"type": "111"
+					"type": "type 111"
 				}
 			}
 		},
@@ -387,7 +387,7 @@
 				"dataModal360Category": "1-bedroom",
 				"closeInfo": {
 					"title": "1-bedroom",
-					"type": "114"
+					"type": "type 114"
 				}
 			}
 		}
