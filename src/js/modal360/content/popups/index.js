@@ -6,10 +6,11 @@ export function popContent(data) {
     const bedroomCheck = popup.querySelector('[data-bedroom-check]')
     const typeCheck = popup.querySelector('[data-type-check]')
     const placeHold = popup.querySelector('[data-place-list]')
+    const filterSelect = document.querySelectorAll(".filter__select")
+    const filterList = document.querySelectorAll(".filter__list")
     const bedroomHold = popup.querySelector('[data-bedroom-list]')
     const typeHold = popup.querySelector('[data-type-list]')
     const viewSwitcher = popup.querySelectorAll('[name="view-switch"]')
-
     //content
     const dataModel = document.querySelector(".popup__view-model")
     const dataImg = document.querySelector(".popup__view-img")
@@ -134,6 +135,12 @@ export function popContent(data) {
         placesInfo(data, place)
         bedroomsInfo(data[place].bedrooms, bedroom)
         typeInfo(data[place].bedrooms[bedroom].types, type)
+        filterSelect.forEach((sel,i)=>{
+            if(sel.classList.contains('active')){
+                filterList[i].classList.remove('active')
+                sel.classList.remove('active')
+            }
+        })
         viewSwitcher.forEach(view => {
             if (view.value == "3d") {
                 view.checked = true
