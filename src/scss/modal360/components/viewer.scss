@@ -93,7 +93,7 @@
     bottom: 16px;
     right: 102px;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.3);
     border-radius: 4px;
     padding: 8px 9px;
     @media (max-width: 1200.98px) {
@@ -826,6 +826,7 @@
       }
     }
   }
+  
   // viewer__socials--toggle
   &__socials--toggle {
     display: none;
@@ -955,15 +956,15 @@
       }
     }
 
-    @include _1700-min {
-      picture,
-      img {
-        width: 20px;
-      }
-      span {
-        font-size: 16px;
-      }
-    }
+    // @include _1700-min {
+    //   picture,
+    //   img {
+    //     width: 20px;
+    //   }
+    //   span {
+    //     font-size: 16px;
+    //   }
+    // }
 
     @media (max-width: 1200.98px) {
       padding: 4px;
