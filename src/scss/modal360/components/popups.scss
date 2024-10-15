@@ -117,17 +117,23 @@ body {
         display: flex;
         align-items: center;
         position: relative;
+        &__scroll-hide{
+            position: absolute;
+            z-index: 9;
+            bottom: 0;
+            width: 100%;
+            height: 10px;
+            background: #161616;
+        }
         @media (max-width: 1024px) {
             order: -1;
             position: absolute;
             top: 0;
             width: 100%;
-            margin-bottom: 34px;
-            padding-bottom: 15px;
             &::before {
                 content: "";
                 width: 100px;
-                height: 100%;
+                height: 80%;
                 position: absolute;
                 left: -2px;
                 top: 50%;
@@ -143,7 +149,7 @@ body {
             &::after {
                 content: "";
                 width: 100px;
-                height: 100%;
+                height: 80%;
                 position: absolute;
                 right: -2px;
                 top: 50%;
@@ -175,8 +181,9 @@ body {
                 overflow-y: hidden;
                 overflow-x: auto;
                 gap: 25px;
+                padding-bottom: 20px;
                 &::-webkit-scrollbar {
-                    height: 0 !important;
+                    // height: 0 !important;
                 }
             }
         }
