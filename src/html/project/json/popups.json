@@ -33,7 +33,8 @@
 			"mainClass": "brochure"
 		},
 		"path": "./brochure.html"
-	},	{
+	},
+	{
 		"id": "contact",
 		"classNames": {
 			"mainClass": "contact"

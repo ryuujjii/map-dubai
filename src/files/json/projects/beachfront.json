@@ -35,11 +35,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "3-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress",
-				"closeInfo": {
-					"title": "3-bedroom",
-					"type": ""
-				}
+				"hoverId": "adress"
 			}
 		},
 		"1-bedroom-address": {
@@ -58,11 +54,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "1-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress",
-				"closeInfo": {
-					"title": "1-bedroom",
-					"type": ""
-				}
+				"hoverId": "adress"
 			}
 		},
 		"2-bedroom-address": {
@@ -81,11 +73,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
 				"dataModal360": "2-bedroom-address",
 				"classNames": "right",
-				"hoverId": "adress",
-				"closeInfo": {
-					"title": "2-bedroom",
-					"type": ""
-				}
+				"hoverId": "adress"
 			}
 		},
 		"4-bedroom-gandBlue": {
@@ -104,11 +92,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "4-bedroom-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue",
-				"closeInfo": {
-					"title": "4-bedroom",
-					"type": ""
-				}
+				"hoverId": "grand-blue"
 			}
 		},
 		"1-bedroom-A-gandBlue": {
@@ -127,11 +111,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-A-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue",
-				"closeInfo": {
-					"title": "1-bedroom",
-					"type": "type A"
-				}
+				"hoverId": "grand-blue"
 			}
 		},
 		"1-bedroom-B-gandBlue": {
@@ -150,11 +130,7 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "1-bedroom-B-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue",
-				"closeInfo": {
-					"title": "1-bedroom",
-					"type": "type B"
-				}
+				"hoverId": "grand-blue"
 			}
 		},
 		"3-bedroom-gandBlue": {
@@ -173,27 +149,13 @@
 				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
 				"dataModal360": "3-bedroom-gandBlue",
 				"classNames": "left",
-				"hoverId": "grand-blue",
-				"closeInfo": {
-					"title": "3-bedroom",
-					"type": ""
-				}
+				"hoverId": "grand-blue"
 			}
 		}
 	},
 	"partner": {
 		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/project-icon.svg",
-		"classNames": [],
-		"info": [
-			{
-				"price": "AED 3.1 Mln",
-				"about": "prices from"
-			},
-			{
-				"price": "10%",
-				"about": "on Booking"
-			}
-		]
+		"classNames": []
 	},
 	"popup": {
 		"about": {
@@ -395,51 +357,18 @@
 		"3-bedroom-address": {
 			"slides": {
 				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/adress_3_bdrm_vr_003.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/Bedroom_54_level___3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_adress_3bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/360/VR_WC_01.jpg"
-			
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/adress_3_bdrm_vr_003.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/Bedroom_54_level___3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_adress_3bdr_balcony.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/preview/VR_WC_01.jpg"
-			
-					]
+					"img360": [],
+					"img360Preview": []
 				},
 				"exteriors": {
 					"img360": [],
 					"img360Preview": []
 				}
 			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/3address_3_brd_balcony.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_08.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/adress_3_bdrm_WC_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Beadroom_54_level___1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Beadroom_54_level___2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/beachfront/vr/ADDRESS/gallery/Bedroom_54_level___7.jpg"
-	
-			]
+			"gallery": [],
+			"popup":{
+				
+			}
 		},
 		"1-bedroom-address": {
 			"slides": {
