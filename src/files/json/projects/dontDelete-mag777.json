@@ -1,176 +1,371 @@
 {
-	"dots": {
-		"21-floor": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 950,
-				"y": 100
-			},
-			"info": {
-				"title": "21 Floor",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "21-floor",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "21 Floor",
-					"type": ""
-				}
-			}
-		},
-		"20-floor": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 960,
-				"y": 150
-			},
-			"info": {
-				"title": "20 Floor",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "20-floor",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "20 Floor",
-					"type": ""
-				}
-			}
-		},
-		"19-floor": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 960,
-				"y": 200
-			},
-			"info": {
-				"title": "19 Floor",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "19-floor",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "19 Floor",
-					"type": ""
-				}
-			}
-		}
-	},
-	"modal360": {
-		"21-floor": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/Mag777+21+floor_koridor_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR003.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/Mag777+21+floor_koridor_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR003.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_005.jpg"
-			]
-		},
-		"20-floor": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/MAG777_HALL_20_Floor_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/MAG777_HALL_20_Floor_360_2.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/preview/MAG777_HALL_20_Floor_360_1.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/preview/MAG777_HALL_20_Floor_360_2.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_1.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_3.jpg"
-			]
-		},
-		"19-floor": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bedroom_2_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Livingroom%2BKitchen%2BHall_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_1_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_2_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_3_360.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bedroom_2_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Livingroom%2BKitchen%2BHall_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_1_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_2_360.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_3_360.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_04.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_05.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_06.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_07.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_1_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_1_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_02.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_03.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_3_01.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_3_02.jpg"
-			]
-		}
-	}
+  "dots": {
+    "21-floor": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 950,
+        "y": 100
+      },
+      "info": {
+        "title": "21 Floor",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "21-floor",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "21 Floor",
+          "type": ""
+        }
+      }
+    },
+    "20-floor": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 960,
+        "y": 150
+      },
+      "info": {
+        "title": "20 Floor",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "20-floor",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "20 Floor",
+          "type": ""
+        }
+      }
+    },
+    "19-floor": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 960,
+        "y": 200
+      },
+      "info": {
+        "title": "19 Floor",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "19-floor",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "19 Floor",
+          "type": ""
+        }
+      }
+    }
+  },
+  "modal360": {
+    "media": {
+      "21-floor": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/Mag777+21+floor_koridor_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/MAG+777+_Terrace_VR003.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/Mag777+21+floor_koridor_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/360/preview/MAG+777+_Terrace_VR003.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/Mag777+21+floor_koridor_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/21-FLOOR/gallery/MAG+777+_Terrace_005.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "20-floor": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/MAG777_HALL_20_Floor_360_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/MAG777_HALL_20_Floor_360_2.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/preview/MAG777_HALL_20_Floor_360_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/360/preview/MAG777_HALL_20_Floor_360_2.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/20-FLOOR/gallery/HALL_20_Floor_3.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "19-floor": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bedroom_2_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Livingroom%2BKitchen%2BHall_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_1_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_2_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_3_360.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bedroom_2_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Livingroom%2BKitchen%2BHall_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_1_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_2_360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/360/MAG_777_19_09_Bathroom_3_360.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_03.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_04.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_1_05.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_03.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bedroom_2_04.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_03.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_04.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_05.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_06.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Livingroom%2BKitchen%2BHall_07.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_1_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_1_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_2_03.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_3_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img/19-FLOOR/gallery/MAG_777_19_09_Bathroom_3_02.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      }
+    },
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
