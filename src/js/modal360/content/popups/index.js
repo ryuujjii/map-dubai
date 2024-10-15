@@ -9,6 +9,10 @@ export function popContent(data) {
     const placeHold = popup.querySelector('[data-place-list]')
     const filterSelect = document.querySelectorAll(".filter__select")
     const filterList = document.querySelectorAll(".filter__list")
+    const filter = popup.querySelector(".filter")
+    const filterWrap = filter.querySelector(".filter__wrap")
+    const filterWrapStyles = window.getComputedStyle(filterWrap)
+    const filterOption = popup.querySelectorAll(".filter__option")
     const bedroomHold = popup.querySelector('[data-bedroom-list]')
     const typeHold = popup.querySelector('[data-type-list]')
     const viewSwitcher = popup.querySelectorAll('[name="view-switch"]')
@@ -16,6 +20,7 @@ export function popContent(data) {
     const dataModel = document.querySelector(".popup__view-model")
     const dataImg = document.querySelector(".popup__view-img")
     const dataInfo = popup.querySelectorAll("[data-info]")
+    let filterElemWidth
     const getInfo = {
         place: 'Water',
         bedroom: '1-bed',
@@ -28,6 +33,18 @@ export function popContent(data) {
         viewMode: "3d"
     }
 
+    filterWrap.addEventListener('scroll', (e) => {
+        if (filterWrap.scrollLeft < 5) {
+            filter.classList.remove('s-shadow')
+        } else {
+            filter.classList.add('s-shadow')
+        }
+        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 5) {
+            filter.classList.remove('e-shadow')
+        } else {
+            filter.classList.add('e-shadow')
+        }
+    })
     window.addEventListener("change", (e) => {
         if (e.target.name == 'place') {
             allInfo.place = e.target.value
@@ -115,7 +132,6 @@ export function popContent(data) {
                 i++
                 if (i > 1) {
                     loader.classList.add('loaded')
-                    console.log(progress);
                 }
             }
         });
@@ -198,7 +214,12 @@ export function popContent(data) {
                     break;
             }
         });
+        filterElemWidth = filterOption[0].offsetWidth + filterOption[1].offsetWidth + filterOption[2].offsetWidth + (parseInt(filterWrapStyles.gap) * (filterOption.length - 1))
 
+        if (filterElemWidth < filterWrap.offsetWidth) {
+            filter.classList.remove('s-shadow')
+            filter.classList.remove('e-shadow')
+        }
     }
     initContent(allInfo.place, allInfo.bedroom, allInfo.type)
 
