@@ -6,10 +6,10 @@ export function config() {
   let conditionViewerSlides;
   let initialWidthViewerSwiper;
   let actualSwiperWidth;
-  if (!queryMatches(767)) {
+  if (!queryMatches(1200)) {
     widthViewerSlide = 60;
     viewerSwiperPrerView = 5;
-    initialWidthViewerSwiper = 280;
+    initialWidthViewerSwiper = 330;
   } else {
     widthViewerSlide = 100;
     viewerSwiperPrerView = 3;

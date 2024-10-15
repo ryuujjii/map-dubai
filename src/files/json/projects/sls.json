@@ -1,274 +1,463 @@
 {
-	"map": {
-		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/map-shadow.jpg",
-		"img": "",
-		"centerPosotion": {
-			"x": -0.17,
-			"y": 0
-		},
-		"styles": ""
-	},
-	"dots": {
-		"4-bedroom": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 1000,
-				"y": 290
-			},
-			"info": {
-				"title": "4-bedroom",
-				"type": "duplex",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "4-bedroom-duplex",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "4-bedroom",
-					"type": "duplex"
-				}
-			}
-		}
-	},
-	"partner": {
-		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/project-icon2.svg",
-		"classNames": [],
-		"info": [
-			{
-				"price": "AED 7 Mln",
-				"about": "prices from" 
-			},
-			{
-				"price": "10%",
-				"about": "on Booking"
-			}
-		]
-	},
-	"popup": {
-		"about": {
-			"projectName": "SLS Residences",
-			"projectDescription": "SLS Residences The Palm elevates modern luxury, offering a living experience that surpasses the ordinary. Located on Palm Jumeirah's West Crescent, this development blends breathtaking views with SLS's signature playful ambiance and a touch of mischievous charm. Each apartment and penthouse is crafted to delight the senses, with spacious layouts, elegant interiors, and top-of-the-line amenities.",
-			"aboutItems": {
-				"content": [
-					{
-						"number": "113",
-						"text": "Private <br> Residences",
-						"classNames": ""
-					},
-					{
-						"number": "2, 3, and 4",
-						"text": "Bedroom <br> Units",
-						"classNames": ""
-					},
-					{
-						"number": "1 696",
-						"text": "Sq. Ft. <br> Minimal Size",
-						"classNames": "width-bigger"
-					}
-				],
-				"classNames": []
-			},
-			"projectView": {
-				"classNames": [],
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/about-bg.jpg",
-				"styles": "object-position: center 25%;"
-			},
-			"amenities": {
-				"text": "SLS Residences presents an exquisite selection of top-tier amenities, from a lavish clubhouse and exclusive beach club to a state-of-the-art gym, infinity pool, and refined social spaces. Its prime location offers effortless access to elite entertainment venues, sports facilities, and tranquil beach promenades. With breathtaking views of the Atlantis, Burj Al Arab, and Marina, SLS redefines luxury living, surpassing every expectation for the most discerning residents.",
-				"items": {
-					"content": [
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/swimming.svg",
-							"title": "Infinity pool",
-							"classNames": "",
-							"text": "The azure waters seem to stretch endlessly, merging seemlesly with the horizon."
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/landscape.svg",
-							"title": "Landscaped Area",
-							"classNames": "",
-							"text": "Lush carpets of emerald grass invite barefoot exploration, ideal for picnics and family gatherings."
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/fitness.svg",
-							"title": "Fitness Centre",
-							"classNames": "",
-							"text": "It’s a valuable resource for those seeking to maintain an active and healthy lifestyle."
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/playground.svg",
-							"title": "Kids’ playground",
-							"text": "A vibrant and engaging space designed to inspire joy and creativity.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/car.svg",
-							"title": "Covered parking",
-							"text": "This convenient feature provides peace of mind and easy access.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/shop.svg",
-							"title": "Retail shops",
-							"text": "It’s a practical addition, offering easy access to essential goods and trendy items.",
-							"classNames": ""
-						}
-					],
-					"classNames": []
-				}
-			},
-			"location": {
-				"dot": {
-					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/location/dot-icon-dark.svg",
-					"centerPosotion": {
-						"x": 290,
-						"y": 260
-					},
-					"sizes": {
-						"width": 50,
-						"height": 55
-					},
-					"position": {
-						"x": 335,
-						"y": 355
-					},
-					"styles": ""
-				}
-			}
-		},
-		"payment": {
-			"items": {
-				"content": [
-					{
-						"title": "",
-						"isActive": true,
-						"classNames": [],
-						"content": [
-							{
-								"number": "10",
-								"text": "on booking",
-								"classNames": ""
-							},
-							{
-								"number": "50",
-								"text": "during construction",
-								"classNames": ""
-							},
-							{
-								"number": "40",
-								"text": "on handover",
-								"classNames": ""
-							}
-						]
-					}
-				],
-				"classNames": []
-			},
-			"descriptions": {
-				"content": [
-					{
-						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
-						"classNames": ""
-					},
-					{
-						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			}
-		},
-		"developer": {
-			"descriptions": {
-				"content": [
-					{
-						"text": "Roya Lifestyle Development places a premium on quality craftsmanship, ensuring that every detail is meticulously executed. From the foundation to the finishing touches their projects reflect a dedication to excellence.",
-						"classNames": []
-					}
-				],
-				"classNames": []
-			},
-			"items": {
-				"content": [
-					{
-						"number": "2007",
-						"text": "Foundation Date",
-						"classNames": ""
-					},
-					{
-						"number": "30+",
-						"text": "Years of Combined Expertise",
-						"classNames": ""
-					},
-					{
-						"number": "1",
-						"text": "Communities",
-						"classNames": ""
-					},
-					{
-						"number": "13",
-						"text": "Companies Owned",
-						"classNames": ""
-					}
-				],
-				"classNames": ["developer-width"]
-			},
-			"media": {
-				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/icon.svg",
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/bg.jpg",
-				"classNames": ["developer-img-width"]
-			}
-		},
-		"brochure": {
-			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/brochure.jpg",
-			"classNames": []
-		}
-	},
-	"modal360": {
-		"4-bedroom-duplex": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-4.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-5.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-2.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-thumb.png",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-3-thumb.png",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-4-thumb.png",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-5-thumb.png",
-						"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-2-thumb.png"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-2.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-3.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-4.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-9.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-10.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-11.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-12.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-13.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-14.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-15.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-16.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-17.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-5.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-6.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-7.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-8.jpg"
-			]
-		}
-	}
+  "map": {
+    "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/map-shadow.jpg",
+    "img": "",
+    "centerPosotion": {
+      "x": -0.17,
+      "y": 0
+    },
+    "styles": ""
+  },
+  "dots": {
+    "4-bedroom": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 1000,
+        "y": 290
+      },
+      "info": {
+        "title": "4-bedroom",
+        "type": "duplex",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "4-bedroom-duplex",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": "duplex"
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/project-icon2.svg",
+    "classNames": [],
+    "info": [
+      {
+        "price": "AED 7 Mln",
+        "about": "prices from"
+      },
+      {
+        "price": "10%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "SLS Residences",
+      "projectDescription": "SLS Residences The Palm elevates modern luxury, offering a living experience that surpasses the ordinary. Located on Palm Jumeirah's West Crescent, this development blends breathtaking views with SLS's signature playful ambiance and a touch of mischievous charm. Each apartment and penthouse is crafted to delight the senses, with spacious layouts, elegant interiors, and top-of-the-line amenities.",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "113",
+            "text": "Private <br> Residences",
+            "classNames": ""
+          },
+          {
+            "number": "2, 3, and 4",
+            "text": "Bedroom <br> Units",
+            "classNames": ""
+          },
+          {
+            "number": "1 696",
+            "text": "Sq. Ft. <br> Minimal Size",
+            "classNames": "width-bigger"
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "classNames": [],
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/about-bg.jpg",
+        "styles": "object-position: center 25%;"
+      },
+      "amenities": {
+        "text": "SLS Residences presents an exquisite selection of top-tier amenities, from a lavish clubhouse and exclusive beach club to a state-of-the-art gym, infinity pool, and refined social spaces. Its prime location offers effortless access to elite entertainment venues, sports facilities, and tranquil beach promenades. With breathtaking views of the Atlantis, Burj Al Arab, and Marina, SLS redefines luxury living, surpassing every expectation for the most discerning residents.",
+        "items": {
+          "content": [
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/swimming.svg",
+              "title": "Infinity pool",
+              "classNames": "",
+              "text": "The azure waters seem to stretch endlessly, merging seemlesly with the horizon."
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/landscape.svg",
+              "title": "Landscaped Area",
+              "classNames": "",
+              "text": "Lush carpets of emerald grass invite barefoot exploration, ideal for picnics and family gatherings."
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/fitness.svg",
+              "title": "Fitness Centre",
+              "classNames": "",
+              "text": "It’s a valuable resource for those seeking to maintain an active and healthy lifestyle."
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/playground.svg",
+              "title": "Kids’ playground",
+              "text": "A vibrant and engaging space designed to inspire joy and creativity.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/car.svg",
+              "title": "Covered parking",
+              "text": "This convenient feature provides peace of mind and easy access.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/amenities/shop.svg",
+              "title": "Retail shops",
+              "text": "It’s a practical addition, offering easy access to essential goods and trendy items.",
+              "classNames": ""
+            }
+          ],
+          "classNames": []
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 290,
+            "y": 260
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 335,
+            "y": 355
+          },
+          "styles": ""
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "10",
+                "text": "on booking",
+                "classNames": ""
+              },
+              {
+                "number": "50",
+                "text": "during construction",
+                "classNames": ""
+              },
+              {
+                "number": "40",
+                "text": "on handover",
+                "classNames": ""
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+            "classNames": ""
+          },
+          {
+            "text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "Roya Lifestyle Development places a premium on quality craftsmanship, ensuring that every detail is meticulously executed. From the foundation to the finishing touches their projects reflect a dedication to excellence.",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "2007",
+            "text": "Foundation Date",
+            "classNames": ""
+          },
+          {
+            "number": "30+",
+            "text": "Years of Combined Expertise",
+            "classNames": ""
+          },
+          {
+            "number": "1",
+            "text": "Communities",
+            "classNames": ""
+          },
+          {
+            "number": "13",
+            "text": "Companies Owned",
+            "classNames": ""
+          }
+        ],
+        "classNames": [
+          "developer-width"
+        ]
+      },
+      "media": {
+        "projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/icon.svg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/developer/bg.jpg",
+        "classNames": [
+          "developer-img-width"
+        ]
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/sls/brochure.jpg",
+      "classNames": []
+    }
+  },
+  "modal360": {
+    "media": {
+      "4-bedroom-duplex": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-4.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-5.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-2.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-thumb.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-3-thumb.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-4-thumb.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-5-thumb.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/img/duplex/duplex-2-thumb.png"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-9.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-10.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-11.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-12.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-13.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-14.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-15.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-16.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-17.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-6.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-7.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/sls-residences-vr/files/modal-360-img/gallery/duplex/gallery-duplex-8.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      }
+    },
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

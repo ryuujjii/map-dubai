@@ -18,7 +18,7 @@
 	@media (max-width: 1024.98px) {
 		max-width: 250px;
 	}
-	@media (max-width: 767.98px) {
+	@media (max-width: 1200.98px) {
 		bottom: 143px;
 		max-width: 500px;
 		// .hide-swiper &{
@@ -45,7 +45,7 @@
 	}
 	.fake-fullscreen-active & {
 		// top: 5px;
-		@media (max-width: 578.98px){
+		@media (max-width: 1200.98px){
 			bottom: 15px;
 		}
 	}

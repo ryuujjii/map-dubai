@@ -1,647 +1,857 @@
 {
-	"map": {
-		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map-shadow.jpg",
-		"img": "",
-		"centerPosotion": {
-			"x": -0.1,
-			"y": 0.05
-		},
-		"styles": "",
-		"hoverShadows": [
-			{
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/earth.jpg",
-				"id": "earth"
-			},
-			{
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/sky.jpg",
-				"id": "sky"
-			},
-			{
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/v-shape.jpg",
-				"id": "v-shape"
-			},
-			{
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/water.jpg",
-				"id": "water"
-			},
-			{
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/l-shape.jpg",
-				"id": "l-shape"
-			}
-		]
-	},
-	"dots": {
-		"L-Shape-l1": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 150,
-				"y": 285
-			},
-			"info": {
-				"title": "L-Shape",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "L-Shape-l1",
-				"classNames": "right",
-				"hoverId": "l-shape",
-				"closeInfo": {
-					"title": "L-Shape",
-					"type": ""
-				}
-			}
-		},
-		"V-Shape-V1": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 700,
-				"y": 275
-			},
-			"info": {
-				"title": "V-Shape",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "V-Shape-V1",
-				"classNames": "left text-align-left",
-				"hoverId": "v-shape",
-				"closeInfo": {
-					"title": "V-Shape",
-					"type": ""
-				}
-			}
-		},
-		"V-Shape-V2": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 960,
-				"y": 135
-			},
-			"info": {
-				"title": "V-Shape",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "V-Shape-V2",
-				"classNames": "left text-align-left",
-				"hoverId": "v-shape",
-				"closeInfo": {
-					"title": "V-Shape",
-					"type": ""
-				}
-			}
-		},
-		"mansions-m2": {
-			"sizes": {
-				"width": 155,
-				"height": 52
-			},
-			"position": {
-				"x": 730,
-				"y": 490
-			},
-			"info": {
-				"title": "Sky Mansion",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "mansions-m2",
-				"classNames": "left text-align-left",
-				"hoverId": "sky",
-				"closeInfo": {
-					"title": "Sky Mansion",
-					"type": ""
-				}
-			}
-		},
-		"mansions-m3": {
-			"sizes": {
-				"width": 155,
-				"height": 52
-			},
-			"position": {
-				"x": 890,
-				"y": 390
-			},
-			"info": {
-				"title": "Earth Mansion",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "mansions-m3",
-				"classNames": "left text-align-left",
-				"hoverId": "earth",
-				"closeInfo": {
-					"title": "Earth Mansion",
-					"type": ""
-				}
-			}
-		},
-		"mansions-m5": {
-			"sizes": {
-				"width": 155,
-				"height": 52
-			},
-			"position": {
-				"x": 1050,
-				"y": 300
-			},
-			"info": {
-				"title": "Water Mansion",
-				"type": "",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "mansions-m5",
-				"classNames": "left text-align-left",
-				"hoverId": "water",
-				"closeInfo": {
-					"title": "Water Mansion",
-					"type": ""
-				}
-			}
-		}
-	},
-	"partner": {
-		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/project-icon.svg",
-		"classNames": [],
-		"info": [
-			{
-				"price": "AED 6.9 mln",
-				"about": "prices from"
-			},
-			{
-				"price": "10%",
-				"about": "on Booking"
-			}
-		]
-	},
-	"popup": {
-		"about": {
-			"projectName": "Keturah Resort",
-			"projectDescription": "Nestled along the serene shores of Dubai Creek and adjacent to the natural sanctuary of Ras Al Khor, Keturah Resort embodies the pinnacle of ultra-high-end luxury. This prestigious development is defined by its exquisite setting and meticulous craftsmanship, offering an unparalleled blend of opulence, wellness, and elegance with every detail designed for a refined lifestyle by turquoise waters.",
-			"aboutItems": {
-				"content": [
-					{
-						"number": "7 years",
-						"text": "Payment <br> Plan",
-						"classNames": ""
-					},
-					{
-						"number": "1-4 and 8",
-						"text": "Bedroom <br> Units",
-						"classNames": ""
-					},
-					{
-						"number": "2026 Q4",
-						"text": "Handover <br> Date",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			},
-			"projectView": {
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/about-bg.jpg",
-				"classNames": [],
-				"styles": "object-position: center 45%;"
-			},
-			"amenities": {
-				"text": "Keturah Resort, featuring The Ritz-Carlton Residences, includes 12 Creekside Waterfront Mansions and exclusive Creekside Residences, making it the world's first fully wellness-certified resort. Amenities include private infinity pools, a luxurious spa, a state-of-the-art fitness center, gourmet dining, and landscaped gardens, providing a holistic and luxurious living experience.",
-				"items": {
-					"content": [
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/swimming.svg",
-							"title": "Swimming pool",
-							"text": "This inviting pool provides the perfect setting for a refreshing dip or unwinding under the sun.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/landscape.svg",
-							"title": "Landscaped Area",
-							"text": "It’s a beautiful outdoor space that combines lush greenery with elegant pathways and seating areas.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/fitness.svg",
-							"title": "Fitness Centre",
-							"text": "Featuring the latest equipment and workout options, it has everything for a full fitness routine.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/playground.svg",
-							"title": "Kids’ playground",
-							"text": "The kids’ playground is a colorful, secure space designed for engaging and safe play.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/car.svg",
-							"title": "Covered parking",
-							"text": "With easy access and reliable coverage, it simplifies daily living and vehicle care.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/shop.svg",
-							"title": "Retail shops",
-							"text": "This amenity enhances the living experience by bringing shopping closer to home.",
-							"classNames": ""
-						}
-					],
-					"classNames": []
-				}
-			},
-			"location": {
-				"dot": {
-					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/location/dot-icon-dark.svg",
-					"centerPosotion": {
-						"x": 910,
-						"y": -45
-					},
-					"sizes": {
-						"width": 50,
-						"height": 55
-					},
-					"position": {
-						"x": 1030,
-						"y": 55
-					},
-					"styles": "width: 19px"
-				}
-			}
-		},
-		"payment": {
-			"items": {
-				"content": [
-					{
-						"title": "",
-						"isActive": true,
-						"classNames": [],
-						"content": [
-							{
-								"number": "10",
-								"text": "on booking"
-							},
-							{
-								"number": "50",
-								"text": "during construction"
-							},
-							{
-								"number": "40",
-								"text": "on handover"
-							}
-						]
-					}
-				],
-				"classNames": []
-			},
-			"descriptions": {
-				"content": [
-					{
-						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
-						"classNames": ""
-					},
-					{
-						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			}
-		},
-		"developer": {
-			"descriptions": {
-				"content": [
-					{
-						"text": "MAG Group Holding is a multinational conglomerate with diverse interests, including real estate, contracting, engineering, industrial trading, freight services, and hospitality. Among its flagship projects is the Emirates Financial Towers, a prominent twin-tower development in Dubai International Financial Centre.",
-						"classNames": []
-					}
-				],
-				"classNames": []
-			},
-			"items": {
-				"content": [
-					{
-						"number": "1978",
-						"text": "Foundation Date",
-						"classNames": ""
-					},
-					{
-						"number": "50",
-						"text": "Companies around the World",
-						"classNames": ""
-					},
-					{
-						"number": "2000",
-						"text": "Employees in the State",
-						"classNames": ""
-					},
-					{
-						"number": "24",
-						"text": "Number of Projects",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			},
-			"media": {
-				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/developer/icon.svg",
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/developer/bg.jpg",
-				"classNames": []
-			}
-		},
-		"brochure": {
-			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/brochure.jpg",
-			"classNames": []
-		}
-	},
-	"modal360": {
-		"L-Shape-l1": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_007_vr360_v_02-2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_010_vr360_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_011_vr360_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_005_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_006_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_007_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_008_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_WC_vr_004.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/L_shape_3br_living_360.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/L_shape_3br_living_361.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/Lshape_bedroom_3bdrm_360.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_007_vr360_v_02-2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_010_vr360_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_011_vr360_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_005_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_006_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_007_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_008_VR_v_02.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_WC_vr_004.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/L_shape_3br_living_360.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/L_shape_3br_living_361.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/Lshape_bedroom_3bdrm_360.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_001_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_002_v_02-2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_003_v02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_004_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_005_v_02-2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_008_vr_02-2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_001_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_002_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_003_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_004_v_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_001.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_002.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_003.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_4.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_5.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_6.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_4.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_5.webp"
-			]
-		},
-		"V-Shape-V1": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_bathroom_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_living_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_Mbedroom_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_Terrace_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Keturah Resort_Master bedroom_000_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_living_3bdrm_360_v2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_master bathroom_3drm_360.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_bathroom_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_living_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_Mbedroom_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_Terrace_VR_10K.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Keturah Resort_Master bedroom_000_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_living_3bdrm_360_v2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_master bathroom_3drm_360.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Terr_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Terr_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_bathroom_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_bathroom_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_03.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_04.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_Mbedroom_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_Mbedroom_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah+Resort_Master+bedroom_001.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_002.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_003.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_004.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_005.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_006.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_1_v2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_2_v2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_3_v2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_4_v2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_5_v2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_2.webp"
-			]
-		},
-		"V-Shape-V2": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/06_VR_PENTHOUSE(BEDROOM)_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/8_VR_PENTHOUSE_POST_NEW_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/8_VR_PENTHOUSE_POST_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/PenthouseMasterWC_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_2bedroom7floor_living_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_2bedroom7floor_Mbedroom_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/05_VR_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/07_VR_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/06_VR_PENTHOUSE(BEDROOM)_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/8_VR_PENTHOUSE_POST_NEW_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/8_VR_PENTHOUSE_POST_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/PenthouseMasterWC_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_2bedroom7floor_living_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_2bedroom7floor_Mbedroom_VR.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/05_VR_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/07_VR_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/01_PENTHOUSE(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/2_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/02_PENTHOUSE(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/3_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/03_PENTHOUSE(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/4_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/04_PENTHOUSE(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/5_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/05_PENTHOUSE(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/6_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/7_PENTHOUSE_POST_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/PenthouseMasterWC_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/PenthouseMasterWC_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_03.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_04.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_05.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_Mbedroom_01.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_Mbedroom_02.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/01_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/01_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/02_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/02_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/03_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/03_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/04_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/05_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/06_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/04_TWO_BEDROOM_(BEDROOM)_NEW.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/1_PENTHOUSE_POST_NEW.webp"
-			]
-		},
-		"mansions-m2": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_3.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_001.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_002.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_003.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_3.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_001.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_002.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_003.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_4.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_001.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_002.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
-			]
-		},
-		"mansions-m3": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Living_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Living_Pano_N_2.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Living_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Living_Pano_N_2.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_4.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_n.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_v1.webp"
-			]
-		},
-		"mansions-m5": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_3.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_001.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_002.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_003.webp"
-					],
-					"img360Preview": [
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_1.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_2.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_3.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_001.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_002.webp",
-						"https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_003.webp"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_1.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_2.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_3.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_4.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_001.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_002.webp",
-				"https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
-			]
-		}
-	}
+  "map": {
+    "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map-shadow.jpg",
+    "img": "",
+    "centerPosotion": {
+      "x": -0.1,
+      "y": 0.05
+    },
+    "styles": "",
+    "hoverShadows": [
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/earth.jpg",
+        "id": "earth"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/sky.jpg",
+        "id": "sky"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/v-shape.jpg",
+        "id": "v-shape"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/water.jpg",
+        "id": "water"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map/hoverShadows/l-shape.jpg",
+        "id": "l-shape"
+      }
+    ]
+  },
+  "dots": {
+    "L-Shape-l1": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 150,
+        "y": 285
+      },
+      "info": {
+        "title": "L-Shape",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "L-Shape-l1",
+        "classNames": "right",
+        "hoverId": "l-shape",
+        "closeInfo": {
+          "title": "L-Shape",
+          "type": ""
+        }
+      }
+    },
+    "V-Shape-V1": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 700,
+        "y": 275
+      },
+      "info": {
+        "title": "V-Shape",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "V-Shape-V1",
+        "classNames": "left text-align-left",
+        "hoverId": "v-shape",
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
+        }
+      }
+    },
+    "V-Shape-V2": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 960,
+        "y": 135
+      },
+      "info": {
+        "title": "V-Shape",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "V-Shape-V2",
+        "classNames": "left text-align-left",
+        "hoverId": "v-shape",
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
+        }
+      }
+    },
+    "mansions-m2": {
+      "sizes": {
+        "width": 155,
+        "height": 52
+      },
+      "position": {
+        "x": 730,
+        "y": 490
+      },
+      "info": {
+        "title": "Sky Mansion",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "mansions-m2",
+        "classNames": "left text-align-left",
+        "hoverId": "sky",
+        "closeInfo": {
+          "title": "Sky Mansion",
+          "type": ""
+        }
+      }
+    },
+    "mansions-m3": {
+      "sizes": {
+        "width": 155,
+        "height": 52
+      },
+      "position": {
+        "x": 890,
+        "y": 390
+      },
+      "info": {
+        "title": "Earth Mansion",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "mansions-m3",
+        "classNames": "left text-align-left",
+        "hoverId": "earth",
+        "closeInfo": {
+          "title": "Earth Mansion",
+          "type": ""
+        }
+      }
+    },
+    "mansions-m5": {
+      "sizes": {
+        "width": 155,
+        "height": 52
+      },
+      "position": {
+        "x": 1050,
+        "y": 300
+      },
+      "info": {
+        "title": "Water Mansion",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "mansions-m5",
+        "classNames": "left text-align-left",
+        "hoverId": "water",
+        "closeInfo": {
+          "title": "Water Mansion",
+          "type": ""
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/project-icon.svg",
+    "classNames": [],
+    "info": [
+      {
+        "price": "AED 6.9 mln",
+        "about": "prices from"
+      },
+      {
+        "price": "10%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "Keturah Resort",
+      "projectDescription": "Nestled along the serene shores of Dubai Creek and adjacent to the natural sanctuary of Ras Al Khor, Keturah Resort embodies the pinnacle of ultra-high-end luxury. This prestigious development is defined by its exquisite setting and meticulous craftsmanship, offering an unparalleled blend of opulence, wellness, and elegance with every detail designed for a refined lifestyle by turquoise waters.",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "7 years",
+            "text": "Payment <br> Plan",
+            "classNames": ""
+          },
+          {
+            "number": "1-4 and 8",
+            "text": "Bedroom <br> Units",
+            "classNames": ""
+          },
+          {
+            "number": "2026 Q4",
+            "text": "Handover <br> Date",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/about-bg.jpg",
+        "classNames": [],
+        "styles": "object-position: center 45%;"
+      },
+      "amenities": {
+        "text": "Keturah Resort, featuring The Ritz-Carlton Residences, includes 12 Creekside Waterfront Mansions and exclusive Creekside Residences, making it the world's first fully wellness-certified resort. Amenities include private infinity pools, a luxurious spa, a state-of-the-art fitness center, gourmet dining, and landscaped gardens, providing a holistic and luxurious living experience.",
+        "items": {
+          "content": [
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/swimming.svg",
+              "title": "Swimming pool",
+              "text": "This inviting pool provides the perfect setting for a refreshing dip or unwinding under the sun.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/landscape.svg",
+              "title": "Landscaped Area",
+              "text": "It’s a beautiful outdoor space that combines lush greenery with elegant pathways and seating areas.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/fitness.svg",
+              "title": "Fitness Centre",
+              "text": "Featuring the latest equipment and workout options, it has everything for a full fitness routine.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/playground.svg",
+              "title": "Kids’ playground",
+              "text": "The kids’ playground is a colorful, secure space designed for engaging and safe play.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/car.svg",
+              "title": "Covered parking",
+              "text": "With easy access and reliable coverage, it simplifies daily living and vehicle care.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/amenities/shop.svg",
+              "title": "Retail shops",
+              "text": "This amenity enhances the living experience by bringing shopping closer to home.",
+              "classNames": ""
+            }
+          ],
+          "classNames": []
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 910,
+            "y": -45
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 1030,
+            "y": 55
+          },
+          "styles": "width: 19px"
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "10",
+                "text": "on booking"
+              },
+              {
+                "number": "50",
+                "text": "during construction"
+              },
+              {
+                "number": "40",
+                "text": "on handover"
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+            "classNames": ""
+          },
+          {
+            "text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "MAG Group Holding is a multinational conglomerate with diverse interests, including real estate, contracting, engineering, industrial trading, freight services, and hospitality. Among its flagship projects is the Emirates Financial Towers, a prominent twin-tower development in Dubai International Financial Centre.",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "1978",
+            "text": "Foundation Date",
+            "classNames": ""
+          },
+          {
+            "number": "50",
+            "text": "Companies around the World",
+            "classNames": ""
+          },
+          {
+            "number": "2000",
+            "text": "Employees in the State",
+            "classNames": ""
+          },
+          {
+            "number": "24",
+            "text": "Number of Projects",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "media": {
+        "projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/developer/icon.svg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/developer/bg.jpg",
+        "classNames": []
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/brochure.jpg",
+      "classNames": []
+    }
+  },
+  "modal360": {
+    "media": {
+      "L-Shape-l1": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_007_vr360_v_02-2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_010_vr360_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_livingroom_011_vr360_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_005_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_006_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_007_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_M_bedroom_008_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/1B_WC_vr_004.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/L_shape_3br_living_360.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/L_shape_3br_living_361.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/Lshape_bedroom_3bdrm_360.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_007_vr360_v_02-2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_010_vr360_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_livingroom_011_vr360_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_005_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_006_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_007_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_M_bedroom_008_VR_v_02.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/1B_WC_vr_004.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/L_shape_3br_living_360.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/L_shape_3br_living_361.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/l-shape/preview/Lshape_bedroom_3bdrm_360.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_001_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_002_v_02-2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_003_v02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_004_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_005_v_02-2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_livingroom_008_vr_02-2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_001_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_002_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_003_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_M_bedroom_004_v_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_001.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_002.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/01_ONE_BEDROOM+L-SHAPE/1B_WC_003.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_4.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_5.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/L_shape_3br_living_6.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_4.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_5.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "V-Shape-V1": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_bathroom_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_living_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_Mbedroom_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_penthouse_Terrace_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Keturah Resort_Master bedroom_000_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_living_3bdrm_360_v2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_master bathroom_3drm_360.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_bathroom_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_living_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_Mbedroom_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_penthouse_Terrace_VR_10K.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Keturah Resort_Master bedroom_000_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_living_3bdrm_360_v2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_master bathroom_3drm_360.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Terr_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Terr_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_bathroom_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_bathroom_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_03.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_living_04.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_Mbedroom_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/04_PENTHOUSE+V-SHAPE+(OLEG)/Vshape_penthouse_Mbedroom_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah+Resort_Master+bedroom_001.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_002.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_003.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_004.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_005.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Keturah Resort_Master bedroom_006.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_1_v2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_2_v2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_3_v2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_4_v2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_living_3bdrm_5_v2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_2.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "V-Shape-V2": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/06_VR_PENTHOUSE(BEDROOM)_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/8_VR_PENTHOUSE_POST_NEW_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/8_VR_PENTHOUSE_POST_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/PenthouseMasterWC_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_2bedroom7floor_living_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/Vshape_2bedroom7floor_Mbedroom_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/05_VR_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/07_VR_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/06_VR_PENTHOUSE(BEDROOM)_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/8_VR_PENTHOUSE_POST_NEW_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/8_VR_PENTHOUSE_POST_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/PenthouseMasterWC_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_2bedroom7floor_living_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/Vshape_2bedroom7floor_Mbedroom_VR.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/05_VR_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/v-shape/preview/07_VR_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/01_PENTHOUSE(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/2_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/02_PENTHOUSE(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/3_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/03_PENTHOUSE(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/4_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/04_PENTHOUSE(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/5_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/05_PENTHOUSE(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/6_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/7_PENTHOUSE_POST_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/PenthouseMasterWC_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/PenthouseMasterWC_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_03.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_04.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_living_05.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_Mbedroom_01.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/10_TWO_BEDROOM+V-SHAPE+(OLEG)/Vshape_2bedroom7floor_Mbedroom_02.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/01_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/01_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/02_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/02_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/03_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/03_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/04_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/05_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/06_TWO_BEDROOM_(LIVING_ROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/11_TWO_BEDROOM+V-SHAPE+(ZAHAR)/04_TWO_BEDROOM_(BEDROOM)_NEW.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/1_PENTHOUSE_POST_NEW.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "mansions-m2": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_3.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_001.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_002.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_003.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_3.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_001.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_002.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_003.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_4.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_001.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_002.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "mansions-m3": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Living_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Earth_Living_Pano_N_2.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Living_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Earth_Living_Pano_N_2.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Bedroom_N_4.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/Earth_Living_N_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_n.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_v1.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "mansions-m5": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Bedroom_Pano_N_3.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_001.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_002.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/Sky_Living_Pano_N_003.webp"
+            ],
+            "img360Preview": [
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_1.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_2.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Bedroom_Pano_N_3.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_001.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_002.webp",
+              "https://drupal-landings.s3.eu-west-1.amazonaws.com/keturah-ritz/360panorama/mansions/preview/Sky_Living_Pano_N_003.webp"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_1.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_2.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_3.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Bedroom_N_4.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_001.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_002.webp",
+          "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      }
+    },
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

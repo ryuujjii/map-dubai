@@ -14,12 +14,12 @@ export const swiperInstance = new Swiper(".swiper", {
   },
 
   breakpoints: {
-    767: {
+    1199: {
       direction: "horizontal", 
       spaceBetween: 3,
 
     },
-    768: {
+    1200: {
       direction: "vertical", 
       spaceBetween: 4,
 
