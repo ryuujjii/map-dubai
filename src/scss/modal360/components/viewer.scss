@@ -38,21 +38,9 @@
       left: 50%;
       width: auto;
       height: 70px;
-      background-color: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(16px);
-      border-radius: 4px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       gap: 8px;
       overflow: hidden;
     }
-    // @media (max-width: 430.98px) {
-    //   right: 16px;
-    //   left: 16px;
-    //   width: auto;
-    //   transform: initial;
-    // }
     .viewer-ready & {
       opacity: 1;
       visibility: visible;
@@ -68,8 +56,6 @@
     width: 98px;
     height: var(--swiperSize);
     padding: 4px;
-    // background: #161616;
-    // border-radius: 4px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -85,9 +71,7 @@
       background: transparent;
       backdrop-filter: initial;
       padding: 3px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: initial;
     }
   }
 
@@ -386,7 +370,6 @@
       @media (max-width: 1200.98px) {
         border-radius: 5px;
         overflow: hidden;
-        // border: 3px solid transparent;
       }
     }
     &.active {
@@ -428,9 +411,6 @@
   .swiper-button-next {
     padding: 5px 2px;
     width: auto;
-    // position: absolute;
-    // left: 50%;
-    // transform: translateX(-50%);
     transition: opacity 0.3s;
     cursor: pointer;
     &.swiper-button-disabled {
@@ -441,32 +421,17 @@
       display: none;
     }
 
-    // @media (max-width: 1200.98px) {
-    //   top: initial;
-    //   transform: initial;
-    //   transform: initial;
-    //   position: initial;
-    // }
+    @media (max-width: 1200.98px) {
+      transform: initial;
+      padding: 5px;
+    }
   }
 
   .swiper-button-prev {
-    // top: -30px;
     transform: rotate(90deg);
-    // @media (max-width: 1200.98px) {
-    //   top: initial;
-    //   left: initial;
-    //   transform: initial;
-    // }
   }
   .swiper-button-next {
-    // bottom: -30px;
     transform: rotate(90deg);
-    // @media (max-width: 1200.98px) {
-    //   bottom: initial;
-    //   right: initial;
-    //   left: initial;
-    //   transform: initial;
-    // }
   }
   .swiper {
     width: 100%;
@@ -640,7 +605,6 @@
     }
   }
   // .viewer__fake-fullscreen
-
   &__fake-fullscreen {
     position: fixed;
     bottom: 165px;
@@ -964,16 +928,6 @@
         object-fit: contain;
       }
     }
-
-    // @include _1700-min {
-    //   picture,
-    //   img {
-    //     width: 20px;
-    //   }
-    //   span {
-    //     font-size: 16px;
-    //   }
-    // }
 
     @media (max-width: 1200.98px) {
       padding: 4px;
