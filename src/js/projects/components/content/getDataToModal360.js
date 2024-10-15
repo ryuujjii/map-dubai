@@ -5,10 +5,11 @@ function getDataToModal360Fn() {
 
 
   function sendDataToModal360(dataModal360) {
-    const data = content[dataModal360];
+    const data = content.media[dataModal360];
     dispatchCustomEvent({
       el: iframeWindow.contentWindow, event: "modal360-content", detail: {
-        data
+        media: data,
+        floorplan: data.floorplan
       }
     });
   }

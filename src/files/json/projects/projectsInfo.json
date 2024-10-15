@@ -1,35 +1,215 @@
 {
-	"business-bay-tower": {
-		"status": "active"
-	},
-	"sls": {
-		"status": "active"
-	},
-	"valori": {
-		"status": "active"
-	},
-	"k-resort": {
-		"status": "active"
-	},
-	"k-reserve": {
-		"status": "active"
-	},
-	"beachfront": {
-		"status": "active"
-	},
-	"urban-life": {
-		"status": "active"
-	},
-	"boutique-23": {
-		"status": "active"
-	},
-	"biltmore": {
-		"status": "active"
-	},
-	"damac-bay": {
-		"status": "active"
-	},
-	"mag777": {
-		"status": "active"
-	}
+  "business-bay-tower": {
+    "status": "active"
+  },
+  "sls": {
+    "status": "active"
+  },
+  "valori": {
+    "status": "active"
+  },
+  "k-resort": {
+    "status": "active"
+  },
+  "k-reserve": {
+    "status": "active"
+  },
+  "beachfront": {
+    "status": "active"
+  },
+  "urban-life": {
+    "status": "active"
+  },
+  "boutique-23": {
+    "status": "active"
+  },
+  "biltmore": {
+    "status": "active"
+  },
+  "damac-bay": {
+    "status": "active"
+  },
+  "mag777": {
+    "status": "active"
+  },
+  "modal360": {
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

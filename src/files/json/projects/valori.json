@@ -1,420 +1,620 @@
 {
-	"map": {
-		"shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/map-shadow.jpg",
-		"img": "",
-		"centerPosotion": {
-			"x": 0,
-			"y": 1
-		},
-		"styles": ""
-	},
-	"dots": {
-		"1-bedroom-D": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 495,
-				"y": 355
-			},
-			"info": {
-				"title": "1-bedroom",
-				"type": "type D",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "1-bedroom-D",
-				"classNames": "right",
-				"closeInfo": {
-					"title": "1-bedroom",
-					"type": "type D"
-				}
-			}
-		},
-		"1-bedroom-E": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 495,
-				"y": 425
-			},
-			"info": {
-				"title": "1-bedroom",
-				"type": "type E",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-				"dataModal360": "1-bedroom-E",
-				"classNames": "right",
-				"closeInfo": {
-					"title": "1-bedroom",
-					"type": "type E"
-				}
-			}
-		},
-		"2-bedroom-E": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 860,
-				"y": 420
-			},
-			"info": {
-				"title": "2-bedroom",
-				"type": "type E",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "2-bedroom-E",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "2-bedroom",
-					"type": "type E"
-				}
-			}
-		},
-		"2-bedroom-B": {
-			"sizes": {
-				"width": 155,
-				"height": 55
-			},
-			"position": {
-				"x": 860,
-				"y": 490
-			},
-			"info": {
-				"title": "2-bedroom",
-				"type": "type B",
-				"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-				"tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-				"dataModal360": "2-bedroom-B",
-				"classNames": "left",
-				"closeInfo": {
-					"title": "2-bedroom",
-					"type": "type B"
-				}
-			}
-		}
-	},
-	"partner": {
-		"logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/project-icon.svg",
-		"classNames": [],
-		"info": [
-			{
-				"price": "AED 823K",
-				"about": "prices from"
-			},
-			{
-				"price": "10%",
-				"about": "on Booking"
-			}
-		]
-	},
-	"popup": {
-		"about": {
-			"projectName": "Montage by Valori",
-			"projectDescription": "Montage by Valori is an exquisite 26-storey V-shaped residential tower that epitomizes the essence of luxury living. With its blend of refined elegance, sumptuous comfort, and cutting-edge design, it sets a new standard for upscale urban residences. This architectural masterpiece is crafted for those who seek an extraordinary living experience and a prestigious ambiance.",
-			"aboutItems": {
-				"content": [
-					{
-						"number": "20",
-						"text": "Residential <br> Floors",
-						"classNames": ""
-					},
-					{
-						"number": "1 and 20",
-						"text": "Bedroom <br> Units",
-						"classNames": ""
-					},
-					{
-						"number": "2026 Q1",
-						"text": "Handover <br> Date",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			},
-			"projectView": {
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/about-bg1.jpg",
-				"classNames": [],
-				"styles": "object-position: center 42%;"
-			},
-			"amenities": {
-				"text": "Montage by Valori offers a range of exceptional amenities designed to enhance the living experience. Residents can enjoy access to the Jaddaf Waterfront Sculpture Park, a first in the area, which brings art and culture into everyday life. The development also features modern fitness facilities, serene landscaped areas, a luxurious swimming pool, and dedicated children's playgrounds, providing a blend of leisure, relaxation, and active living.",
-				"items": {
-					"content": [
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/swimming.svg",
-							"title": "Swimming pool",
-							"text": "Picture yourself reclining on a plush lounger or enjoying a refreshing dip in the pristine pool.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/landscape.svg",
-							"title": "Landscaped Area",
-							"text": "Residents can enjoy the outdoors with access to public landscapes that offer a tranquil environment.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/fitness.svg",
-							"title": "Fitness Centre",
-							"text": "Indulge in wellness at Montage's health club where state-of-the-art facilities and expert guidance await.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/playground.svg",
-							"title": "Kids’ playground",
-							"text": "The kids’ playground is a safe and vibrant area designed for fun and exploration.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/car.svg",
-							"title": "Covered parking",
-							"text": "Montage offers extensive car parking with a total of 251 bays, ensuring convenient parking for residents.",
-							"classNames": ""
-						},
-						{
-							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/shop.svg",
-							"title": "Retail shops",
-							"text": "Montage's on-site retail shops provide a curated selection of premium products and services.",
-							"classNames": ""
-						}
-					],
-					"classNames": []
-				}
-			},
-			"location": {
-				"dot": {
-					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/location/dot-icon-dark.svg",
-					"centerPosotion": {
-						"x": 910,
-						"y": -45
-					},
-					"sizes": {
-						"width": 50,
-						"height": 55
-					},
-					"position": {
-						"x": 1045,
-						"y": 25
-					},
-					"styles": "width: 26px"
-				}
-			}
-		},
-		"payment": {
-			"items": {
-				"content": [
-					{
-						"title": "",
-						"isActive": true,
-						"classNames": [],
-						"content": [
-							{
-								"number": "10",
-								"text": "on booking"
-							},
-							{
-								"number": "50",
-								"text": "during construction"
-							},
-							{
-								"number": "40",
-								"text": "on handover"
-							}
-						]
-					}
-				],
-				"classNames": []
-			},
-			"descriptions": {
-				"content": [
-					{
-						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
-						"classNames": ""
-					},
-					{
-						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			}
-		},
-		"developer": {
-			"descriptions": {
-				"content": [
-					{
-						"text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents.",
-						"classNames": []
-					},
-					{
-						"text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents.",
-						"classNames": []
-					}
-				],
-				"classNames": []
-			},
-			"items": {
-				"content": [
-					{
-						"number": "15",
-						"text": "Years of Expereance",
-						"classNames": ""
-					},
-					{
-						"number": "2+",
-						"text": "Projects",
-						"classNames": ""
-					}
-				],
-				"classNames": []
-			},
-			"media": {
-				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/icon.svg",
-				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/bg1.jpg",
-				"classNames": []
-			}
-		},
-		"brochure": {
-			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/brochure.jpg",
-			"classNames": []
-		}
-	},
-	"modal360": {
-		"1-bedroom-D": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_002.jpg"
-			]
-		},
-		"1-bedroom-E": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_002.jpg"
-			]
-		},
-		"2-bedroom-E": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_Bedroom_type_3_bedroom_VR.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_001_type3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_002_type3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_bedroom_type3_bathroom_VR.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_Bedroom_type_3_bedroom_VR.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_001_type3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_002_type3.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_bedroom_type3_bathroom_VR.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_002.jpg"
-			]
-		},
-		"2-bedroom-B": {
-			"slides": {
-				"interiors": {
-					"img360": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
-					],
-					"img360Preview": [
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
-						"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
-					]
-				},
-				"exteriors": {
-					"img360": [],
-					"img360Preview": []
-				}
-			},
-			"gallery": [
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_004.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_002.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_003.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_001.jpg",
-				"https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_002.jpg"
-			]
-		}
-	}
+  "map": {
+    "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/map-shadow.jpg",
+    "img": "",
+    "centerPosotion": {
+      "x": 0,
+      "y": 1
+    },
+    "styles": ""
+  },
+  "dots": {
+    "1-bedroom-D": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 495,
+        "y": 355
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type D",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-D",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type D"
+        }
+      }
+    },
+    "1-bedroom-E": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 495,
+        "y": 425
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type E",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-E",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type E"
+        }
+      }
+    },
+    "2-bedroom-E": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 860,
+        "y": 420
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "type E",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "2-bedroom-E",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type E"
+        }
+      }
+    },
+    "2-bedroom-B": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 860,
+        "y": 490
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "type B",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "2-bedroom-B",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type B"
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/project-icon.svg",
+    "classNames": [],
+    "info": [
+      {
+        "price": "AED 823K",
+        "about": "prices from"
+      },
+      {
+        "price": "10%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "Montage by Valori",
+      "projectDescription": "Montage by Valori is an exquisite 26-storey V-shaped residential tower that epitomizes the essence of luxury living. With its blend of refined elegance, sumptuous comfort, and cutting-edge design, it sets a new standard for upscale urban residences. This architectural masterpiece is crafted for those who seek an extraordinary living experience and a prestigious ambiance.",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "20",
+            "text": "Residential <br> Floors",
+            "classNames": ""
+          },
+          {
+            "number": "1 and 20",
+            "text": "Bedroom <br> Units",
+            "classNames": ""
+          },
+          {
+            "number": "2026 Q1",
+            "text": "Handover <br> Date",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/about-bg1.jpg",
+        "classNames": [],
+        "styles": "object-position: center 42%;"
+      },
+      "amenities": {
+        "text": "Montage by Valori offers a range of exceptional amenities designed to enhance the living experience. Residents can enjoy access to the Jaddaf Waterfront Sculpture Park, a first in the area, which brings art and culture into everyday life. The development also features modern fitness facilities, serene landscaped areas, a luxurious swimming pool, and dedicated children's playgrounds, providing a blend of leisure, relaxation, and active living.",
+        "items": {
+          "content": [
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/swimming.svg",
+              "title": "Swimming pool",
+              "text": "Picture yourself reclining on a plush lounger or enjoying a refreshing dip in the pristine pool.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/landscape.svg",
+              "title": "Landscaped Area",
+              "text": "Residents can enjoy the outdoors with access to public landscapes that offer a tranquil environment.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/fitness.svg",
+              "title": "Fitness Centre",
+              "text": "Indulge in wellness at Montage's health club where state-of-the-art facilities and expert guidance await.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/playground.svg",
+              "title": "Kids’ playground",
+              "text": "The kids’ playground is a safe and vibrant area designed for fun and exploration.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/car.svg",
+              "title": "Covered parking",
+              "text": "Montage offers extensive car parking with a total of 251 bays, ensuring convenient parking for residents.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/amenities/shop.svg",
+              "title": "Retail shops",
+              "text": "Montage's on-site retail shops provide a curated selection of premium products and services.",
+              "classNames": ""
+            }
+          ],
+          "classNames": []
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 910,
+            "y": -45
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 1045,
+            "y": 25
+          },
+          "styles": "width: 26px"
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "10",
+                "text": "on booking"
+              },
+              {
+                "number": "50",
+                "text": "during construction"
+              },
+              {
+                "number": "40",
+                "text": "on handover"
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+            "classNames": ""
+          },
+          {
+            "text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "Keymaven’s commitment to redefining the real estate landscape is evident in every project, where meticulous attention to detail and innovative design converge to create spaces that are both functional and aesthetically pleasing. By focusing on sustainable practices and cutting-edge technology, Keymaven ensures that each development not only meets the highest standards of luxury but also caters to the evolving needs of modern residents.",
+            "classNames": []
+          },
+          {
+            "text": "The company’s philosophy is to envision, design, construct, deliver, and oversee real estate ventures that prioritize the growth and potential of each individual. By creating high-end yet valuable properties, Keymaven ensures that every detail contributes to the comfort, well-being, and personal development of its residents.",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "15",
+            "text": "Years of Expereance",
+            "classNames": ""
+          },
+          {
+            "number": "2+",
+            "text": "Projects",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "media": {
+        "projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/icon.svg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/developer/bg1.jpg",
+        "classNames": []
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/valori/brochure.jpg",
+      "classNames": []
+    }
+  },
+  "modal360": {
+    "media": {
+      "1-bedroom-D": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BEDROOM_1BEDROOM_TYPE3_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_LIVING_1BEDROOM_TYPE3_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/360/preview/VR360_BATHROOM_1BEDROOM_TYPE3_001.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BEDROOM_1BEDROOM_TYPE3_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/BATHROOM_1BEDROOM_TYPE3_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "1-bedroom-E": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1_bedroom_BEDROOM_PAN.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_water_front_1bedroom_LIVINGROOM_PANORAMA.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/360/preview/Jadaf_Water_front_1bedroom_SANUZEL_PAN.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_1_bedroom_BEDROOM.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_Water_front_1bedroom_SANUZEL_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "2-bedroom-E": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_Bedroom_type_3_bedroom_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_001_type3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/livingroom_VR_002_type3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/2_bedroom_type3_bathroom_VR.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_Bedroom_type_3_bedroom_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_001_type3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/livingroom_VR_002_type3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/360/preview/2_bedroom_type3_bathroom_VR.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_bedroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      },
+      "2-bedroom-B": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BEDROOM_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_LIVING_2BEDROOM_TYPE1_002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/360/preview/VR360_BATHROOM_2BEDROOM_TYPE1_001.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BEDROOM_2BEDROOM_TYPE1_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM_2BEDROOM_TYPE1_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/BATHROOM2_2BEDROOM_TYPE1_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      }
+    },
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
