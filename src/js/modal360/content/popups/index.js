@@ -3,6 +3,7 @@ export function popContent(data) {
     const popup = document.querySelector('.popup')
     const placeCheck = popup.querySelector('[data-place-check]')
     const filterType = popup.querySelector('.filter__type')
+    const watch360Btn = popup.querySelector('.popup__view-360')
     const bedroomCheck = popup.querySelector('[data-bedroom-check]')
     const typeCheck = popup.querySelector('[data-type-check]')
     const placeHold = popup.querySelector('[data-place-list]')
@@ -26,6 +27,7 @@ export function popContent(data) {
         type: getInfo.type,
         viewMode: "3d"
     }
+
     window.addEventListener("change", (e) => {
         if (e.target.name == 'place') {
             allInfo.place = e.target.value
@@ -36,22 +38,29 @@ export function popContent(data) {
             allInfo.bedroom = e.target.value
             allInfo.type = data[allInfo.place].bedrooms[allInfo.bedroom].default
             initContent(allInfo.place, allInfo.bedroom, allInfo.type)
-           
+
         } else if (e.target.name == 'type') {
             allInfo.type = e.target.value
             initContent(allInfo.place, allInfo.bedroom, allInfo.type)
         } else if (e.target.name == 'view-switch') {
             allInfo.viewMode = e.target.value
-            if(allInfo.viewMode == '2d'){
+            if (allInfo.viewMode == '2d') {
                 dataImg.classList.add('active')
                 dataModel.classList.remove('active')
-            }else{
+            } else {
                 dataImg.classList.remove('active')
                 dataModel.classList.add('active')
             }
             // initContent(allInfo.place, allInfo.bedroom, allInfo.type, allInfo.viewMode)
         }
     })
+    function watch360(place, bedroom, type) {
+        if (allInfo.place == place && allInfo.bedroom == bedroom && allInfo.type == type) {
+            watch360Btn.classList.add('hide')
+        } else {
+            watch360Btn.classList.remove('hide')
+        }
+    }
     function placesInfo(data, place) {
         placeCheck.innerHTML = data[place].title
         checkList(placeHold, data, place)
@@ -61,27 +70,23 @@ export function popContent(data) {
         checkList(bedroomHold, bedroomList, bedroom)
     }
     function typeInfo(typeList, type) {
-            typeCheck.innerHTML = typeList[type].title
-            checkList(typeHold, typeList, type)
+        typeCheck.innerHTML = typeList[type].title
+        checkList(typeHold, typeList, type)
     }
     function viewModeFun(place, bedroom, type) {
-            return `
-            <model-viewer class="pop-model-viewer" loading="eager" max-camera-orbit="auto 95deg auto" src="${data[place].bedrooms[bedroom].types[type]['3d']}" ar="" ar-modes="webxr scene-viewer quick-look" camera-controls="" tone-mapping="commerce" shadow-intensity="1" disable-pan="" disable-zoom="" ar-status="not-presenting">
-                        <button slot="ar-button" class="ar-button" id="ar-button">
-                           
-                            Watch in <span>AR</span>
-                        </button>
-                    </model-viewer>
+        return `
+            <model-viewer class="pop-model-viewer" max-camera-orbit="auto 95deg auto" src="${data[place].bedrooms[bedroom].types[type]['3d']}" ar-modes="webxr scene-viewer quick-look" camera-controls="" tone-mapping="commerce" shadow-intensity="1" disable-pan="" disable-zoom="" >
+            </model-viewer>
                     <div class="loader">
                           <div class="loader__progress">
                             <span>Loading</span>
                             <svg class="loader__progress-ring" width="500" height="500">
             <circle class="loader__progress-circle" stroke-width="4" cx="250" cy="250" r="246" fill="transparent" />
           </svg>
-
                           </div>
                      </div>
                     `
+
     }
 
     function preloaderFun() {
@@ -102,11 +107,16 @@ export function popContent(data) {
             const offset = circumference - ((percent * 100) / 100 * circumference)
             loaderRing.style.strokeDashoffset = offset;
         }
+        let i = 0
         modelViewer.addEventListener("progress", (e) => {
             const progress = e.detail.totalProgress;
             setProgress(progress)
             if (progress === 1) {
-                loader.classList.add('loaded')
+                i++
+                if (i > 1) {
+                    loader.classList.add('loaded')
+                    console.log(progress);
+                }
             }
         });
 
@@ -135,8 +145,8 @@ export function popContent(data) {
         placesInfo(data, place)
         bedroomsInfo(data[place].bedrooms, bedroom)
         typeInfo(data[place].bedrooms[bedroom].types, type)
-        filterSelect.forEach((sel,i)=>{
-            if(sel.classList.contains('active')){
+        filterSelect.forEach((sel, i) => {
+            if (sel.classList.contains('active')) {
                 filterList[i].classList.remove('active')
                 sel.classList.remove('active')
             }
@@ -149,21 +159,19 @@ export function popContent(data) {
             }
         })
         let typeObjs = Object.keys(data[allInfo.place].bedrooms[allInfo.bedroom].types)
-        console.log(typeObjs);
-        if(typeObjs.length ==1 && typeObjs[0]!="default"){
+        if (typeObjs.length == 1 && typeObjs[0] != "default") {
             filterType.classList.add('alone')
             filterType.classList.remove("no-type")
-        }else {
-            if(typeObjs[0]=="default"){
+        } else {
+            if (typeObjs[0] == "default") {
                 filterType.classList.add("no-type")
                 filterType.classList.remove('alone')
-            }else{
+            } else {
                 filterType.classList.remove("no-type")
                 filterType.classList.remove('alone')
             }
-           
         }
-        //content
+        watch360(getInfo.place, getInfo.bedroom, getInfo.type)
         dataInfo.forEach(info => {
             switch (info.getAttribute("data-info")) {
                 case "badroom":
@@ -190,6 +198,7 @@ export function popContent(data) {
                     break;
             }
         });
+
     }
     initContent(allInfo.place, allInfo.bedroom, allInfo.type)
 
