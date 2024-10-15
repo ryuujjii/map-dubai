@@ -34,12 +34,12 @@ export function popContent(data) {
     }
 
     filterWrap.addEventListener('scroll', (e) => {
-        if (filterWrap.scrollLeft < 5) {
+        if (filterWrap.scrollLeft < 2) {
             filter.classList.remove('s-shadow')
         } else {
             filter.classList.add('s-shadow')
         }
-        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 5) {
+        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 2) {
             filter.classList.remove('e-shadow')
         } else {
             filter.classList.add('e-shadow')
@@ -71,13 +71,6 @@ export function popContent(data) {
             // initContent(allInfo.place, allInfo.bedroom, allInfo.type, allInfo.viewMode)
         }
     })
-    function watch360(place, bedroom, type) {
-        if (allInfo.place == place && allInfo.bedroom == bedroom && allInfo.type == type) {
-            watch360Btn.classList.add('hide')
-        } else {
-            watch360Btn.classList.remove('hide')
-        }
-    }
     function placesInfo(data, place) {
         placeCheck.innerHTML = data[place].title
         checkList(placeHold, data, place)
@@ -187,7 +180,6 @@ export function popContent(data) {
                 filterType.classList.remove('alone')
             }
         }
-        watch360(getInfo.place, getInfo.bedroom, getInfo.type)
         dataInfo.forEach(info => {
             switch (info.getAttribute("data-info")) {
                 case "badroom":
