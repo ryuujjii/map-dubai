@@ -7,7 +7,7 @@ import paymentPopup from '@/projects/components/content/popups/payment/paymentPo
 import developerPopup from '@/projects/components/content/popups/developer/developerPopup';
 import scrollPopupToTop from '@/projects/components/content/scrollPopupToTop';
 import brochurePopup from '@/projects/components/content/popups/brochure';
-import { getDataToModal360 } from '@/projects/components/content/getDataToModal360';
+import { getDataToModal360, sendFloorplansToModal360 } from '@/projects/components/content/getDataToModal360';
 import dotsTabs from '@/projects/components/content/dots/tabs/dotsTabs';
 
 export default async function projectContent(projectName) {
@@ -24,6 +24,7 @@ export default async function projectContent(projectName) {
     brochurePopup(brochure);
     scrollPopupToTop();
     getDataToModal360(modal360);
+    sendFloorplansToModal360();
   } catch (error) {
     console.log('cannot getData to project', projectName);
     console.log(error);

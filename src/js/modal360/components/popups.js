@@ -2,9 +2,20 @@ import { popContent } from '../content/popups/index.js'
 export function popups() {
     const popup = document.querySelector('.popup')
     const popupInner = popup.querySelector('.popup__inner')
-    const popupClose = document.querySelector('.popup__close')
-    const filterSelect = document.querySelectorAll(".filter__select")
-    const filterList = document.querySelectorAll(".filter__list")
+    const popupClose = popup.querySelector('.popup__close')
+    const filterSelect = popup.querySelectorAll(".filter__select")
+    const filterList = popup.querySelectorAll(".filter__list")
+    const popupViewFullBtn = popup.querySelector(".view-fullbtn")
+    const popupViewFull = popup.querySelector(".view-full")
+    const popupViewFullClose = popup.querySelector(".view-full__close")
+    popupViewFullBtn.addEventListener('click', () => {
+        if(!popupViewFullBtn.hasAttribute("data-fancybox-trigger")){
+            popupViewFull.classList.add('active')
+        }
+    })
+    popupViewFullClose.addEventListener('click',()=>{
+        popupViewFull.classList.remove('active')
+    })
     filterSelect.forEach((el, i) => {
         el.addEventListener('click', () => {
             if (filterList[i].classList.contains('active')) {
@@ -20,7 +31,7 @@ export function popups() {
             }
         })
     });
-  
+
     popup.addEventListener("touchstart", (e) => {
         if (e.target.classList.contains('pop-model-viewer')) {
             popupInner.classList.add('no-scroll')

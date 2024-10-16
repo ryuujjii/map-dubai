@@ -16,6 +16,8 @@ export function popContent(data) {
     const bedroomHold = popup.querySelector('[data-bedroom-list]')
     const typeHold = popup.querySelector('[data-type-list]')
     const viewSwitcher = popup.querySelectorAll('[name="view-switch"]')
+    const viewFullWrap = popup.querySelector('.view-full__wrap')
+    const viewFullBtn = popup.querySelector('.view-fullbtn')
     //content
     const dataModel = document.querySelector(".popup__view-model")
     const dataImg = document.querySelector(".popup__view-img")
@@ -64,9 +66,12 @@ export function popContent(data) {
             if (allInfo.viewMode == '2d') {
                 dataImg.classList.add('active')
                 dataModel.classList.remove('active')
+                viewFullBtn.setAttribute("data-fancybox-trigger","view")
             } else {
+                viewFullBtn.removeAttribute("data-fancybox-trigger")
                 dataImg.classList.remove('active')
                 dataModel.classList.add('active')
+                preloaderFun(viewFullWrap)
             }
             // initContent(allInfo.place, allInfo.bedroom, allInfo.type, allInfo.viewMode)
         }
@@ -96,15 +101,14 @@ export function popContent(data) {
                           </div>
                      </div>
                     `
-
     }
 
-    function preloaderFun() {
-        const modelViewer = popup.querySelector(".pop-model-viewer")
-        const loader = popup.querySelector(".loader")
-        const loaderRing = popup.querySelector(".loader__progress-ring")
+    function preloaderFun(parent) {
+        const modelViewer = parent.querySelector(".pop-model-viewer")
+        const loader = parent.querySelector(".loader")
+        const loaderRing = parent.querySelector(".loader__progress-ring")
         const loaderStyle = window.getComputedStyle(loaderRing)
-        const loaderCircle = popup.querySelector(".loader__progress-circle")
+        const loaderCircle = parent.querySelector(".loader__progress-circle")
         loaderCircle.style.stroke = '#fff'
         loaderCircle.setAttribute('cx', parseInt(loaderStyle.width) / 2)
         loaderCircle.setAttribute('cy', parseInt(loaderStyle.width) / 2)
@@ -198,11 +202,19 @@ export function popContent(data) {
                     info.innerHTML = data[place].bedrooms[bedroom].types[type].price
                     break;
                 case "img":
-                    info.innerHTML = `<img src="${data[place].bedrooms[bedroom].types[type]['2d']}"/>`
+                    info.innerHTML = `
+                    <a class="view-full__img" data-fancybox="view" href="${data[place].bedrooms[bedroom].types[type]['2d']}">
+                    <img src="${data[place].bedrooms[bedroom].types[type]['2d']}" loading="lazy" alt="">
+                </a>
+                    `
                     break;
                 case "model":
                     info.innerHTML = viewModeFun(place, bedroom, type)
-                    preloaderFun()
+                    preloaderFun(info)
+                    break;
+                case "full-model":
+                    viewFullWrap.innerHTML = viewModeFun(place, bedroom, type)
+                    preloaderFun(viewFullWrap)
                     break;
             }
         });
