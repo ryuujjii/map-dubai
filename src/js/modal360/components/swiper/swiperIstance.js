@@ -12,15 +12,14 @@ export const swiperInstance = new Swiper(".swiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
-
   breakpoints: {
     1199: {
-      direction: "horizontal", 
+      direction: "horizontal",
       spaceBetween: 3,
 
     },
     1200: {
-      direction: "vertical", 
+      direction: "vertical",
       spaceBetween: 4,
 
     },

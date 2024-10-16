@@ -7,13 +7,13 @@ export function config() {
   let initialWidthViewerSwiper;
   let actualSwiperWidth;
   if (!queryMatches(1200)) {
-    widthViewerSlide = 60;
+    widthViewerSlide = 50;
     viewerSwiperPrerView = 5;
-    initialWidthViewerSwiper = 330;
+    initialWidthViewerSwiper = 275;
   } else {
     widthViewerSlide = 100;
     viewerSwiperPrerView = 3;
-    initialWidthViewerSwiper = 340;
+    initialWidthViewerSwiper = 300;
 
   }
 
