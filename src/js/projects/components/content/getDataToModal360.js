@@ -4,11 +4,24 @@ function getDataToModal360Fn() {
   const iframeWindow = document.querySelector('.modal360 iframe');
 
 
-  function sendDataToModal360(dataModal360) {
-    const data = content.media[dataModal360];
+  function sendMediaToModal360(dataModal360) {
     dispatchCustomEvent({
       el: iframeWindow.contentWindow, event: "modal360-media", detail: {
-        media: data,
+        media: content.media[dataModal360],
+      }
+    });
+  }
+  function sendFloorplanToModal360(dataModal360) {
+    dispatchCustomEvent({
+      el: iframeWindow.contentWindow, event: "modal360-floorplan", detail: {
+        floorplan: content.media[dataModal360].floorplan,
+      }
+    });
+  }
+  function sendFloorplansToModal360() {
+    dispatchCustomEvent({
+      el: iframeWindow.contentWindow, event: "modal360-floorplans", detail: {
+        floorplans: content.floorplans
       }
     });
   }
@@ -16,7 +29,7 @@ function getDataToModal360Fn() {
     content = data;
   }
 
-  return { sendDataToModal360, getDataToModal360, iframeWindow };
+  return { sendMediaToModal360, sendFloorplansToModal360, sendFloorplanToModal360, getDataToModal360, iframeWindow };
 }
 
-export const { getDataToModal360, sendDataToModal360, iframeWindow } = getDataToModal360Fn();
+export const { getDataToModal360, sendMediaToModal360, sendFloorplansToModal360, sendFloorplanToModal360, iframeWindow } = getDataToModal360Fn();

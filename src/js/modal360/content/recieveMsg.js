@@ -6,4 +6,12 @@ export default function recieveMsg() {
     paintSwiperSlides(slides);
     paintGalleryItems(gallery);
   });
+  window.addEventListener("modal360-floorplan", (event) => {
+    const { floorplan } = event.detail;
+    // console.log(floorplan);
+  });
+  window.addEventListener("modal360-floorplans", (event) => {
+    const { floorplans } = event.detail;
+    // console.log(floorplans);
+  });
 };
