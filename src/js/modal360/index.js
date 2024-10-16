@@ -6,6 +6,7 @@ import updateInstanceOnContentChange from "@/modal360/components/updateInstanceO
 import { isMobileOrTablet, addClassName } from "@/components/utils";
 import recieveMsg from "@/modal360/content/recieveMsg";
 import btnSocials from "@/modal360/content/btnSocials";
+import changeMedia from "@/modal360/content/popups/changeMedia";
 
 
 window.addEventListener("DOMContentLoaded", (params) => {
@@ -17,6 +18,7 @@ window.addEventListener("DOMContentLoaded", (params) => {
   gallery();
   updateInstanceOnContentChange();
   btnSocials('')
+  changeMedia()
 });
 
 window.addEventListener("unload", function (event) {

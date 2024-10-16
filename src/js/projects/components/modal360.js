@@ -1,7 +1,7 @@
 import { addClassName, removeClassName, dispatchCustomEvent, insertIframe } from 'utils';
 import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
-import { sendDataToModal360, iframeWindow } from '@/projects/components/content/getDataToModal360';
+import { sendMediaToModal360, sendFloorplanToModal360, iframeWindow } from '@/projects/components/content/getDataToModal360';
 
 export default function modal360() {
   let modal360Btns = null;
@@ -24,10 +24,9 @@ export default function modal360() {
       btn.addEventListener("click", (e) => {
         panoIframe.innerHTML = "";
         removeClassName(document.documentElement, 'preloader-hidden');
-        sendDataToModal360(btn.getAttribute('data-modal360'));
-        getProjectTitle(btn)
-        // console.log(btn.getAttribute('data-modal360-close-info-title'));
-        // console.log(btn.getAttribute('data-modal360-close-info-type'));
+        sendMediaToModal360(btn.getAttribute('data-modal360'));
+        sendFloorplanToModal360(btn.getAttribute('data-modal360'));
+        getProjectTitle(btn);
         setTimeout(() => {
           dispatchCustomEvent({
             el: iframeWindow.contentWindow, event: "loader-shown"
@@ -50,7 +49,7 @@ function getProjectTitle(btn) {
     title: document.querySelector(".modal360__close-btn-title h5"),
     type: document.querySelector(".modal360__close-btn-title p")
   };
-  const modal360CloseBtn = document.querySelector(".modal360__close-btn")
+  const modal360CloseBtn = document.querySelector(".modal360__close-btn");
 
 
 
@@ -60,16 +59,16 @@ function getProjectTitle(btn) {
 
     if (mainDotType === "") {
       moda360BtnTitle.classList.add('empty-title');
-      moda360BtnType.style.display = "none"
+      moda360BtnType.style.display = "none";
     }
   }
 
   modal360CloseBtn.addEventListener('click', () => {
     setTimeout(() => {
       moda360BtnTitle.classList.remove('empty-title');
-      moda360BtnType.style.display = "flex"
-      
+      moda360BtnType.style.display = "flex";
+
     }, 500);
-  })
+  });
 
 }
