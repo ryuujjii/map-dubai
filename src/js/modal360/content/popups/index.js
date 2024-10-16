@@ -1,5 +1,5 @@
 
-export function popContent(data) {
+export function popContent(data, dot) {
     const popup = document.querySelector('.popup')
     const placeCheck = popup.querySelector('[data-place-check]')
     const filterType = popup.querySelector('.filter__type')
@@ -23,18 +23,21 @@ export function popContent(data) {
     const dataImg = document.querySelector(".popup__view-img")
     const dataInfo = popup.querySelectorAll("[data-info]")
     let filterElemWidth
-    const getInfo = {
-        place: 'Water',
-        bedroom: '1-bed',
-        type: 'typeA',
-    }
+    let getInfo = dot
     const allInfo = {
-        place: getInfo.place,
-        bedroom: getInfo.bedroom,
-        type: getInfo.type,
+        ...getInfo,
         viewMode: "3d"
     }
-
+    function btn360Hide() {
+        if (
+            getInfo.place == allInfo.place && getInfo.bedroom == allInfo.bedroom && getInfo.type == allInfo.type  || 
+             !data[allInfo.place].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360
+             ){
+            watch360Btn.classList.add('hide')
+        }else{
+            watch360Btn.classList.remove('hide')
+        }
+    }
     filterWrap.addEventListener('scroll', (e) => {
         if (filterWrap.scrollLeft < 2) {
             filter.classList.remove('s-shadow')
@@ -66,7 +69,7 @@ export function popContent(data) {
             if (allInfo.viewMode == '2d') {
                 dataImg.classList.add('active')
                 dataModel.classList.remove('active')
-                viewFullBtn.setAttribute("data-fancybox-trigger","view")
+                viewFullBtn.setAttribute("data-fancybox-trigger", "view")
             } else {
                 viewFullBtn.removeAttribute("data-fancybox-trigger")
                 dataImg.classList.remove('active')
@@ -184,6 +187,9 @@ export function popContent(data) {
                 filterType.classList.remove('alone')
             }
         }
+        watch360Btn.setAttribute('data-modal360', data[place].bedrooms[bedroom].types[type].dataModal360)
+        btn360Hide()
+
         dataInfo.forEach(info => {
             switch (info.getAttribute("data-info")) {
                 case "badroom":
