@@ -1,4 +1,4 @@
-import { queryMatches } from 'utils';
+import { addClassName, removeClassName, queryMatches } from 'utils';
 
 export function config() {
   let widthViewerSlide;
@@ -25,6 +25,10 @@ export function config() {
     },
     getSlidesPerView(amountViewerSlides) {
       return conditionViewerSlides ? viewerSwiperPrerView : amountViewerSlides;
+    },
+    paginationVisibilite(viewerNav, amountViewerSlides) {
+      amountViewerSlides > viewerSwiperPrerView ? addClassName(viewerNav, "show-pagination") : removeClassName(viewerNav, "show-pagination")
     }
-  };
-}
+  }
+};
+
