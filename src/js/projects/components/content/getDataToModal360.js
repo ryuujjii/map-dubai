@@ -3,7 +3,10 @@ function getDataToModal360Fn() {
   let content = null;
   const iframeWindow = document.querySelector('.modal360 iframe');
 
-
+  window.addEventListener("update-modal360-media", (e) => {
+    sendMediaToModal360(e.detail.dataModal360);
+  });
+  
   function sendMediaToModal360(dataModal360) {
     dispatchCustomEvent({
       el: iframeWindow.contentWindow, event: "modal360-media", detail: {
