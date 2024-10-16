@@ -1,4 +1,4 @@
-import { queryMatches } from 'utils';
+import { addClassName, removeClassName, queryMatches } from 'utils';
 
 export function config() {
   let widthViewerSlide;
@@ -7,13 +7,13 @@ export function config() {
   let initialWidthViewerSwiper;
   let actualSwiperWidth;
   if (!queryMatches(1200)) {
-    widthViewerSlide = 60;
+    widthViewerSlide = 50;
     viewerSwiperPrerView = 5;
-    initialWidthViewerSwiper = 330;
+    initialWidthViewerSwiper = 275;
   } else {
     widthViewerSlide = 100;
     viewerSwiperPrerView = 3;
-    initialWidthViewerSwiper = 340;
+    initialWidthViewerSwiper = 300;
 
   }
 
@@ -25,6 +25,10 @@ export function config() {
     },
     getSlidesPerView(amountViewerSlides) {
       return conditionViewerSlides ? viewerSwiperPrerView : amountViewerSlides;
+    },
+    paginationVisibilite(viewerNav, amountViewerSlides) {
+      amountViewerSlides > viewerSwiperPrerView ? addClassName(viewerNav, "show-pagination") : removeClassName(viewerNav, "show-pagination")
     }
-  };
-}
+  }
+};
+

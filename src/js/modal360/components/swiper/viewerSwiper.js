@@ -5,11 +5,11 @@ import setPanorama from '@/modal360/components/viewer/setPanorama.js';
 
 function getViewerSwiper() {
   let viewerSlides;
-  const { getUpdatedSwiperConfig, getSlidesPerView } = config();
+  const { getUpdatedSwiperConfig, getSlidesPerView, paginationVisibilite } = config();
 
   return function viewerSwiper() {
     viewerSlides = document.querySelectorAll(".swiper-slide.int");
-    const updateSwiper = getUpdateSwiper(getUpdatedSwiperConfig, getSlidesPerView, swiperInstance);
+    const updateSwiper = getUpdateSwiper(getUpdatedSwiperConfig, getSlidesPerView, paginationVisibilite, swiperInstance);
     setPanorama(viewerSlides[0]);
     updateSwiper(viewerSlides.length);
   };

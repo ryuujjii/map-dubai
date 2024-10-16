@@ -29,7 +29,7 @@
         "y": 300
       },
       "info": {
-        "title": "3-bedroom",
+        "title": "3-bedroom SL",
         "type": "DAMAC Bay 2",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
@@ -38,7 +38,7 @@
         "hoverId": "leftHover",
         "closeInfo": {
           "title": "3-bedroom",
-          "type": ""
+          "type": "type SL"
         }
       }
     },
@@ -52,7 +52,7 @@
         "y": 480
       },
       "info": {
-        "title": "1-bedroom",
+        "title": "1-bedroom L",
         "type": "DAMAC Bay 2",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
@@ -61,7 +61,7 @@
         "hoverId": "leftHover",
         "closeInfo": {
           "title": "1-bedroom",
-          "type": ""
+          "type": "type L"
         }
       }
     },
@@ -75,7 +75,7 @@
         "y": 250
       },
       "info": {
-        "title": "4-bedroom",
+        "title": "4-bedroom SL",
         "type": "DAMAC Bay 2",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -84,7 +84,7 @@
         "hoverId": "leftHover",
         "closeInfo": {
           "title": "4-bedroom",
-          "type": ""
+          "type": "type SL"
         }
       }
     },
@@ -98,7 +98,7 @@
         "y": 370
       },
       "info": {
-        "title": "2-bedroom",
+        "title": "2-bedroom L",
         "type": "DAMAC Bay 2",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -107,7 +107,7 @@
         "hoverId": "leftHover",
         "closeInfo": {
           "title": "2-bedroom",
-          "type": ""
+          "type": "type L"
         }
       }
     },
@@ -121,7 +121,7 @@
         "y": 315
       },
       "info": {
-        "title": "3-bedroom",
+        "title": "3-bedroom SL",
         "type": "DAMAC Bay",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -130,7 +130,7 @@
         "hoverId": "rightHover",
         "closeInfo": {
           "title": "3-bedroom",
-          "type": ""
+          "type": "type SL"
         }
       }
     },
@@ -144,7 +144,7 @@
         "y": 480
       },
       "info": {
-        "title": "1-bedroom",
+        "title": "1-bedroom L",
         "type": "DAMAC Bay",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -153,7 +153,7 @@
         "hoverId": "rightHover",
         "closeInfo": {
           "title": "1-bedroom",
-          "type": ""
+          "type": "type L"
         }
       }
     },
@@ -167,7 +167,7 @@
         "y": 195
       },
       "info": {
-        "title": "5-bedroom",
+        "title": "5-bedroom SL",
         "type": "DAMAC Bay",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -176,7 +176,7 @@
         "hoverId": "rightHover",
         "closeInfo": {
           "title": "5-bedroom",
-          "type": ""
+          "type": "type SL"
         }
       }
     },
@@ -190,7 +190,7 @@
         "y": 405
       },
       "info": {
-        "title": "3-bedroom",
+        "title": "3-bedroom L",
         "type": "DAMAC Bay",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
@@ -199,7 +199,7 @@
         "hoverId": "rightHover",
         "closeInfo": {
           "title": "3-bedroom",
-          "type": ""
+          "type": "type L"
         }
       }
     }

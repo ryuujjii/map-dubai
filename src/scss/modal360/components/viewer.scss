@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     width: 98px;
-    height: auto;
+    height: var(--swiperSize);
     transition: all 0.3s ease 0s;
     opacity: 0;
     visibility: hidden;
@@ -30,16 +30,24 @@
     align-items: center;
     gap: 8px;
     @media (max-width: 1200.98px) {
-      bottom: 72px;
+      bottom: 70px;
       top: initial;
       transform: initial;
       transform: translateX(-50%);
       right: initial;
       left: 50%;
-      width: auto;
-      height: 70px;
+      width: var(--swiperSize);
+      height: 60px;
       gap: 8px;
       overflow: hidden;
+    }
+
+    &.show-pagination {
+      height: calc(var(--swiperSize) + 50px);
+      @media (max-width: 1200.98px) {
+        width: calc(var(--swiperSize) + 42px);
+        height: 60px;
+      }
     }
     .viewer-ready & {
       opacity: 1;
@@ -67,7 +75,7 @@
 
     @media (max-width: 1200.98px) {
       width: var(--swiperSize);
-      height: 70px;
+      height: 60px;
       background: transparent;
       backdrop-filter: initial;
       padding: 3px;
@@ -409,8 +417,12 @@
   }
   .swiper-button-prev,
   .swiper-button-next {
-    padding: 5px 2px;
-    width: auto;
+    // padding: 5px 2px;
+    padding: 5px;
+    // width: auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     transition: opacity 0.3s;
     cursor: pointer;
     &.swiper-button-disabled {
@@ -423,15 +435,29 @@
 
     @media (max-width: 1200.98px) {
       transform: initial;
-      padding: 5px;
+      left: initial;
+      top: 50%;
+      transform: translateY(-50%);
     }
   }
 
   .swiper-button-prev {
-    transform: rotate(90deg);
+    top: -24px;
+    transform: translateX(-50%) rotate(90deg);
+    @media (max-width: 1200.98px) {
+      top: initial;
+      left: -18px;
+      transform: initial;
+    }
   }
   .swiper-button-next {
-    transform: rotate(90deg);
+    bottom: -24px;
+    transform: translateX(-50%) rotate(90deg);
+    @media (max-width: 1200.98px) {
+      bottom: initial;
+      right: -18px;
+      // transform: initial;
+    }
   }
   .swiper {
     width: 100%;
@@ -568,7 +594,7 @@
       right: 16px;
     }
     @media (max-width: 480.98px) {
-      bottom: 160px;
+      bottom: 135px;
       transition: opacity 0.3s ease 0s;
       opacity: 1;
       .fake-fullscreen-active & {
@@ -592,7 +618,7 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background-image: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/icons/fullscreen-icon.svg");
+      background-image: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/icons/fullscreen-icon2.svg");
       background-repeat: no-repeat;
       background-size: cover;
       transition: transform 0.3s;
@@ -639,7 +665,7 @@
       // background-color: black;
     }
     @media (max-width: 480.98px) {
-      bottom: 160px;
+      bottom: 135px;
     }
 
     .fake-fullscreen-active & {
@@ -983,7 +1009,7 @@ div.custom-gyro-btn {
     left: 16px !important;
   }
   @media (max-width: 480.98px) {
-    bottom: 160px !important;
+    bottom: 135px !important;
   }
   .fake-fullscreen-active & {
     opacity: 0;
