@@ -1,5 +1,7 @@
-import { popContent } from '../content/popups/index.js'
+import { dispatchCustomEvent } from 'utils';
+import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alterParentWindow';
 export function popups() {
+    const popupOpenBtn = document.querySelector(".viewer-btn-floorplan")
     const popup = document.querySelector('.popup')
     const popupInner = popup.querySelector('.popup__inner')
     const popupClose = popup.querySelector('.popup__close')
@@ -9,11 +11,25 @@ export function popups() {
     const popupViewFull = popup.querySelector(".view-full")
     const popupViewFullClose = popup.querySelector(".view-full__close")
     popupViewFullBtn.addEventListener('click', () => {
-        if(!popupViewFullBtn.hasAttribute("data-fancybox-trigger")){
+        if (!popupViewFullBtn.hasAttribute("data-fancybox-trigger")) {
             popupViewFull.classList.add('active')
         }
     })
-    popupViewFullClose.addEventListener('click',()=>{
+    const btn = document.querySelector('[data-modal360]');
+    btn.addEventListener("click", (e) => {
+        dispatchCustomEvent({
+            el: window.parent, event: "update-modal360-media", detail: {
+                dataModal360: btn.getAttribute('data-modal360')
+            }
+        });
+        popup.classList.remove("active")
+        removeClassToAlter()
+    });
+    popupOpenBtn.addEventListener('click', () => {
+        addClassToAlter()
+        popup.classList.add('active')
+    })
+    popupViewFullClose.addEventListener('click', () => {
         popupViewFull.classList.remove('active')
     })
     filterSelect.forEach((el, i) => {
@@ -54,17 +70,7 @@ export function popups() {
     })
     popupClose.addEventListener('click', () => {
         popup.classList.remove("active")
-        setTimeout(() => {
-            popup.classList.add('active')
-        }, 2000);
+        removeClassToAlter()
     })
-    setTimeout(() => {
-        popup.classList.add('active')
-    }, 10);
-    fetch("../../../../files/json/popups/db.json")
-        .then(data => data.json())
-        .then(data =>
-            popContent(data)
-        )
 
 }

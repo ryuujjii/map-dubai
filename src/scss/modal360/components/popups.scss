@@ -24,10 +24,14 @@ body {
         overflow: hidden;
     }
 }
+.fancybox__container{
+    z-index: 999;
+}
 .popup {
     position: fixed;
     width: 100vw;
     height: 100dvh;
+    inset: 0;
     background: linear-gradient(0deg, rgba(22, 22, 22, 0.4) 0%, rgba(22, 22, 22, 0.4) 100%), rgba(22, 22, 22, 0.4);
     backdrop-filter: blur(16px);
     opacity: 0;
@@ -35,6 +39,7 @@ body {
     transition:
         opacity 0.3s ease,
         visibility 0.3s ease;
+    z-index: 998;
     &.active {
         opacity: 1;
         visibility: visible;
@@ -367,7 +372,6 @@ body {
             }
         }
 
-        
         &-fullbtn {
             position: absolute;
             z-index: 9;
@@ -381,7 +385,7 @@ body {
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            transition:opacity 0.3s ease;
+            transition: opacity 0.3s ease;
             opacity: 1;
             svg {
                 width: 1.4rem;
@@ -391,9 +395,9 @@ body {
                 padding: 8px;
                 right: 8px;
                 bottom: 8px;
-               svg{
-                width: 14px;
-               }
+                svg {
+                    width: 14px;
+                }
             }
         }
     }
@@ -464,6 +468,11 @@ body {
             background: #161616;
             padding: 0.4rem 0.4rem 0.4rem 0.6rem;
             border-radius: 2px;
+            transition: opacity 0.3s ease;
+            &.hide{
+                opacity: 0;
+                pointer-events: none;
+            }
             @media (max-width: 1024px) {
                 top: 8px;
                 left: 8px;

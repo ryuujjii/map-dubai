@@ -1,14 +1,13 @@
 <div class="popup">
     <div class="view-full">
-            <div class="view-full__wrap" data-info="full-model">
-                
-            </div>
-            <div class="view-full__close">
-                close
-                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M13 1L1 13M1 1L13 13" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-            </div>
+        <div class="view-full__wrap" data-info="full-model">
+        </div>
+        <div class="view-full__close">
+            close
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 1L1 13M1 1L13 13" stroke="#000" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
     </div>
     <div class="popup__body">
         <div class="popup__inner">
@@ -26,7 +25,7 @@
                                 <div class="popup__view-model" data-info="model"></div>
                                 <div class="popup__view-img" data-info="img"></div>
                             </div>
-                            <button type="button" class="popup__view-360">
+                            <button type="button" class="popup__view-360" data-modal360="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
                                     fill="none">
                                     <mask id="mask0_2205_385" style="mask-type:luminance" maskUnits="userSpaceOnUse"
@@ -52,63 +51,66 @@
                                 </div>
                             </div>
                             <button class="view-fullbtn">
-                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13 5.25V2.8C13 1.80589 12.1941 1 11.2 1H9M13 8.75V11.2C13 12.1941 12.1941 13 11.2 13H9M1 8.75V11.2C1 12.1941 1.80589 13 2.8 13H5M1 5.25V2.8C1 1.80589 1.80589 1 2.8 1H5" stroke="#161616" stroke-width="1.82338"/>
-                                    </svg>
+                                <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13 5.25V2.8C13 1.80589 12.1941 1 11.2 1H9M13 8.75V11.2C13 12.1941 12.1941 13 11.2 13H9M1 8.75V11.2C1 12.1941 1.80589 13 2.8 13H5M1 5.25V2.8C1 1.80589 1.80589 1 2.8 1H5"
+                                        stroke="#161616" stroke-width="1.82338" />
+                                </svg>
                             </button>
                         </div>
                         <div class="popup__filter filter e-shadow">
                             <span class="filter__scroll-hide"></span>
-                           <div class="filter__wrap">
-                            <div class="filter__option ">
-                                <div class="filter__select">
-                                    <span data-place-check>Select Type</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                        fill="none">
-                                        <path
-                                            d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                            stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                            <div class="filter__wrap">
+                                <div class="filter__option ">
+                                    <div class="filter__select">
+                                        <span data-place-check>Select Type</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
+                                            fill="none">
+                                            <path
+                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <ul class="filter__list" data-place-list>
+                                    </ul>
                                 </div>
-                                <ul class="filter__list" data-place-list>
-                                </ul>
-                            </div>
-                            <div class="filter__option">
-                                <div class="filter__select">
-                                    <span data-bedroom-check> number of bedrooms</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                        fill="none">
-                                        <path
-                                            d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                            stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <div class="filter__option">
+                                    <div class="filter__select">
+                                        <span data-bedroom-check> number of bedrooms</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
+                                            fill="none">
+                                            <path
+                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <ul class="filter__list" data-bedroom-list>
+                                        <li class="filter__list-item">
+                                            check Type
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul class="filter__list" data-bedroom-list>
-                                    <li class="filter__list-item">
-                                        check Type
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="filter__option">
-                                <div class="filter__select filter__type">
-                                    <span data-type-check>Type</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                        fill="none">
-                                        <path
-                                            d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                            stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
+                                <div class="filter__option">
+                                    <div class="filter__select filter__type">
+                                        <span data-type-check>Type</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
+                                            fill="none">
+                                            <path
+                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                    <ul class="filter__list" data-type-list>
+                                        <li class="filter__list-item">
+                                            check bedrooms
+                                        </li>
+                                    </ul>
                                 </div>
-                                <ul class="filter__list" data-type-list>
-                                    <li class="filter__list-item">
-                                        check bedrooms
-                                    </li>
-                                </ul>
                             </div>
-                           </div>
                         </div>
                         <div class="popup__content-info">
                             <h2 class="popup__content-title" data-info="badroom">3 Bedroom</h2>

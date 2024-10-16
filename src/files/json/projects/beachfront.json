@@ -726,7 +726,7 @@
                 "price": "AED 10 200 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-A-gandBlue"
               },
               "typeB": {
                 "name": "type",
@@ -753,7 +753,7 @@
                 "price": "AED 12 100 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "3-bedroom-gandBlue"
               }
             }
           }
@@ -777,7 +777,7 @@
                 "price": "AED 10 500 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "4-bedroom-gandBlue"
               },
               "typeB": {
                 "name": "type",
@@ -787,7 +787,7 @@
                 "price": "AED 14 200 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "4-bedroom-gandBlue"
               }
             }
           },
@@ -804,7 +804,7 @@
                 "price": "AED 9 600 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               }
             }
           },
@@ -821,7 +821,7 @@
                 "price": "AED 8 500 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               }
             }
           }
@@ -845,7 +845,7 @@
                 "price": "AED 12 700 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               },
               "typeB": {
                 "name": "type",
@@ -855,7 +855,7 @@
                 "price": "AED 11 400 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               }
             }
           },
@@ -872,7 +872,7 @@
                 "price": "AED 9 100 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               }
             }
           },
@@ -889,7 +889,7 @@
                 "price": "AED 9 000 000",
                 "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+                "dataModal360": "1-bedroom-address"
               }
             }
           }
