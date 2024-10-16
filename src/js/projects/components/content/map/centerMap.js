@@ -15,6 +15,7 @@ function getCenterMap() {
         y: 0
       },
       onComplete: () => {
+        gsap.to(masterplanMedia, { x: 0, duration: 0 });
         gsap.to(masterplanWrapper, {
           scrollTo: {
             x,
