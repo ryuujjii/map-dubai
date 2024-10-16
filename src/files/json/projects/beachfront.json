@@ -422,7 +422,7 @@
         "popup": {},
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -460,7 +460,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -506,7 +506,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -569,7 +569,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -616,7 +616,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -661,7 +661,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       },
@@ -702,7 +702,7 @@
         ],
         "floorplan": {
           "place": "Water",
-          "bedroom": "1-bed",
+          "bedroom": "1-bed-adress",
           "type": "typeA"
         }
       }
@@ -711,9 +711,9 @@
       "Water": {
         "name": "place",
         "title": "Water Mansion",
-        "default": "1-bed",
+        "default": "1-bed-adress",
         "bedrooms": {
-          "1-bed": {
+          "1-bed-adress": {
             "default": "typeA",
             "name": "bedroom",
             "title": "1 bedroom",
@@ -740,7 +740,85 @@
               }
             }
           },
-          "2-bed": {
+          "2-bed-adress": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": "3-bedroom-gandBlue"
+              }
+            }
+          },
+          "3-bed-adress": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": "3-bedroom-gandBlue"
+              }
+            }
+          },
+          "1-bed-grand": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": "1-bedroom-A-gandBlue"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "2-bed-grand": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": "3-bedroom-gandBlue"
+              }
+            }
+          },
+          "3-bed-grand": {
             "default": "typeB",
             "name": "bedroom",
             "title": "2 bedroom",

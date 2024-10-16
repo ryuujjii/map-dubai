@@ -25,7 +25,7 @@
                                 <div class="popup__view-model" data-info="model"></div>
                                 <div class="popup__view-img" data-info="img"></div>
                             </div>
-                            <button type="button" class="popup__view-360" data-modal360="">
+                            <button type="button" class="popup__view-360" data-modal360>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
                                     fill="none">
                                     <mask id="mask0_2205_385" style="mask-type:luminance" maskUnits="userSpaceOnUse"
@@ -73,7 +73,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
-                                    <ul class="filter__list" data-place-list>
+                                    <ul class="filter__list filter__list-wrap" data-place-list>
                                     </ul>
                                 </div>
                                 <div class="filter__option">
@@ -87,11 +87,15 @@
                                                 stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
-                                    <ul class="filter__list" data-bedroom-list>
-                                        <li class="filter__list-item">
-                                            check Type
-                                        </li>
-                                    </ul>
+                                    <div class="filter__list">
+                                        <div class="filter__projects">
+                                            <div>Address Residences</div>
+                                            <div>Grand Bleu Tower </div>
+                                        </div>
+                                        <ul class="filter__lists" data-bedroom-list>
+
+                                        </ul>
+                                    </div>
                                 </div>
                                 <div class="filter__option">
                                     <div class="filter__select filter__type">
@@ -104,7 +108,7 @@
                                                 stroke-linecap="round" stroke-linejoin="round" />
                                         </svg>
                                     </div>
-                                    <ul class="filter__list" data-type-list>
+                                    <ul class="filter__list filter__list-wrap" data-type-list>
                                         <li class="filter__list-item">
                                             check bedrooms
                                         </li>

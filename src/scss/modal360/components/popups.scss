@@ -24,7 +24,7 @@ body {
         overflow: hidden;
     }
 }
-.fancybox__container{
+.fancybox__container {
     z-index: 999;
 }
 .popup {
@@ -261,6 +261,15 @@ body {
                 border-bottom: 1px solid #595959;
             }
         }
+        &__projects {
+            display: flex;
+            gap: 4rem;
+            margin-bottom: 2rem;
+            div {
+                color: #909090;
+                font-size: 1.2rem;
+            }
+        }
         &__list {
             position: absolute;
             bottom: -2rem;
@@ -270,14 +279,34 @@ body {
             background: rgba(0, 0, 0, 0.8);
             backdrop-filter: blur(3.25px);
             padding: 2.2rem 1.9rem;
-            display: grid;
+            display: flex;
+            flex-direction: column;
             z-index: 9;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 2rem;
             opacity: 0;
             transition: opacity 0.3s ease;
             pointer-events: none;
             width: max-content;
+            &-wrap{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 2rem;
+            }
+            &s {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 6rem;
+                row-gap: 1.4rem;
+                position: relative;
+                &::before{
+                    content:"";
+                    position: absolute;
+                    left: 53%;
+                    transform: translateX(-50%);
+                    height:100% ;
+                    width: 1px;
+                    background: #3F3F3F;
+                }
+            }
             @media (max-width: 1024px) {
                 transform: translateY(0%);
                 padding: 16px;
@@ -469,7 +498,7 @@ body {
             padding: 0.4rem 0.4rem 0.4rem 0.6rem;
             border-radius: 2px;
             transition: opacity 0.3s ease;
-            &.hide{
+            &.hide {
                 opacity: 0;
                 pointer-events: none;
             }

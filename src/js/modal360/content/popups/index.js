@@ -1,5 +1,7 @@
 
 export function popContent(data, dot) {
+    console.log(data);
+    console.log(dot);
     const popup = document.querySelector('.popup')
     const placeCheck = popup.querySelector('[data-place-check]')
     const filterType = popup.querySelector('.filter__type')
@@ -30,11 +32,11 @@ export function popContent(data, dot) {
     }
     function btn360Hide() {
         if (
-            getInfo.place == allInfo.place && getInfo.bedroom == allInfo.bedroom && getInfo.type == allInfo.type  || 
-             !data[allInfo.place].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360
-             ){
+            getInfo.place == allInfo.place && getInfo.bedroom == allInfo.bedroom && getInfo.type == allInfo.type ||
+            !data[allInfo.place].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360
+        ) {
             watch360Btn.classList.add('hide')
-        }else{
+        } else {
             watch360Btn.classList.remove('hide')
         }
     }
