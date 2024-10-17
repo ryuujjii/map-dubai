@@ -35,11 +35,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "3-bedroom-sl-DB2",
         "classNames": "right",
-        "hoverId": "leftHover",
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type SL"
-        }
+        "hoverId": "leftHover"
       }
     },
     "1-bedroom-l-DB2": {
@@ -58,11 +54,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-l-DB2",
         "classNames": "right",
-        "hoverId": "leftHover",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type L"
-        }
+        "hoverId": "leftHover"
       }
     },
     "4-bedroom-sl-DB2": {
@@ -81,11 +73,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "4-bedroom-sl-DB2",
         "classNames": "left",
-        "hoverId": "leftHover",
-        "closeInfo": {
-          "title": "4-bedroom",
-          "type": "type SL"
-        }
+        "hoverId": "leftHover"
       }
     },
     "2-bedroom-l-DB2": {
@@ -104,11 +92,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-l-DB2",
         "classNames": "left",
-        "hoverId": "leftHover",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type L"
-        }
+        "hoverId": "leftHover"
       }
     },
     "3-bedroom-sl-DB": {
@@ -127,11 +111,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "3-bedroom-sl-DB",
         "classNames": "left",
-        "hoverId": "rightHover",
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type SL"
-        }
+        "hoverId": "rightHover"
       }
     },
     "1-bedroom-l-DB": {
@@ -150,11 +130,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-l-DB",
         "classNames": "left",
-        "hoverId": "rightHover",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type L"
-        }
+        "hoverId": "rightHover"
       }
     },
     "5-bedroom-sl-DB": {
@@ -173,11 +149,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "5-bedroom-sl-DB",
         "classNames": "left",
-        "hoverId": "rightHover",
-        "closeInfo": {
-          "title": "5-bedroom",
-          "type": "type SL"
-        }
+        "hoverId": "rightHover"
       }
     },
     "3-bedroom-l-DB": {
@@ -196,11 +168,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "3-bedroom-sl-DB",
         "classNames": "left",
-        "hoverId": "rightHover",
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type L"
-        }
+        "hoverId": "rightHover"
       }
     }
   },
@@ -443,6 +411,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
         }
       },
       "1-bedroom-l-DB2": {
@@ -485,6 +457,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
         }
       },
       "4-bedroom-sl-DB2": {
@@ -537,6 +513,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": "type SL"
         }
       },
       "2-bedroom-l-DB2": {
@@ -580,6 +560,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type L"
         }
       },
       "3-bedroom-sl-DB": {
@@ -621,6 +605,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
         }
       },
       "1-bedroom-l-DB": {
@@ -663,6 +651,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
         }
       },
       "5-bedroom-sl-DB": {
@@ -708,6 +700,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "5-bedroom",
+          "type": "type SL"
         }
       },
       "3-bedroom-l-DB": {
@@ -741,6 +737,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type L"
         }
       }
     },

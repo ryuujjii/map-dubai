@@ -47,11 +47,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "L-Shape-l1",
         "classNames": "right",
-        "hoverId": "l-shape",
-        "closeInfo": {
-          "title": "L-Shape",
-          "type": ""
-        }
+        "hoverId": "l-shape"
       }
     },
     "V-Shape-V1": {
@@ -70,11 +66,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "V-Shape-V1",
         "classNames": "left text-align-left",
-        "hoverId": "v-shape",
-        "closeInfo": {
-          "title": "V-Shape",
-          "type": ""
-        }
+        "hoverId": "v-shape"
       }
     },
     "V-Shape-V2": {
@@ -93,11 +85,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "V-Shape-V2",
         "classNames": "left text-align-left",
-        "hoverId": "v-shape",
-        "closeInfo": {
-          "title": "V-Shape",
-          "type": ""
-        }
+        "hoverId": "v-shape"
       }
     },
     "mansions-m2": {
@@ -116,11 +104,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m2",
         "classNames": "left text-align-left",
-        "hoverId": "sky",
-        "closeInfo": {
-          "title": "Sky Mansion",
-          "type": ""
-        }
+        "hoverId": "sky"
       }
     },
     "mansions-m3": {
@@ -139,11 +123,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m3",
         "classNames": "left text-align-left",
-        "hoverId": "earth",
-        "closeInfo": {
-          "title": "Earth Mansion",
-          "type": ""
-        }
+        "hoverId": "earth"
       }
     },
     "mansions-m5": {
@@ -162,11 +142,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m5",
         "classNames": "left text-align-left",
-        "hoverId": "water",
-        "closeInfo": {
-          "title": "Water Mansion",
-          "type": ""
-        }
+        "hoverId": "water"
       }
     }
   },
@@ -428,6 +404,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "L-Shape",
+          "type": ""
         }
       },
       "V-Shape-V1": {
@@ -486,6 +466,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
         }
       },
       "V-Shape-V2": {
@@ -554,6 +538,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
         }
       },
       "mansions-m2": {
@@ -594,6 +582,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Sky Mansion",
+          "type": ""
         }
       },
       "mansions-m3": {
@@ -632,6 +624,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Earth Mansion",
+          "type": ""
         }
       },
       "mansions-m5": {
@@ -672,6 +668,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Water Mansion",
+          "type": ""
         }
       }
     },

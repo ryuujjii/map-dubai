@@ -39,11 +39,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "townhouses",
         "classNames": "right",
-        "hoverId": "townhouse",
-        "closeInfo": {
-          "title": "Townhouses",
-          "type": ""
-        }
+        "hoverId": "townhouse"
       }
     },
     "villas": {
@@ -62,11 +58,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "villas",
         "classNames": "left text-align-left",
-        "hoverId": "villas",
-        "closeInfo": {
-          "title": "Villas",
-          "type": ""
-        }
+        "hoverId": "villas"
       }
     },
     "apartments": {
@@ -85,11 +77,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "apartments",
         "classNames": "left text-align-left",
-        "hoverId": "apartments",
-        "closeInfo": {
-          "title": "Apartments",
-          "type": ""
-        }
+        "hoverId": "apartments"
       }
     }
   },
@@ -317,6 +305,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Townhouses",
+          "type": ""
         }
       },
       "villas": {
@@ -346,6 +338,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Villas",
+          "type": ""
         }
       },
       "apartments": {
@@ -429,6 +425,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Apartments",
+          "type": ""
         }
       }
     },
