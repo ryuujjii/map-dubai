@@ -17,7 +17,6 @@ export function popContent(data, dot) {
     const bedroomHold = popup.querySelector('[data-bedroom-list]')
     const typeHold = popup.querySelector('[data-type-list]')
     const viewSwitcher = popup.querySelectorAll('[name="view-switch"]')
-    const viewFullWrap = popup.querySelector('.view-full__wrap')
     const viewFullBtn = popup.querySelector('.view-fullbtn')
     const popcontentp = popup.querySelector('[data-popcontent-p]')
     //content
@@ -45,18 +44,6 @@ export function popContent(data, dot) {
             watch360Btn.classList.remove('hide')
         }
     }
-    filterWrap.addEventListener('scroll', (e) => {
-        if (filterWrap.scrollLeft < 2) {
-            filter.classList.remove('s-shadow')
-        } else {
-            filter.classList.add('s-shadow')
-        }
-        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 2) {
-            filter.classList.remove('e-shadow')
-        } else {
-            filter.classList.add('e-shadow')
-        }
-    })
     window.addEventListener("change", (e) => {
         if (e.target.name == 'place') {
             allInfo.place = e.target.value
@@ -104,52 +91,6 @@ export function popContent(data, dot) {
         typeCheck.innerHTML = typeList[type].title
         checkList(typeHold, typeList, type)
     }
-    // function viewModeFun(place, bedroom, type) {
-    //     return `
-    //         <model-viewer class="pop-model-viewer" max-camera-orbit="auto 95deg auto" src="${data[place].bedrooms[bedroom].types[type]['3d']}" ar-modes="webxr scene-viewer quick-look" camera-controls="" tone-mapping="commerce" shadow-intensity="1" disable-pan="" disable-zoom="" >
-    //         </model-viewer>
-    //                 <div class="loader">
-    //                       <div class="loader__progress">
-    //                         <span>Loading</span>
-    //                         <svg class="loader__progress-ring" width="500" height="500">
-    //         <circle class="loader__progress-circle" stroke-width="4" cx="250" cy="250" r="246" fill="transparent" />
-    //       </svg>
-    //                       </div>
-    //                  </div>
-    //                 `
-    // }
-
-    // function preloaderFun(parent) {
-    //     const modelViewer = parent.querySelector(".pop-model-viewer")
-    //     const loader = parent.querySelector(".loader")
-    //     const loaderRing = parent.querySelector(".loader__progress-ring")
-    //     const loaderStyle = window.getComputedStyle(loaderRing)
-    //     const loaderCircle = parent.querySelector(".loader__progress-circle")
-    //     loaderCircle.style.stroke = '#fff'
-    //     loaderCircle.setAttribute('cx', parseInt(loaderStyle.width) / 2)
-    //     loaderCircle.setAttribute('cy', parseInt(loaderStyle.width) / 2)
-    //     loaderCircle.setAttribute('r', parseInt(loaderStyle.width) / 2 - 6)
-    //     const radius = loaderCircle.getAttribute('r');
-    //     const circumference = 2 * Math.PI * radius;
-    //     loaderRing.style.strokeDasharray = `${circumference} ${circumference}`
-    //     loaderRing.style.strokeDashoffset = circumference;
-    //     function setProgress(percent) {
-    //         const offset = circumference - ((percent * 100) / 100 * circumference)
-    //         loaderRing.style.strokeDashoffset = offset;
-    //     }
-    //     let i = 0
-    //     modelViewer.addEventListener("progress", (e) => {
-    //         const progress = e.detail.totalProgress;
-    //         setProgress(progress)
-    //         if (progress === 1) {
-    //             i++
-    //             if (i > 1) {
-    //                 loader.classList.add('loaded')
-    //             }
-    //         }
-    //     });
-
-    // }
     function checkList(selector, list, el) {
         let idx = 0
         selector.innerHTML = ""
@@ -201,7 +142,7 @@ export function popContent(data, dot) {
             }
         }
         watch360Btn.setAttribute('data-modal360', data[place].bedrooms[bedroom].types[type].dataModal360)
-        btn360Hide()
+      
         viewFullBtn.setAttribute("data-fancybox-trigger", "view")
         dataInfo.forEach(info => {
             switch (info.getAttribute("data-info")) {
@@ -233,14 +174,6 @@ export function popContent(data, dot) {
                 </a>
                     `
                     break;
-                case "model":
-                    // info.innerHTML = viewModeFun(place, bedroom, type)
-                    // preloaderFun(info)
-                    break;
-                case "full-model":
-                    // viewFullWrap.innerHTML = viewModeFun(place, bedroom, type)
-                    // preloaderFun(viewFullWrap)
-                    break;
             }
         });
         filterElemWidth = filterOption[0].offsetWidth + filterOption[1].offsetWidth + filterOption[2].offsetWidth + (parseInt(filterWrapStyles.gap) * (filterOption.length - 1))
@@ -249,9 +182,22 @@ export function popContent(data, dot) {
             filter.classList.remove('s-shadow')
             filter.classList.remove('e-shadow')
         }
+        btn360Hide()
     }
     initContent(allInfo.place, allInfo.bedroom, allInfo.type)
 
 
+    filterWrap.addEventListener('scroll', (e) => {
+        if (filterWrap.scrollLeft < 2) {
+            filter.classList.remove('s-shadow')
+        } else {
+            filter.classList.add('s-shadow')
+        }
+        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 2) {
+            filter.classList.remove('e-shadow')
+        } else {
+            filter.classList.add('e-shadow')
+        }
+    })
 
 }
