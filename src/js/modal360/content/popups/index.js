@@ -1,8 +1,5 @@
 
 export function popContent(data, dot) {
-    console.log(data);
-    console.log(dot);
-    
     const popup = document.querySelector('.popup')
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
     const placeCheck = popup.querySelector('[data-place-check]')
@@ -27,10 +24,10 @@ export function popContent(data, dot) {
     const dataModel = document.querySelector(".popup__view-model")
     const dataImg = document.querySelector(".popup__view-img")
     const dataInfo = popup.querySelectorAll("[data-info]")
-    if(!dot.isActive){
-        viewerBtnFloor.style.display= 'none'
-    }else{
-        viewerBtnFloor.style.display= 'block'
+    if (!dot.isActive) {
+        viewerBtnFloor.style.display = 'none'
+    } else {
+        viewerBtnFloor.style.display = 'block'
     }
     let filterElemWidth
     let getInfo = dot
@@ -70,7 +67,6 @@ export function popContent(data, dot) {
             allInfo.bedroom = e.target.value
             allInfo.type = data[allInfo.place].bedrooms[allInfo.bedroom].default
             initContent(allInfo.place, allInfo.bedroom, allInfo.type)
-
         } else if (e.target.name == 'type') {
             allInfo.type = e.target.value
             initContent(allInfo.place, allInfo.bedroom, allInfo.type)
@@ -103,6 +99,8 @@ export function popContent(data, dot) {
         checkList(bedroomHold, bedroomList, bedroom)
     }
     function typeInfo(typeList, type) {
+        console.log(typeList);
+        console.log(type);
         typeCheck.innerHTML = typeList[type].title
         checkList(typeHold, typeList, type)
     }
