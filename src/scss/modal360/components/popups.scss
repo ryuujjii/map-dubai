@@ -247,12 +247,13 @@ body {
             }
             svg {
                 transition: transform 0.3s ease;
+                transform: rotateX(180deg);
                 width: 0.9rem;
                 height: auto;
             }
             &.active {
                 svg {
-                    transform: rotateX(180deg);
+                    transform: rotateX(0deg);
                 }
             }
             @media (max-width: 768px) {
@@ -459,7 +460,7 @@ body {
         aspect-ratio: 1/0.8;
         background: #c2c2c2;
         position: relative;
-
+        padding: 4rem;
         model-viewer::part(default-progress-bar) {
             top: initial;
             bottom: 0;
