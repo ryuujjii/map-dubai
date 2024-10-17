@@ -16,7 +16,7 @@ function getDataToModal360Fn() {
         floorplan: content.media[dataModal360].floorplan,
       }
     });
-    setCloseBtnTitle({ title: "dsadasd", type: "dasdasdsa" })
+    setCloseBtnTitle(content.media[dataModal360].closeInfo)
   }
   function sendFloorplanToModal360(dataModal360) {
     dispatchCustomEvent({
