@@ -4,6 +4,7 @@ export function popContent(data, dot) {
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
     const placeCheck = popup.querySelector('[data-place-check]')
     const filterType = popup.querySelector('.filter__type')
+    const filterContentType = popup.querySelector('.popup__content-type')
     const watch360Btn = popup.querySelector('.popup__view-360')
     const bedroomCheck = popup.querySelector('[data-bedroom-check]')
     const typeCheck = popup.querySelector('[data-type-check]')
@@ -248,6 +249,11 @@ export function popContent(data, dot) {
         if (filterElemWidth < filterWrap.offsetWidth) {
             filter.classList.remove('s-shadow')
             filter.classList.remove('e-shadow')
+        }
+        if (filterType.classList.contains('no-type')) {
+            filterContentType.style.display = 'none'
+        } else {
+            filterContentType.style.display = 'inline-block'
         }
     }
     initContent(allInfo.place, allInfo.bedroom, allInfo.type)

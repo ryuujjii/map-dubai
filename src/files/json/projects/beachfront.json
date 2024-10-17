@@ -666,9 +666,9 @@
         ],
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
-          "type": "default",
-          "isActive": false
+          "bedroom": "1-bed-grand",
+          "type": "typeB",
+          "isActive": true
         }
       },
       "3-bedroom-gandBlue": {
@@ -751,9 +751,20 @@
                 "bathrooms": "",
                 "level": 37,
                 "price": "AED 3 100 000",
-                "2d": "../img/floorpop/1-bedroom-grand.png",
+                "2d": "../img/floorpop/1-bedroom-grand-ta.svg",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
                 "dataModal360": "1-bedroom-A-gandBlue"
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "795 sq. ft.",
+                "bathrooms": "",
+                "level": 26,
+                "price": "AED 3 100 000",
+                "2d": "../img/floorpop/1-bedroom-grand-tb.svg",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": "1-bedroom-B-gandBlue"
               }
             }
           },
@@ -787,7 +798,7 @@
                 "totalArea": "2 400 sq. ft.",
                 "bathrooms": 2,
                 "price": "AED 10 500 000",
-                "2d": "../img/floorpop/3-bedroom-grand.png",
+                "2d": "../img/floorpop/3-bedroom-grand.svg",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
                 "dataModal360": "3-bedroom-gandBlue"
               }
@@ -823,7 +834,7 @@
                 "totalArea": "2 706 sq. ft.",
                 "bathrooms": 3,
                 "price": "AED 15 000 000",
-                "2d": "../img/floorpop/4-bedroom-grand.png",
+                "2d": "../img/floorpop/4-bedroom-grand.svg",
                 "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
                 "dataModal360": "4-bedroom-gandBlue"
               }
