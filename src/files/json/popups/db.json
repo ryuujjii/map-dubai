@@ -1,7 +1,7 @@
 {
-    "Water": {
+    "Apartment": {
         "name": "place",
-        "title": "Water Mansion",
+        "title": "Apartment",
         "default": "1-bed",
         "bedrooms": {
             "1-bed": {

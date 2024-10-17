@@ -1,5 +1,7 @@
 import { dispatchCustomEvent } from 'utils';
 import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alterParentWindow';
+import { Fancybox } from "@fancyapps/ui";
+
 export function popups() {
     const popupOpenBtn = document.querySelector(".viewer-btn-floorplan")
     const popup = document.querySelector('.popup')
@@ -58,7 +60,6 @@ export function popups() {
             popupInner.classList.remove('no-scroll')
         }
     })
-
     popup.addEventListener('click', (e) => {
         if (e.target.closest('.filter__option')) {
             return;
@@ -72,5 +73,18 @@ export function popups() {
         popup.classList.remove("active")
         removeClassToAlter()
     })
-
+    galleryView()
 }
+
+
+
+
+function galleryView() {
+    Fancybox.bind("[data-fancybox='view']", {
+       trapFocus:false,
+       backdropClick:"false",
+        on: {
+        }
+    });
+};
+

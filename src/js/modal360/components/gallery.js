@@ -4,7 +4,7 @@ import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alter
 Fancybox.defaults.Hash = false;
 
 export function gallery() {
-  Fancybox.bind("[data-fancybox]", {
+  Fancybox.bind("[data-fancybox='gallery']", {
     Image: {
       zoom: false,
     },

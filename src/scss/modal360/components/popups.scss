@@ -40,9 +40,11 @@ body {
         opacity 0.3s ease,
         visibility 0.3s ease;
     z-index: 998;
+    pointer-events: none;
     &.active {
         opacity: 1;
         visibility: visible;
+        pointer-events: all;
     }
     &__body {
         background: #161616;
@@ -131,8 +133,12 @@ body {
             width: 100%;
             height: 10px;
             background: #161616;
+            opacity: 0;
         }
         @media (max-width: 1024px) {
+            &__scroll-hide {
+                opacity: 1;
+            }
             order: -1;
             position: absolute;
             top: 0;
@@ -196,8 +202,14 @@ body {
         }
         &__option {
             position: relative;
+            &:nth-of-type(2) {
+                .filter__list {
+                    left: 50%;
+                    transform: translateX(-50%) translateY(100%);
+                }
+            }
             @media (max-width: 1024px) {
-                position: static;
+                // position: static;
                 &:nth-of-type(2) {
                     .filter__list {
                         left: 50%;
@@ -207,7 +219,7 @@ body {
                 &:nth-of-type(3) {
                     .filter__list {
                         left: auto;
-                        transform: translateY(0%);
+                        transform: translateY(100%);
                         right: 0;
                     }
                 }
@@ -227,6 +239,12 @@ body {
             display: flex;
             align-items: center;
             gap: 11px;
+            &.alone{
+                pointer-events: none;
+                svg{
+                    opacity: 0;
+                }
+            }
             svg {
                 transition: transform 0.3s ease;
                 width: 0.9rem;
@@ -286,7 +304,7 @@ body {
             transition: opacity 0.3s ease;
             pointer-events: none;
             width: max-content;
-            &-wrap{
+            &-wrap {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 2rem;
@@ -297,14 +315,14 @@ body {
                 column-gap: 6rem;
                 row-gap: 1.4rem;
                 position: relative;
-                &::before{
-                    content:"";
+                &::before {
+                    content: "";
                     position: absolute;
                     left: 53%;
                     transform: translateX(-50%);
-                    height:100% ;
+                    height: 100%;
                     width: 1px;
-                    background: #3F3F3F;
+                    background: #3f3f3f;
                 }
             }
             @media (max-width: 1024px) {
@@ -360,6 +378,10 @@ body {
             }
             &-item {
                 white-space: nowrap;
+                &.hide {
+                    opacity: 0;
+                    pointer-events: none;
+                }
             }
         }
     }
@@ -479,6 +501,9 @@ body {
         &-img {
             opacity: 0;
             visibility: visible;
+            img {
+                width: 80%;
+            }
             &.active {
                 opacity: 1;
                 z-index: 2;
@@ -548,6 +573,8 @@ body {
             border: 1px solid #fff;
             padding: 2px;
             z-index: 9;
+            opacity: 0;
+            pointer-events: none;
             @media (max-width: 1024px) {
                 bottom: 8px;
                 left: 8px;
