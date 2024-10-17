@@ -983,7 +983,7 @@ div.custom-gyro-btn {
   left: 0 !important;
   z-index: 100 !important;
   display: none !important;
-
+  pointer-events: all;
   background: linear-gradient(
       0deg,
       rgba(22, 22, 22, 0.4),

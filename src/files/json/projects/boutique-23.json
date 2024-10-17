@@ -24,11 +24,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "penthouse",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "Penthouse",
-          "type": ""
-        }
+        "classNames": "right"
       }
     },
     "studio-t1": {
@@ -46,11 +42,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "studio-t1",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 1"
-        }
+        "classNames": "right"
       }
     },
     "2-bedroom-t5": {
@@ -68,11 +60,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "2-bedroom-t5",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 5"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-t1": {
@@ -90,11 +78,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-t1",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 1"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-t2": {
@@ -112,11 +96,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-t2",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 2"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-t3": {
@@ -134,11 +114,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-t3",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 3"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-t4": {
@@ -156,11 +132,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-t4",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 4"
-        }
+        "classNames": "right"
       }
     },
     "gym": {
@@ -178,11 +150,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "gym",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "Gym",
-          "type": ""
-        }
+        "classNames": "left"
       }
     },
     "studio-t2": {
@@ -200,11 +168,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "studio-t2",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 2"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t1": {
@@ -222,11 +186,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t1",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 1"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t3": {
@@ -244,11 +204,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t3",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 3"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t2": {
@@ -266,11 +222,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t2",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 2"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t4": {
@@ -288,11 +240,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t4",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 4"
-        }
+        "classNames": "left"
       }
     }
   },
@@ -539,6 +487,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Penthouse",
+          "type": ""
         }
       },
       "studio-t1": {
@@ -573,6 +525,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 1"
         }
       },
       "2-bedroom-t5": {
@@ -613,6 +569,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 5"
         }
       },
       "1-bedroom-t1": {
@@ -650,6 +610,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 1"
         }
       },
       "1-bedroom-t2": {
@@ -680,6 +644,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 2"
         }
       },
       "1-bedroom-t3": {
@@ -716,6 +684,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 3"
         }
       },
       "1-bedroom-t4": {
@@ -751,6 +723,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 4"
         }
       },
       "gym": {
@@ -781,6 +757,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Gym",
+          "type": ""
         }
       },
       "studio-t2": {
@@ -815,6 +795,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 2"
         }
       },
       "2-bedroom-t1": {
@@ -858,6 +842,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 1"
         }
       },
       "2-bedroom-t3": {
@@ -896,6 +884,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 3"
         }
       },
       "2-bedroom-t2": {
@@ -932,6 +924,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 2"
         }
       },
       "2-bedroom-t4": {
@@ -968,6 +964,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 4"
         }
       }
     },

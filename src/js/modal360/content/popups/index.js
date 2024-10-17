@@ -100,8 +100,6 @@ export function popContent(data, dot) {
         checkList(bedroomHold, bedroomList, bedroom)
     }
     function typeInfo(typeList, type) {
-        console.log(typeList);
-        console.log(type);
         typeCheck.innerHTML = typeList[type].title
         checkList(typeHold, typeList, type)
     }

@@ -1,51 +1,5 @@
 {
   "floor-20": {
-    "sizes": {
-      "width": 145,
-      "height": 55
-    },
-    "position": {
-      "x": 505,
-      "y": 250
-    },
-    "info": {
-      "title": "20 Floor",
-      "type": "",
-      "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-      "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-      "dataModal360": "floor-20",
-      "classNames": "right",
-      "dataModal360Category": "always",
-      "closeInfo": {
-        "title": "20 Floor",
-        "type": ""
-      }
-    }
-  },
-  "floor-21": {
-    "sizes": {
-      "width": 145,
-      "height": 55
-    },
-    "position": {
-      "x": 830,
-      "y": 235
-    },
-    "info": {
-      "title": "21 Floor",
-      "type": "",
-      "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-      "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-      "dataModal360": "floor-21",
-      "classNames": "left",
-      "dataModal360Category": "always",
-      "closeInfo": {
-        "title": "21 Floor",
-        "type": ""
-      }
-    }
-  },
-  "floor-20": {
     "slides": {
       "interiors": {
         "img360": [

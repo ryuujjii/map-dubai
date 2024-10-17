@@ -24,11 +24,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "2-bedroom",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": ""
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom": {
@@ -46,11 +42,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": ""
-        }
+        "classNames": "right"
       }
     }
   },
@@ -282,6 +274,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": ""
         }
       },
       "1-bedroom": {
@@ -314,6 +310,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": ""
         }
       }
     },

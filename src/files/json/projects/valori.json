@@ -24,11 +24,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-D",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type D"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-E": {
@@ -46,11 +42,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-E",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type E"
-        }
+        "classNames": "right"
       }
     },
     "2-bedroom-E": {
@@ -68,11 +60,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-E",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type E"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-B": {
@@ -90,11 +78,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-B",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type B"
-        }
+        "classNames": "left"
       }
     }
   },
@@ -319,6 +303,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type D"
         }
       },
       "1-bedroom-E": {
@@ -354,6 +342,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type E"
         }
       },
       "2-bedroom-E": {
@@ -392,6 +384,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type E"
         }
       },
       "2-bedroom-B": {
@@ -435,6 +431,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type B"
         }
       }
     },
