@@ -136,13 +136,13 @@ body {
             opacity: 0;
         }
         @media (max-width: 1024px) {
-            &__scroll-hide {
-                opacity: 1;
-            }
             order: -1;
             position: absolute;
             top: 0;
             width: 100%;
+            &__scroll-hide {
+                opacity: 1;
+            }
             &::before {
                 content: "";
                 width: 100px;
