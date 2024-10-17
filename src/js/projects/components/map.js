@@ -19,7 +19,7 @@ export default function map() {
 
 	handleResize();
 	window.addEventListener('resize', handleResize);
-	drag();
+	queryMatches(1300) ? drag() : null;
 }
 
 function drag() {
