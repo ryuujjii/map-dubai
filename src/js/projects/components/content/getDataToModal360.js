@@ -1,4 +1,6 @@
 import { dispatchCustomEvent } from 'utils';
+import setCloseBtnTitle from '@/projects/components/content/setCloseBtnTitle';
+
 function getDataToModal360Fn() {
   let content = null;
   const iframeWindow = document.querySelector('.modal360 iframe');
@@ -14,6 +16,7 @@ function getDataToModal360Fn() {
         floorplan: content.media[dataModal360].floorplan,
       }
     });
+    setCloseBtnTitle({ title: "dsadasd", type: "dasdasdsa" })
   }
   function sendFloorplanToModal360(dataModal360) {
     dispatchCustomEvent({
