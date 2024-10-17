@@ -39,11 +39,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "studio-105",
         "classNames": "right",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 105"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "1-bedroom-106": {
@@ -62,11 +58,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-106",
         "classNames": "right",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 106"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "1-bedroom-108": {
@@ -85,11 +77,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-108",
         "classNames": "right",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 108"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "studio-109": {
@@ -108,11 +96,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "studio-109",
         "classNames": "right",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 109"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "1-bedroom-110": {
@@ -131,11 +115,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-110",
         "classNames": "right",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 110"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "1-bedroom-112": {
@@ -154,11 +134,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-112",
         "classNames": "right",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 112"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "studio-113": {
@@ -177,11 +153,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "studio-113",
         "classNames": "right",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 113"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "2-bedroom-107": {
@@ -200,11 +172,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-107",
         "classNames": "left",
-        "dataModal360Category": "2-bedroom",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 107"
-        }
+        "dataModal360Category": "2-bedroom"
       }
     },
     "1-bedroom-101": {
@@ -223,11 +191,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-101",
         "classNames": "left",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 101"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "studio-102": {
@@ -246,11 +210,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "studio-102",
         "classNames": "left",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 102"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "1-bedroom-103": {
@@ -269,11 +229,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-103",
         "classNames": "left",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 103"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     },
     "studio-104": {
@@ -292,11 +248,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "studio-104",
         "classNames": "left",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 104"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "studio-111": {
@@ -315,11 +267,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "studio-111",
         "classNames": "left",
-        "dataModal360Category": "studio",
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 111"
-        }
+        "dataModal360Category": "studio"
       }
     },
     "1-bedroom-114": {
@@ -338,11 +286,7 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-114",
         "classNames": "left",
-        "dataModal360Category": "1-bedroom",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 114"
-        }
+        "dataModal360Category": "1-bedroom"
       }
     }
   },
@@ -608,6 +552,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 105"
         }
       },
       "1-bedroom-106": {
@@ -650,6 +598,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 106"
         }
       },
       "1-bedroom-108": {
@@ -690,6 +642,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 108"
         }
       },
       "studio-109": {
@@ -724,6 +680,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 109"
         }
       },
       "1-bedroom-110": {
@@ -767,6 +727,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 110"
         }
       },
       "1-bedroom-112": {
@@ -809,6 +773,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 112"
         }
       },
       "studio-113": {
@@ -843,6 +811,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 113"
         }
       },
       "2-bedroom-107": {
@@ -896,6 +868,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 107"
         }
       },
       "1-bedroom-101": {
@@ -940,6 +916,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 101"
         }
       },
       "studio-102": {
@@ -978,6 +958,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 102"
         }
       },
       "1-bedroom-103": {
@@ -1017,6 +1001,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 103"
         }
       },
       "studio-104": {
@@ -1052,6 +1040,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 104"
         }
       },
       "studio-111": {
@@ -1092,6 +1084,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 111"
         }
       },
       "1-bedroom-114": {
@@ -1136,6 +1132,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 114"
         }
       }
     },

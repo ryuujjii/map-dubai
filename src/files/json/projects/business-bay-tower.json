@@ -24,11 +24,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-l-A",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "loft style A"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-l-B": {
@@ -46,11 +42,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-l-B",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "loft style B"
-        }
+        "classNames": "right"
       }
     },
     "1-bedroom-t-B": {
@@ -68,11 +60,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "1-bedroom-t-B",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type B"
-        }
+        "classNames": "right"
       }
     },
     "3-bedroom-D": {
@@ -90,11 +78,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "3-bedroom-D",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "duplex"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-D": {
@@ -112,11 +96,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-D",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "duplex"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t-B": {
@@ -134,11 +114,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t-B",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type B"
-        }
+        "classNames": "left"
       }
     },
     "1-bedroom-t-A": {
@@ -156,11 +132,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-t-A",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type A"
-        }
+        "classNames": "left"
       }
     },
     "2-bedroom-t-A": {
@@ -178,11 +150,7 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t-A",
-        "classNames": "left",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type A"
-        }
+        "classNames": "left"
       }
     }
   },
@@ -429,6 +397,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "loft style A"
         }
       },
       "1-bedroom-l-B": {
@@ -480,6 +452,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "loft style B"
         }
       },
       "1-bedroom-t-B": {
@@ -525,6 +501,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type B"
         }
       },
       "3-bedroom-D": {
@@ -606,6 +586,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "duplex"
         }
       },
       "2-bedroom-D": {
@@ -669,6 +653,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "duplex"
         }
       },
       "2-bedroom-t-B": {
@@ -719,6 +707,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type B"
         }
       },
       "1-bedroom-t-A": {
@@ -769,6 +761,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type A"
         }
       },
       "2-bedroom-t-A": {
@@ -831,6 +827,10 @@
           "place": "Water",
           "bedroom": "1-bed",
           "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type A"
         }
       }
     },
