@@ -2,7 +2,9 @@
 export function popContent(data, dot) {
     console.log(data);
     console.log(dot);
+    
     const popup = document.querySelector('.popup')
+    const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
     const placeCheck = popup.querySelector('[data-place-check]')
     const filterType = popup.querySelector('.filter__type')
     const watch360Btn = popup.querySelector('.popup__view-360')
@@ -25,6 +27,11 @@ export function popContent(data, dot) {
     const dataModel = document.querySelector(".popup__view-model")
     const dataImg = document.querySelector(".popup__view-img")
     const dataInfo = popup.querySelectorAll("[data-info]")
+    if(!dot.isActive){
+        viewerBtnFloor.style.display= 'none'
+    }else{
+        viewerBtnFloor.style.display= 'block'
+    }
     let filterElemWidth
     let getInfo = dot
     const allInfo = {
