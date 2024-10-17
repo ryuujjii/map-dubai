@@ -422,7 +422,7 @@
         "popup": {},
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
+          "bedroom": "3-bed-adress",
           "type": "default",
           "isActive": true
         }
@@ -508,7 +508,7 @@
         ],
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
+          "bedroom": "2-bed-adress",
           "type": "default",
           "isActive": true
         }
@@ -572,7 +572,7 @@
         ],
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
+          "bedroom": "4-bed-grand",
           "type": "default",
           "isActive": true
         }
@@ -620,8 +620,8 @@
         ],
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
-          "type": "default",
+          "bedroom": "1-bed-grand",
+          "type": "typeA",
           "isActive": true
         }
       },
@@ -708,7 +708,7 @@
         ],
         "floorplan": {
           "place": "Apartment",
-          "bedroom": "1-bed-adress",
+          "bedroom": "3-bed-grand",
           "type": "default",
           "isActive": true
         }
