@@ -431,6 +431,7 @@ body {
                 img {
                     width: 100%;
                     height: 100%;
+                    object-fit: contain;
                 }
             }
             &__close {
@@ -487,14 +488,14 @@ body {
 
         &-wrap {
             position: absolute;
-            inset: 4rem;
+            inset:5rem 4rem 4rem 4rem;
             & > * {
                 width: 100%;
                 height: 100%;
                 object-fit: contain;
             }
             @media(max-width:576px){
-                inset: 35px;
+                inset:50px 35px 35px 35px;
             }
         }
 
