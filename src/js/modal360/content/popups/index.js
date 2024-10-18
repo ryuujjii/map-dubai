@@ -2,27 +2,12 @@
 export function popContent(data, dot) {
     const popup = document.querySelector('.popup')
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
-    const placeCheck = popup.querySelector('[data-place-check]')
-    const filterType = popup.querySelector('.filter__type')
-    const watch360Btn = popup.querySelector('.popup__view-360')
-    const bedroomCheck = popup.querySelector('[data-bedroom-check]')
-    const typeCheck = popup.querySelector('[data-type-check]')
-    const placeHold = popup.querySelector('[data-place-list]')
-    const filterSelect = document.querySelectorAll(".filter__select")
-    const filterList = document.querySelectorAll(".filter__list")
     const filter = popup.querySelector(".filter")
     const filterWrap = filter.querySelector(".filter__wrap")
-    const filterWrapStyles = window.getComputedStyle(filterWrap)
-    const filterOption = popup.querySelectorAll(".filter__option")
-    const bedroomHold = popup.querySelector('[data-bedroom-list]')
-    const typeHold = popup.querySelector('[data-type-list]')
-    const viewSwitcher = popup.querySelectorAll('[name="view-switch"]')
-    const viewFullBtn = popup.querySelector('.view-fullbtn')
-    const popcontentp = popup.querySelector('[data-popcontent-p]')
+    const placeWrap = popup.querySelector(".place__list")
+    const projectWrap = popup.querySelector('.project')
+    const typeWrap = popup.querySelector('.type__list')
     //content
-    const dataModel = document.querySelector(".popup__view-model")
-    const dataImg = document.querySelector(".popup__view-img")
-    const dataInfo = popup.querySelectorAll("[data-info]")
     if (!dot.isActive) {
         viewerBtnFloor.style.display = 'none'
     } else {
@@ -30,166 +15,97 @@ export function popContent(data, dot) {
     }
     let filterElemWidth
     let getInfo = dot
+
     const allInfo = {
         ...getInfo,
         viewMode: "2d"
     }
-    function btn360Hide() {
-        if (
-            getInfo.place == allInfo.place && getInfo.bedroom == allInfo.bedroom && getInfo.type == allInfo.type ||
-            !data[allInfo.place].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360
-        ) {
-            watch360Btn.classList.add('hide')
-        } else {
-            watch360Btn.classList.remove('hide')
+    function placeInit(data) {
+        let i = 0
+        placeWrap.innerHTML = ''
+        for (const key in data) {
+            i++
+            placeWrap.innerHTML +=
+                `
+            <li class="place__list-item">
+               <input type="radio" value="${key}" ${key == allInfo.place ? 'checked' : ''} name="${data[key].name}" id="${data[key].name}-${i}" hidden>
+               <label for="${data[key].name}-${i}">${data[key].title}</label>
+            </li>
+            `
         }
     }
-    window.addEventListener("change", (e) => {
-        if (e.target.name == 'place') {
-            allInfo.place = e.target.value
-            allInfo.bedroom = data[allInfo.place].default
-            allInfo.type = data[allInfo.place].bedrooms[allInfo.bedroom].default
-            initContent(allInfo.place, allInfo.bedroom, allInfo.type)
-        } else if (e.target.name == 'bedroom') {
-            allInfo.bedroom = e.target.value
-            allInfo.type = data[allInfo.place].bedrooms[allInfo.bedroom].default
-            initContent(allInfo.place, allInfo.bedroom, allInfo.type)
-        } else if (e.target.name == 'type') {
-            allInfo.type = e.target.value
-            initContent(allInfo.place, allInfo.bedroom, allInfo.type)
-        } else if (e.target.name == 'view-switch') {
-            allInfo.viewMode = e.target.value
-            if (allInfo.viewMode == '2d') {
-                dataImg.classList.add('active')
-                dataModel.classList.remove('active')
-                viewFullBtn.setAttribute("data-fancybox-trigger", "view")
-            } else {
-                viewFullBtn.removeAttribute("data-fancybox-trigger")
-                dataImg.classList.remove('active')
-                dataModel.classList.add('active')
-                // preloaderFun(viewFullWrap)
+    function projectInit(data) {
+        projectWrap.innerHTML = ''
+        let j = 0
+        let bool = false
+        for (const proj in data) {
+            let bedrooms = ''
+            for (const bed in data[proj].bedrooms) {
+                if (bed == allInfo.bedroom && proj == allInfo.project) {
+                    bool = true
+                } else {
+                    bool = false
+                }
+                j++
+                bedrooms +=
+                    `
+                <li class="project__list-item">
+                    <input type="radio" name="bedroom" value="${bed},${proj}"  ${bool ? 'checked' : ''} id="${data[proj].bedrooms[bed].name}-${j}" hidden>
+                    <label for="${data[proj].bedrooms[bed].name}-${j}">${data[proj].bedrooms[bed].title}</label>
+                </li>
+                `
             }
-            // initContent(allInfo.place, allInfo.bedroom, allInfo.type, allInfo.viewMode)
+            projectWrap.innerHTML +=
+                `
+        <li class="project__item">
+            <span class="project__item-name">${data[proj].title}</span>
+            <ul class="project__list" data-option-list="bedroom">
+            ${bedrooms}
+            </ul>
+        </li>
+        `
+
+        }
+    }
+    function typeInit(data) {
+        typeWrap.innerHTML = ''
+        let i = 0
+        for (const type in data) {
+            console.log(type);
+            typeWrap.innerHTML +=
+                `
+            <li class="type__list-item">
+            <input type="radio" ${type == allInfo.type ? 'checked' : ''} name="${data[type].name}" id="${data[type].name}-${i}" hidden>
+            <label for="${data[type].name}-${i}">${data[type].title}</label>
+        </li>
+            `
+        }
+    }
+
+    window.addEventListener('change', (e) => {
+        switch (e.target.getAttribute('name')) {
+            case 'place':
+                allInfo.place = e.target.value
+                allInfo.project = data[allInfo.place].default
+                allInfo.bedroom = data[allInfo.place].projects[allInfo.project].default
+                allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
+                contentInit(allInfo.place, allInfo.project, allInfo.bedroom)
+                break
+            case 'bedroom':
+                allInfo.project = e.target.value.split(',')[1]
+                allInfo.bedroom = e.target.value.split(',')[0]
+                contentInit(allInfo.place, allInfo.project, allInfo.bedroom)
+                break;
         }
     })
-    function placesInfo(data, place) {
-        placeCheck.innerHTML = data[place].title
-        if (Object.keys(data).length == 1) {
-            filterSelect[0].classList.add('alone')
-        } else {
-            filterSelect[0].classList.remove('alone')
-        }
-        checkList(placeHold, data, place)
-    }
-    function projectsInfo(projectList, project){
-
-    }
-    function bedroomsInfo(bedroomList, bedroom) {
-        bedroomCheck.innerHTML = bedroomList[bedroom].title
-        checkList(bedroomHold, bedroomList, bedroom)
-    }
-    function typeInfo(typeList, type) {
-        console.log(typeList);
-        console.log(type);
-        typeCheck.innerHTML = typeList[type].title
-        checkList(typeHold, typeList, type)
-    }
-    function checkList(selector, list, el) {
-        let idx = 0
-        selector.innerHTML = ""
-        for (const key in list) {
-            idx++
-            selector.innerHTML += `
-            <li class="filter__list-item ${list[key].title ? '' : 'hide'}">
-            <input class="filter__list-inp"  type="radio" ${el == key ? 'checked' : ''}  value="${key}" name="${list[key].name}" id="${list[el].name}-${idx}" hidden>
-            <label class="filter__list-lab"  for="${list[el].name}-${idx}" >
-                <div class="filter__list-name" data-name>${list[key].title}</div>
-                <span class="icon">
-                <svg class="filter__list-icon" width="10" height="8" viewBox="0 0 10 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                </span>
-            </label>
-         </li>
-        `
-        }
-    }
-    function initContent(place, bedroom, type) {
-        placesInfo(data, place)
-        bedroomsInfo(data[place].bedrooms, bedroom)
-        typeInfo(data[place].bedrooms[bedroom].types, type)
-        filterSelect.forEach((sel, i) => {
-            if (sel.classList.contains('active')) {
-                filterList[i].classList.remove('active')
-                sel.classList.remove('active')
-            }
-        })
-        viewSwitcher.forEach(view => {
-            if (view.value == "2d") {
-                view.checked = true
-                dataImg.classList.add('active')
-                dataModel.classList.remove('active')
-            }
-        })
-        let typeObjs = Object.keys(data[allInfo.place].bedrooms[allInfo.bedroom].types)
-        if (typeObjs.length == 1 && typeObjs[0] != "default") {
-            filterType.classList.add('alone')
-            filterType.classList.remove("no-type")
-        } else {
-            if (typeObjs[0] == "default") {
-                filterType.classList.add("no-type")
-                filterType.classList.remove('alone')
-            } else {
-                filterType.classList.remove("no-type")
-                filterType.classList.remove('alone')
-            }
-        }
-        watch360Btn.setAttribute('data-modal360', data[place].bedrooms[bedroom].types[type].dataModal360)
-      
-        viewFullBtn.setAttribute("data-fancybox-trigger", "view")
-        dataInfo.forEach(info => {
-            switch (info.getAttribute("data-info")) {
-                case "badroom":
-                    info.innerHTML = data[place].bedrooms[bedroom].title
-                    break;
-                case "type":
-                    info.innerHTML = data[place].bedrooms[bedroom].types[type].title
-                    break;
-                case "bathrooms":
-                    if (!data[place].bedrooms[bedroom].types[type].bathrooms) {
-                        popcontentp.innerHTML = 'Level'
-                        info.innerHTML = data[place].bedrooms[bedroom].types[type].level
-                    } else {
-                        popcontentp.innerHTML = 'Bathroom'
-                        info.innerHTML = data[place].bedrooms[bedroom].types[type].bathrooms
-                    }
-                    break;
-                case "totalArea":
-                    info.innerHTML = data[place].bedrooms[bedroom].types[type].totalArea
-                    break;
-                case "price":
-                    info.innerHTML = data[place].bedrooms[bedroom].types[type].price
-                    break;
-                case "img":
-                    info.innerHTML = `
-                    <a class="view-full__img" data-fancybox="view" href="${data[place].bedrooms[bedroom].types[type]['2d']}">
-                    <img src="${data[place].bedrooms[bedroom].types[type]['2d']}" loading="lazy" alt="">
-                </a>
-                    `
-                    break;
-            }
-        });
-        filterElemWidth = filterOption[0].offsetWidth + filterOption[1].offsetWidth + filterOption[2].offsetWidth + (parseInt(filterWrapStyles.gap) * (filterOption.length - 1))
-
-        if (filterElemWidth < filterWrap.offsetWidth) {
-            filter.classList.remove('s-shadow')
-            filter.classList.remove('e-shadow')
-        }
-        btn360Hide()
-    }
-    initContent(allInfo.place, allInfo.bedroom, allInfo.type)
 
 
+    function contentInit(place, project, bedroom) {
+        placeInit(data)
+        projectInit(data[place].projects)
+        typeInit(data[place].projects[project].bedrooms[bedroom].types)
+    }
+    contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
     filterWrap.addEventListener('scroll', (e) => {
         if (filterWrap.scrollLeft < 2) {
             filter.classList.remove('s-shadow')

@@ -1,90 +1,53 @@
 import { dispatchCustomEvent } from 'utils';
 import { addClassToAlter, removeClassToAlter } from '@/modal360/components/alterParentWindow';
 import { Fancybox } from "@fancyapps/ui";
-
 export function popups() {
     const popupOpenBtn = document.querySelector(".viewer-btn-floorplan")
     const popup = document.querySelector('.popup')
-    const popupInner = popup.querySelector('.popup__inner')
+    const filter = popup.querySelector(".filter")
+    const filterOption = filter.querySelectorAll(".filter__option")
+    const filterSelect = filter.querySelectorAll(".filter__select")
+    const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
-    const filterSelect = popup.querySelectorAll(".filter__select")
-    const filterList = popup.querySelectorAll(".filter__list")
-    const popupViewFullBtn = popup.querySelector(".view-fullbtn")
-    const popupViewFull = popup.querySelector(".view-full")
-    const popupViewFullClose = popup.querySelector(".view-full__close")
-    popupViewFullBtn.addEventListener('click', () => {
-        if (!popupViewFullBtn.hasAttribute("data-fancybox-trigger")) {
-            popupViewFull.classList.add('active')
-        }
+    filterSelect.forEach((select,i)=>{
+        select.addEventListener('click',()=>{
+            filterOption.forEach((option)=>{
+                option.classList.remove('active')
+            })
+            filterOption[i].classList.add('active')
+        })
     })
-    const btn = document.querySelector('[data-modal360]');
-    btn.addEventListener("click", (e) => {
-        dispatchCustomEvent({
-            el: window.parent, event: "update-modal360-media", detail: {
-                dataModal360: btn.getAttribute('data-modal360')
-            }
-        });
-        popup.classList.remove("active")
-        removeClassToAlter()
-    });
     popupOpenBtn.addEventListener('click', () => {
         addClassToAlter()
         popup.classList.add('active')
-    })
-    popupViewFullClose.addEventListener('click', () => {
-        popupViewFull.classList.remove('active')
-    })
-    filterSelect.forEach((el, i) => {
-        el.addEventListener('click', () => {
-            if (filterList[i].classList.contains('active')) {
-                filterList[i].classList.remove('active')
-                el.classList.remove('active')
-            } else {
-                filterList.forEach((list, i) => {
-                    list.classList.remove('active')
-                    filterSelect[i].classList.remove('active')
-                })
-                filterList[i].classList.add('active')
-                el.classList.add('active')
-            }
-        })
-    });
-
-    popup.addEventListener("touchstart", (e) => {
-        if (e.target.classList.contains('pop-model-viewer')) {
-            popupInner.classList.add('no-scroll')
-        }
-    })
-    popup.addEventListener("touchend", (e) => {
-        if (e.target.classList.contains('pop-model-viewer')) {
-            popupInner.classList.remove('no-scroll')
-        }
-    })
-    popup.addEventListener('click', (e) => {
-        if (e.target.closest('.filter__option')) {
-            return;
-        }
-        filterList.forEach((list, i) => {
-            list.classList.remove('active')
-            filterSelect[i].classList.remove('active')
-        })
     })
     popupClose.addEventListener('click', () => {
         popup.classList.remove("active")
         removeClassToAlter()
     })
-    galleryView()
+
+       // const btn = document.querySelector('[data-modal360]');
+    // btn.addEventListener("click", (e) => {
+    //     dispatchCustomEvent({
+    //         el: window.parent, event: "update-modal360-media", detail: {
+    //             dataModal360: btn.getAttribute('data-modal360')
+    //         }
+    //     });
+    //     popup.classList.remove("active")
+    //     removeClassToAlter()
+    // });
+    // galleryView()
 }
 
 
 
 
-function galleryView() {
-    Fancybox.bind("[data-fancybox='view']", {
-       trapFocus:false,
-       backdropClick:"false",
-        on: {
-        }
-    });
-};
+// function galleryView() {
+//     Fancybox.bind("[data-fancybox='view']", {
+//        trapFocus:false,
+//        backdropClick:"false",
+//         on: {
+//         }
+//     });
+// };
 
