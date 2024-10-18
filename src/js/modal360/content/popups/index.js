@@ -81,6 +81,9 @@ export function popContent(data, dot) {
         }
         checkList(placeHold, data, place)
     }
+    function projectsInfo(projectList, project){
+
+    }
     function bedroomsInfo(bedroomList, bedroom) {
         bedroomCheck.innerHTML = bedroomList[bedroom].title
         checkList(bedroomHold, bedroomList, bedroom)
