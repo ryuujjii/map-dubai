@@ -9,12 +9,17 @@ export function popups() {
     const filterSelect = filter.querySelectorAll(".filter__select")
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
-    filterSelect.forEach((select,i)=>{
-        select.addEventListener('click',()=>{
-            filterOption.forEach((option)=>{
-                option.classList.remove('active')
-            })
-            filterOption[i].classList.add('active')
+    filterSelect.forEach((select, i) => {
+        select.addEventListener('click', () => {
+            if (filterOption[i].classList.contains('active')) {
+                filterOption[i].classList.remove('active')
+            } else {
+                filterOption.forEach((option) => {
+                    option.classList.remove('active')
+                })
+                filterOption[i].classList.add('active')
+            }
+
         })
     })
     popupOpenBtn.addEventListener('click', () => {
@@ -26,7 +31,7 @@ export function popups() {
         removeClassToAlter()
     })
 
-       // const btn = document.querySelector('[data-modal360]');
+    // const btn = document.querySelector('[data-modal360]');
     // btn.addEventListener("click", (e) => {
     //     dispatchCustomEvent({
     //         el: window.parent, event: "update-modal360-media", detail: {
