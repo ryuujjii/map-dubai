@@ -254,8 +254,8 @@ export function popContent(data, dot) {
                     break;
                 case "price":
                     info.innerHTML = `
-                    <span>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].price.title}</span>
-                   <h2>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].price.val}</h2>
+                    <span>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].price.title}</span>
+                   <h2>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].price.val}</h2>
                                 `
                     break;
             }
@@ -270,7 +270,7 @@ export function popContent(data, dot) {
         projectInit(data[place].projects)
         typeInit(data[place].projects[project].bedrooms[bedroom].types)
         floorInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
-        bedInfoInit(data[place].projects[project].bedrooms[bedroom].types[type].bedInfo)
+        bedInfoInit(data[place].projects[project].bedrooms[bedroom].types[type].floors[allInfo.floor].bedInfo)
         viewInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
         switchView()
         contentEdit()
