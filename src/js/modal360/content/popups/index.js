@@ -1,4 +1,5 @@
 
+import { Fancybox } from "@fancyapps/ui";
 export function popContent(data, dot) {
     const popup = document.querySelector('.popup')
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
@@ -9,10 +10,16 @@ export function popContent(data, dot) {
     const floorWrap = popup.querySelector('.floor__list')
     const typeWrap = popup.querySelector('.type__list')
     const bedInfoWrap = popup.querySelector(".popup__content-list")
+    const filterSelect = popup.querySelectorAll(".filter__select")
+    const filterOption = filter.querySelectorAll(".filter__option")
     const dataSelect = popup.querySelectorAll("[data-select]")
     const dataInfo = popup.querySelectorAll("[data-info]")
     const dataView = popup.querySelectorAll("[data-view]")
     const viewSwitch = popup.querySelectorAll('[name="view-switch"]')
+    const viewSwitcher = popup.querySelector('.popup__view-switcher')
+    const viewFullBtn = popup.querySelectorAll('.view-fullbtn')
+    const popFloors = popup.querySelector('.popup__floor')
+    const view360Btn = popup.querySelector('.popup__view-360')
 
     //content
     if (!dot.isActive) {
@@ -26,9 +33,14 @@ export function popContent(data, dot) {
     const allInfo = {
         ...getInfo,
         viewMode: "2d",
-        floor: "0"
+
     }
     function placeInit(data) {
+        if (Object.keys(data).length <= 1) {
+            filterSelect[0].classList.add('alone')
+        } else {
+            filterSelect[0].classList.remove('alone')
+        }
         let i = 0
         placeWrap.innerHTML = ''
         for (const key in data) {
@@ -66,7 +78,7 @@ export function popContent(data, dot) {
             projectWrap.innerHTML +=
                 `
         <li class="project__item">
-            <span class="project__item-name">${data[proj].title}</span>
+            <span class="project__item-name ${data[proj].title ? '' : "hide"}"  >${data[proj].title}</span>
             <ul class="project__list" data-option-list="bedroom">
             ${bedrooms}
             </ul>
@@ -76,8 +88,21 @@ export function popContent(data, dot) {
         }
     }
     function typeInit(data) {
+
         typeWrap.innerHTML = ''
         let i = 0
+        if (Object.keys(data).length <= 1) {
+            if (data.default) {
+                filterSelect[2].classList.add('no-type')
+                filterSelect[2].classList.remove('alone')
+            } else {
+                filterSelect[2].classList.remove('no-type')
+                filterSelect[2].classList.add('alone')
+            }
+        } else {
+            filterSelect[2].classList.remove('no-type')
+            filterSelect[2].classList.remove('alone')
+        }
         for (const type in data) {
             i++
             typeWrap.innerHTML +=
@@ -92,16 +117,22 @@ export function popContent(data, dot) {
     function floorInit(data) {
         floorWrap.innerHTML = ''
         let i = 0
-        for (const floor in data) {
-            i++
-            floorWrap.innerHTML +=
+        if (data.default) {
+            popFloors.classList.add("hide")
+        } else {
+            popFloors.classList.remove("hide")
+            for (const floor in data) {
+                i++
+                floorWrap.innerHTML +=
+                    `
+                    <li class="floor__list-item">
+                    <input type="radio" name="${data[floor].name}" ${floor == allInfo.floor ? 'checked' : ''} value="${floor}" id="${data[floor].name}-${i}" hidden>
+                    <label for="${data[floor].name}-${i}">${data[floor].title}</label>
+                </li>
                 `
-                <li class="floor__list-item">
-                <input type="radio" name="${data[floor].name}" ${floor == allInfo.floor ? 'checked' : ''} value="${floor}" id="${data[floor].name}-${i}" hidden>
-                <label for="${data[floor].name}-${i}">${data[floor].title}</label>
-            </li>
-            `
+            }
         }
+
     }
     function bedInfoInit(data) {
         bedInfoWrap.innerHTML = ''
@@ -115,21 +146,32 @@ export function popContent(data, dot) {
             `
         }
     }
+
     function viewInit(data) {
         dataView.forEach(view => {
+            if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
+                viewSwitcher.classList.add('hide')
+                if (!data[allInfo.floor]["2d"]) {
+                    allInfo.viewMode = '3d'
+                } else {
+                    allInfo.viewMode = '2d'
+                }
+            } else {
+                viewSwitcher.classList.remove('hide')
+            }
             if (view.getAttribute('data-view') == "2d") {
                 view.innerHTML =
                     `
-                    <div class="popup__view-item" data-floor="${allInfo.floor}">
+                    <a href="${data[allInfo.floor]["2d"]}" data-fancybox='view-2d' class="popup__view-item" data-floor="${allInfo.floor}">
                        <img src="${data[allInfo.floor]["2d"]}" alt="">
-                    </div>
+                    </a>
                     `
-            } else {
+            } else if (view.getAttribute('data-view') == "3d") {
                 view.innerHTML =
                     `
-                <div class="popup__view-item" data-floor="${allInfo.floor}">
+                <a href="${data[allInfo.floor]["3d"]}" data-fancybox='view-3d' class="popup__view-item" data-floor="${allInfo.floor}">
                    <img src="${data[allInfo.floor]["3d"]}" alt="">
-                </div>
+                </a>
                 `
             }
         })
@@ -139,6 +181,20 @@ export function popContent(data, dot) {
         viewSwitch.forEach(sw => {
             if (allInfo.viewMode == sw.value) {
                 sw.checked = true
+                if (allInfo.viewMode == "2d") {
+                    viewFullBtn[1].classList.add('hide')
+                    viewFullBtn[0].classList.remove('hide')
+                } else {
+                    viewFullBtn[1].classList.remove('hide')
+                    viewFullBtn[0].classList.add('hide')
+                }
+                dataView.forEach(el => {
+                    if (el.getAttribute('data-view') == allInfo.viewMode) {
+                        el.classList.add('active')
+                    } else {
+                        el.classList.remove('active')
+                    }
+                })
             }
         })
     }
@@ -149,16 +205,19 @@ export function popContent(data, dot) {
                 allInfo.project = data[allInfo.place].default
                 allInfo.bedroom = data[allInfo.place].projects[allInfo.project].default
                 allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
+                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break
             case 'bedroom':
                 allInfo.project = e.target.value.split(',')[1]
                 allInfo.bedroom = e.target.value.split(',')[0]
                 allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
+                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break;
             case "type":
                 allInfo.type = e.target.value
+                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break;
             case "floor":
@@ -167,6 +226,7 @@ export function popContent(data, dot) {
                 break;
             case "view-switch":
                 allInfo.viewMode = e.target.value
+                switchView()
                 break;
         }
     })
@@ -200,7 +260,11 @@ export function popContent(data, dot) {
                     break;
             }
         })
-    }
+        view360Btn.setAttribute("data-modal360", data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360)
+        filterOption.forEach(el => {
+            el.classList.remove('active')
+        })
+    } 
     function contentInit(place, project, bedroom, type) {
         placeInit(data)
         projectInit(data[place].projects)
@@ -210,6 +274,7 @@ export function popContent(data, dot) {
         viewInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
         switchView()
         contentEdit()
+
 
     }
     contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
@@ -225,5 +290,8 @@ export function popContent(data, dot) {
             filter.classList.add('e-shadow')
         }
     })
+
+
+
 
 }

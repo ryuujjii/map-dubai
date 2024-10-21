@@ -3,7 +3,11 @@
         <div class="view-full__wrap" data-info="full-model">
 
         </div>
-        <button type="button" class="view-full__close">close <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div>
+        <button type="button" class="view-full__close">close <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 1L1 13M1 1L13 13" stroke="#000" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></button>
+    </div>
     <div class="popup__body">
         <div class="popup__inner">
             <div class="popup__close">
@@ -18,12 +22,12 @@
                         <div class="popup__content-left">
                             <div class="popup__view">
                                 <div class="popup__view-wrap">
-                                    <div class="popup__view-inner active" data-view="2d">
+                                    <div class="popup__view-inner" data-view="2d">
                                     </div>
                                     <div class="popup__view-inner" data-view="3d">
                                     </div>
                                 </div>
-                                <button class="popup__view-360">
+                                <button class="popup__view-360" data-modal360="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
                                         fill="none">
                                         <mask id="mask0_2666_120" style="mask-type:luminance" maskUnits="userSpaceOnUse"
@@ -42,15 +46,32 @@
                                     <div class="popup__view-3d">
                                         <input value="3d" type="radio" name="view-switch" id="view-3d" hidden="">
                                         <label for="view-3d">3D</label>
-                                    </div><div class="popup__view-2d">
+                                    </div>
+                                    <div class="popup__view-2d">
                                         <input value="2d" type="radio" name="view-switch" id="view-2d" hidden="">
                                         <label for="view-2d">2D</label>
                                     </div>
                                 </div>
+                                <div class="view-fullbtn" data-fancybox-trigger='view-2d'>
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13 5.25V2.8C13 1.80589 12.1941 1 11.2 1H9M13 8.75V11.2C13 12.1941 12.1941 13 11.2 13H9M1 8.75V11.2C1 12.1941 1.80589 13 2.8 13H5M1 5.25V2.8C1 1.80589 1.80589 1 2.8 1H5"
+                                            stroke="#161616" stroke-width="1.82338" />
+                                    </svg>
+                                </div>
+                                <div class="view-fullbtn" data-fancybox-trigger='view-3d'>
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M13 5.25V2.8C13 1.80589 12.1941 1 11.2 1H9M13 8.75V11.2C13 12.1941 12.1941 13 11.2 13H9M1 8.75V11.2C1 12.1941 1.80589 13 2.8 13H5M1 5.25V2.8C1 1.80589 1.80589 1 2.8 1H5"
+                                            stroke="#161616" stroke-width="1.82338" />
+                                    </svg>
+                                </div>
                             </div>
                             <div class="popup__floor floor">
                                 <ul class="floor__list">
-                                
+
                                 </ul>
                             </div>
                         </div>

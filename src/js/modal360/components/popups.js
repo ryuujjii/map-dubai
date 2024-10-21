@@ -4,11 +4,13 @@ import { Fancybox } from "@fancyapps/ui";
 export function popups() {
     const popupOpenBtn = document.querySelector(".viewer-btn-floorplan")
     const popup = document.querySelector('.popup')
+    const popupInner = document.querySelector('.popup__inner')
     const filter = popup.querySelector(".filter")
     const filterOption = filter.querySelectorAll(".filter__option")
     const filterSelect = filter.querySelectorAll(".filter__select")
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
+    const viewFullBtn = popup.querySelector('.view-fullbtn')
     filterSelect.forEach((select, i) => {
         select.addEventListener('click', () => {
             if (filterOption[i].classList.contains('active')) {
@@ -19,7 +21,14 @@ export function popups() {
                 })
                 filterOption[i].classList.add('active')
             }
-
+        })
+    })
+    popupInner.addEventListener('click', (e) => {
+        if(e.target.closest('.filter__option')){
+            return 
+        }
+        filterOption.forEach((option) => {
+            option.classList.remove('active')
         })
     })
     popupOpenBtn.addEventListener('click', () => {
@@ -30,29 +39,41 @@ export function popups() {
         popup.classList.remove("active")
         removeClassToAlter()
     })
+    const btn = document.querySelector('[data-modal360]');
+    btn.addEventListener("click", (e) => {
+        dispatchCustomEvent({
+            el: window.parent, event: "update-modal360-media", detail: {
+                dataModal360: btn.getAttribute('data-modal360')
+            }
+        });
+        popup.classList.remove("active")
+        removeClassToAlter()
+    });
 
-    // const btn = document.querySelector('[data-modal360]');
-    // btn.addEventListener("click", (e) => {
-    //     dispatchCustomEvent({
-    //         el: window.parent, event: "update-modal360-media", detail: {
-    //             dataModal360: btn.getAttribute('data-modal360')
-    //         }
-    //     });
-    //     popup.classList.remove("active")
-    //     removeClassToAlter()
+
+    // Fancybox.bind(`[data-fancybox='view-2d']`, {
+    //     on: {
+    //     }
     // });
-    // galleryView()
+
+    // Fancybox.bind(`[data-fancybox='view-3d']`, {
+    //     on: {
+    //     }
+    // });
+
+    // Fancybox.bind(`[data-fancybox]`, {
+    //     on: {
+    //     }
+    // });
+
+    Fancybox.bind(`[data-fancybox='view-2d']`, {
+        on: {
+
+        }
+    });
+
+    Fancybox.bind(`[data-fancybox='view-3d']`, {
+        on: {
+        }
+    });
 }
-
-
-
-
-// function galleryView() {
-//     Fancybox.bind("[data-fancybox='view']", {
-//        trapFocus:false,
-//        backdropClick:"false",
-//         on: {
-//         }
-//     });
-// };
-
