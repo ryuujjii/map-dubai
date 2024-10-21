@@ -1,0 +1,42 @@
+<div class="modal-floorplan" id="modal-floorplan">
+    <div class="modal-floorplan__body">
+        <button type="button" class="modal-floorplan__close">
+            <img src="@img/icons/close-border.svg" alt="">
+        </button>
+        <div class="modal-floorplan__inner">
+            <div class="modal-floorplan__title">
+                Download all floor plans
+            </div>
+
+            <div class="modal-floorplan__content">
+                <form data-gtag-submit action="" class="modal-floorplan__form">
+                    <div class="home-popup__form-input">
+                        <input type="text" id="form-name" name="name" placeholder="Name" required />
+                    </div>
+                    <div class="home-popup__form-input">
+                        <input type="email" id="form-email" name="email" placeholder="E-mail" required />
+                    </div>
+                    <div class="home-popup__form-input">
+                        <input type="tel" id="form-phone" name="phone" placeholder="Phone number" required />
+                    </div>
+
+                    <button class="cta-about__btn btn-gradient" type="submit">
+                        <span class="cta-about__btn-txt">Download PDF</span>
+                        <span class="cta-about__btn-bg"></span>
+                    </button>
+                </form>
+                <div class="modal-floorplan__text">
+                    Fill out the form to instantly receive all available information
+                </div>
+            </div>
+        </div>
+        <div class="modal-floorplan__bg">
+            <!-- <img src="@img/bg-floorplan-cut.png" alt=""> -->
+            <picture>
+                <img srcset="@img/bg-floorplan-cut-mob.png  576w, @img/bg-floorplan-cut.png," sizes="(max-width: 576px) 576w,
+                100vw" src="@img/bg-floorplan-cut.png" alt="floorplan" />
+            </picture>
+
+        </div>
+    </div>
+</div>
