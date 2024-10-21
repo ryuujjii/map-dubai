@@ -396,7 +396,7 @@
           "place": "Apartment",
           "bedroom": "3-bed-adress",
           "type": "default",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "3-bedroom",
@@ -439,7 +439,7 @@
           "place": "Apartment",
           "bedroom": "1-bed-adress",
           "type": "default",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "1-bedroom",
@@ -490,7 +490,7 @@
           "place": "Apartment",
           "bedroom": "2-bed-adress",
           "type": "default",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "2-bedroom",
@@ -558,7 +558,7 @@
           "place": "Apartment",
           "bedroom": "4-bed-grand",
           "type": "default",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "4-bedroom",
@@ -610,7 +610,7 @@
           "place": "Apartment",
           "bedroom": "1-bed-grand",
           "type": "typeA",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "1-bedroom",
@@ -660,7 +660,7 @@
           "place": "Apartment",
           "bedroom": "1-bed-grand",
           "type": "typeB",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "1-bedroom",
@@ -706,7 +706,7 @@
           "place": "Apartment",
           "bedroom": "3-bed-grand",
           "type": "default",
-          "isActive": true
+          "isActive": false
         },
         "closeInfo": {
           "title": "3-bedroom",

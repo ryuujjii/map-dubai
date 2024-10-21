@@ -26,9 +26,9 @@ export function popContent(data, dot) {
     const dataImg = document.querySelector(".popup__view-img")
     const dataInfo = popup.querySelectorAll("[data-info]")
     if (!dot.isActive) {
-        viewerBtnFloor.style.display = 'none'
+        viewerBtnFloor.setAttribute('data-popup-default','')
     } else {
-        viewerBtnFloor.style.display = 'block'
+        viewerBtnFloor.removeAttribute('data-popup-default')
     }
     let filterElemWidth
     let getInfo = dot

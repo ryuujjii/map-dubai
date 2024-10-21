@@ -12,6 +12,9 @@ export function popups() {
     const popupViewFullBtn = popup.querySelector(".view-fullbtn")
     const popupViewFull = popup.querySelector(".view-full")
     const popupViewFullClose = popup.querySelector(".view-full__close")
+    const modalFloorDef = document.querySelector(".modal-floorplan")
+    const modalFloorDefClose = document.querySelector(".modal-floorplan__close")
+    const modalFloorDefInner = document.querySelector(".modal-floorplan__inner")
     popupViewFullBtn.addEventListener('click', () => {
         if (!popupViewFullBtn.hasAttribute("data-fancybox-trigger")) {
             popupViewFull.classList.add('active')
@@ -28,8 +31,24 @@ export function popups() {
         removeClassToAlter()
     });
     popupOpenBtn.addEventListener('click', () => {
+        if (popupOpenBtn.hasAttribute("data-popup-default")) {
+            modalFloorDef.classList.add("active")
+        } else {
+            popup.classList.add('active')
+        }
         addClassToAlter()
-        popup.classList.add('active')
+
+    })
+    modalFloorDef.addEventListener('click', () => {
+        modalFloorDef.classList.remove("active")
+        removeClassToAlter()
+    })
+    modalFloorDefClose.addEventListener('click', () => {
+        modalFloorDef.classList.remove("active")
+        removeClassToAlter()
+    })
+    modalFloorDefInner.addEventListener('click', (e) => {
+        e.stopPropagation()
     })
     popupViewFullClose.addEventListener('click', () => {
         popupViewFull.classList.remove('active')
@@ -81,8 +100,8 @@ export function popups() {
 
 function galleryView() {
     Fancybox.bind("[data-fancybox='view']", {
-       trapFocus:false,
-       backdropClick:"false",
+        trapFocus: false,
+        backdropClick: "false",
         on: {
         }
     });
