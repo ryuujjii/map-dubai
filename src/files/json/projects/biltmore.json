@@ -9,28 +9,6 @@
     "styles": ""
   },
   "dots": {
-    "2-bedroom": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 565,
-        "y": 200
-      },
-      "info": {
-        "title": "2-bedroom",
-        "type": "",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "2-bedroom",
-        "classNames": "right",
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": ""
-        }
-      }
-    },
     "1-bedroom": {
       "sizes": {
         "width": 175,
@@ -49,6 +27,28 @@
         "classNames": "right",
         "closeInfo": {
           "title": "1-bedroom",
+          "type": ""
+        }
+      }
+    },
+    "2-bedroom": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 565,
+        "y": 200
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "2-bedroom",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "2-bedroom",
           "type": ""
         }
       }
@@ -247,6 +247,42 @@
   },
   "modal360": {
     "media": {
+      "1-bedroom": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_003.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_002.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_003.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_005.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "biltmore",
+          "type": "type1B",
+          "floor": "default",
+          "isActive": true
+          
+        }
+      },
       "2-bedroom": {
         "slides": {
           "interiors": {
@@ -279,227 +315,95 @@
           "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/atmospheric/Sufouh_Atmosphere_008.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        }
-      },
-      "1-bedroom": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_002.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/Sufouh_Signature_360_003.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_002.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/signature/preview/Sufouh_Signature_360_003.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/biltmore-residences-sufouh-vr/modal-img/gallery/signature/Sufouh_Signature_005.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "biltmore",
+          "type": "type2A",
+          "floor": "default",
+          "isActive": true
+          
         }
       }
     },
     "floorplans": {
-      "Water": {
+      "Apartment": {
         "name": "place",
-        "title": "Water Mansion",
-        "default": "1-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Apartment",
+        "default": "biltmore",
+        "projects": {
+          "biltmore": {
+            "title": "",
+            "default": "1-bed",
+            "bedrooms": {
+              "1-bed": {
+                "default": "type1B",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "type1B": {
+                    "name": "type",
+                    "title": "Type 1B",
+                    "curFloor": "default",
+                    "bedInfo": {
+                      "bathrooms": {
+                        "title": "Bathrooms",
+                        "val": 2
+                      },
+                      "area": {
+                        "title": "Total area",
+                        "val": "649,28 sq. ft."
+                      }
+                    },
+                    "price": {
+                      "title": "Prices from",
+                      "val": "AED 1 600 000"
+                    },
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/1-bedroom-adress.png",
+                        "3d": ""
+                      }
+                    },
+                    "dataModal360": "1-bedroom"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 300 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
-        }
-      },
-      "Wind": {
-        "name": "place",
-        "title": "Wind Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 14 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "default",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "default": {
-                "name": "type",
-                "title": "Type",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 600 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 8 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
-        }
-      },
-      "Earth": {
-        "name": "place",
-        "title": "Earth Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 700 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 11 400 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 000 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "2-bed": {
+                "default": "type2A",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "type2A": {
+                    "name": "type",
+                    "title": "Type 2A",
+                    "curFloor": "default",
+                    "bedInfo": {
+                      "bathrooms": {
+                        "title": "Bathrooms",
+                        "val": 3
+                      },
+                      "area": {
+                        "title": "Total area",
+                        "val": "1 131,23 sq. ft."
+                      }
+                    },
+                    "price": {
+                      "title": "Prices from",
+                      "val": "AED 1 600 000"
+                    },
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/1-bedroom-adress.png",
+                        "3d": ""
+                      }
+                    },
+                    "dataModal360": "2-bedroom"
+                  }
+                }
               }
             }
           }
