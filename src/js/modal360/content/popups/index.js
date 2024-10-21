@@ -11,6 +11,9 @@ export function popContent(data, dot) {
     const bedInfoWrap = popup.querySelector(".popup__content-list")
     const dataSelect = popup.querySelectorAll("[data-select]")
     const dataInfo = popup.querySelectorAll("[data-info]")
+    const dataView = popup.querySelectorAll("[data-view]")
+    const viewSwitch = popup.querySelectorAll('[name="view-switch"]')
+
     //content
     if (!dot.isActive) {
         viewerBtnFloor.style.display = 'none'
@@ -111,7 +114,33 @@ export function popContent(data, dot) {
                  </li>
             `
         }
+    }
+    function viewInit(data) {
+        dataView.forEach(view => {
+            if (view.getAttribute('data-view') == "2d") {
+                view.innerHTML =
+                    `
+                    <div class="popup__view-item" data-floor="${allInfo.floor}">
+                       <img src="${data[allInfo.floor]["2d"]}" alt="">
+                    </div>
+                    `
+            } else {
+                view.innerHTML =
+                    `
+                <div class="popup__view-item" data-floor="${allInfo.floor}">
+                   <img src="${data[allInfo.floor]["3d"]}" alt="">
+                </div>
+                `
+            }
+        })
 
+    }
+    function switchView() {
+        viewSwitch.forEach(sw => {
+            if (allInfo.viewMode == sw.value) {
+                sw.checked = true
+            }
+        })
     }
     window.addEventListener('change', (e) => {
         switch (e.target.getAttribute('name')) {
@@ -136,6 +165,9 @@ export function popContent(data, dot) {
                 allInfo.floor = e.target.value
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break;
+            case "view-switch":
+                allInfo.viewMode = e.target.value
+                break;
         }
     })
     function contentEdit() {
@@ -152,7 +184,7 @@ export function popContent(data, dot) {
                     break;
             }
         })
-        dataInfo.forEach((info)=>{
+        dataInfo.forEach((info) => {
             switch (info.getAttribute('data-info')) {
                 case "bedroom":
                     info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].title}`
@@ -161,7 +193,7 @@ export function popContent(data, dot) {
                     info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].title}`
                     break;
                 case "price":
-                    info.innerHTML =`
+                    info.innerHTML = `
                     <span>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].price.title}</span>
                    <h2>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].price.val}</h2>
                                 `
@@ -175,9 +207,11 @@ export function popContent(data, dot) {
         typeInit(data[place].projects[project].bedrooms[bedroom].types)
         floorInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
         bedInfoInit(data[place].projects[project].bedrooms[bedroom].types[type].bedInfo)
+        viewInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
+        switchView()
         contentEdit()
-    }
 
+    }
     contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
     filterWrap.addEventListener('scroll', (e) => {
         if (filterWrap.scrollLeft < 2) {
