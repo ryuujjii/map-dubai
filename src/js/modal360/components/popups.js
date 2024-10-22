@@ -11,6 +11,12 @@ export function popups() {
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
     const viewFullBtn = popup.querySelector('.view-fullbtn')
+    // filterDropdown.forEach(el => {
+    //     if (window.innerWidth < el.offsetWidth + el.offsetLeft) {
+    //         console.log(true);
+    //     }
+    // })
+
     filterSelect.forEach((select, i) => {
         select.addEventListener('click', () => {
             if (filterOption[i].classList.contains('active')) {
@@ -24,8 +30,8 @@ export function popups() {
         })
     })
     popupInner.addEventListener('click', (e) => {
-        if(e.target.closest('.filter__option')){
-            return 
+        if (e.target.closest('.filter__option')) {
+            return
         }
         filterOption.forEach((option) => {
             option.classList.remove('active')
