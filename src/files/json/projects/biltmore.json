@@ -280,7 +280,6 @@
           "type": "type1B",
           "floor": "default",
           "isActive": true
-          
         }
       },
       "2-bedroom": {
@@ -321,7 +320,6 @@
           "type": "type2A",
           "floor": "default",
           "isActive": true
-          
         }
       }
     },
@@ -344,26 +342,26 @@
                     "name": "type",
                     "title": "Type 1B",
                     "curFloor": "default",
-                    "bedInfo": {
-                      "bathrooms": {
-                        "title": "Bathrooms",
-                        "val": 2
-                      },
-                      "area": {
-                        "title": "Total area",
-                        "val": "649,28 sq. ft."
-                      }
-                    },
-                    "price": {
-                      "title": "Prices from",
-                      "val": "AED 1 600 000"
-                    },
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "2d": "../img/floorpop/1-bedroom-adress.png",
-                        "3d": ""
+                        "2d": "../img/floorpop/biltmore/1-bed.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathrooms": {
+                            "title": "Bathrooms",
+                            "val": 2
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "649,28 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 1 600 000"
+                        }
                       }
                     },
                     "dataModal360": "1-bedroom"
@@ -379,26 +377,27 @@
                     "name": "type",
                     "title": "Type 2A",
                     "curFloor": "default",
-                    "bedInfo": {
-                      "bathrooms": {
-                        "title": "Bathrooms",
-                        "val": 3
-                      },
-                      "area": {
-                        "title": "Total area",
-                        "val": "1 131,23 sq. ft."
-                      }
-                    },
-                    "price": {
-                      "title": "Prices from",
-                      "val": "AED 1 600 000"
-                    },
+
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "2d": "../img/floorpop/1-bedroom-adress.png",
-                        "3d": ""
+                        "2d": "../img/floorpop/biltmore/2-bed.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathrooms": {
+                            "title": "Bathrooms",
+                            "val": 3
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 131,23 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 1 600 000"
+                        }
                       }
                     },
                     "dataModal360": "2-bedroom"

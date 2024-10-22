@@ -633,7 +633,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_001.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_002.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "studio",
+          "project": "boutique23",
+          "type": "studio-t2",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "1-bedroom-t1": {
         "slides": {
@@ -665,7 +673,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_1/gallery/BEDROOM_1BEDROOM_TYPE1_004.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_1/gallery/LIVING_1BEDROOM_TYPE1_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_1/gallery/LIVING_1BEDROOM_TYPE1_003.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "boutique23",
+          "type": "1-bed-t1",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "1-bedroom-t2": {
         "slides": {
@@ -690,7 +706,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_2/gallery/1_Bedroom_type_2_Bedroom_001.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_2/gallery/1_Bedroom_type_2_Bedroom_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_2/gallery/1_Bedroom_type_2_Bedroom_003.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "boutique23",
+          "type": "1-bed-t2",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "1-bedroom-t3": {
         "slides": {
@@ -721,7 +745,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_004.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "boutique23",
+          "type": "1-bed-t3",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "1-bedroom-t4": {
         "slides": {
@@ -751,7 +783,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_004.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "boutique23",
+          "type": "1-bed-t4",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "2-bedroom-t1": {
         "slides": {
@@ -789,7 +829,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_004.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t1",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "2-bedroom-t2": {
         "slides": {
@@ -820,7 +868,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_001.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_003.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t2",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "2-bedroom-t3": {
         "slides": {
@@ -853,7 +909,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_Bedroom_type_3_livingroom_004.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_001.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_002.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t3",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "2-bedroom-t4": {
         "slides": {
@@ -884,7 +948,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_4/gallery/LIVING_2BEDROOM_TYPE4_002.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_4/gallery/LIVING_2BEDROOM_TYPE4_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_4/gallery/LIVING_2BEDROOM_TYPE4_004.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t4",
+          "floor": "default",
+          "isActive": true
+        }
       },
       "2-bedroom-t5": {
         "slides": {
@@ -919,7 +991,15 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_001.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_002.jpg"
-        ]
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t5",
+          "floor": "default",
+          "isActive": true
+        }
       }
     },
     "floorplans": {
@@ -941,26 +1021,27 @@
                     "name": "type",
                     "title": "Type",
                     "curFloor": "default",
-                    "bedInfo": {
-                      "balcony-area": {
-                        "title": "Balcony area",
-                        "val": "1 314 sq. ft."
-                      },
-                      "area": {
-                        "title": "Total area",
-                        "val": "2 710 sq. ft."
-                      }
-                    },
-                    "price": {
-                      "title": "Prices from",
-                      "val": "AED 695 000"
-                    },
+
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "2d": "../img/floorpop/Studio-adress.png",
-                        "3d": ""
+                        "2d": "../img/floorpop/boutique23/penthouse/studio_type2_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "1 314 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "2 710 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
                       }
                     },
                     "dataModal360": "penthouse"
@@ -989,26 +1070,26 @@
                     "name": "type",
                     "title": "Type 1",
                     "curFloor": "default",
-                    "bedInfo": {
-                      "balcony-area": {
-                        "title": "Balcony area",
-                        "val": "51 sq. ft."
-                      },
-                      "area": {
-                        "title": "Total area",
-                        "val": "359 sq. ft."
-                      }
-                    },
-                    "price": {
-                      "title": "Prices from",
-                      "val": "AED 695 000"
-                    },
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "2d": "../img/floorpop/Studio-adress.png",
-                        "3d": ""
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type1_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "51 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "359 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
                       }
                     },
                     "dataModal360": "studio-t1"
@@ -1017,29 +1098,296 @@
                     "name": "type",
                     "title": "Type 2",
                     "curFloor": "default",
-                    "bedInfo": {
-                      "balcony-area": {
-                        "title": "Balcony area",
-                        "val": "65 sq. ft."
-                      },
-                      "area": {
-                        "title": "Total area",
-                        "val": "415 sq. ft."
-                      }
-                    },
-                    "price": {
-                      "title": "Prices from",
-                      "val": "AED 695 000"
-                    },
+
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "2d": "../img/floorpop/Studio-adress.png",
-                        "3d": ""
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type2_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "65 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "415 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
                       }
                     },
                     "dataModal360": "studio-t2"
+                  }
+                }
+              },
+              "1-bed": {
+                "default": "1-bed-t1",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "1-bed-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type1_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "59 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "512 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t1"
+                  },
+                  "1-bed-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type2_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "63 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "490 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t2"
+                  },
+                  "1-bed-t3": {
+                    "name": "type",
+                    "title": "Type 3",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type3_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "59 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "486 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t3"
+                  },
+                  "1-bed-t4": {
+                    "name": "type",
+                    "title": "Type 4",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type4_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "58 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "441 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t4"
+                  }
+                }
+              },
+              "2-bed": {
+                "default": "2-bed-t1",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "2-bed-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type1_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "118 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "771 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t1"
+                  },
+                  "2-bed-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type2_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "64 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "781 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t2"
+                  },
+                  "2-bed-t3": {
+                    "name": "type",
+                    "title": "Type 3",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type3_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "125 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "830 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t3"
+                  },
+                  "2-bed-t4": {
+                    "name": "type",
+                    "title": "Type 4",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type4_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "113 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "784 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t4"
+                  },
+                  "2-bed-t5": {
+                    "name": "type",
+                    "title": "Type 5",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type5_2dfp.svg",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "105 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "791 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t5"
                   }
                 }
               }
