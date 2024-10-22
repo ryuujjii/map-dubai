@@ -346,6 +346,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 1B",
                         "2d": "../img/floorpop/biltmore/1-bed.svg",
                         "3d": "",
                         "bedInfo": {
@@ -382,6 +384,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 2A",
                         "2d": "../img/floorpop/biltmore/2-bed.svg",
                         "3d": "",
                         "bedInfo": {
