@@ -247,10 +247,10 @@ export function popContent(data, dot) {
         dataInfo.forEach((info) => {
             switch (info.getAttribute('data-info')) {
                 case "bedroom":
-                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].title}`
+                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].bedTitle}`
                     break;
                 case "type":
-                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].title}`
+                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].typeTitle}`
                     break;
                 case "price":
                     info.innerHTML = `

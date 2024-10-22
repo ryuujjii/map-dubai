@@ -425,11 +425,11 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_5.webp"
         ],
         "floorplan": {
-          "place": "Mansion",
-          "bedroom": "8-bed",
-          "project": "weather",
-          "type": "sky",
-          "floor": "Basement",
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "default",
+          "type": "l-shape",
+          "floor": "default",
           "isActive": true
         }
       },
@@ -486,9 +486,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_2.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "default",
+          "type": "v-shape-a",
+          "floor": "default",
+          "isActive": true
         }
       },
       "V-Shape-V2": {
@@ -554,9 +557,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/1_PENTHOUSE_POST_NEW.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Apartment",
+          "bedroom": "3-bed",
+          "project": "default",
+          "type": "v-shape-b",
+          "floor": "default",
+          "isActive": true
         }
       },
       "mansions-m2": {
@@ -742,7 +748,7 @@
                         }
                       },
                       "First": {
-                        "title": "Ground",
+                        "title": "First",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -762,7 +768,7 @@
                         }
                       },
                       "Second": {
-                        "title": "Ground",
+                        "title": "Second",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -830,7 +836,7 @@
                         }
                       },
                       "First": {
-                        "title": "Ground",
+                        "title": "First",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -850,7 +856,7 @@
                         }
                       },
                       "Second": {
-                        "title": "Ground",
+                        "title": "Second",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -874,7 +880,7 @@
                   },
                   "earth": {
                     "name": "type",
-                    "title": "Water",
+                    "title": "Earth",
                     "curFloor": "Basement",
                     "floors": {
                       "Basement": {
@@ -918,7 +924,7 @@
                         }
                       },
                       "First": {
-                        "title": "Ground",
+                        "title": "First",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -938,7 +944,7 @@
                         }
                       },
                       "Second": {
-                        "title": "Ground",
+                        "title": "Second",
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
@@ -964,6 +970,126 @@
               }
             }
           }
+
+        }
+      },
+      "Apartment": {
+        "name": "place",
+        "title": "Apartment",
+        "default": "default",
+        "projects": {
+          "default": {
+            "title": "",
+            "default": "1-bed",
+            "bedrooms": {
+              "1-bed": {
+                "default": "l-shape",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "l-shape": {
+                    "name": "type",
+                    "title": "L-Shape",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "1 291,9 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 754,3 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "L-Shape-l1"
+                  }
+                }
+              },
+              "2-bed": {
+                "default": "v-shape-a",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "v-shape-a": {
+                    "name": "type",
+                    "title": "V-Shape A",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "2 153 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "3 843 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "V-Shape-V1"
+                  }
+                }
+              },
+              "3-bed": {
+                "default": "v-shape-b",
+                "name": "bedroom",
+                "title": "3-bedroom",
+                "types": {
+                  "v-shape-b": {
+                    "name": "type",
+                    "title": "V-Shape B",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "3 800 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "4 600 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "V-Shape-V2"
+                  }
+                }
+              }
+            }
+          }
+
         }
       }
     }
