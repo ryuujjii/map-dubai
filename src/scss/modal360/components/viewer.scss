@@ -713,23 +713,6 @@
       }
     }
 
-    .mob-device & {
-      bottom: initial;
-      top: 14px;
-      left: 16px;
-    }
-
-    &-wrapper {
-      @include flex(center, flex-start);
-      flex-direction: column;
-      gap: 16px;
-    }
-    .fullscreen-enabled & {
-      display: none;
-    }
-    .fake-fullscreen-active & {
-      display: none;
-    }
 
     @media (max-width: 1200.98px) {
       background: linear-gradient(
@@ -825,6 +808,25 @@
         z-index: -1;
       }
     }
+
+    .mob-device & {
+      bottom: initial;
+      top: 14px;
+      left: 16px;
+    }
+
+    &-wrapper {
+      @include flex(center, flex-start);
+      flex-direction: column;
+      gap: 16px;
+    }
+    .fullscreen-enabled & {
+      display: none;
+    }
+    .fake-fullscreen-active & {
+      display: none;
+    }
+
   }
 
   // viewer__socials--toggle
