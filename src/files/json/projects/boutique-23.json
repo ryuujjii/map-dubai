@@ -1028,7 +1028,7 @@
                         "name": "floor",
                         "bedTitle":"Penthouse",
                         "typeTitle":"",
-                        "2d": "../img/floorpop/boutique23/penthouse/studio_type2_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1078,7 +1078,7 @@
                         "name": "floor",
                         "bedTitle":"Studio",
                         "typeTitle":"Type 1",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type1_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1109,7 +1109,7 @@
                         "name": "floor",
                         "bedTitle":"Studio",
                         "typeTitle":"Type 2",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type2_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1146,7 +1146,7 @@
                         "name": "floor",
                         "bedTitle":"1-bedroom",
                         "typeTitle":"Type 1",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type1_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1176,7 +1176,7 @@
                         "name": "floor",
                         "bedTitle":"1-bedroom",
                         "typeTitle":"Type 2",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type2_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1206,7 +1206,7 @@
                         "name": "floor",
                         "bedTitle":"1-bedroom",
                         "typeTitle":"Type 3",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type3_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1236,7 +1236,7 @@
                         "name": "floor",
                         "bedTitle":"1-bedroom",
                         "typeTitle":"Type 4",
-                        "2d": "../img/floorpop/boutique23/1-bedroom/1br_type4_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1273,7 +1273,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"Type 1",
-                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type1_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1303,7 +1303,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"Type 2",
-                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type2_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1333,7 +1333,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"Type 3",
-                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type3_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1363,7 +1363,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"Type 4",
-                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type4_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1393,7 +1393,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"Type 5",
-                        "2d": "../img/floorpop/boutique23/2-bedroom/2br_type5_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {

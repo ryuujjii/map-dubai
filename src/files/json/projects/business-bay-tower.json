@@ -875,24 +875,24 @@
                 "types": {
                   "1-bed-t-A": {
                     "name": "type",
-                    "title": "Type A",
+                    "title": "Type 1",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"1-bedroom",
-                        "typeTitle":"Type A",
-                        "2d": "../img/floorpop/business-bay-tower/1-bedroom/1br_type1_2dfp.svg",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
                             "title": "Balcony area",
-                            "val": "64,58 sq. ft."
+                            "val": "75,34 sq. ft."
                           },
                           "area": {
                             "title": "Total area",
-                            "val": "1 002,65 sq. ft."
+                            "val": "807,29 sq. ft."
                           }
                         },
                         "price": {
@@ -905,15 +905,15 @@
                   },
                   "1-bed-t-B": {
                     "name": "type",
-                    "title": "Type B",
+                    "title": "Type 2",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"1-bedroom",
-                        "typeTitle":"Type B",
-                        "2d": "../img/floorpop/business-bay-tower/1-bedroom/1br_type1_2dfp.svg",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -922,7 +922,7 @@
                           },
                           "area": {
                             "title": "Total area",
-                            "val": "1 002,65 sq. ft."
+                            "val": "1 054,86 sq. ft."
                           }
                         },
                         "price": {
@@ -935,15 +935,15 @@
                   },
                   "1-bed-l-A": {
                     "name": "type",
-                    "title": "Type A",
+                    "title": "Type L1",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"1-bedroom",
-                        "typeTitle":"Type A",
-                        "2d": "../img/floorpop/business-bay-tower/1-bedroom/1br_type1_2dfp.svg",
+                        "typeTitle":"Type L1",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -965,15 +965,15 @@
                   },
                   "1-bed-l-B": {
                     "name": "type",
-                    "title": "Type B",
+                    "title": "Type L2",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"1-bedroom",
-                        "typeTitle":"Type B",
-                        "2d": "../img/floorpop/business-bay-tower/1-bedroom/1br_type1_2dfp.svg",
+                        "typeTitle":"Type L2",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -982,7 +982,7 @@
                           },
                           "area": {
                             "title": "Total area",
-                            "val": "1 002,65 sq. ft."
+                            "val": "1 054,86 sq. ft."
                           }
                         },
                         "price": {
@@ -1002,15 +1002,15 @@
                 "types": {
                   "2-bed-t-A": {
                     "name": "type",
-                    "title": "Type A",
+                    "title": "Type 1",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"2-bedroom",
-                        "typeTitle":"Type A",
-                        "2d": "../img/floorpop/business-bay-tower/2-bedroom/2br_type1_2dfp.svg",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1032,15 +1032,15 @@
                   },
                   "2-bed-t-B": {
                     "name": "type",
-                    "title": "Type B",
+                    "title": "Type 2",
                     "curFloor": "default",
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "bedTitle":"2-bedroom",
-                        "typeTitle":"Type B",
-                        "2d": "../img/floorpop/business-bay-tower/2-bedroom/2br_type1_2dfp.svg",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1090,7 +1090,7 @@
                         "name": "floor",
                         "bedTitle":"2-bedroom",
                         "typeTitle":"",
-                        "2d": "../img/floorpop/business-bay-tower/1-bedroom/1br_type1_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
@@ -1127,7 +1127,7 @@
                         "name": "floor",
                         "bedTitle":"3-bedroom",
                         "typeTitle":"",
-                        "2d": "../img/floorpop/business-bay-tower/2-bedroom/2br_type1_2dfp.svg",
+                        "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
                           "balcony-area": {
