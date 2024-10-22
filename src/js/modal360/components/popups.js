@@ -6,27 +6,50 @@ export function popups() {
     const popup = document.querySelector('.popup')
     const popupInner = document.querySelector('.popup__inner')
     const filter = popup.querySelector(".filter")
+    const filterWrap = popup.querySelector(".filter__wrap")
     const filterOption = filter.querySelectorAll(".filter__option")
     const filterSelect = filter.querySelectorAll(".filter__select")
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
     const viewFullBtn = popup.querySelector('.view-fullbtn')
-    // filterDropdown.forEach(el => {
-    //     if (window.innerWidth < el.offsetWidth + el.offsetLeft) {
-    //         console.log(true);
-    //     }
-    // })
 
     filterSelect.forEach((select, i) => {
         select.addEventListener('click', () => {
-            if (filterOption[i].classList.contains('active')) {
-                filterOption[i].classList.remove('active')
+            switch (i) {
+                case 0:
+                    filterWrap.scrollTo({
+                        left: 0,
+                        behavior: "smooth"
+                    })
+                    break;
+                case 1:
+                    filterWrap.scrollTo({
+                        left: (filterWrap.scrollWidth - filterWrap.offsetWidth) / 2,
+                        behavior: "smooth"
+                    })
+                    break;
+                case 2:
+                    filterWrap.scrollTo({
+                        left: filterWrap.scrollWidth - filterWrap.offsetWidth,
+                        behavior: "smooth"
+                    })
+                    break;
+            }
+            if (!select.classList.contains("alone") && !select.classList.contains("no-type")) {
+                if (filterOption[i].classList.contains('active')) {
+                    filterOption[i].classList.remove('active')
+                } else {
+                    filterOption.forEach((option) => {
+                        option.classList.remove('active')
+                    })
+                    filterOption[i].classList.add('active')
+                }
             } else {
                 filterOption.forEach((option) => {
                     option.classList.remove('active')
                 })
-                filterOption[i].classList.add('active')
             }
+
         })
     })
     popupInner.addEventListener('click', (e) => {

@@ -5,6 +5,7 @@ function getPopContentFn() {
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
     const filter = popup.querySelector(".filter")
     const filterWrap = filter.querySelector(".filter__wrap")
+    let filterGap = parseInt(getComputedStyle(filterWrap).gap)
     const placeWrap = popup.querySelector(".place__list")
     const projectWrap = popup.querySelector('.project')
     const floorWrap = popup.querySelector('.floor__list')
@@ -23,8 +24,20 @@ function getPopContentFn() {
     let allInfo
     let data
     let getInfo
-    let filterElemWidth
+    let filterElemWidth = 0
     let boolModal360 = true
+    filterWrap.addEventListener('scroll', (e) => {
+        if (filterWrap.scrollLeft < 5) {
+            filter.classList.remove('s-shadow')
+        } else {
+            filter.classList.add('s-shadow')
+        }
+        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 5) {
+            filter.classList.remove('e-shadow')
+        } else {
+            filter.classList.add('e-shadow')
+        }
+    })
     function placeInit(data) {
         if (Object.keys(data).length <= 1) {
             filterSelect[0].classList.add('alone')
@@ -158,6 +171,11 @@ function getPopContentFn() {
         }
     }
     function contentEdit() {
+        filterElemWidth = -filterGap
+        filterSelect.forEach(el => {
+            filterElemWidth += el.offsetWidth + filterGap
+        })
+
         if (getInfo.place == allInfo.place && getInfo.bedroom == allInfo.bedroom && getInfo.type == allInfo.type && getInfo.project == getInfo.project) {
             view360Btn.classList.add('hide')
         } else {
@@ -197,7 +215,6 @@ function getPopContentFn() {
             el.classList.remove('active')
         })
     }
-
     function viewInit(data) {
         dataView.forEach(view => {
             if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
@@ -271,18 +288,7 @@ function getPopContentFn() {
                 break;
         }
     }
-    filterWrap.addEventListener('scroll', (e) => {
-        if (filterWrap.scrollLeft < 2) {
-            filter.classList.remove('s-shadow')
-        } else {
-            filter.classList.add('s-shadow')
-        }
-        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 2) {
-            filter.classList.remove('e-shadow')
-        } else {
-            filter.classList.add('e-shadow')
-        }
-    })
+
     return function (getData, dot) {
         window.addEventListener('change', onchange)
         //content
@@ -297,7 +303,6 @@ function getPopContentFn() {
             viewMode: "2d",
         }
         data = getData
-
         contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
     }
 
