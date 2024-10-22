@@ -27,9 +27,12 @@ body {
 .fancybox__container {
     z-index: 999;
 }
-.fancybox__slide {
-    background: #c2c2c2;
+.open-floor {
+    .fancybox__slide {
+        background: #c2c2c2;
+    }
 }
+
 .popup {
     position: fixed;
     width: 100vw;
@@ -142,9 +145,6 @@ body {
                 // overflow-x: auto;
                 gap: 25px;
                 padding-bottom: 34px;
-                &::-webkit-scrollbar {
-                    // height: 0 !important;
-                }
             }
             @media (max-width: 576px) {
                 overflow-y: hidden;

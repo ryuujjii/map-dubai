@@ -641,9 +641,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_v1.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Mansion",
+          "bedroom": "8-bed",
+          "project": "weather",
+          "type": "earth",
+          "floor": "Basement",
+          "isActive": true
         }
       },
       "mansions-m5": {
@@ -681,9 +684,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Mansion",
+          "bedroom": "8-bed",
+          "project": "weather",
+          "type": "water",
+          "floor": "Basement",
+          "isActive": true
         }
       }
     },
@@ -712,6 +718,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -732,6 +740,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -752,6 +762,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -772,6 +784,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -800,6 +814,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -820,6 +836,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -840,6 +858,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -860,6 +880,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -888,6 +910,9 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -908,6 +933,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -928,6 +955,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -948,6 +977,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
                         "bedInfo": {
                           "floor": {
                             "title": "Floor",
@@ -997,6 +1028,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"L-Shape",
                         "bedInfo": {
                           "Interior": {
                             "title": "Interior",
@@ -1032,6 +1065,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"V-Shape A",
                         "bedInfo": {
                           "Interior": {
                             "title": "Interior",
@@ -1067,6 +1102,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
                         "3d": "",
+                        "bedTitle":"3-bedroom",
+                        "typeTitle":"V-Shape B",
                         "bedInfo": {
                           "Interior": {
                             "title": "Interior",

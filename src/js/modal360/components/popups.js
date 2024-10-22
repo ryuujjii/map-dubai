@@ -56,30 +56,28 @@ export function popups() {
         removeClassToAlter()
     });
 
-
-    // Fancybox.bind(`[data-fancybox='view-2d']`, {
-    //     on: {
-    //     }
-    // });
-
-    // Fancybox.bind(`[data-fancybox='view-3d']`, {
-    //     on: {
-    //     }
-    // });
-
-    // Fancybox.bind(`[data-fancybox]`, {
-    //     on: {
-    //     }
-    // });
-
     Fancybox.bind(`[data-fancybox='view-2d']`, {
         on: {
-
+            initLayout: () => {
+                document.body.classList.add('open-floor')
+            },
+            close: () => {
+                document.body.classList.remove('open-floor')
+            },
         }
+
+
     });
 
     Fancybox.bind(`[data-fancybox='view-3d']`, {
         on: {
+            initLayout: () => {
+                document.body.classList.add('open-floor')
+            },
+            close: () => {
+                document.body.classList.remove('open-floor')
+            },
         }
+
     });
 }
