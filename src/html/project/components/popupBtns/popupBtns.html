@@ -1,21 +1,6 @@
 <div class="project__popupBtns">
 	<div class="project__popupBtns-wrapper">
-		<div class="project__popupBtns-inner">
-
-			<%var data = require('../../json/popupBtns.json')%> 
-			<%var component = require("./popupBtn.html")%> 
-			<% for (var i=0; i < data.length ; i+=2) { %> 
-			<%var parentDiv = '<div class="project__popupBtns-group">';%> 
-			<%var closeDiv = '</div>';%> 
-
-			<% for (var j=i; j <= i+1 && j < data.length; j++) { %> 
-			<% var el = data[j] %> 
-			<% parentDiv+= component(el) %> 
-			<% } %>
-			<% parentDiv+= closeDiv %> 
-			${parentDiv}
-			<% parentDiv = '<div class="project__popupBtns-group">';%> 
-			<% } %>
+		<div class="project__popupBtns-inner" data-project="popupBtns">
 		</div>
 
 		<div class="project__popupBtns-open">

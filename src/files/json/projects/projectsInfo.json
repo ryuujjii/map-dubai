@@ -5,6 +5,9 @@
   "sls": {
     "status": "active"
   },
+  "damac-lagoons": {
+		"status": "active"
+	},
   "valori": {
     "status": "active"
   },

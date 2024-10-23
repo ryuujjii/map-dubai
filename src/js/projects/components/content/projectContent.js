@@ -9,11 +9,14 @@ import scrollPopupToTop from '@/projects/components/content/scrollPopupToTop';
 import brochurePopup from '@/projects/components/content/popups/brochure';
 import { getDataToModal360, sendFloorplansToModal360 } from '@/projects/components/content/getDataToModal360';
 import dotsTabs from '@/projects/components/content/dots/tabs/dotsTabs';
-
+import { addClassName, removeClassName } from 'utils';
+import setPopupBtns from '@/projects/components/content/popups/setPopupBtns';
 export default async function projectContent(projectName) {
   try {
-    const { map, dots, partner, popup, modal360 } = await getData(projectName);
-    const { about, payment, developer, brochure } = popup;
+    const { info, map, dots, partner, popup, modal360 } = await getData(projectName);
+    const { about, payment, developer, brochure, popupBtns } = popup;
+    !info.withMap ? addClassName(document.body, "clear-project") : removeClassName(document.body, "clear-project");
+    setPopupBtns(popupBtns);
     setMap(map);
     paintDots(dots);
     dotsTabs(map?.dotsTabs);

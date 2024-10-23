@@ -1,7 +1,7 @@
 import collectEscEls from '@/components/esc/collectEscEls';
 import removeLastEscEl from '@/components/esc/removeLastEscEl';
 import projectContent from '@/projects/components/content/projectContent';
-import { addClassName, removeClassName } from 'utils';
+import { addClassName, removeClassName, dispatchCustomEvent } from 'utils';
 import getData from '@/projects/components/content/getData';
 
 export default async function projectPopup() {
@@ -56,6 +56,9 @@ export default async function projectPopup() {
   });
 
   function showProject(projectId) {
+    if (projectId === 'damac-lagoons') {
+      dispatchCustomEvent({ el: window, event: "with-map", detail: { withMap: false } });
+    }
     activeProject = projectId;
     addClassName(document.body, 'open-project');
     collectEscEls('close-project');
