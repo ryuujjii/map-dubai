@@ -262,13 +262,13 @@ body {
             align-items: center;
             gap: 11px;
             &.alone {
-                // pointer-events: none;
+                cursor: default;
                 svg {
                     display: none;
                 }
             }
             &.no-type {
-                // pointer-events: none;
+                cursor: default;
                 color: #595959;
                 border-bottom: 1px solid #595959;
                 svg {
