@@ -5,6 +5,7 @@ function getPopContentFn() {
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
     const filter = popup.querySelector(".filter")
     const filterWrap = filter.querySelector(".filter__wrap")
+    const filterInner = filter.querySelector(".filter__inner")
     let filterGap = parseInt(getComputedStyle(filterWrap).gap)
     const placeWrap = popup.querySelector(".place__list")
     const projectWrap = popup.querySelector('.project')
@@ -26,13 +27,16 @@ function getPopContentFn() {
     let getInfo
     let filterElemWidth = 0
     let boolModal360 = true
-    filterWrap.addEventListener('scroll', (e) => {
-        if (filterWrap.scrollLeft < 5) {
+    if (filterInner.offsetWidth < filterWrap.offsetWidth) {
+        filter.classList.add('e-shadow')
+    }
+    filterInner.addEventListener('scroll', (e) => {
+        if (filterInner.scrollLeft < 5) {
             filter.classList.remove('s-shadow')
         } else {
             filter.classList.add('s-shadow')
         }
-        if (filterElemWidth - filterWrap.offsetWidth - filterWrap.scrollLeft < 5) {
+        if (filterWrap.offsetWidth - filterInner.offsetWidth - filterInner.scrollLeft < 5) {
             filter.classList.remove('e-shadow')
         } else {
             filter.classList.add('e-shadow')

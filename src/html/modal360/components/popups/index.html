@@ -75,104 +75,108 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="popup__filter filter e-shadow">
-                            <div class="filter__wrap">
-                                <div class="filter__option ">
-                                    <div class="filter__select">
-                                        <span data-select="place">Apartment</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                            fill="none">
-                                            <path
-                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
+                        <div class="popup__filter filter">
+                            <span class="filter__scrollhide"></span>
+                            <div class="filter__inner">
+                                <div class="filter__wrap">
+                                    <div class="filter__option ">
+                                        <div class="filter__select">
+                                            <span data-select="place">Apartment</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6"
+                                                viewBox="0 0 11 6" fill="none">
+                                                <path
+                                                    d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                    stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="filter__dropdown">
+                                            <div class="filter__place place">
+                                                <ul class="place__list" data-option-list="place">
+                                                </ul>
+                                            </div>
+
+                                        </div>
                                     </div>
-                                    <div class="filter__dropdown">
-                                        <div class="filter__place place">
-                                            <ul class="place__list" data-option-list="place">
+                                    <div class="filter__option">
+                                        <div class="filter__select">
+                                            <span data-select="bedroom">1 bedroom</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6"
+                                                viewBox="0 0 11 6" fill="none">
+                                                <path
+                                                    d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                    stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="filter__dropdown">
+                                            <ul class="filter__project project" data-option-list="project">
+                                                <li class="project__item">
+                                                    <span class="project__item-name">Address Residences</span>
+                                                    <ul class="project__list" data-option-list="bedroom">
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="adress-1" hidden>
+                                                            <label for="adress-1">1 bedroom</label>
+                                                        </li>
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="adress-2" hidden>
+                                                            <label for="adress-2">2 bedroom</label>
+                                                        </li>
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="adress-3" hidden>
+                                                            <label for="adress-3">3 bedroom</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="project__item">
+                                                    <span class="project__item-name">Grand Bleu Tower</span>
+                                                    <ul class="project__list">
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="grand-1" hidden>
+                                                            <label for="grand-1">1 bedroom</label>
+                                                        </li>
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="grand-2" hidden>
+                                                            <label for="grand-2">2 bedroom</label>
+                                                        </li>
+                                                        <li class="project__list-item">
+                                                            <input type="radio" name="bedroom" id="grand-3" hidden>
+                                                            <label for="grand-3">3 bedroom</label>
+                                                        </li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </div>
-
                                     </div>
-                                </div>
-                                <div class="filter__option">
-                                    <div class="filter__select">
-                                        <span data-select="bedroom">1 bedroom</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                            fill="none">
-                                            <path
-                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                    <div class="filter__dropdown">
-                                        <ul class="filter__project project" data-option-list="project">
-                                            <li class="project__item">
-                                                <span class="project__item-name">Address Residences</span>
-                                                <ul class="project__list" data-option-list="bedroom">
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="adress-1" hidden>
-                                                        <label for="adress-1">1 bedroom</label>
+                                    <div class="filter__option">
+                                        <div class="filter__select">
+                                            <span data-select="type">Type A</span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6"
+                                                viewBox="0 0 11 6" fill="none">
+                                                <path
+                                                    d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
+                                                    stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <div class="filter__dropdown">
+                                            <div class="filter__type type">
+                                                <ul class="type__list" data-option-list="type">
+                                                    <li class="type__list-item">
+                                                        <input type="radio" name="type" id="type-1" hidden>
+                                                        <label for="type-1">Type A</label>
                                                     </li>
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="adress-2" hidden>
-                                                        <label for="adress-2">2 bedroom</label>
-                                                    </li>
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="adress-3" hidden>
-                                                        <label for="adress-3">3 bedroom</label>
+                                                    <li class="type__list-item">
+                                                        <input type="radio" name="type" id="type-2" hidden>
+                                                        <label for="type-2">Type B</label>
                                                     </li>
                                                 </ul>
-                                            </li>
-                                            <li class="project__item">
-                                                <span class="project__item-name">Grand Bleu Tower</span>
-                                                <ul class="project__list">
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="grand-1" hidden>
-                                                        <label for="grand-1">1 bedroom</label>
-                                                    </li>
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="grand-2" hidden>
-                                                        <label for="grand-2">2 bedroom</label>
-                                                    </li>
-                                                    <li class="project__list-item">
-                                                        <input type="radio" name="bedroom" id="grand-3" hidden>
-                                                        <label for="grand-3">3 bedroom</label>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="filter__option">
-                                    <div class="filter__select">
-                                        <span data-select="type">Type A</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
-                                            fill="none">
-                                            <path
-                                                d="M1 5L4.70455 1.32547C5.14205 0.891511 5.85795 0.891511 6.29545 1.32547L10 5"
-                                                stroke="#D79970" stroke-width="1.5" stroke-miterlimit="10"
-                                                stroke-linecap="round" stroke-linejoin="round" />
-                                        </svg>
-                                    </div>
-                                    <div class="filter__dropdown">
-                                        <div class="filter__type type">
-                                            <ul class="type__list" data-option-list="type">
-                                                <li class="type__list-item">
-                                                    <input type="radio" name="type" id="type-1" hidden>
-                                                    <label for="type-1">Type A</label>
-                                                </li>
-                                                <li class="type__list-item">
-                                                    <input type="radio" name="type" id="type-2" hidden>
-                                                    <label for="type-2">Type B</label>
-                                                </li>
-                                            </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                         <div class="popup__content-info">
                             <h2 class="popup__content-title" data-info="bedroom"></h2>

@@ -7,6 +7,7 @@ export function popups() {
     const popupInner = document.querySelector('.popup__inner')
     const filter = popup.querySelector(".filter")
     const filterWrap = popup.querySelector(".filter__wrap")
+    const filterInner = popup.querySelector(".filter__inner")
     const filterOption = filter.querySelectorAll(".filter__option")
     const filterSelect = filter.querySelectorAll(".filter__select")
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
@@ -17,20 +18,20 @@ export function popups() {
         select.addEventListener('click', () => {
             switch (i) {
                 case 0:
-                    filterWrap.scrollTo({
+                    filterInner.scrollTo({
                         left: 0,
                         behavior: "smooth"
                     })
                     break;
                 case 1:
-                    filterWrap.scrollTo({
-                        left: (filterWrap.scrollWidth - filterWrap.offsetWidth) / 2,
+                    filterInner.scrollTo({
+                        left: (filterInner.scrollWidth - filterInner.offsetWidth) / 2,
                         behavior: "smooth"
                     })
                     break;
                 case 2:
-                    filterWrap.scrollTo({
-                        left: filterWrap.scrollWidth - filterWrap.offsetWidth,
+                    filterInner.scrollTo({
+                        left: filterInner.scrollWidth - filterInner.offsetWidth,
                         behavior: "smooth"
                     })
                     break;
