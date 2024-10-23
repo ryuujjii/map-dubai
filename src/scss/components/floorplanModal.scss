@@ -18,6 +18,10 @@
     visibility: hidden;
     pointer-events: none;
 
+    @include _420-max {
+        padding: 18px;
+    }
+
     &.active {
         opacity: 1;
         visibility: visible;
@@ -74,8 +78,13 @@
         font-weight: 600;
         margin-bottom: 44px;
         line-height: 120%;
+        color: #fff;
         @include _576-max {
             text-align: center;
+        }
+
+        @include _420-max {
+            font-size: 38px;
         }
     }
 
@@ -93,6 +102,42 @@
     &__form {
         display: grid;
         gap: 32px;
+    }
+
+    &__form-input {
+        width: 100%;
+        input {
+            width: 100%;
+            font-size: 15px;
+            font-weight: 300;
+            line-height: 1.5;
+            color: #fff;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #8c8c8c;
+
+            &::placeholder {
+                color: #8c8c8c;
+            }
+
+            &:focus-visible {
+                outline: 0;
+            }
+
+            &:focus,
+            &:not(:placeholder-shown),
+            &:focus-within,
+            &:-webkit-autofill,
+            &:-webkit-autofill:hover,
+            &:-webkit-autofill:focus,
+            &:-webkit-autofill:active {
+                color: #fff !important; // какого цвета должен быть текст
+                -webkit-text-fill-color: #fff !important; // какого цвета должен быть текст
+                -webkit-box-shadow: 0 0 0 1000px rgba(255, 255, 255, 0) inset !important;
+                -webkit-background-clip: text !important;
+                background-clip: text !important;
+                border-bottom-color: #fff;
+            }
+        }
     }
 
     &__text {
