@@ -11,7 +11,7 @@ export default function modal360() {
   window.addEventListener('close-modal360', (e) => {
     removeClassName(document.body, 'open-modal360');
     removeLastEscEl('close-modal360');
-    insertIframe(panoIframe, `files/pano/${activePano}`);
+    insertIframe(panoIframe, `pano/${activePano}`);
   });
 
   window.addEventListener('node-change', (e) => {
