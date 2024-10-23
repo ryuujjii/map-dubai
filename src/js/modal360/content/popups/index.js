@@ -312,17 +312,48 @@ function getPopContentFn() {
                 break;
         }
     }
+    function preloaderFun(parent) {
+        const modelViewer = parent.querySelector(".pop-model-viewer")
+        const loader = parent.querySelector(".loader")
+        const loaderRing = parent.querySelector(".loader__progress-ring")
+        const loaderStyle = window.getComputedStyle(loaderRing)
+        const loaderCircle = parent.querySelector(".loader__progress-circle")
+        loaderCircle.style.stroke = '#fff'
+        loaderCircle.setAttribute('cx', parseInt(loaderStyle.width) / 2)
+        loaderCircle.setAttribute('cy', parseInt(loaderStyle.width) / 2)
+        loaderCircle.setAttribute('r', parseInt(loaderStyle.width) / 2 - 6)
+        const radius = loaderCircle.getAttribute('r');
+        const circumference = 2 * Math.PI * radius;
+        loaderRing.style.strokeDasharray = `${circumference} ${circumference}`
+        loaderRing.style.strokeDashoffset = circumference;
+        function setProgress(percent) {
+            const offset = circumference - ((percent * 100) / 100 * circumference)
+            loaderRing.style.strokeDashoffset = offset;
+        }
+        let i = 0
+        modelViewer.addEventListener("progress", (e) => {
+            const progress = e.detail.totalProgress;
+            setProgress(progress)
+            if (progress === 1) {
+                i++
+                if (i > 1) {
+                    loader.classList.add('loaded')
+                }
+            }
+        });
+
+    }
 
     return function (getData, dot) {
         if (!dot.isActive) {
-            
+
         } else {
-           
+
         }
-    
+
         //content
         if (!dot.isActive) {
-            viewerBtnFloor.setAttribute('data-popup-default','')
+            viewerBtnFloor.setAttribute('data-popup-default', '')
         } else {
             viewerBtnFloor.removeAttribute('data-popup-default')
             window.addEventListener('change', onchange)
