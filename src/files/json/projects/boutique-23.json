@@ -9,6 +9,28 @@
     "styles": ""
   },
   "dots": {
+    "gym": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 800,
+        "y": 80
+      },
+      "info": {
+        "title": "Gym",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "gym",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "Gym",
+          "type": ""
+        }
+      }
+    },
     "penthouse": {
       "sizes": {
         "width": 155,
@@ -24,7 +46,11 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "penthouse",
-        "classNames": "right"
+        "classNames": "right",
+        "closeInfo": {
+          "title": "Penthouse",
+          "type": ""
+        }
       }
     },
     "studio-t1": {
@@ -42,115 +68,11 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "studio-t1",
-        "classNames": "right"
-      }
-    },
-    "2-bedroom-t5": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 400,
-        "y": 280
-      },
-      "info": {
-        "title": "2-bedroom",
-        "type": "type 5",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "2-bedroom-t5",
-        "classNames": "right"
-      }
-    },
-    "1-bedroom-t1": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 405,
-        "y": 345
-      },
-      "info": {
-        "title": "1-bedroom",
-        "type": "type 1",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "1-bedroom-t1",
-        "classNames": "right"
-      }
-    },
-    "1-bedroom-t2": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 405,
-        "y": 415
-      },
-      "info": {
-        "title": "1-bedroom",
-        "type": "type 2",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "1-bedroom-t2",
-        "classNames": "right"
-      }
-    },
-    "1-bedroom-t3": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 410,
-        "y": 480
-      },
-      "info": {
-        "title": "1-bedroom",
-        "type": "type 3",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "1-bedroom-t3",
-        "classNames": "right"
-      }
-    },
-    "1-bedroom-t4": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 410,
-        "y": 545
-      },
-      "info": {
-        "title": "1-bedroom",
-        "type": "type 4",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "1-bedroom-t4",
-        "classNames": "right"
-      }
-    },
-    "gym": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 800,
-        "y": 80
-      },
-      "info": {
-        "title": "Gym",
-        "type": "",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "gym",
-        "classNames": "left"
+        "classNames": "right",
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 1"
+        }
       }
     },
     "studio-t2": {
@@ -168,7 +90,99 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "studio-t2",
-        "classNames": "left"
+        "classNames": "left",
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 2"
+        }
+      }
+    },
+    "1-bedroom-t1": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 405,
+        "y": 345
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type 1",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-t1",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 1"
+        }
+      }
+    },
+    "1-bedroom-t2": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 405,
+        "y": 415
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type 2",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-t2",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 2"
+        }
+      }
+    },
+    "1-bedroom-t3": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 410,
+        "y": 480
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type 3",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-t3",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 3"
+        }
+      }
+    },
+    "1-bedroom-t4": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 410,
+        "y": 545
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "type 4",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-t4",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 4"
+        }
       }
     },
     "2-bedroom-t1": {
@@ -186,25 +200,11 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t1",
-        "classNames": "left"
-      }
-    },
-    "2-bedroom-t3": {
-      "sizes": {
-        "width": 155,
-        "height": 55
-      },
-      "position": {
-        "x": 795,
-        "y": 300
-      },
-      "info": {
-        "title": "2-bedroom",
-        "type": "type 3",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "2-bedroom-t3",
-        "classNames": "left"
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 1"
+        }
       }
     },
     "2-bedroom-t2": {
@@ -222,7 +222,33 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t2",
-        "classNames": "left"
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 2"
+        }
+      }
+    },
+    "2-bedroom-t3": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 795,
+        "y": 300
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "type 3",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "2-bedroom-t3",
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 3"
+        }
       }
     },
     "2-bedroom-t4": {
@@ -240,7 +266,33 @@
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "2-bedroom-t4",
-        "classNames": "left"
+        "classNames": "left",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 4"
+        }
+      }
+    },
+    "2-bedroom-t5": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 400,
+        "y": 280
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "type 5",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "2-bedroom-t5",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 5"
+        }
       }
     }
   },
@@ -437,6 +489,31 @@
   },
   "modal360": {
     "media": {
+      "gym": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/GYM_VR_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/GYM_VR_002.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/preview/GYM_VR_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/preview/GYM_VR_002.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_005.jpg"
+        ]
+      },
       "penthouse": {
         "slides": {
           "interiors": {
@@ -484,13 +561,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/penthouse/gallery/WC_PENTHOUSE_002.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Penthouse",
-          "type": ""
+          "place": "Penthouse",
+          "bedroom": "studio",
+          "project": "boutique23",
+          "type": "penthouseStudio",
+          "floor": "default",
+          "isActive": true
         }
       },
       "studio-t1": {
@@ -522,29 +598,26 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_1/gallery/Studio_type1_005.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 1"
+          "place": "Apartment",
+          "bedroom": "studio",
+          "project": "boutique23",
+          "type": "studio-t1",
+          "floor": "default",
+          "isActive": true
         }
       },
-      "2-bedroom-t5": {
+      "studio-t2": {
         "slides": {
           "interiors": {
             "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_BEDROOM+2_2BEDROOM_TYPE5.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_BEDROOM_2BEDROOM_TYPE5_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_2BEDROOM_TYPE5_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_WC_2BEDROOM_TYPE5_001.jpg"
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_BEDROOM_STUDIO_TYPE2_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_LIVING_STUDIO_TYPE2_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_WC_STUDIO_TYPE2_001.jpg"
             ],
             "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_BEDROOM+2_2BEDROOM_TYPE5.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_BEDROOM_2BEDROOM_TYPE5_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_2BEDROOM_TYPE5_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_WC_2BEDROOM_TYPE5_001.jpg"
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_BEDROOM_STUDIO_TYPE2_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_LIVING_STUDIO_TYPE2_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_WC_STUDIO_TYPE2_001.jpg"
             ]
           },
           "exteriors": {
@@ -553,26 +626,21 @@
           }
         },
         "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_002.jpg"
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/BEDROOM_STUDIO_TYPE2_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/BEDROOM_STUDIO_TYPE2_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_002.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 5"
+          "place": "Apartment",
+          "bedroom": "studio",
+          "project": "boutique23",
+          "type": "studio-t2",
+          "floor": "default",
+          "isActive": true
         }
       },
       "1-bedroom-t1": {
@@ -607,13 +675,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_1/gallery/LIVING_1BEDROOM_TYPE1_003.jpg"
         ],
         "floorplan": {
-          "place": "Water",
+          "place": "Apartment",
           "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 1"
+          "project": "boutique23",
+          "type": "1-bed-t1",
+          "floor": "default",
+          "isActive": true
         }
       },
       "1-bedroom-t2": {
@@ -641,13 +708,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_2/gallery/1_Bedroom_type_2_Bedroom_003.jpg"
         ],
         "floorplan": {
-          "place": "Water",
+          "place": "Apartment",
           "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 2"
+          "project": "boutique23",
+          "type": "1-bed-t2",
+          "floor": "default",
+          "isActive": true
         }
       },
       "1-bedroom-t3": {
@@ -681,13 +747,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_3/gallery/LIVING_1BEDROOM_TYPE3_004.jpg"
         ],
         "floorplan": {
-          "place": "Water",
+          "place": "Apartment",
           "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 3"
+          "project": "boutique23",
+          "type": "1-bed-t3",
+          "floor": "default",
+          "isActive": true
         }
       },
       "1-bedroom-t4": {
@@ -720,85 +785,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/1_bedroom_4/gallery/Jadaf_water_front_LIVINGROOM_004.jpg"
         ],
         "floorplan": {
-          "place": "Water",
+          "place": "Apartment",
           "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type 4"
-        }
-      },
-      "gym": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/GYM_VR_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/GYM_VR_002.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/preview/GYM_VR_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/360/preview/GYM_VR_002.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_005.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Gym",
-          "type": ""
-        }
-      },
-      "studio-t2": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_BEDROOM_STUDIO_TYPE2_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_LIVING_STUDIO_TYPE2_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/VR360_WC_STUDIO_TYPE2_001.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_BEDROOM_STUDIO_TYPE2_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_LIVING_STUDIO_TYPE2_001.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/360/preview/VR360_WC_STUDIO_TYPE2_001.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/BEDROOM_STUDIO_TYPE2_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/BEDROOM_STUDIO_TYPE2_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/LIVING_STUDIO_TYPE2_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/studio_2/gallery/WC_STUDIO_TYPE2_002.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Studio",
-          "type": "type 2"
+          "project": "boutique23",
+          "type": "1-bed-t4",
+          "floor": "default",
+          "isActive": true
         }
       },
       "2-bedroom-t1": {
@@ -839,13 +831,51 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_1/gallery/LIVING_2BEDROOM_TYPE1_004.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t1",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "2-bedroom-t2": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_water_front_2bedroom_BEDROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_water_front_2_bedroom_LIVINGROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_Water_front_1bedroom_SANUZEL.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_water_front_2bedroom_BEDROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_water_front_2_bedroom_LIVINGROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_Water_front_1bedroom_SANUZEL.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
         },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 1"
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_front_bedroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_front_bedroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_003.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t2",
+          "floor": "default",
+          "isActive": true
         }
       },
       "2-bedroom-t3": {
@@ -881,53 +911,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_3/gallery/2_bedroom_type3_bathroom_002.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 3"
-        }
-      },
-      "2-bedroom-t2": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_water_front_2bedroom_BEDROOM.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_water_front_2_bedroom_LIVINGROOM.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/Jadaf_Water_front_1bedroom_SANUZEL.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_water_front_2bedroom_BEDROOM.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_water_front_2_bedroom_LIVINGROOM.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/360/preview/Jadaf_Water_front_1bedroom_SANUZEL.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_front_bedroom_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_front_bedroom_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_3.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_water_Front_Livingroom_4.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_2/gallery/Jadaf_Water_Front_SANUZEL_003.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 2"
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t3",
+          "floor": "default",
+          "isActive": true
         }
       },
       "2-bedroom-t4": {
@@ -961,199 +950,470 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_4/gallery/LIVING_2BEDROOM_TYPE4_004.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t4",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "2-bedroom-t5": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_BEDROOM+2_2BEDROOM_TYPE5.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_BEDROOM_2BEDROOM_TYPE5_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_2BEDROOM_TYPE5_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/VR360_WC_2BEDROOM_TYPE5_001.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_BEDROOM+2_2BEDROOM_TYPE5.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_BEDROOM_2BEDROOM_TYPE5_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_2BEDROOM_TYPE5_001.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/360/preview/VR360_WC_2BEDROOM_TYPE5_001.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
         },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type 4"
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM_2BEDROOM_TYPE5_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/BEDROOM-2_2BEDROOM_TYPE5_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/LIVING_2BEDROOM_TYPE5_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/2_bedroom_5/gallery/WC_2BEDROOM_TYPE5_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "boutique23",
+          "type": "2-bed-t5",
+          "floor": "default",
+          "isActive": true
         }
       }
     },
     "floorplans": {
-      "Water": {
+      "Penthouse": {
         "name": "place",
-        "title": "Water Mansion",
-        "default": "1-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 300 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Penthouse",
+        "default": "boutique23",
+        "projects": {
+          "boutique23": {
+            "title": "",
+            "default": "studio",
+            "bedrooms": {
+              "studio": {
+                "default": "penthouseStudio",
+                "name": "bedroom",
+                "title": "Studio",
+                "types": {
+                  "penthouseStudio": {
+                    "name": "type",
+                    "title": "Type",
+                    "curFloor": "default",
+
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"Penthouse",
+                        "typeTitle":"",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "1 314 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "2 710 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "penthouse"
+                  }
+                }
               }
             }
           }
         }
       },
-      "Wind": {
+      "Apartment": {
         "name": "place",
-        "title": "Wind Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Apartment",
+        "default": "boutique23",
+        "projects": {
+          "boutique23": {
+            "title": "",
+            "default": "studio",
+            "bedrooms": {
+              "studio": {
+                "default": "studio-t1",
+                "name": "bedroom",
+                "title": "Studio",
+                "types": {
+                  "studio-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"Studio",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "51 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "359 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "studio-t1"
+                  },
+                  "studio-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"Studio",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "65 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "415 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "studio-t2"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 14 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "default",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "default": {
-                "name": "type",
-                "title": "Type",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 600 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 8 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
-        }
-      },
-      "Earth": {
-        "name": "place",
-        "title": "Earth Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 700 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "1-bed": {
+                "default": "1-bed-t1",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "1-bed-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "59 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "512 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t1"
+                  },
+                  "1-bed-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "63 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "490 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t2"
+                  },
+                  "1-bed-t3": {
+                    "name": "type",
+                    "title": "Type 3",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 3",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "59 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "486 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t3"
+                  },
+                  "1-bed-t4": {
+                    "name": "type",
+                    "title": "Type 4",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 4",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "58 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "441 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-t4"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 11 400 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 000 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "2-bed": {
+                "default": "2-bed-t1",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "2-bed-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "118 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "771 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t1"
+                  },
+                  "2-bed-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "64 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "781 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t2"
+                  },
+                  "2-bed-t3": {
+                    "name": "type",
+                    "title": "Type 3",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 3",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "125 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "830 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t3"
+                  },
+                  "2-bed-t4": {
+                    "name": "type",
+                    "title": "Type 4",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 4",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "113 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "784 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t4"
+                  },
+                  "2-bed-t5": {
+                    "name": "type",
+                    "title": "Type 5",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 5",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "105 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "791 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 695 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-t5"
+                  }
+                }
               }
             }
           }

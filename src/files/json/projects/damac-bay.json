@@ -19,101 +19,6 @@
     ]
   },
   "dots": {
-    "3-bedroom-sl-DB2": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 80,
-        "y": 300
-      },
-      "info": {
-        "title": "3-bedroom SL",
-        "type": "DAMAC Bay 2",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "3-bedroom-sl-DB2",
-        "classNames": "right",
-        "hoverId": "leftHover"
-      }
-    },
-    "1-bedroom-l-DB2": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 105,
-        "y": 480
-      },
-      "info": {
-        "title": "1-bedroom L",
-        "type": "DAMAC Bay 2",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-        "dataModal360": "1-bedroom-l-DB2",
-        "classNames": "right",
-        "hoverId": "leftHover"
-      }
-    },
-    "4-bedroom-sl-DB2": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 460,
-        "y": 250
-      },
-      "info": {
-        "title": "4-bedroom SL",
-        "type": "DAMAC Bay 2",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "4-bedroom-sl-DB2",
-        "classNames": "left",
-        "hoverId": "leftHover"
-      }
-    },
-    "2-bedroom-l-DB2": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 460,
-        "y": 370
-      },
-      "info": {
-        "title": "2-bedroom L",
-        "type": "DAMAC Bay 2",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "2-bedroom-l-DB2",
-        "classNames": "left",
-        "hoverId": "leftHover"
-      }
-    },
-    "3-bedroom-sl-DB": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 680,
-        "y": 315
-      },
-      "info": {
-        "title": "3-bedroom SL",
-        "type": "DAMAC Bay",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "3-bedroom-sl-DB",
-        "classNames": "left",
-        "hoverId": "rightHover"
-      }
-    },
     "1-bedroom-l-DB": {
       "sizes": {
         "width": 175,
@@ -130,26 +35,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "1-bedroom-l-DB",
         "classNames": "left",
-        "hoverId": "rightHover"
-      }
-    },
-    "5-bedroom-sl-DB": {
-      "sizes": {
-        "width": 175,
-        "height": 55
-      },
-      "position": {
-        "x": 830,
-        "y": 195
-      },
-      "info": {
-        "title": "5-bedroom SL",
-        "type": "DAMAC Bay",
-        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
-        "dataModal360": "5-bedroom-sl-DB",
-        "classNames": "left",
-        "hoverId": "rightHover"
+        "hoverId": "rightHover",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
+        }
       }
     },
     "3-bedroom-l-DB": {
@@ -168,7 +58,150 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "3-bedroom-sl-DB",
         "classNames": "left",
-        "hoverId": "rightHover"
+        "hoverId": "rightHover",
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type L"
+        }
+      }
+    }, 
+    "3-bedroom-sl-DB": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 680,
+        "y": 315
+      },
+      "info": {
+        "title": "3-bedroom SL",
+        "type": "DAMAC Bay",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "3-bedroom-sl-DB",
+        "classNames": "left",
+        "hoverId": "rightHover",
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
+        }
+      }
+    },
+    "5-bedroom-sl-DB": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 830,
+        "y": 195
+      },
+      "info": {
+        "title": "5-bedroom SL",
+        "type": "DAMAC Bay",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "5-bedroom-sl-DB",
+        "classNames": "left",
+        "hoverId": "rightHover",
+        "closeInfo": {
+          "title": "5-bedroom",
+          "type": "type SL"
+        }
+      }
+    },
+
+    "1-bedroom-l-DB2": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 105,
+        "y": 480
+      },
+      "info": {
+        "title": "1-bedroom L",
+        "type": "DAMAC Bay 2",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom-l-DB2",
+        "classNames": "right",
+        "hoverId": "leftHover",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
+        }
+      }
+    },
+    "2-bedroom-l-DB2": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 460,
+        "y": 370
+      },
+      "info": {
+        "title": "2-bedroom L",
+        "type": "DAMAC Bay 2",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "2-bedroom-l-DB2",
+        "classNames": "left",
+        "hoverId": "leftHover",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type L"
+        }
+      }
+    },
+    "3-bedroom-sl-DB2": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 80,
+        "y": 300
+      },
+      "info": {
+        "title": "3-bedroom SL",
+        "type": "DAMAC Bay 2",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "3-bedroom-sl-DB2",
+        "classNames": "right",
+        "hoverId": "leftHover",
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
+        }
+      }
+    },
+    "4-bedroom-sl-DB2": {
+      "sizes": {
+        "width": 175,
+        "height": 55
+      },
+      "position": {
+        "x": 460,
+        "y": 250
+      },
+      "info": {
+        "title": "4-bedroom SL",
+        "type": "DAMAC Bay 2",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "4-bedroom-sl-DB2",
+        "classNames": "left",
+        "hoverId": "leftHover",
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": "type SL"
+        }
       }
     }
   },
@@ -365,6 +398,270 @@
   },
   "modal360": {
     "media": {
+      "1-bedroom-l-DB": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/1br_living_damac_06.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_bedroom_005_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_010_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_011_vr.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/1br_living_damac_06.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_bedroom_005_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_010_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_011_vr.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_01.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_02.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_03.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_04.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_05.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_006.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_007.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_008.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_009.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "damac-bay1",
+          "type": "1-bed-l-DB",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "3-bedroom-l-DB": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "3-bed",
+          "project": "damac-bay1",
+          "type": "3-bed-l-DB",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "3-bedroom-sl-DB": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3bdrm_sluxurytype1_livingVR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/360_Post+2.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3bdrm_sluxurytype1_livingVR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/360_Post+2.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_006.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C01_final.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C02_final.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C03_final.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C04_final.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_004.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "3-bed",
+          "project": "damac-bay1",
+          "type": "3-bed-sl-DB",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "5-bedroom-sl-DB": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM6.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM7.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM8.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_5.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "5-bed",
+          "project": "damac-bay1",
+          "type": "5-bed-sl-DB",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "1-bedroom-l-DB2": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/1BR_luxury_living-kitchen_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/1BR_luxury_living-kitchen_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BED1ROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_004.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "damac-bay2",
+          "type": "1-bed-l-DB2",
+          "floor": "default",
+          "isActive": true
+        }
+      },
+      "2-bedroom-l-DB2": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_4.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_5.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama+6.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_4.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_5.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama+6.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/1+Damac+bay+2+Living+room.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/2+Damac+bay+2+Living+room.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/3+Damac+bay+2+Living+room.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/4+Damac+bay+2+Living+room.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_4.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "damac-bay2",
+          "type": "2-bed-l-DB2",
+          "floor": "default",
+          "isActive": true
+        }
+      },
       "3-bedroom-sl-DB2": {
         "slides": {
           "interiors": {
@@ -408,59 +705,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_3BR_SUPER_LUXURY_TYPE_A1/gallery/3BR_TypeA1_Master+Bathroom_005.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type SL"
-        }
-      },
-      "1-bedroom-l-DB2": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/1BR_luxury_living-kitchen_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/1BR_luxury_living-kitchen_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360_02.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/360/preview/BAY2_1BR_LUXURY_TYPE_13_WC_VR360.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_living-kitchen_005.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/1BR_luxury_WC_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BED1ROOM_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_1BR_LUXURY_TYPE_13/gallery/BAY2_1BR_LUXURY_TYPE_13_BEDROOM_004.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type L"
+          "place": "Apartment",
+          "bedroom": "3-bed",
+          "project": "damac-bay2",
+          "type": "3-bed-sl-DB2",
+          "floor": "default",
+          "isActive": true
         }
       },
       "4-bedroom-sl-DB2": {
@@ -510,423 +760,319 @@
           "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_4BR_SUPER_LUXURY_TYPE_A/gallery/living_010.jpg"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "4-bedroom",
-          "type": "type SL"
-        }
-      },
-      "2-bedroom-l-DB2": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_1.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_2.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_3.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_4.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama_5.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/Panorama+6.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_1.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_2.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_3.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_4.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama_5.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/360/preview/Panorama+6.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/1+Damac+bay+2+Living+room.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/2+Damac+bay+2+Living+room.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/3+Damac+bay+2+Living+room.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/4+Damac+bay+2+Living+room.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bathroom_2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_3.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY2_2BR_LUXURY_TYPE_20/gallery/bedroom_4.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "2-bedroom",
-          "type": "type L"
-        }
-      },
-      "3-bedroom-sl-DB": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3bdrm_sluxurytype1_livingVR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/360_Post+2.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3bdrm_sluxurytype1_livingVR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/3Bedroom_Duplex_type+1_master+bedroom_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/360/preview/360_Post+2.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_005.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3Bedroom_Duplex_type+1_master+bedroom_006.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C01_final.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C02_final.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C03_final.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/C04_final.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_SUPER_LUXURY_TYPE_1/gallery/3+Bedroom+type+1_duplex_Master_bathroom_004.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type SL"
-        }
-      },
-      "1-bedroom-l-DB": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/1br_living_damac_06.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_bedroom_005_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_010_vr.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/BAY_1bdrm_wc_011_vr.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/1br_living_damac_06.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_bedroom_005_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_010_vr.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/360/preview/BAY_1bdrm_wc_011_vr.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_01.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_02.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_03.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_04.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/1br_living_damac_05.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_bedroom_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_006.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_007.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_008.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_1BR_LUXURY_TYPE_1/gallery/BAY_1bdrm_wc_009.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "1-bedroom",
-          "type": "type L"
-        }
-      },
-      "5-bedroom-sl-DB": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM_VR1.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM_VR.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/360/preview/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_VR.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM3.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM5.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM6.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM7.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+LIVINGROOM8.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM3.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM4.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_BEDROOM5.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_1.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_2.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_3.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_5BR_SUPER_LUXURY_TYPE_1/gallery/DAMAC_5+BR+SUPER+LUXURY+TYPE+1+(DUPLEX)_+BATHROOM_5.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "5-bedroom",
-          "type": "type SL"
-        }
-      },
-      "3-bedroom-l-DB": {
-        "slides": {
-          "interiors": {
-            "img360": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
-            ],
-            "img360Preview": [
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_005_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_006_VR360.jpg",
-              "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/360/preview/BAY_3BR_LUXURY_TYPE_1_WC_VR360.jpg"
-            ]
-          },
-          "exteriors": {
-            "img360": [],
-            "img360Preview": []
-          }
-        },
-        "gallery": [
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_002.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_003.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE+1_MASTER+BEDROOM_004.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_001.jpg",
-          "https://d3b6muno9lbfvx.cloudfront.net/damac-bay-vr/files/modal-360-img/img3/BAY_3BR_LUXURY_TYPE_1/gallery/BAY_3BR_LUXURY_TYPE_1_WC_002.jpg"
-        ],
-        "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "3-bedroom",
-          "type": "type L"
+          "place": "Apartment",
+          "bedroom": "4-bed",
+          "project": "damac-bay2",
+          "type": "4-bed-sl-DB2",
+          "floor": "default",
+          "isActive": true
         }
       }
     },
     "floorplans": {
-      "Water": {
+      "Apartment": {
         "name": "place",
-        "title": "Water Mansion",
-        "default": "1-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Apartment",
+        "default": "damac-bay1",
+        "projects": {
+          "damac-bay1": {
+            "title": "DAMAC Bay",
+            "default": "1-bed",
+            "bedrooms": {
+              "1-bed": {
+                "default": "1-bed-l-DB",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "1-bed-l-DB": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom Luxury",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 1
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "718 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-l-DB"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 300 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
-        }
-      },
-      "Wind": {
-        "name": "place",
-        "title": "Wind Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "3-bed": {
+                "default": "3-bed-l-DB",
+                "name": "bedroom",
+                "title": "3-bedroom",
+                "types": {
+                  "3-bed-l-DB": {
+                    "name": "type",
+                    "title": "Type L",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"3-bedroom Luxury",
+                        "typeTitle":"Type L",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 4
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 991,9 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "3-bedroom-l-DB"
+                  },
+                  "3-bed-sl-DB": {
+                    "name": "type",
+                    "title": "Type SL",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"3-bedroom Super Luxury",
+                        "typeTitle":"Type SL",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 4
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "3 242,8 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "3-bedroom-sl-DB"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 14 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "5-bed": {
+                "default": "5-bed-sl-DB",
+                "name": "bedroom",
+                "title": "5-bedroom",
+                "types": {
+                  "5-bed-sl-DB": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"5-bedroom Super Luxury",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 6
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "6 473 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "5-bedroom-sl-DB"
+                  }
+                }
               }
             }
           },
-          "2-bed": {
-            "default": "default",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "default": {
-                "name": "type",
-                "title": "Type",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 600 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 8 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
-        }
-      },
-      "Earth": {
-        "name": "place",
-        "title": "Earth Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 700 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+          "damac-bay2": {
+            "title": "DAMAC Bay 2",
+            "default": "1-bed",
+            "bedrooms": {
+              "1-bed": {
+                "default": "1-bed-l-DB2",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "1-bed-l-DB2": {
+                    "name": "type",
+                    "title": "Type 13",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom Luxury",
+                        "typeTitle":"Type 13",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 1
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "854.01 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom-l-DB2"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 11 400 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 000 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "2-bed": {
+                "default": "2-bed-l-DB2",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "2-bed-l-DB2": {
+                    "name": "type",
+                    "title": "Type 20",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom Luxury",
+                        "typeTitle":"Type 20",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 1
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 298,45 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom-l-DB2"
+                  }
+                }
+              },
+              "3-bed": {
+                "default": "3-bed-sl-DB2",
+                "name": "bedroom",
+                "title": "3-bedroom",
+                "types": {
+                  "3-bed-sl-DB2": {
+                    "name": "type",
+                    "title": "Type A1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"3-bedroom Super Luxury",
+                        "typeTitle":"Type A1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 4
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "5 157,24 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "3-bedroom-sl-DB2"
+                  }
+                }
+              },
+              "4-bed": {
+                "default": "4-bed-sl-DB2",
+                "name": "bedroom",
+                "title": "4-bedroom",
+                "types": {
+                  "4-bed-sl-DB2": {
+                    "name": "type",
+                    "title": "Type A",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"4-bedroom Super Luxury",
+                        "typeTitle":"Type A",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "bathroom": {
+                            "title": "Bathroom",
+                            "val": 5
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "5 907,49 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 3 400 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "4-bedroom-sl-DB2"
+                  }
+                }
               }
             }
           }

@@ -47,7 +47,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
         "dataModal360": "L-Shape-l1",
         "classNames": "right",
-        "hoverId": "l-shape"
+        "hoverId": "l-shape",
+        "closeInfo": {
+          "title": "L-Shape",
+          "type": ""
+        }
       }
     },
     "V-Shape-V1": {
@@ -66,7 +70,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "V-Shape-V1",
         "classNames": "left text-align-left",
-        "hoverId": "v-shape"
+        "hoverId": "v-shape",
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
+        }
       }
     },
     "V-Shape-V2": {
@@ -85,7 +93,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "V-Shape-V2",
         "classNames": "left text-align-left",
-        "hoverId": "v-shape"
+        "hoverId": "v-shape",
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
+        }
       }
     },
     "mansions-m2": {
@@ -104,7 +116,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m2",
         "classNames": "left text-align-left",
-        "hoverId": "sky"
+        "hoverId": "sky",
+        "closeInfo": {
+          "title": "Sky Mansion",
+          "type": ""
+        }
       }
     },
     "mansions-m3": {
@@ -123,7 +139,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m3",
         "classNames": "left text-align-left",
-        "hoverId": "earth"
+        "hoverId": "earth",
+        "closeInfo": {
+          "title": "Earth Mansion",
+          "type": ""
+        }
       }
     },
     "mansions-m5": {
@@ -142,7 +162,11 @@
         "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
         "dataModal360": "mansions-m5",
         "classNames": "left text-align-left",
-        "hoverId": "water"
+        "hoverId": "water",
+        "closeInfo": {
+          "title": "Water Mansion",
+          "type": ""
+        }
       }
     }
   },
@@ -401,13 +425,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/l-shape/03_THREE_BEDROOM+(L-SHAPE)/Lshape_bedroom_3bdrm_5.webp"
         ],
         "floorplan": {
-          "place": "Water",
+          "place": "Apartment",
           "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "L-Shape",
-          "type": ""
+          "project": "default",
+          "type": "l-shape",
+          "floor": "default",
+          "isActive": true
         }
       },
       "V-Shape-V1": {
@@ -463,13 +486,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/05_THREE_BEDROOM+(V-SHAPE)/Vshape_master bathroom_3drm_2.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "V-Shape",
-          "type": ""
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "default",
+          "type": "v-shape-a",
+          "floor": "default",
+          "isActive": true
         }
       },
       "V-Shape-V2": {
@@ -535,13 +557,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/v-shape/06_PENTHOUSE+V-SHAPE+(ZAHAR)/1_PENTHOUSE_POST_NEW.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "V-Shape",
-          "type": ""
+          "place": "Apartment",
+          "bedroom": "3-bed",
+          "project": "default",
+          "type": "v-shape-b",
+          "floor": "default",
+          "isActive": true
         }
       },
       "mansions-m2": {
@@ -579,13 +600,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Sky Mansion",
-          "type": ""
+          "place": "Mansion",
+          "bedroom": "8-bed",
+          "project": "weather",
+          "type": "sky",
+          "floor": "Basement",
+          "isActive": true
         }
       },
       "mansions-m3": {
@@ -621,13 +641,12 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/09_earth_mansion/s002_v1.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Earth Mansion",
-          "type": ""
+          "place": "Mansion",
+          "bedroom": "8-bed",
+          "project": "weather",
+          "type": "earth",
+          "floor": "Basement",
+          "isActive": true
         }
       },
       "mansions-m5": {
@@ -665,202 +684,449 @@
           "https://drupal-landings.s3.eu-west-1.amazonaws.com/ritz-vr/gallery/07_sky_mansion/Sky_Living_N_003.webp"
         ],
         "floorplan": {
-          "place": "Water",
-          "bedroom": "1-bed",
-          "type": "typeA"
-        },
-        "closeInfo": {
-          "title": "Water Mansion",
-          "type": ""
+          "place": "Mansion",
+          "bedroom": "8-bed",
+          "project": "weather",
+          "type": "water",
+          "floor": "Basement",
+          "isActive": true
         }
       }
     },
     "floorplans": {
-      "Water": {
+      "Mansion": {
         "name": "place",
-        "title": "Water Mansion",
-        "default": "1-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 300 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Mansion",
+        "default": "weather",
+        "projects": {
+          "weather": {
+            "title": "",
+            "default": "8-bed",
+            "bedrooms": {
+              "8-bed": {
+                "default": "sky",
+                "name": "bedroom",
+                "title": "8-bedroom",
+                "types": {
+                  "sky": {
+                    "name": "type",
+                    "title": "Sky",
+                    "curFloor": "Basement",
+                    "floors": {
+                      "Basement": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Basement"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 906 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Ground": {
+                        "title": "Ground",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Ground"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 906 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "First": {
+                        "title": "First",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "First"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 906 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Second": {
+                        "title": "Second",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Sky",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Second"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 906 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "mansions-m2"
+                  },
+                  "water": {
+                    "name": "type",
+                    "title": "Water",
+                    "curFloor": "Basement",
+                    "floors": {
+                      "Basement": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Basement"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "45 926,73 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Ground": {
+                        "title": "Ground",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Ground"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "45 926,73 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "First": {
+                        "title": "First",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "First"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "45 926,73 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Second": {
+                        "title": "Second",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Water",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Second"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "45 926,73 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "mansions-m5"
+                  },
+                  "earth": {
+                    "name": "type",
+                    "title": "Earth",
+                    "curFloor": "Basement",
+                    "floors": {
+                      "Basement": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Basement"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 648,01 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Ground": {
+                        "title": "Ground",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Ground"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 648,01 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "First": {
+                        "title": "First",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "First"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 648,01 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      },
+                      "Second": {
+                        "title": "Second",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"8-bedroom",
+                        "typeTitle":"Earth",
+                        "bedInfo": {
+                          "floor": {
+                            "title": "Floor",
+                            "val": "Second"
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "46 648,01 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "mansions-m3"
+                  }
+                }
               }
             }
           }
+
         }
       },
-      "Wind": {
+      "Apartment": {
         "name": "place",
-        "title": "Wind Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 10 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+        "title": "Apartment",
+        "default": "default",
+        "projects": {
+          "default": {
+            "title": "",
+            "default": "1-bed",
+            "bedrooms": {
+              "1-bed": {
+                "default": "l-shape",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "l-shape": {
+                    "name": "type",
+                    "title": "L-Shape",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"L-Shape",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "1 291,9 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 754,3 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "L-Shape-l1"
+                  }
+                }
               },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 14 200 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "default",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "default": {
-                "name": "type",
-                "title": "Type",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 600 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 8 500 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
+              "2-bed": {
+                "default": "v-shape-a",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "v-shape-a": {
+                    "name": "type",
+                    "title": "V-Shape A",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"V-Shape A",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "2 153 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "3 843 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "V-Shape-V1"
+                  }
+                }
+              },
+              "3-bed": {
+                "default": "v-shape-b",
+                "name": "bedroom",
+                "title": "3-bedroom",
+                "types": {
+                  "v-shape-b": {
+                    "name": "type",
+                    "title": "V-Shape B",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "2d": "../img/floorpop/kResort/1-bedroom-adress.png",
+                        "3d": "",
+                        "bedTitle":"3-bedroom",
+                        "typeTitle":"V-Shape B",
+                        "bedInfo": {
+                          "Interior": {
+                            "title": "Interior",
+                            "val": "3 800 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "4 600 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 6 900 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "V-Shape-V2"
+                  }
+                }
               }
             }
           }
-        }
-      },
-      "Earth": {
-        "name": "place",
-        "title": "Earth Mansion",
-        "default": "3-bed",
-        "bedrooms": {
-          "1-bed": {
-            "default": "typeA",
-            "name": "bedroom",
-            "title": "1 bedroom",
-            "types": {
-              "typeA": {
-                "name": "type",
-                "title": "type A",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 12 700 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              },
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 11 400 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "2-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "2 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 100 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          },
-          "3-bed": {
-            "default": "typeB",
-            "name": "bedroom",
-            "title": "3 bedroom",
-            "types": {
-              "typeB": {
-                "name": "type",
-                "title": "type B",
-                "totalArea": "1942 sq.ft.",
-                "bathrooms": 3,
-                "price": "AED 9 000 000",
-                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
-                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-                "dataModal360": ""
-              }
-            }
-          }
+
         }
       }
     }
