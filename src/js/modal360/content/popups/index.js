@@ -56,7 +56,12 @@ function getPopContentFn() {
                 `
         <li class="place__list-item">
            <input type="radio" value="${key}" ${key == allInfo.place ? 'checked' : ''} name="${data[key].name}" id="${data[key].name}-${i}" hidden>
-           <label for="${data[key].name}-${i}">${data[key].title}</label>
+           <label for="${data[key].name}-${i}">
+           ${data[key].title}
+           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
+<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+           </label>
         </li>
         `
         }
@@ -66,6 +71,11 @@ function getPopContentFn() {
         let j = 0
         let bool = false
         for (const proj in data) {
+            if (Object.keys(data[proj].bedrooms).length <= 1) {
+                filterSelect[1].classList.add('alone')
+            } else {
+                filterSelect[1].classList.remove('alone')
+            }
             let bedrooms = ''
             for (const bed in data[proj].bedrooms) {
                 if (bed == allInfo.bedroom && proj == allInfo.project) {
@@ -78,7 +88,12 @@ function getPopContentFn() {
                     `
             <li class="project__list-item">
                 <input type="radio" name="bedroom" value="${bed},${proj}"  ${bool ? 'checked' : ''} id="${data[proj].bedrooms[bed].name}-${j}" hidden>
-                <label for="${data[proj].bedrooms[bed].name}-${j}">${data[proj].bedrooms[bed].title}</label>
+                <label for="${data[proj].bedrooms[bed].name}-${j}">
+                ${data[proj].bedrooms[bed].title}
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
+<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </label>
             </li>
             `
             }
@@ -137,7 +152,12 @@ function getPopContentFn() {
                 `
         <li class="type__list-item">
         <input type="radio" value="${type}" ${type == allInfo.type ? 'checked' : ''} name="${data[type].name}" id="${data[type].name}-${i}" hidden>
-        <label for="${data[type].name}-${i}">${data[type].title}</label>
+        <label for="${data[type].name}-${i}">
+        ${data[type].title}
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
+<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+        </label>
     </li>
         `
         }

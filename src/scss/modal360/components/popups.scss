@@ -139,7 +139,7 @@ body {
             position: absolute;
             left: 0;
             width: 100%;
-            &__scrollhide{
+            &__scrollhide {
                 position: absolute;
                 bottom: 18px;
                 transform: translateY(100%);
@@ -194,11 +194,10 @@ body {
                 }
             }
         }
-        &__inner{
-            @media(max-width:400px){
+        &__inner {
+            @media (max-width: 400px) {
                 max-width: 100%;
                 overflow-x: auto;
-               
             }
         }
         &__wrap {
@@ -270,8 +269,8 @@ body {
             }
             &.no-type {
                 // pointer-events: none;
-                color: #c2c2c2;
-                border-bottom: 1px solid #c2c2c2;
+                color: #595959;
+                border-bottom: 1px solid #595959;
                 svg {
                     display: none;
                 }
@@ -454,8 +453,14 @@ body {
                 align-items: center;
                 input:checked + label {
                     opacity: 1;
+                    svg {
+                        opacity: 1;
+                    }
                 }
                 label {
+                    display: flex;
+                    align-items: center;
+                    gap: 6px;
                     color: #fff;
                     white-space: nowrap;
                     font-size: 1.5rem;
@@ -464,6 +469,10 @@ body {
                     line-height: 150%; /* 22.5px */
                     opacity: 0.6;
                     cursor: pointer;
+                    svg {
+                        opacity: 0;
+                        transition: opacity 0.3s ease;
+                    }
                     @media (max-width: 768px) {
                         font-size: 15px;
                     }
@@ -713,6 +722,7 @@ body {
                 gap: 20px;
             }
             &-item {
+                margin-bottom: 15px;
                 input:checked + label {
                     color: #d79970;
                     border-bottom: 1px solid #d79970;
