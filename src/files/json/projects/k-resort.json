@@ -431,7 +431,12 @@
           "type": "l-shape",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "L-Shape",
+          "type": ""
         }
+
       },
       "V-Shape-V1": {
         "slides": {
@@ -492,7 +497,13 @@
           "type": "v-shape-a",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
         }
+
+
       },
       "V-Shape-V2": {
         "slides": {
@@ -563,7 +574,12 @@
           "type": "v-shape-b",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "V-Shape",
+          "type": ""
         }
+
       },
       "mansions-m2": {
         "slides": {
@@ -606,7 +622,13 @@
           "type": "sky",
           "floor": "Basement",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Sky Mansion",
+          "type": ""
         }
+
+
       },
       "mansions-m3": {
         "slides": {
@@ -647,7 +669,12 @@
           "type": "earth",
           "floor": "Basement",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Earth Mansion",
+          "type": ""
         }
+
       },
       "mansions-m5": {
         "slides": {
@@ -690,7 +717,12 @@
           "type": "water",
           "floor": "Basement",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Water Mansion",
+          "type": ""
         }
+
       }
     },
     "floorplans": {

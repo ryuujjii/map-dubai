@@ -280,7 +280,12 @@
           "type": "type1B",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": ""
         }
+
       },
       "2-bedroom": {
         "slides": {
@@ -320,6 +325,11 @@
           "type": "type2A",
           "floor": "default",
           "isActive": true
+        }
+        ,
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": ""
         }
       }
     },

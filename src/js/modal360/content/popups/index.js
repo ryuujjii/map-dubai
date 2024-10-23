@@ -108,11 +108,6 @@ function getPopContentFn() {
     `
 
         }
-        if (filterType.classList.contains('no-type')) {
-            filterContentType.style.display = 'none'
-        } else {
-            filterContentType.style.display = 'inline-block'
-        }
     }
     function switchView() {
         viewSwitch.forEach(sw => {
@@ -319,20 +314,27 @@ function getPopContentFn() {
     }
 
     return function (getData, dot) {
-        window.addEventListener('change', onchange)
+        if (!dot.isActive) {
+            
+        } else {
+           
+        }
+    
         //content
         if (!dot.isActive) {
-            viewerBtnFloor.style.display = 'none'
+            viewerBtnFloor.setAttribute('data-popup-default','')
         } else {
-            viewerBtnFloor.style.display = 'block'
+            viewerBtnFloor.removeAttribute('data-popup-default')
+            window.addEventListener('change', onchange)
+            getInfo = dot
+            allInfo = {
+                ...getInfo,
+                viewMode: "2d",
+            }
+            data = getData
+            contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
         }
-        getInfo = dot
-        allInfo = {
-            ...getInfo,
-            viewMode: "2d",
-        }
-        data = getData
-        contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+
     }
 
 }

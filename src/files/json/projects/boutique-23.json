@@ -512,7 +512,12 @@
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_003.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_004.jpg",
           "https://d3b6muno9lbfvx.cloudfront.net/boutique-23-vr/files/imgs/gym/gallery/GYM_005.jpg"
-        ]
+        ],
+        "closeInfo": {
+          "title": "Gym",
+          "type": ""
+        }
+
       },
       "penthouse": {
         "slides": {
@@ -567,6 +572,10 @@
           "type": "penthouseStudio",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Penthouse",
+          "type": ""
         }
       },
       "studio-t1": {
@@ -604,6 +613,10 @@
           "type": "studio-t1",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 1"
         }
       },
       "studio-t2": {
@@ -641,6 +654,10 @@
           "type": "studio-t2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 5"
         }
       },
       "1-bedroom-t1": {
@@ -681,6 +698,10 @@
           "type": "1-bed-t1",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 1"
         }
       },
       "1-bedroom-t2": {
@@ -714,6 +735,10 @@
           "type": "1-bed-t2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 2"
         }
       },
       "1-bedroom-t3": {
@@ -753,7 +778,12 @@
           "type": "1-bed-t3",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 3"
         }
+
       },
       "1-bedroom-t4": {
         "slides": {
@@ -791,7 +821,12 @@
           "type": "1-bed-t4",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 4"
         }
+
       },
       "2-bedroom-t1": {
         "slides": {
@@ -837,7 +872,12 @@
           "type": "2-bed-t1",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 1"
         }
+
       },
       "2-bedroom-t2": {
         "slides": {
@@ -876,7 +916,13 @@
           "type": "2-bed-t2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 2"
         }
+
+        
       },
       "2-bedroom-t3": {
         "slides": {
@@ -917,7 +963,13 @@
           "type": "2-bed-t3",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 3"
         }
+
+
       },
       "2-bedroom-t4": {
         "slides": {
@@ -956,7 +1008,12 @@
           "type": "2-bed-t4",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 4"
         }
+
       },
       "2-bedroom-t5": {
         "slides": {
@@ -999,7 +1056,12 @@
           "type": "2-bed-t5",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 5"
         }
+
       }
     },
     "floorplans": {
@@ -1021,13 +1083,12 @@
                     "name": "type",
                     "title": "Type",
                     "curFloor": "default",
-
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"Penthouse",
-                        "typeTitle":"",
+                        "bedTitle": "Penthouse",
+                        "typeTitle": "",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1076,8 +1137,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"Studio",
-                        "typeTitle":"Type 1",
+                        "bedTitle": "Studio",
+                        "typeTitle": "Type 1",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1102,13 +1163,12 @@
                     "name": "type",
                     "title": "Type 2",
                     "curFloor": "default",
-
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"Studio",
-                        "typeTitle":"Type 2",
+                        "bedTitle": "Studio",
+                        "typeTitle": "Type 2",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1144,8 +1204,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"Type 1",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "Type 1",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1174,8 +1234,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"Type 2",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "Type 2",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1204,8 +1264,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"Type 3",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "Type 3",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1234,8 +1294,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"Type 4",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "Type 4",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1271,8 +1331,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"Type 1",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "Type 1",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1301,8 +1361,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"Type 2",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "Type 2",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1331,8 +1391,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"Type 3",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "Type 3",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1361,8 +1421,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"Type 4",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "Type 4",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {
@@ -1391,8 +1451,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"Type 5",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "Type 5",
                         "2d": "../img/floorpop/",
                         "3d": "",
                         "bedInfo": {

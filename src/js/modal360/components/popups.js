@@ -13,6 +13,9 @@ export function popups() {
     const filterDropdown = filter.querySelectorAll(".filter__dropdown")
     const popupClose = popup.querySelector('.popup__close')
     const viewFullBtn = popup.querySelector('.view-fullbtn')
+    const modalFloorDef = document.querySelector(".modal-floorplan")
+    const modalFloorDefClose = document.querySelector(".modal-floorplan__close")
+    const modalFloorDefInner = document.querySelector(".modal-floorplan__inner")
 
     filterSelect.forEach((select, i) => {
         select.addEventListener('click', () => {
@@ -62,9 +65,26 @@ export function popups() {
         })
     })
     popupOpenBtn.addEventListener('click', () => {
+        if (popupOpenBtn.hasAttribute("data-popup-default")) {
+            modalFloorDef.classList.add("active")
+        } else {
+            popup.classList.add('active')
+        }
         addClassToAlter()
-        popup.classList.add('active')
+
     })
+    modalFloorDef.addEventListener('click', () => {
+        modalFloorDef.classList.remove("active")
+        removeClassToAlter()
+    })
+    modalFloorDefClose.addEventListener('click', () => {
+        modalFloorDef.classList.remove("active")
+        removeClassToAlter()
+    })
+    modalFloorDefInner.addEventListener('click', (e) => {
+        e.stopPropagation()
+    })
+
     popupClose.addEventListener('click', () => {
         popup.classList.remove("active")
         removeClassToAlter()

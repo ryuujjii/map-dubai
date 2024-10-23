@@ -281,7 +281,12 @@
           "type": "4-bed-duplex",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": "duplex"
         }
+
       }
     },
     "floorplans": {

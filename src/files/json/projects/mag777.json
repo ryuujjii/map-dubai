@@ -616,7 +616,12 @@
           "type": "type-102",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 102"
         }
+
       },
       "studio-105": {
         "slides": {
@@ -652,7 +657,12 @@
           "type": "type-105",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 105"
         }
+
       }, 
       "studio-109": {
         "slides": {
@@ -689,7 +699,12 @@
           "type": "type-109",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 109"
         }
+
       },
       "studio-113": {
         "slides": {
@@ -726,7 +741,12 @@
           "type": "type-113",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 113"
         }
+
       },
       "studio-104": {
         "slides": {
@@ -764,7 +784,12 @@
           "type": "type-104",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 104"
         }
+
       },
       "studio-111": {
         "slides": {
@@ -807,7 +832,12 @@
           "type": "type-111",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": "type 111"
         }
+
       },
       "1-bedroom-106": {
         "slides": {
@@ -852,7 +882,13 @@
           "type": "type-106",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 106"
         }
+
+
       },
       "1-bedroom-108": {
         "slides": {
@@ -895,7 +931,12 @@
           "type": "type-108",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 108"
         }
+
       },
       "1-bedroom-110": {
         "slides": {
@@ -941,7 +982,12 @@
           "type": "type-110",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 110"
         }
+
       },
       "1-bedroom-112": {
         "slides": {
@@ -986,7 +1032,12 @@
           "type": "type-112",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 112"
         }
+
       },
       "1-bedroom-101": {
         "slides": {
@@ -1033,7 +1084,12 @@
           "type": "type-101",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 101"
         }
+
       },
       "1-bedroom-103": {
         "slides": {
@@ -1075,9 +1131,13 @@
           "type": "type-103",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 103"
         }
+
       },
-      
       "1-bedroom-114": {
         "slides": {
           "interiors": {
@@ -1123,7 +1183,12 @@
           "type": "type-114",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type 114"
         }
+
       },
       "2-bedroom-107": {
         "slides": {
@@ -1179,7 +1244,12 @@
           "type": "type-107",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type 107"
         }
+
       }
     },
     "floorplans": {

@@ -320,7 +320,12 @@
           "type": "5-bed-town",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Townhouses",
+          "type": ""
         }
+
       },
       "villas": {
         "slides": {
@@ -352,7 +357,12 @@
           "type": "villas",
           "floor": "default",
           "isActive": false
+        },
+        "closeInfo": {
+          "title": "Villas",
+          "type": ""
         }
+
       },
       "apartments": {
         "slides": {
@@ -438,7 +448,12 @@
           "type": "2-bed-apart",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "Apartments",
+          "type": ""
         }
+
       }
     },
     "floorplans": {

@@ -441,7 +441,12 @@
           "type": "1-bed-l-DB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
         }
+
       },
       "3-bedroom-l-DB": {
         "slides": {
@@ -477,7 +482,12 @@
           "type": "3-bed-l-DB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type L"
         }
+
       },
       "3-bedroom-sl-DB": {
         "slides": {
@@ -521,7 +531,12 @@
           "type": "3-bed-sl-DB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
         }
+
       },
       "5-bedroom-sl-DB": {
         "slides": {
@@ -569,7 +584,12 @@
           "type": "5-bed-sl-DB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "5-bedroom",
+          "type": "type SL"
         }
+
       },
       "1-bedroom-l-DB2": {
         "slides": {
@@ -614,7 +634,12 @@
           "type": "1-bed-l-DB2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type L"
         }
+
       },
       "2-bedroom-l-DB2": {
         "slides": {
@@ -660,7 +685,13 @@
           "type": "2-bed-l-DB2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type L"
         }
+
+
       },
       "3-bedroom-sl-DB2": {
         "slides": {
@@ -711,7 +742,12 @@
           "type": "3-bed-sl-DB2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "type SL"
         }
+
       },
       "4-bedroom-sl-DB2": {
         "slides": {
@@ -766,7 +802,12 @@
           "type": "4-bed-sl-DB2",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": "type SL"
         }
+
       }
     },
     "floorplans": {

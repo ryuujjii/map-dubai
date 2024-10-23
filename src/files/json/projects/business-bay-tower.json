@@ -427,7 +427,13 @@
           "type": "1-bed-t-A",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type A"
         }
+
+
       },
       "1-bedroom-t-B": {
         "slides": {
@@ -475,7 +481,13 @@
           "type": "1-bed-t-B",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type B"
         }
+
+
       },
       "1-bedroom-l-A": {
         "slides": {
@@ -533,7 +545,12 @@
           "type": "1-bed-l-A",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "loft style A"
         }
+
       },
       "1-bedroom-l-B": {
         "slides": {
@@ -587,7 +604,12 @@
           "type": "1-bed-l-B",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "loft style B"
         }
+
       },
       "2-bedroom-t-A": {
         "slides": {
@@ -652,7 +674,12 @@
           "type": "2-bed-t-A",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type A"
         }
+
       },
       "2-bedroom-t-B": {
         "slides": {
@@ -705,7 +732,12 @@
           "type": "2-bed-t-B",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type B"
         }
+
       },
       "2-bedroom-D": {
         "slides": {
@@ -771,7 +803,12 @@
           "type": "2-bed-d",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "duplex"
         }
+
       },
       "3-bedroom-D": {
         "slides": {
@@ -855,7 +892,12 @@
           "type": "3-bed-d",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": "duplex"
         }
+
       }
     },
     "floorplans": {

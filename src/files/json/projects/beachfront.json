@@ -426,6 +426,10 @@
           "type": "default",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": ""
         }
       },
       "1-bedroom-address": {
@@ -467,6 +471,10 @@
           "type": "default",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": ""
         }
       },
       "2-bedroom-address": {
@@ -516,6 +524,10 @@
           "type": "default",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": ""
         }
       },
       "4-bedroom-gandBlue": {
@@ -582,6 +594,10 @@
           "type": "default",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "4-bedroom",
+          "type": ""
         }
       },
       "1-bedroom-A-gandBlue": {
@@ -632,6 +648,10 @@
           "type": "typeA",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "Type A"
         }
       },
       "1-bedroom-B-gandBlue": {
@@ -680,6 +700,10 @@
           "type": "typeB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "Type B"
         }
       },
       "3-bedroom-gandBlue": {
@@ -724,6 +748,10 @@
           "type": "default",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "3-bedroom",
+          "type": ""
         }
       }
     },
@@ -750,8 +778,8 @@
                       "default": {
                         "title": "Basement",
                         "name": "floor",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "",
                         "bedInfo": {
                           "bathrooms": {
                             "title": "Bathrooms",
@@ -783,15 +811,14 @@
                     "name": "type",
                     "title": "Type",
                     "curFloor": "default",
-                   
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/2-bedroom-adress.png",
                         "3d": "",
-                        "bedTitle":"2-bedroom",
-                        "typeTitle":"",
+                        "bedTitle": "2-bedroom",
+                        "typeTitle": "",
                         "bedInfo": {
                           "bathrooms": {
                             "title": "Bathrooms",
@@ -821,15 +848,14 @@
                     "name": "type",
                     "title": "Type",
                     "curFloor": "default",
-                   
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/3-bedroom-adress.png",
                         "3d": "",
-                        "bedTitle":"3-bedroom",
-                        "typeTitle":"",
+                        "bedTitle": "3-bedroom",
+                        "typeTitle": "",
                         "bedInfo": {
                           "bathrooms": {
                             "title": "Bathrooms",
@@ -865,15 +891,14 @@
                     "name": "type",
                     "title": "Type A",
                     "curFloor": "default",
-                   
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/1-bedroom-grand-a.svg",
                         "3d": "",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"Type A",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "Type A",
                         "bedInfo": {
                           "level": {
                             "title": "Level",
@@ -896,15 +921,14 @@
                     "name": "type",
                     "title": "Type B",
                     "curFloor": "default",
-                    
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/1-bedroom-grand-b.svg",
                         "3d": "",
-                        "bedTitle":"1-bedroom",
-                        "typeTitle":"type B",
+                        "bedTitle": "1-bedroom",
+                        "typeTitle": "type B",
                         "bedInfo": {
                           "level": {
                             "title": "Level",
@@ -934,15 +958,14 @@
                     "name": "type",
                     "title": "Type",
                     "curFloor": "default",
-                    
                     "floors": {
                       "default": {
                         "title": "Basement",
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/3-bedroom-grand.svg",
                         "3d": "",
-                        "bedTitle":"3-bedroom",
-                        "typeTitle":"",
+                        "bedTitle": "3-bedroom",
+                        "typeTitle": "",
                         "bedInfo": {
                           "bathrooms": {
                             "title": "Bathrooms",
@@ -978,8 +1001,8 @@
                         "name": "floor",
                         "2d": "../img/floorpop/beachfront/4-bedroom-grand.svg",
                         "3d": "",
-                        "bedTitle":"4-bedroom",
-                        "typeTitle":"",
+                        "bedTitle": "4-bedroom",
+                        "typeTitle": "",
                         "bedInfo": {
                           "bathrooms": {
                             "title": "Bathrooms",
