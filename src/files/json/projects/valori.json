@@ -322,7 +322,13 @@
           "type": "TypeD",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type D"
         }
+
+
       },
       "1-bedroom-E": {
         "slides": {
@@ -360,7 +366,12 @@
           "type": "TypeE",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "type E"
         }
+
       },
       "2-bedroom-E": {
         "slides": {
@@ -401,7 +412,12 @@
           "type": "TypeE",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type E"
         }
+
       },
       "2-bedroom-B": {
         "slides": {
@@ -447,7 +463,12 @@
           "type": "TypeB",
           "floor": "default",
           "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": "type B"
         }
+
       }
     },
     "floorplans": {
