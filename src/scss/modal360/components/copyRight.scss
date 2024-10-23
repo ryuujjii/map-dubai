@@ -15,40 +15,41 @@
 	line-height: 150%;
 	pointer-events: none;
 	transition: top 0.3s ease;
-	
+  
 	@media (max-width: 1200.98px) {
-		bottom: 135px;
-		max-width: 500px;
-		// .hide-swiper &{
-		// 	top: -25px;
-		// }
+	  bottom: 135px;
+	  max-width: 500px;
+	  .hide-swiper & {
+		bottom: 70px;
+	  }
 	}
 	@media (max-width: 479.98px) {
-		font-size: 10px;
-		// top: -95px;
-		// .hide-swiper &{
-		// 	top: -35px;
-		// }
+	  font-size: 10px;
+	  // top: -95px;
+	  // .hide-swiper &{
+	  // 	top: -35px;
+	  // }
 	}
 	.fullscreen-enabled & {
-		// top: 40px;
+	  // top: 40px;
 	}
 	.fancybox__container & {
-		top: auto;
-		bottom: 5px;
-		//  поднимает на мобилке
-		@media (max-width: 578.98px){
-			bottom: 70px;
-		}
+	  top: auto;
+	  bottom: 5px;
+	  //  поднимает на мобилке
+	  @media (max-width: 578.98px) {
+		bottom: 70px;
+	  }
 	}
 	.fake-fullscreen-active & {
-		// top: 5px;
-		@media (max-width: 1200.98px){
-			bottom: 15px;
-		}
+	  // top: 5px;
+	  @media (max-width: 1200.98px) {
+		bottom: 15px;
+	  }
 	}
-}
-
-.fancybox__slide.has-image.is-selected {
+  }
+  
+  .fancybox__slide.has-image.is-selected {
 	overflow: hidden !important;
-}
+  }
+  
