@@ -166,7 +166,7 @@ export function map() {
     }
 
     // Custom Create map
-    // for test with pano data-modal-open="files/pano/index.html"
+    // for test with pano data-modal-open="pano/index.html"
     fetch('files/json/markers/project.json')
       .then((response) => response.json())
       .then((data) => {
@@ -179,7 +179,7 @@ export function map() {
                     <button class="map__marker-button" 
                         data-modal-logo="${proj.dataTestName}" 
                         data-test="${proj.dataTestName}" 
-                        ${__SHOWPANO__ ? `data-modal-open="files/pano/${proj.dataName}"` : ''}>
+                        ${__SHOWPANO__ ? `data-modal-open="pano/${proj.dataName}"` : ''}>
                       <div class="map__marker-icon">
                         <img src="${proj.icon}" alt="">
                       </div>
