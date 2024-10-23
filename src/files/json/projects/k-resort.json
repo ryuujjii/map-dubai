@@ -1,4 +1,7 @@
 {
+  "info": {
+		"withMap": true
+	},
   "map": {
     "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/map-shadow.jpg",
     "img": "",
@@ -359,7 +362,39 @@
     "brochure": {
       "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-resort/brochure.jpg",
       "classNames": []
-    }
+    },
+		"popupBtns": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/about.svg",
+				"text": "about project",
+				"classNames": "",
+				"dataPopupId": "about"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/payment.svg",
+				"text": "Payment plan",
+				"classNames": "",
+				"dataPopupId": "payment"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/developer.svg",
+				"text": "Developer",
+				"classNames": "",
+				"dataPopupId": "developer"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg",
+				"text": "AX CAPITAL",
+				"classNames": "ax",
+				"dataPopupId": "ax"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+				"text": "Contact us",
+				"classNames": "contact",
+				"dataPopupId": "contact"
+			}
+		]
   },
   "modal360": {
     "media": {

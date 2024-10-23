@@ -1,24 +1,31 @@
+import { dispatchCustomEvent } from 'utils';
+
 export function popup() {
     const popupOpenBtns = document.querySelectorAll('[data-marker-popup-btn]');
     const popups = document.querySelectorAll('.home-popup');
 
     popupOpenBtns.forEach(btn => {
         btn.addEventListener('click', () => {
-            const currentBtn = btn.getAttribute('data-marker-popup-btn');
-
-            popups.forEach(popup => {
-                if (popup.getAttribute('data-marker-popup') === currentBtn) {
-                    popup.classList.add('_show');
-                    document.body.classList.add('hide-light-map');
+            // const currentBtn = btn.getAttribute('data-marker-popup-btn');
+            dispatchCustomEvent({ el: window, event: "show-project", detail: { projectId: btn.getAttribute('data-marker-popup-btn') } });
+            dispatchCustomEvent({
+                el: window, event: "change-logo", detail: {
+                    projectId: btn.getAttribute('data-marker-popup-btn')
                 }
-
-                popup.addEventListener('click', (e) => {
-                    if (e.target.classList.contains('home-popup__close') || e.target.classList.contains('home-popup')) {
-                        popup.classList.remove('_show');
-                        document.body.classList.remove('hide-light-map');
-                    }
-                });
             });
+            // popups.forEach(popup => {
+            //     if (popup.getAttribute('data-marker-popup') === currentBtn) {
+            //         popup.classList.add('_show');
+            //         document.body.classList.add('hide-light-map');
+            //     }
+
+            //     popup.addEventListener('click', (e) => {
+            //         if (e.target.classList.contains('home-popup__close') || e.target.classList.contains('home-popup')) {
+            //             popup.classList.remove('_show');
+            //             document.body.classList.remove('hide-light-map');
+            //         }
+            //     });
+            // });
         });
     });
 

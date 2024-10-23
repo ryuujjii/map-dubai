@@ -8,7 +8,7 @@ export default function popup(params) {
   const scrollmouse = document.querySelectorAll('.popup__scrollmouse');
   popupWp.forEach((pop, i) => {
     pop.addEventListener('scroll', (e) => {
-      if (e.target.scrollTop > 100) {
+      if (e.target.scrollTop > 10) {
         scrollmouse[i].classList.add('removed');
       } else {
         scrollmouse[i].classList.remove('removed');

@@ -1,4 +1,4 @@
-import { queryMatches } from 'utils';
+import { queryMatches, dispatchCustomEvent } from 'utils';
 export default function projectLoader(data) {
   const preloaderVal = document.querySelector('.preloader');
   const preloaderLogoImg = document.querySelector('.preloader__logo-img img');
@@ -12,9 +12,17 @@ export default function projectLoader(data) {
     return acc;
   }, {});
   window.addEventListener('node-change', (e) => {
+    dispatchCustomEvent({
+      el: window, event: "change-logo", detail: {
+        projectId: e.detail.projectId
+      }
+    });
+  });
+  window.addEventListener('change-logo', (e) => {
     const projectId = e.detail.projectId;
     changeLogo(projectId);
   });
+
   function changeLogo(projectName) {
     preloaderLogoImg.src = '';
     preloaderLoadingImg.src = '';
@@ -27,9 +35,8 @@ export default function projectLoader(data) {
     } else {
       preloaderVal.style.setProperty(
         '--setSize-img',
-        `${
-          projects[projectName].projectLogo.width -
-          projects[projectName].projectLogo.width * 0.1
+        `${projects[projectName].projectLogo.width -
+        projects[projectName].projectLogo.width * 0.1
         }px`
       );
     }
