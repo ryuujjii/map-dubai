@@ -1,6 +1,6 @@
 
 import "latest-createjs/lib/preloadjs/preloadjs.js";
-
+import { dispatchCustomEvent } from "utils"
 
 function getLoadMediaFn() {
   const arrOfBlobs = [];
@@ -21,7 +21,7 @@ function getLoadMediaFn() {
         reject(error);
       });
       queue.on("progress", (e) => {
-        updateLoader(e.loaded * 100);
+        updateLoader(e.loaded);
       });
       queue.loadManifest(getMediaToLoad(mediasArr));
     });
@@ -39,12 +39,7 @@ function getMediaToLoad(medias) {
   }, []);
 }
 function updateLoader(progress) {
-  const line = document.querySelector('.viewer__loader-line');
-  const radius = 67;
-  const circumference = 2 * Math.PI * radius;
-  line.style.strokeDasharray = `${circumference}`;
-  const offset = circumference - (progress / 100) * circumference;
-  line.style.strokeDashoffset = offset;
+  dispatchCustomEvent({ el: window, event: "floorplan-progress", detail: { totalProgress: progress } })
 }
 
 const loadMedia = getLoadMediaFn();

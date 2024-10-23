@@ -1,5 +1,6 @@
 
 import { Fancybox } from "@fancyapps/ui";
+import loadMedia from "./loadMedia.js"
 function getPopContentFn() {
     const popup = document.querySelector('.popup')
     const viewerBtnFloor = document.querySelector('.viewer-btn-floorplan')
@@ -25,6 +26,10 @@ function getPopContentFn() {
     let allInfo
     let data
     let getInfo
+    let media = {
+        "2d": '',
+        "3d": ''
+    }
     let filterElemWidth = 0
     let boolModal360 = true
     if (filterInner.offsetWidth < filterWrap.offsetWidth) {
@@ -238,35 +243,49 @@ function getPopContentFn() {
         filterOption.forEach(el => {
             el.classList.remove('active')
         })
+
+
     }
     function viewInit(data) {
-        dataView.forEach(view => {
-            if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
-                viewSwitcher.classList.add('hide')
-                if (!data[allInfo.floor]["2d"]) {
-                    allInfo.viewMode = '3d'
+        preloaderFun()
+        loadMedia({
+            "2d": data[allInfo.floor]["2d"]
+        }).then((get) => {
+            console.log(get);
+            media(get)
+
+        })
+
+        function media(get) {
+            dataView.forEach(view => {
+                if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
+                    viewSwitcher.classList.add('hide')
+                    if (!data[allInfo.floor]["2d"]) {
+                        allInfo.viewMode = '3d'
+                    } else {
+                        allInfo.viewMode = '2d'
+                    }
                 } else {
-                    allInfo.viewMode = '2d'
+                    viewSwitcher.classList.remove('hide')
                 }
-            } else {
-                viewSwitcher.classList.remove('hide')
-            }
-            if (view.getAttribute('data-view') == "2d") {
-                view.innerHTML =
+                if (view.getAttribute('data-view') == "2d") {
+                    view.innerHTML =
+                        `
+                    <a href="${!get['2d'] ? '' : get['2d']}" data-fancybox='view-2d' class="popup__view-item" data-floor="${allInfo.floor}">
+                       <img src="${!get['2d'] ? '' : get['2d']}" alt="">
+                    </a>
                     `
-                <a href="${data[allInfo.floor]["2d"]}" data-fancybox='view-2d' class="popup__view-item" data-floor="${allInfo.floor}">
-                   <img src="${data[allInfo.floor]["2d"]}" alt="">
+                } else if (view.getAttribute('data-view') == "3d") {
+                    view.innerHTML =
+                        `
+                <a href="${!get['3d'] ? '' : get["3d"]}" data-fancybox='view-3d' class="popup__view-item" data-floor="${allInfo.floor}">
+                   <img src="${!get['3d'] ? '' : get["3d"]}" alt="">
                 </a>
                 `
-            } else if (view.getAttribute('data-view') == "3d") {
-                view.innerHTML =
-                    `
-            <a href="${data[allInfo.floor]["3d"]}" data-fancybox='view-3d' class="popup__view-item" data-floor="${allInfo.floor}">
-               <img src="${data[allInfo.floor]["3d"]}" alt="">
-            </a>
-            `
-            }
-        })
+                }
+            })
+        }
+
 
     }
     function contentInit(place, project, bedroom, type) {
@@ -312,12 +331,13 @@ function getPopContentFn() {
                 break;
         }
     }
-    function preloaderFun(parent) {
-        const modelViewer = parent.querySelector(".pop-model-viewer")
-        const loader = parent.querySelector(".loader")
-        const loaderRing = parent.querySelector(".loader__progress-ring")
+
+    function preloaderFun() {
+        const loader = popup.querySelector(".loader")
+        loader.classList.remove('loaded')
+        const loaderRing = popup.querySelector(".loader__progress-ring")
         const loaderStyle = window.getComputedStyle(loaderRing)
-        const loaderCircle = parent.querySelector(".loader__progress-circle")
+        const loaderCircle = popup.querySelector(".loader__progress-circle")
         loaderCircle.style.stroke = '#fff'
         loaderCircle.setAttribute('cx', parseInt(loaderStyle.width) / 2)
         loaderCircle.setAttribute('cy', parseInt(loaderStyle.width) / 2)
@@ -330,15 +350,11 @@ function getPopContentFn() {
             const offset = circumference - ((percent * 100) / 100 * circumference)
             loaderRing.style.strokeDashoffset = offset;
         }
-        let i = 0
-        modelViewer.addEventListener("progress", (e) => {
+        window.addEventListener("floorplan-progress", (e) => {
             const progress = e.detail.totalProgress;
             setProgress(progress)
             if (progress === 1) {
-                i++
-                if (i > 1) {
-                    loader.classList.add('loaded')
-                }
+                loader.classList.add('loaded')
             }
         });
 
