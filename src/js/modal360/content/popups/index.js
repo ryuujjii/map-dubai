@@ -30,6 +30,7 @@ function getPopContentFn() {
         "2d": '',
         "3d": ''
     }
+
     let filterElemWidth = 0
     let boolModal360 = true
     if (filterInner.offsetWidth < filterWrap.offsetWidth) {
@@ -243,19 +244,19 @@ function getPopContentFn() {
         filterOption.forEach(el => {
             el.classList.remove('active')
         })
-
-
     }
     function viewInit(data) {
-        preloaderFun()
-        loadMedia({
-            "2d": data[allInfo.floor]["2d"]
-        }).then((get) => {
-            console.log(get);
-            media(get)
-
-        })
-
+        if (data[allInfo.floor].blob) {
+            media(data[allInfo.floor].blob)
+        } else {
+            preloaderFun()
+            loadMedia({
+                "2d": data[allInfo.floor]["2d"]
+            }).then((get) => {
+                media(get)
+                data[allInfo.floor].blob = get
+            })
+        }
         function media(get) {
             dataView.forEach(view => {
                 if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
@@ -311,7 +312,6 @@ function getPopContentFn() {
             case 'bedroom':
                 allInfo.project = e.target.value.split(',')[1]
                 allInfo.bedroom = e.target.value.split(',')[0]
-                console.log(123);
                 allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
                 allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
@@ -361,13 +361,9 @@ function getPopContentFn() {
     }
 
     return function (getData, dot) {
-        if (!dot.isActive) {
-
-        } else {
-
-        }
-
-        //content
+        setTimeout(() => {
+            console.log("asdasdasdasdas", data);
+        }, 10000);
         if (!dot.isActive) {
             viewerBtnFloor.setAttribute('data-popup-default', '')
         } else {
@@ -381,9 +377,7 @@ function getPopContentFn() {
             data = getData
             contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
         }
-
     }
-
 }
 
 const popContent = getPopContentFn()

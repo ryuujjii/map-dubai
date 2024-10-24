@@ -4,6 +4,7 @@ import { dispatchCustomEvent } from "utils"
 
 function getLoadMediaFn() {
   const arrOfBlobs = [];
+
   return function (medias) {
     const queue = new createjs.LoadQueue();
     const mediasArr = Object.entries(medias);
