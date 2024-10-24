@@ -12,6 +12,11 @@ export default function modal360() {
     removeClassName(document.body, 'open-modal360');
     removeLastEscEl('close-modal360');
     insertIframe(panoIframe, `pano/${activePano}`);
+    dispatchCustomEvent({
+      el: iframeWindow.contentWindow, event: "change-needFinally", detail: {
+          needFinally: true
+      }
+  });
   });
 
   window.addEventListener('node-change', (e) => {
