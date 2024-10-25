@@ -8,12 +8,12 @@ function getPaymentTabsFn() {
     paymentTabsNav: getProjectItem('paymentTabsNav'),
     paymentTabsContent: getProjectItem('paymentTabsContent'),
   };
-  // const paymentTabsClassNames = getHandleClassNames(paymentTabsEls.paymentTabs);
+  const paymentTabsClassNames = getHandleClassNames(paymentTabsEls.paymentTabs);
 
   return function paymentTabs(data) {
     getTabsContent(paymentTabsEls.paymentTabsContent, data.content);
     getPaymentBtns(paymentTabsEls.paymentTabsNav, data.content);
-    // paymentTabsClassNames(data.classNames);
+    paymentTabsClassNames(data.classNames);
   };
 };
 
