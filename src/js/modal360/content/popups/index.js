@@ -7,13 +7,13 @@ function getPopContentFn() {
     const filterWrap = filter.querySelector(".filter__wrap")
     const filterInner = filter.querySelector(".filter__inner")
     let filterGap = parseInt(getComputedStyle(filterWrap).gap)
-    const placeWrap = popup.querySelector(".place__list")
     const projectWrap = popup.querySelector('.project')
+    const placeWrap = popup.querySelector(".place__list")
     const floorWrap = popup.querySelector('.floor__list')
     const typeWrap = popup.querySelector('.type__list')
     const bedInfoWrap = popup.querySelector(".popup__content-list")
-    const filterSelect = popup.querySelectorAll(".filter__select")
     const filterOption = filter.querySelectorAll(".filter__option")
+    const filterSelect = filter.querySelectorAll(".filter__select")
     const dataSelect = popup.querySelectorAll("[data-select]")
     const dataInfo = popup.querySelectorAll("[data-info]")
     const dataView = popup.querySelectorAll("[data-view]")
@@ -25,10 +25,6 @@ function getPopContentFn() {
     let allInfo
     let data
     let getInfo
-    let media = {
-        "2d": '',
-        "3d": ''
-    }
     function wayToElem(elem) {
         switch (elem) {
             case "place":
@@ -45,7 +41,6 @@ function getPopContentFn() {
         }
     }
     let filterElemWidth = 0
-    let boolModal360 = true
     if (filterInner.offsetWidth < filterWrap.offsetWidth) {
         filter.classList.add('e-shadow')
     }
@@ -209,7 +204,7 @@ function getPopContentFn() {
         `
         }
     }
-   
+
     function contentEdit() {
         filterElemWidth = -filterGap
         filterSelect.forEach(el => {
@@ -301,9 +296,9 @@ function getPopContentFn() {
 
 
     }
-    function contentInit(place, project, bedroom, type) {
+    function contentInit() {
         placeInit(data)
-        projectInit(data[place].projects)
+        projectInit(wayToElem('place').projects)
         typeInit(wayToElem('bedroom').types)
         floorInit(wayToElem("type").floors)
         bedInfoInit(wayToElem("floor").bedInfo)
@@ -319,23 +314,23 @@ function getPopContentFn() {
                 allInfo.bedroom = wayToElem('project').default
                 allInfo.type = wayToElem("bedroom").default
                 allInfo.floor = wayToElem("type").curFloor
-                contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+                contentInit()
                 break
             case 'bedroom':
                 allInfo.project = e.target.value.split(',')[1]
                 allInfo.bedroom = e.target.value.split(',')[0]
                 allInfo.type = wayToElem("bedroom").default
                 allInfo.floor = wayToElem("type").curFloor
-                contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+                contentInit()
                 break;
             case "type":
                 allInfo.type = e.target.value
                 allInfo.floor = wayToElem("type").curFloor
-                contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+                contentInit()
                 break;
             case "floor":
                 allInfo.floor = e.target.value
-                contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+                contentInit()
                 break;
             case "view-switch":
                 allInfo.viewMode = e.target.value
@@ -384,7 +379,7 @@ function getPopContentFn() {
                 viewMode: "2d",
             }
             data = getData
-            contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
+            contentInit()
         }
     }
 }
