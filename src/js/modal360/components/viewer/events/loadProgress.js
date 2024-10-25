@@ -13,7 +13,9 @@ export default function loadProgress(viewerInstance) {
   viewerInstance.addEventListener("load-progress", (e) => {
     setPanoLoader(e.progress, viewerLoaderLine, viewerLoader);
     if (isModal360Loaded) return;
+    // console.log("modal360 progress:", e.progress);
     if (e.progress === 100) {
+      // console.log("modal360 progress:", "ready to go");
       isModal360Loaded = true;
       viewerLoader.classList.add("ready");
     }
