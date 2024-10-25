@@ -147,9 +147,10 @@
         "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-lagoons.jpg",
         "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-lagoons.jpg",
         "dataName": "damac-lagoons",
+        "dataTestName": "damac-lagoons",
         "coordinates": [700, 2280],
         "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
+            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damaclagoons.svg",
             "width":300
         }
     }

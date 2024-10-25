@@ -188,5 +188,8 @@
 				transform: translateX(0%);
 			}
 		}
+		.clear-project & {
+			display: none;
+		}
 	}
 }

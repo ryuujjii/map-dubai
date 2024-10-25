@@ -17,7 +17,7 @@ export default function copyPlugin({ paths }) {
       },
       {
         from: `${paths.src}/pano`,
-        to: `files/pano`,
+        to: `pano`,
         noErrorOnMissing: true,
         force: true,
       }

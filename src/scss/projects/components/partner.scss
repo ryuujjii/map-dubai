@@ -10,6 +10,9 @@
   border: 1px solid #b47658;
   // .partner-project__wrapper
   overflow: hidden;
+  .clear-project &{
+    display: none;
+  }
   &__wrapper {
     display: grid;
     justify-items: center;

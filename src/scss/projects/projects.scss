@@ -16,6 +16,9 @@
     opacity: 1;
     pointer-events: auto;
   }
+  .clear-project & {
+    display: none;
+  }
   // .project__container
 
   &__container {
@@ -131,6 +134,9 @@
       padding: 0;
       &.activee {
         height: 200px;
+        .clear-project & {
+          height: 141px;
+        }
         &::after {
           background-color: #000000;
         }
@@ -178,6 +184,10 @@
       width: 100%;
       // padding: 4px 8px;
     }
+    .clear-project & {
+      // left: 50% !important;
+      // transform: translateX(-50%) !important;
+		}
   }
   // .project__popupBtns-inner
 
@@ -225,6 +235,9 @@
       // background-image: none;
       padding: 11px 27px;
     }
+    .clear-project & {
+      display: none;
+    }
   }
 
   // .project__popupBtns-open
@@ -258,6 +271,9 @@
     right: auto;
     transition: all 400ms ease-in-out;
     width: max-content;
+    .clear-project & {
+      display: none;
+    }
     &.hidden {
       opacity: 0;
       visibility: hidden;
