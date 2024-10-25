@@ -1,5 +1,4 @@
 
-import { Fancybox } from "@fancyapps/ui";
 import loadMedia from "./loadMedia.js"
 function getPopContentFn() {
     const popup = document.querySelector('.popup')
@@ -36,6 +35,20 @@ function getPopContentFn() {
     if (filterInner.offsetWidth < filterWrap.offsetWidth) {
         filter.classList.add('e-shadow')
     }
+    function listInit(obj) {
+        const { idx, el, val, check, name } = obj
+        return `
+        <li class="sort__list-item">
+            <input type="radio" name="${name}" value="${val}"  ${check ? 'checked' : ''} id="${el.name}-${idx}" hidden>
+            <label for="${el.name}-${idx}">
+            ${el.title}
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
+                <path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            </label>
+        </li>
+        `
+    }
     filterInner.addEventListener('scroll', (e) => {
         if (filterInner.scrollLeft < 5) {
             filter.classList.remove('s-shadow')
@@ -48,6 +61,7 @@ function getPopContentFn() {
             filter.classList.add('e-shadow')
         }
     })
+
     function placeInit(data) {
         if (Object.keys(data).length <= 1) {
             filterSelect[0].classList.add('alone')
@@ -58,18 +72,13 @@ function getPopContentFn() {
         placeWrap.innerHTML = ''
         for (const key in data) {
             i++
-            placeWrap.innerHTML +=
-                `
-        <li class="place__list-item">
-           <input type="radio" value="${key}" ${key == allInfo.place ? 'checked' : ''} name="${data[key].name}" id="${data[key].name}-${i}" hidden>
-           <label for="${data[key].name}-${i}">
-           ${data[key].title}
-           <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
-<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-           </label>
-        </li>
-        `
+            placeWrap.innerHTML += listInit({
+                idx: i,
+                el: data[key],
+                val: key,
+                name: "place",
+                check: key == allInfo.place
+            })
         }
     }
     function projectInit(data) {
@@ -84,24 +93,15 @@ function getPopContentFn() {
             }
             let bedrooms = ''
             for (const bed in data[proj].bedrooms) {
-                if (bed == allInfo.bedroom && proj == allInfo.project) {
-                    bool = true
-                } else {
-                    bool = false
-                }
+                bool = (bed == allInfo.bedroom && proj == allInfo.project)
                 j++
-                bedrooms +=
-                    `
-            <li class="project__list-item">
-                <input type="radio" name="bedroom" value="${bed},${proj}"  ${bool ? 'checked' : ''} id="${data[proj].bedrooms[bed].name}-${j}" hidden>
-                <label for="${data[proj].bedrooms[bed].name}-${j}">
-                ${data[proj].bedrooms[bed].title}
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
-<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-                </label>
-            </li>
-            `
+                bedrooms += listInit({
+                    idx: j,
+                    el: data[proj].bedrooms[bed],
+                    val: `${bed},${proj}`,
+                    name: "bedroom",
+                    check: bool
+                })
             }
             projectWrap.innerHTML +=
                 `
@@ -154,18 +154,13 @@ function getPopContentFn() {
         }
         for (const type in data) {
             i++
-            typeWrap.innerHTML +=
-                `
-        <li class="type__list-item">
-        <input type="radio" value="${type}" ${type == allInfo.type ? 'checked' : ''} name="${data[type].name}" id="${data[type].name}-${i}" hidden>
-        <label for="${data[type].name}-${i}">
-        ${data[type].title}
-        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
-<path d="M1 3.83L3.83 6.66L9.5 1" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
-        </label>
-    </li>
-        `
+            typeWrap.innerHTML += listInit({
+                idx: i,
+                el: data[type],
+                val: type,
+                name: "type",
+                check: type == allInfo.type
+            })
         }
     }
     function floorInit(data) {
@@ -251,24 +246,26 @@ function getPopContentFn() {
         } else {
             preloaderFun()
             loadMedia({
-                "2d": data[allInfo.floor]["2d"]
+                "2d": data[allInfo.floor]["2d"],
+                "3d": data[allInfo.floor]["3d"]
             }).then((get) => {
                 media(get)
                 data[allInfo.floor].blob = get
             })
         }
         function media(get) {
-            dataView.forEach(view => {
-                if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
-                    viewSwitcher.classList.add('hide')
-                    if (!data[allInfo.floor]["2d"]) {
-                        allInfo.viewMode = '3d'
-                    } else {
-                        allInfo.viewMode = '2d'
-                    }
+            if (!data[allInfo.floor]["2d"] || !data[allInfo.floor]["3d"]) {
+                viewSwitcher.classList.add('hide')
+                if (!data[allInfo.floor]["2d"]) {
+                    allInfo.viewMode = '3d'
                 } else {
-                    viewSwitcher.classList.remove('hide')
+                    allInfo.viewMode = '2d'
                 }
+            } else {
+                viewSwitcher.classList.remove('hide')
+            }
+            dataView.forEach(view => {
+
                 if (view.getAttribute('data-view') == "2d") {
                     view.innerHTML =
                         `
@@ -361,9 +358,6 @@ function getPopContentFn() {
     }
 
     return function (getData, dot) {
-        setTimeout(() => {
-            console.log("asdasdasdasdas", data);
-        }, 10000);
         if (!dot.isActive) {
             viewerBtnFloor.setAttribute('data-popup-default', '')
         } else {

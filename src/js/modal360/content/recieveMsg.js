@@ -19,8 +19,6 @@ export default function recieveMsg() {
 
   window.addEventListener("modal360-floorplans", (event) => {
     const { floorplans } = event.detail;
-    console.log(floorplans);
     data = floorplans
-    // console.log(floorplans);
   });
 };

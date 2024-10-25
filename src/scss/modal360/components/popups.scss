@@ -392,7 +392,8 @@ body {
     }
     .project,
     .place,
-    .type {
+    .type,
+    .sort {
         display: flex;
         gap: 4rem;
         @media (max-width: 768px) {

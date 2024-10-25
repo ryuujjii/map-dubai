@@ -8,9 +8,12 @@ function getLoadMediaFn() {
   return function (medias) {
     const queue = new createjs.LoadQueue();
     const mediasArr = Object.entries(medias);
+    const arr = mediasArr.filter(el=>{
+        return Boolean(el[1])
+    })
     return new Promise((resolve, reject) => {
       queue.on("complete", () => {
-        const urls = mediasArr.reduce((acc, media) => {
+        const urls = arr.reduce((acc, media) => {
           const item = URL.createObjectURL(queue.getResult(media[0], true));
           acc[media[0]] = item;
           arrOfBlobs.push(item);
@@ -24,7 +27,7 @@ function getLoadMediaFn() {
       queue.on("progress", (e) => {
         updateLoader(e.loaded);
       });
-      queue.loadManifest(getMediaToLoad(mediasArr));
+      queue.loadManifest(getMediaToLoad(arr));
     });
   };
 };
