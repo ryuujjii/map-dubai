@@ -29,7 +29,21 @@ function getPopContentFn() {
         "2d": '',
         "3d": ''
     }
+    function wayToElem(elem) {
+        switch (elem) {
+            case "place":
+                return data[allInfo.place]
+            case "project":
+                return data[allInfo.place].projects[allInfo.project]
+            case "bedroom":
+                return data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom]
+            case "type":
+                return data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type]
+            case "floor":
+                return data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor]
 
+        }
+    }
     let filterElemWidth = 0
     let boolModal360 = true
     if (filterInner.offsetWidth < filterWrap.offsetWidth) {
@@ -195,6 +209,7 @@ function getPopContentFn() {
         `
         }
     }
+   
     function contentEdit() {
         filterElemWidth = -filterGap
         filterSelect.forEach(el => {
@@ -209,33 +224,33 @@ function getPopContentFn() {
         dataSelect.forEach((select) => {
             switch (select.getAttribute('data-select')) {
                 case "place":
-                    select.innerHTML = `${data[allInfo.place].title}`
+                    select.innerHTML = `${wayToElem("place").title}`
                     break;
                 case "bedroom":
-                    select.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].title}`
+                    select.innerHTML = `${wayToElem("bedroom").title}`
                     break;
                 case "type":
-                    select.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].title}`
+                    select.innerHTML = `${wayToElem("type").title}`
                     break;
             }
         })
         dataInfo.forEach((info) => {
             switch (info.getAttribute('data-info')) {
                 case "bedroom":
-                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].bedTitle}`
+                    info.innerHTML = `${wayToElem("floor").bedTitle}`
                     break;
                 case "type":
-                    info.innerHTML = `${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].typeTitle}`
+                    info.innerHTML = `${wayToElem("floor").typeTitle}`
                     break;
                 case "price":
                     info.innerHTML = `
-                <span>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].price.title}</span>
-               <h2>${data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].floors[allInfo.floor].price.val}</h2>
+                <span>${wayToElem("floor").price.title}</span>
+               <h2>${wayToElem("floor").price.val}</h2>
                             `
                     break;
             }
         })
-        view360Btn.setAttribute("data-modal360", data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].dataModal360)
+        view360Btn.setAttribute("data-modal360", wayToElem("type").dataModal360)
         filterOption.forEach(el => {
             el.classList.remove('active')
         })
@@ -289,10 +304,10 @@ function getPopContentFn() {
     function contentInit(place, project, bedroom, type) {
         placeInit(data)
         projectInit(data[place].projects)
-        typeInit(data[place].projects[project].bedrooms[bedroom].types)
-        floorInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
-        bedInfoInit(data[place].projects[project].bedrooms[bedroom].types[type].floors[allInfo.floor].bedInfo)
-        viewInit(data[place].projects[project].bedrooms[bedroom].types[type].floors)
+        typeInit(wayToElem('bedroom').types)
+        floorInit(wayToElem("type").floors)
+        bedInfoInit(wayToElem("floor").bedInfo)
+        viewInit(wayToElem("type").floors)
         switchView()
         contentEdit()
     }
@@ -301,21 +316,21 @@ function getPopContentFn() {
             case 'place':
                 allInfo.place = e.target.value
                 allInfo.project = data[allInfo.place].default
-                allInfo.bedroom = data[allInfo.place].projects[allInfo.project].default
-                allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
-                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
+                allInfo.bedroom = wayToElem('project').default
+                allInfo.type = wayToElem("bedroom").default
+                allInfo.floor = wayToElem("type").curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break
             case 'bedroom':
                 allInfo.project = e.target.value.split(',')[1]
                 allInfo.bedroom = e.target.value.split(',')[0]
-                allInfo.type = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].default
-                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
+                allInfo.type = wayToElem("bedroom").default
+                allInfo.floor = wayToElem("type").curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break;
             case "type":
                 allInfo.type = e.target.value
-                allInfo.floor = data[allInfo.place].projects[allInfo.project].bedrooms[allInfo.bedroom].types[allInfo.type].curFloor
+                allInfo.floor = wayToElem("type").curFloor
                 contentInit(allInfo.place, allInfo.project, allInfo.bedroom, allInfo.type)
                 break;
             case "floor":
