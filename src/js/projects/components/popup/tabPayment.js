@@ -21,6 +21,8 @@ export default function tabPatment() {
         })
     })
 
+
+
     const scrollContent = document.querySelector('.payment__nav-container');
     const paymentWrapperNav = document.querySelector('.payment__nav-wrapper')
     const paymentNextBtn = document.querySelector('.payment__nav-button-next')
@@ -29,6 +31,7 @@ export default function tabPatment() {
     const scrollStep = 80;
     paymentWrapperNav.classList.add('scroll-right')
     paymentPrevBtn.classList.add('disabled')
+    paymentWrapperNav.classList.remove('hide-arrows')
 
 
     paymentPrevBtn.addEventListener('click', () => {
@@ -46,6 +49,10 @@ export default function tabPatment() {
         });
     });
 
+    if (tabLinks.length <= 2) {
+        paymentWrapperNav.classList.add('hide-arrows')
+        paymentWrapperNav.classList.remove('scroll-right')
+    }
 
     // scrollContent.addEventListener('scroll', () => {
     //     const scrollLeft = scrollContent.scrollLeft;

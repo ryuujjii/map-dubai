@@ -220,65 +220,76 @@
 		}
 	}
 
-	//payment__nav-wrapper
-	&__nav-wrapper {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		@media (max-width: 500px) {
-			position: relative;
-			overflow: hidden;
-			margin-bottom: 24px;
-			justify-content: flex-start;
-			align-items: flex-start;
-		}
-		&::after {
-			@media (max-width: 500px) {
-				content: '';
-				width: 130px;
-				height: 100%;
-				position: absolute;
-				right: 0;
-				top: 50%;
-				transform: translateY(-50%);
-				pointer-events: none;
-				background: linear-gradient(
-					90deg,
-					rgba(22, 23, 23, 0) 1.97%,
-					#161717 100%
-				);
-				opacity: 0;
-				transition: 0.3s ease;
-			}
+  //payment__nav-wrapper
+  &__nav-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 500px) {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 24px;
+      justify-content: flex-start;
+      align-items: flex-start;
+    }
+    &.hide-arrows {
+      @media (max-width: 500px) {
+        justify-content: center;
+      }
+    }
+    &::after {
+      @media (max-width: 500px) {
+        content: "";
+        width: 130px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        background: linear-gradient(
+          90deg,
+          rgba(22, 23, 23, 0) 1.97%,
+          #161717 100%
+        );
+        opacity: 0;
+        transition: 0.3s ease;
+      }
 
-			.disable-arrows & {
-				display: none;
-			}
-		}
-		&::before {
-			@media (max-width: 500px) {
-				content: '';
-				width: 130px;
-				height: 100%;
-				position: absolute;
-				left: 0;
-				top: 50%;
-				transform: translateY(-50%);
-				pointer-events: none;
-				background: linear-gradient(
-					270deg,
-					rgba(22, 23, 23, 0) 1.97%,
-					#161717 100%
-				);
-				z-index: 1;
-				opacity: 0;
-				transition: 0.3s ease;
-			}
+      .disable-arrows & {
+        display: none;
+      }
+      .hide-arrows & {
+        display: none !important;
+      }
+    }
+    &::before {
+      @media (max-width: 500px) {
+        content: "";
+        width: 130px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        pointer-events: none;
+        background: linear-gradient(
+          270deg,
+          rgba(22, 23, 23, 0) 1.97%,
+          #161717 100%
+        );
+        z-index: 1;
+        opacity: 0;
+        transition: 0.3s ease;
+      }
 
-			.disable-arrows & {
-				display: none;
-			}
-		}
+      .disable-arrows & {
+        display: none;
+      }
+      .hide-arrows & {
+        display: none !important;
+      }
+    }
 
 		&.scroll-left {
 			&::before {
@@ -293,27 +304,36 @@
 		}
 	}
 
-	//payment__nav-container
-	&__nav-container {
-		@media (max-width: 500px) {
-			overflow: auto;
-			scrollbar-width: none;
-			-ms-overflow-style: none;
-		}
-		&::-webkit-scrollbar {
-			@media (max-width: 500px) {
-				display: none;
-			}
-		}
-	}
+  //payment__nav-container
+  &__nav-container {
+    @media (max-width: 500px) {
+      overflow: auto;
+      scrollbar-width: none;
+      -ms-overflow-style: none
+    }
+    &::-webkit-scrollbar {
+      @media (max-width: 500px) {
+        display: none;
+      }
+    }
 
-	// payment__nav-inner
-	&__nav-inner {
-		width: max-content;
-		@media (max-width: 500px) {
-			padding: 0 40px;
-		}
-	}
+    .hide-arrows & {
+      @media (max-width: 500px) {
+        overflow: hidden;
+      }
+    }
+  }
+
+  // payment__nav-inner
+  &__nav-inner {
+    width: max-content;
+    @media (max-width: 500px) {
+      padding: 0 40px;
+    }
+    .hide-arrows & {
+      padding: 0;
+    }
+  }
 
 	//payment__nav
 	&__nav {
@@ -372,10 +392,14 @@
 			right: 0px;
 		}
 
-		.disable-arrows & {
-			display: none;
-		}
-	}
+    .disable-arrows & {
+      display: none;
+    }
+
+    .hide-arrows & {
+      display: none;
+    }
+  }
 
 	//payment__nav-link
 	&__nav-link {
