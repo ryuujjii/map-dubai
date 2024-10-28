@@ -429,8 +429,10 @@
 				"popup": {},
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "3-bed-adress",
+					"bedroom": "3-bed",
+					"project": "adress",
 					"type": "default",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -472,8 +474,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "1-bed-adress",
+					"bedroom": "1-bed",
+					"project": "adress",
 					"type": "default",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -523,8 +527,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "2-bed-adress",
+					"bedroom": "2-bed",
+					"project": "adress",
 					"type": "default",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -591,8 +597,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "4-bed-grand",
+					"bedroom": "4-bed",
+					"project": "grand",
 					"type": "default",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -643,8 +651,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "1-bed-grand",
+					"bedroom": "1-bed",
+					"project": "grand",
 					"type": "typeA",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -693,8 +703,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "1-bed-grand",
+					"bedroom": "1-bed",
+					"project": "grand",
 					"type": "typeB",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -739,8 +751,10 @@
 				],
 				"floorplan": {
 					"place": "Apartment",
-					"bedroom": "3-bed-grand",
+					"bedroom": "3-bed",
+					"project": "grand",
 					"type": "default",
+					"floor": "default",
 					"isActive": true
 				},
 				"closeInfo": {
@@ -753,125 +767,269 @@
 			"Apartment": {
 				"name": "place",
 				"title": "Apartment",
-				"default": "1-bed-adress",
-				"bedrooms": {
-					"1-bed-adress": {
-						"default": "default",
-						"name": "bedroom",
-						"title": "1 bedroom",
-						"project": "",
-						"types": {
-							"default": {
-								"name": "type",
-								"title": "type",
-								"totalArea": "847 sq. ft.",
-								"bathrooms": 1,
-								"price": "AED 2 700 000",
-								"2d": "../img/floorpop/1-bedroom-adress.png",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "1-bedroom-address"
-							}
-						}
-					},
-					"1-bed-grand": {
-						"default": "typeA",
-						"name": "bedroom",
-						"title": "1 bedroom",
-						"project": "",
-						"types": {
-							"typeA": {
-								"name": "type",
-								"title": "type A",
-								"totalArea": "792 sq. ft.",
-								"bathrooms": "",
-								"level": 37,
-								"price": "AED 3 100 000",
-								"2d": "../img/floorpop/1-bedroom-grand-ta.svg",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "1-bedroom-A-gandBlue"
+				"default": "adress",
+				"projects": {
+					"adress": {
+						"title": "Address Residences",
+						"default": "1-bed",
+						"bedrooms": {
+							"1-bed": {
+								"default": "default",
+								"name": "bedroom",
+								"title": "1-bedroom",
+								"types": {
+									"default": {
+										"name": "type",
+										"title": "Type",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"bedTitle": "1-bedroom",
+												"typeTitle": "",
+												"bedInfo": {
+													"bathrooms": {
+														"title": "Bathrooms",
+														"val": 1
+													},
+													"area": {
+														"title": "Total area",
+														"val": "847 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 2 700 000"
+												},
+												"2d": "../img/floorpop/beachfront/1-bedroom-adress.png",
+												"3d": ""
+											}
+										},
+										"dataModal360": "1-bedroom-address"
+									}
+								}
 							},
-							"typeB": {
-								"name": "type",
-								"title": "type B",
-								"totalArea": "795 sq. ft.",
-								"bathrooms": "",
-								"level": 26,
-								"price": "AED 3 100 000",
-								"2d": "../img/floorpop/1-bedroom-grand-tb.svg",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "1-bedroom-B-gandBlue"
+							"2-bed": {
+								"default": "default",
+								"name": "bedroom",
+								"title": "2-bedroom",
+								"types": {
+									"default": {
+										"name": "type",
+										"title": "Type",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/2-bedroom-adress.png",
+												"3d": "",
+												"bedTitle": "2-bedroom",
+												"typeTitle": "",
+												"bedInfo": {
+													"bathrooms": {
+														"title": "Bathrooms",
+														"val": 2
+													},
+													"area": {
+														"title": "Total area",
+														"val": "1 350 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 4 600 000"
+												}
+											}
+										},
+										"dataModal360": "2-bedroom-address"
+									}
+								}
+							},
+							"3-bed": {
+								"default": "default",
+								"name": "bedroom",
+								"title": "3-bedroom",
+								"types": {
+									"default": {
+										"name": "type",
+										"title": "Type",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/3-bedroom-adress.png",
+												"3d": "",
+												"bedTitle": "3-bedroom",
+												"typeTitle": "",
+												"bedInfo": {
+													"bathrooms": {
+														"title": "Bathrooms",
+														"val": 2
+													},
+													"area": {
+														"title": "Total area",
+														"val": "1 942 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 10 500 000"
+												}
+											}
+										},
+										"dataModal360": "3-bedroom-address"
+									}
+								}
 							}
 						}
 					},
-					"2-bed-adress": {
-						"default": "default",
-						"name": "bedroom",
-						"title": "2 bedroom",
-						"project": "",
-						"types": {
-							"default": {
-								"name": "type",
-								"title": "type",
-								"totalArea": "1 350 sq. ft.",
-								"bathrooms": 2,
-								"price": "AED 4 600 000",
-								"2d": "../img/floorpop/2-bedroom-adress.png",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "2-bedroom-address"
-							}
-						}
-					},
-					"3-bed-grand": {
-						"default": "default",
-						"name": "bedroom",
-						"title": "3 bedroom",
-						"project": "",
-						"types": {
-							"default": {
-								"name": "type",
-								"title": "type",
-								"totalArea": "2 400 sq. ft.",
-								"bathrooms": 2,
-								"price": "AED 10 500 000",
-								"2d": "../img/floorpop/3-bedroom-grand.svg",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "3-bedroom-gandBlue"
-							}
-						}
-					},
-					"3-bed-adress": {
-						"default": "default",
-						"name": "bedroom",
-						"title": "3 bedroom",
-						"project": "",
-						"types": {
-							"default": {
-								"name": "type",
-								"title": "type",
-								"totalArea": "1 942 sq. ft.",
-								"bathrooms": 2,
-								"price": "AED 10 500 000",
-								"2d": "../img/floorpop/3-bedroom-adress.png",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "3-bedroom-address"
-							}
-						}
-					},
-					"4-bed-grand": {
-						"default": "default",
-						"name": "bedroom",
-						"title": "4 bedroom",
-						"project": "",
-						"types": {
-							"default": {
-								"name": "type",
-								"title": "type",
-								"totalArea": "2 706 sq. ft.",
-								"bathrooms": 3,
-								"price": "AED 15 000 000",
-								"2d": "../img/floorpop/4-bedroom-grand.svg",
-								"3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
-								"dataModal360": "4-bedroom-gandBlue"
+					"grand": {
+						"title": "Grand Blue Tower",
+						"default": "1-bed",
+						"bedrooms": {
+							"1-bed": {
+								"default": "typeA",
+								"name": "bedroom",
+								"title": "1-bedroom",
+								"types": {
+									"typeA": {
+										"name": "type",
+										"title": "Type A",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/1-bedroom-grand-a.svg",
+												"3d": "",
+												"bedTitle": "1-bedroom",
+												"typeTitle": "Type A",
+												"bedInfo": {
+													"level": {
+														"title": "Level",
+														"val": 37
+													},
+													"area": {
+														"title": "Total area",
+														"val": "792 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 3 100 000"
+												}
+											}
+										},
+										"dataModal360": "1-bedroom-A-gandBlue"
+									},
+									"typeB": {
+										"name": "type",
+										"title": "Type B",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/1-bedroom-grand-b.svg",
+												"3d": "",
+												"bedTitle": "1-bedroom",
+												"typeTitle": "type B",
+												"bedInfo": {
+													"level": {
+														"title": "Level",
+														"val": 26
+													},
+													"area": {
+														"title": "Total area",
+														"val": "795 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 3 100 000"
+												}
+											}
+										},
+										"dataModal360": "1-bedroom-B-gandBlue"
+									}
+								}
+							},
+							"3-bed": {
+								"default": "default",
+								"name": "bedroom",
+								"title": "3-bedroom",
+								"types": {
+									"default": {
+										"name": "type",
+										"title": "Type",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/3-bedroom-grand.svg",
+												"3d": "",
+												"bedTitle": "3-bedroom",
+												"typeTitle": "",
+												"bedInfo": {
+													"bathrooms": {
+														"title": "Bathrooms",
+														"val": 2
+													},
+													"area": {
+														"title": "Total area",
+														"val": "2 400 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 10 500 000"
+												}
+											}
+										},
+										"dataModal360": "3-bedroom-gandBlue"
+									}
+								}
+							},
+							"4-bed": {
+								"default": "default",
+								"name": "bedroom",
+								"title": "4-bedroom",
+								"types": {
+									"default": {
+										"name": "type",
+										"title": "Type",
+										"curFloor": "default",
+										"floors": {
+											"default": {
+												"title": "Basement",
+												"name": "floor",
+												"2d": "../img/floorpop/beachfront/4-bedroom-grand.svg",
+												"3d": "",
+												"bedTitle": "4-bedroom",
+												"typeTitle": "",
+												"bedInfo": {
+													"bathrooms": {
+														"title": "Bathrooms",
+														"val": 3
+													},
+													"area": {
+														"title": "Total area",
+														"val": "2 706 sq. ft."
+													}
+												},
+												"price": {
+													"title": "Prices from",
+													"val": "AED 15 000 000"
+												}
+											}
+										},
+										"dataModal360": "4-bedroom-gandBlue"
+									}
+								}
 							}
 						}
 					}
