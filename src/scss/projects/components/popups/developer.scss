@@ -210,6 +210,10 @@
     @media (max-width: 1600px) and (max-height: 690px) {
       max-width: 100%;
     }
+    // info-developer__text--small-with
+    &--small-with {
+      max-width: 606px;
+    }
     p {
       color: inherit;
       font-weight: inherit;

@@ -7,9 +7,9 @@
         "dataTestName": "valori",
         "dataName": "#node11",
         "coordinates": [2105, 3470],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
-            "width":234
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
+            "width": 234
         }
     },
     {
@@ -20,9 +20,9 @@
         "dataTestName": "k-resort",
         "dataName": "#node10",
         "coordinates": [2040, 3300],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-resort.svg",
-            "width":287
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-resort.svg",
+            "width": 287
         }
     },
     {
@@ -33,9 +33,9 @@
         "dataTestName": "business-bay-tower",
         "dataName": "#node12",
         "coordinates": [1970, 2850],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/Downtown-terraces.svg",
-            "width":281
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/Downtown-terraces.svg",
+            "width": 281
         }
     },
     {
@@ -46,9 +46,9 @@
         "dataTestName": "boutique-23",
         "dataName": "#node5",
         "coordinates": [2160, 3460],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/boutique-23.svg",
-            "width":382
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/boutique-23.svg",
+            "width": 382
         }
     },
     {
@@ -59,9 +59,9 @@
         "dataTestName": "beachfront",
         "dataName": "#node8",
         "coordinates": [1500, 1390],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/emaar.svg",
-            "width":331
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/emaar.svg",
+            "width": 331
         }
     },
     {
@@ -72,9 +72,9 @@
         "dataTestName": "sls",
         "dataName": "#node3",
         "coordinates": [1580, 1100],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/sls.svg",
-            "width":213
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/sls.svg",
+            "width": 213
         }
     },
     {
@@ -85,9 +85,9 @@
         "dataTestName": "k-reserve",
         "dataName": "#node7",
         "coordinates": [1715, 2910],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-reserve.svg",
-            "width":359
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-reserve.svg",
+            "width": 359
         }
     },
     {
@@ -98,9 +98,9 @@
         "dataTestName": "urban-life",
         "dataName": "#node9",
         "coordinates": [1910, 2885],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/urban.svg",
-            "width":235
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/urban.svg",
+            "width": 235
         }
     },
     {
@@ -111,9 +111,9 @@
         "dataTestName": "biltmore",
         "dataName": "#node4",
         "coordinates": [1540, 1815],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/biltmore.svg",
-            "width":321
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/biltmore.svg",
+            "width": 321
         }
     },
     {
@@ -124,9 +124,9 @@
         "dataTestName": "damac-bay",
         "dataName": "#node6",
         "coordinates": [1430, 1420],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damac.svg",
-            "width":234
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damac.svg",
+            "width": 234
         }
     },
     {
@@ -137,8 +137,21 @@
         "dataTestName": "mag777",
         "dataName": "#node13",
         "coordinates": [985, 2110],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/mag.svg"
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/mag.svg"
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Skyhills Astra",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/skyhills-astra.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/skyhills-astra.jpg",
+        "dataName": "skyhills-astra",
+        "dataTestName": "skyhills-astra",
+        "coordinates": [1200, 2500],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/skyhills-astra.svg",
+            "width": 300
         }
     },
     {
@@ -149,9 +162,9 @@
         "dataName": "damac-lagoons",
         "dataTestName": "damac-lagoons",
         "coordinates": [700, 2280],
-        "projectLogo":{
-            "logo":"https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damaclagoons.svg",
-            "width":300
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damaclagoons.svg",
+            "width": 300
         }
     }
 ]
