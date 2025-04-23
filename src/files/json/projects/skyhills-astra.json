@@ -12,6 +12,28 @@
         "styles": ""
     },
     "dots": {
+        "studio": {
+            "sizes": {
+                "width": 175,
+                "height": 55
+            },
+            "position": {
+                "x": 280,
+                "y": 250
+            },
+            "info": {
+                "title": "Studio",
+                "type": "",
+                "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+                "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+                "dataModal360": "studio",
+                "classNames": "right",
+                "closeInfo": {
+                    "title": "studio",
+                    "type": ""
+                }
+            }
+        },
         "1-bedroom": {
             "sizes": {
                 "width": 175,
@@ -75,28 +97,6 @@
                 "closeInfo": {
                     "title": "3-bedroom",
                     "type": "Duplex"
-                }
-            }
-        },
-        "studio": {
-            "sizes": {
-                "width": 175,
-                "height": 55
-            },
-            "position": {
-                "x": 280,
-                "y": 250
-            },
-            "info": {
-                "title": "Studio",
-                "type": "",
-                "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
-                "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
-                "dataModal360": "studio",
-                "classNames": "right",
-                "closeInfo": {
-                    "title": "studio",
-                    "type": ""
                 }
             }
         }
@@ -337,6 +337,52 @@
     },
     "modal360": {
         "media": {
+            "studio": {
+                "slides": {
+                    "interiors": {
+                        "img360": [
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/Studio_VR01.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/Studio_VR02.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/cam_012_balcony_VR360.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/Bathroom_VR_360.jpg"
+                        ],
+                        "img360Preview": [
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/preview1/Studio_VR01.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/preview1/Studio_VR02.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/preview1/cam_012_balcony_VR360.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/360/preview1/Bathroom_VR_360.jpg"
+                        ]
+                    },
+                    "exteriors": {
+                        "img360": [],
+                        "img360Preview": []
+                    }
+                },
+                "gallery": [
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/studio/gallery/Studio_202_wideangle1.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/studio/gallery/Studio_202_wideangle2.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/Studio_01.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/Studio_02.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/Studio_03.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/balkony_050.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/balkony_070.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/1BR_Bathroom_001.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modals360/general+interior/gallery/1BR_Bathroom_002.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/studio/gallery/balkony_080.jpg"
+                ],
+                "floorplan": {
+                    "place": "Apartment",
+                    "bedroom": "studio",
+                    "project": "skyhills-astra",
+                    "type": "studio-a",
+                    "floor": "default",
+                    "isActive": true
+                },
+                "closeInfo": {
+                    "title": "Studio",
+                    "type": ""
+                }
+            },
             "1-bedroom": {
                 "slides": {
                     "interiors": {
@@ -383,8 +429,8 @@
                 "floorplan": {
                     "place": "Apartment",
                     "bedroom": "1-bed",
-                    "project": "biltmore",
-                    "type": "type1B",
+                    "project": "skyhills-astra",
+                    "type": "1-bed-a",
                     "floor": "default",
                     "isActive": true
                 },
@@ -429,15 +475,63 @@
                     "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/interior/gallery/Master_Bathroom_002.jpg"
                 ],
                 "floorplan": {
-                    "place": "Apartment",
+                    "place": "Duplex",
                     "bedroom": "2-bed",
-                    "project": "biltmore",
-                    "type": "type2A",
+                    "project": "skyhills-astra",
+                    "type": "2-bed-a",
                     "floor": "default",
                     "isActive": true
                 },
                 "closeInfo": {
                     "title": "2-bedroom",
+                    "type": "Duplex"
+                }
+            },
+            "3-bedroom": {
+                "slides": {
+                    "interiors": {
+                        "img360": [
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/livingroom_3bdrm_duplex_panorama_1.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/livingroom_3bdrm_duplex_panorama_2.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/bedroom_3bdrm_duplex_panorama.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/livingroom_3bdrm_duplex_panorama_3.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/interior/360/Master_Bathroom_VR_360.jpg"
+                        ],
+                        "img360Preview": [
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/preview/livingroom_3bdrm_duplex_panorama_1.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/preview/livingroom_3bdrm_duplex_panorama_2.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/preview/bedroom_3bdrm_duplex_panorama.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/preview/livingroom_3bdrm_duplex_panorama_3.jpg",
+                            "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/interior/360/preview/Master_Bathroom_VR_360.jpg"
+                        ]
+                    },
+                    "exteriors": {
+                        "img360": [],
+                        "img360Preview": []
+                    }
+                },
+                "gallery": [
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/bedroom_3bdrm_duplex_001.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/bedroom_3bdrm_duplex_002.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/bedroom_3bdrm_duplex_003.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/livingroom_3bdrm_duplex_001.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/livingroom_3bdrm_duplex_002.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/livingroom_3bdrm_duplex_003.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/livingroom_3bdrm_duplex_004.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/3-bedroom/gallery/livingroom_3bdrm_duplex_005.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/interior/gallery/Master_Bathroom_001.jpg",
+                    "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/modal_vr/interior/gallery/Master_Bathroom_002.jpg"
+                ],
+                "floorplan": {
+                    "place": "Duplex",
+                    "bedroom": "3-bed",
+                    "project": "skyhills-astra",
+                    "type": "3-bed-a",
+                    "floor": "default",
+                    "isActive": true
+                },
+                "closeInfo": {
+                    "title": "3-bedroom",
                     "type": "Duplex"
                 }
             }
@@ -446,42 +540,182 @@
             "Apartment": {
                 "name": "place",
                 "title": "Apartment",
-                "default": "biltmore",
+                "default": "skyhills-astra",
                 "projects": {
-                    "biltmore": {
+                    "skyhills-astra": {
                         "title": "",
                         "default": "1-bed",
                         "bedrooms": {
                             "1-bed": {
-                                "default": "type1B",
+                                "default": "1-bed-a",
                                 "name": "bedroom",
                                 "title": "1-bedroom",
                                 "types": {
-                                    "type1B": {
+                                    "1-bed-a": {
                                         "name": "type",
-                                        "title": "Type 1B",
+                                        "title": "Type A",
                                         "curFloor": "default",
                                         "floors": {
                                             "default": {
                                                 "title": "Basement",
                                                 "name": "floor",
                                                 "bedTitle": "1-bedroom",
-                                                "typeTitle": "Type 1B",
-                                                "2d": "../img/floorpop/biltmore/1-bed.svg",
+                                                "typeTitle": "Type A",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/bedroom_new/1.png",
                                                 "3d": "",
                                                 "bedInfo": {
-                                                    "bathrooms": {
-                                                        "title": "Bathrooms",
-                                                        "val": 2
-                                                    },
                                                     "area": {
                                                         "title": "Total area",
-                                                        "val": "649,28 sq. ft."
+                                                        "val": "From 854.80 To 1206.32 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 652.35 to 835.17 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "From 122.81 To 371.14 sq.ft"
                                                     }
                                                 },
                                                 "price": {
-                                                    "title": "Prices from",
-                                                    "val": "AED 1 600 000"
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "1-bedroom"
+                                    },
+                                    "1-bed-b": {
+                                        "name": "type",
+                                        "title": "Type B",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "1-bedroom",
+                                                "typeTitle": "Type B",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/bedroom_new/2.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "From 854.80 To 1206.32 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 652.35 to 835.17 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "From 122.81 To 371.14 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "1-bedroom"
+                                    },
+                                    "1-bed-c": {
+                                        "name": "type",
+                                        "title": "Type C",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "1-bedroom",
+                                                "typeTitle": "Type C",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/bedroom_new/3.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "From 854.80 To 1206.32 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 652.35 to 835.17 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "From 122.81 To 371.14 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "1-bedroom"
+                                    },
+                                    "1-bed-d": {
+                                        "name": "type",
+                                        "title": "Type D",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "1-bedroom",
+                                                "typeTitle": "Type D",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/bedroom_new/4.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "From 854.80 To 1206.32 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 652.35 to 835.17 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "From 122.81 To 371.14 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "1-bedroom"
+                                    },
+                                    "1-bed-e": {
+                                        "name": "type",
+                                        "title": "Type E",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "1-bedroom",
+                                                "typeTitle": "Type E",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/bedroom_new/5.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "From 854.80 To 1206.32 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 652.35 to 835.17 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "From 122.81 To 371.14 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
                                                 }
                                             }
                                         },
@@ -489,41 +723,207 @@
                                     }
                                 }
                             },
+                            "studio": {
+                                "default": "studio-a",
+                                "name": "bedroom",
+                                "title": "Studio",
+                                "types": {
+                                    "studio-a": {
+                                        "name": "type",
+                                        "title": "Type A",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "Studio",
+                                                "typeTitle": "Type A",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/studio_new/1.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "from 369.39 to 559.40 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 308.47 to 423.56 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "from 57.37 to 171.79 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "studio"
+                                    },
+                                    "studio-b": {
+                                        "name": "type",
+                                        "title": "Type B",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "Studio",
+                                                "typeTitle": "Type B",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/studio_new/2.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "from 369.39 to 559.40 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 308.47 to 423.56 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "from 57.37 to 171.79 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "studio"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Duplex": {
+                "name": "place",
+                "title": "Duplex",
+                "default": "skyhills-astra",
+                "projects": {
+                    "skyhills-astra": {
+                        "title": "",
+                        "default": "2-bed",
+                        "bedrooms": {
                             "2-bed": {
-                                "default": "type2A",
+                                "default": "2-bed-a",
                                 "name": "bedroom",
                                 "title": "2-bedroom",
                                 "types": {
-                                    "type2A": {
+                                    "2-bed-a": {
                                         "name": "type",
-                                        "title": "Type 2A",
+                                        "title": "Type",
                                         "curFloor": "default",
-
                                         "floors": {
                                             "default": {
                                                 "title": "Basement",
                                                 "name": "floor",
                                                 "bedTitle": "2-bedroom",
-                                                "typeTitle": "Type 2A",
-                                                "2d": "../img/floorpop/biltmore/2-bed.svg",
+                                                "typeTitle": "",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/2-bedroom_new/1_new.png",
                                                 "3d": "",
                                                 "bedInfo": {
-                                                    "bathrooms": {
-                                                        "title": "Bathrooms",
-                                                        "val": 3
-                                                    },
                                                     "area": {
                                                         "title": "Total area",
-                                                        "val": "1 131,23 sq. ft."
+                                                        "val": "from 965.32 to 969.41 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 850.03 to 856.38 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "from 111.30 to 117.76 sq.ft"
                                                     }
                                                 },
                                                 "price": {
-                                                    "title": "Prices from",
-                                                    "val": "AED 1 600 000"
+                                                    "title": "",
+                                                    "val": ""
                                                 }
                                             }
                                         },
                                         "dataModal360": "2-bedroom"
+                                    }
+                                }
+                            },
+                            "3-bed": {
+                                "default": "3-bed-a",
+                                "name": "bedroom",
+                                "title": "3-bedroom",
+                                "types": {
+                                    "3-bed-a": {
+                                        "name": "type",
+                                        "title": "Type A",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "3-bedroom",
+                                                "typeTitle": "Type A",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/3-bedroom_new/1_new.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "from 1863.46 to 1996.83 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 1597.81 to 1641.94 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "from 240.25 to 364.90 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "3-bedroom"
+                                    },
+                                    "3-bed-b": {
+                                        "name": "type",
+                                        "title": "Type B",
+                                        "curFloor": "default",
+                                        "floors": {
+                                            "default": {
+                                                "title": "Basement",
+                                                "name": "floor",
+                                                "bedTitle": "3-bedroom",
+                                                "typeTitle": "Type B",
+                                                "2d": "https://d3b6muno9lbfvx.cloudfront.net/sky-hills-astra-vr/files/floorplans/3-bedroom_new/2_new.png",
+                                                "3d": "",
+                                                "bedInfo": {
+                                                    "area": {
+                                                        "title": "Total area",
+                                                        "val": "from 1863.46 to 1996.83 sq.ft"
+                                                    },
+                                                    "interior-area": {
+                                                        "title": "Interior area",
+                                                        "val": "from 1597.81 to 1641.94 sq.ft"
+                                                    },
+                                                    "balcony-area": {
+                                                        "title": "Balcony area",
+                                                        "val": "from 240.25 to 364.90 sq.ft"
+                                                    }
+                                                },
+                                                "price": {
+                                                    "title": "",
+                                                    "val": ""
+                                                }
+                                            }
+                                        },
+                                        "dataModal360": "3-bedroom"
                                     }
                                 }
                             }
