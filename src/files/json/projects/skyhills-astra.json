@@ -199,8 +199,8 @@
                 "dot": {
                     "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/skyhills-astra/about/location/dot-icon-dark.svg",
                     "centerPosotion": {
-                        "x": 415,
-                        "y": 270
+                        "x": 600,
+                        "y": 450
                     },
                     "sizes": {
                         "width": 50,
