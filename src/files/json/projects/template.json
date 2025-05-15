@@ -1,0 +1,419 @@
+{
+  "info": {
+		"withMap": true
+	},
+  "map": {
+    "shadow": "",
+    "img": "",
+    "centerPosotion": {
+      "x": 0,
+      "y": 0
+    },
+    "styles": "",
+    "hoverShadows": [
+      {
+        "img": "if needed",
+        "id": "if needed"
+      }
+    ],
+    "dotsTabs": {
+      "if needs": {
+        "title": "if needs",
+        "dataModal360Category": "if needs"
+      }
+    }
+  },
+  "dots": {
+    "1-bedroom": {
+      "sizes": {
+        "width": 155,
+        "height": 48
+      },
+      "position": {
+        "x": 320,
+        "y": 210
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "loft style A",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom",
+        "classNames": "right",
+        "hoverId": "if needed",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": "loft style A"
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "",
+    "classNames": [],
+    "info": [
+      {
+        "price": "2027 Q4",
+        "about": "Handover Date"
+      },
+      {
+        "price": "10%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "",
+      "projectDescription": "",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "",
+            "text": "",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "img": "",
+        "classNames": [],
+        "styles": ""
+      },
+      "amenities": {
+        "text": "",
+        "items": {
+          "classNames": [],
+          "content": [
+            {
+              "img": "",
+              "title": "",
+              "classNames": "",
+              "text": ""
+            }
+          ]
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 0,
+            "y": 0
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 830,
+            "y": 320
+          },
+          "styles": ""
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "",
+                "text": "",
+                "classNames": ""
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "",
+            "text": "",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "media": {
+        "projectlogo": "",
+        "img": "",
+        "classNames": []
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/brochure.jpg",
+      "classNames": []
+    },
+		"popupBtns": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/about.svg",
+				"text": "about project",
+				"classNames": "",
+				"dataPopupId": "about"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/payment.svg",
+				"text": "Payment plan",
+				"classNames": "",
+				"dataPopupId": "payment"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/developer.svg",
+				"text": "Developer",
+				"classNames": "",
+				"dataPopupId": "developer"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg",
+				"text": "AX CAPITAL",
+				"classNames": "ax",
+				"dataPopupId": "ax"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+				"text": "Contact us",
+				"classNames": "contact",
+				"dataPopupId": "contact"
+			}
+		]
+  },
+  "modal360": {
+    "media": {
+      "1-bedroom": {
+        "slides": {
+          "interiors": {
+            "img360": [],
+            "img360Preview": []
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        }
+      }
+    },
+    "floorplans": {
+      "Water": {
+        "name": "place",
+        "title": "Water Mansion",
+        "default": "1-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 300 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          }
+        }
+      },
+      "Wind": {
+        "name": "place",
+        "title": "Wind Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 10 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 14 200 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "2-bed": {
+            "default": "default",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "default": {
+                "name": "type",
+                "title": "Type",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 600 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 8 500 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          }
+        }
+      },
+      "Earth": {
+        "name": "place",
+        "title": "Earth Mansion",
+        "default": "3-bed",
+        "bedrooms": {
+          "1-bed": {
+            "default": "typeA",
+            "name": "bedroom",
+            "title": "1 bedroom",
+            "types": {
+              "typeA": {
+                "name": "type",
+                "title": "type A",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 12 700 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              },
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 11 400 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "2-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "2 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 100 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          },
+          "3-bed": {
+            "default": "typeB",
+            "name": "bedroom",
+            "title": "3 bedroom",
+            "types": {
+              "typeB": {
+                "name": "type",
+                "title": "type B",
+                "totalArea": "1942 sq.ft.",
+                "bathrooms": 3,
+                "price": "AED 9 000 000",
+                "2d": "https://d35bjgc7jbzjxh.cloudfront.net/nara-template/f1.png",
+                "3d": "https://d3b6muno9lbfvx.cloudfront.net/3d-models-other/model-viewer/ar1/1BR_TYPE_A_blend_compressed.glb",
+                "dataModal360": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

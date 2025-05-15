@@ -1,0 +1,170 @@
+[
+    {
+        "isPopup": false,
+        "name": "Montage by Valori",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/valori.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/valori.jpg",
+        "dataTestName": "valori",
+        "dataName": "#node11",
+        "coordinates": [2105, 3470],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/valori.svg",
+            "width": 234
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Keturah Resort",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/keturah-resort.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-resort.jpg",
+        "dataTestName": "k-resort",
+        "dataName": "#node10",
+        "coordinates": [2040, 3300],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-resort.svg",
+            "width": 287
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Downtown Terraces",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/business-bay-tower.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/business-bay-tower.jpg",
+        "dataTestName": "business-bay-tower",
+        "dataName": "#node12",
+        "coordinates": [1970, 2850],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/Downtown-terraces.svg",
+            "width": 281
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Boutique 23",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/boutique23.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/boutique23.jpg",
+        "dataTestName": "boutique-23",
+        "dataName": "#node5",
+        "coordinates": [2160, 3460],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/boutique-23.svg",
+            "width": 382
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "EMAAR Beachfront",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/Emaar-beachfront.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/Emaar-beachfront.jpg",
+        "dataTestName": "beachfront",
+        "dataName": "#node8",
+        "coordinates": [1500, 1390],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/emaar.svg",
+            "width": 331
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "SLS Residence",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/sls-residence.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/sls-residence.jpg",
+        "dataTestName": "sls",
+        "dataName": "#node3",
+        "coordinates": [1580, 1100],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/sls.svg",
+            "width": 213
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Keturah Reserve",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/keturah-reserve.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/keturah-reserve.jpg",
+        "dataTestName": "k-reserve",
+        "dataName": "#node7",
+        "coordinates": [1715, 2910],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/k-reserve.svg",
+            "width": 359
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Urban Life",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/urban-life.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/urban-life.jpg",
+        "dataTestName": "urban-life",
+        "dataName": "#node9",
+        "coordinates": [1910, 2885],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/urban.svg",
+            "width": 235
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Biltmore Residences",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/biltmore-residences.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/biltmore-residences.jpg",
+        "dataTestName": "biltmore",
+        "dataName": "#node4",
+        "coordinates": [1540, 1815],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/biltmore.svg",
+            "width": 321
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Damac Bay",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-bay.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-bay.jpg",
+        "dataTestName": "damac-bay",
+        "dataName": "#node6",
+        "coordinates": [1430, 1420],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damac.svg",
+            "width": 234
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Mag 777",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/mag777.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/mag777.jpg",
+        "dataTestName": "mag777",
+        "dataName": "#node13",
+        "coordinates": [985, 2110],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs/mag.svg"
+        }
+    },
+    {
+        "isPopup": false,
+        "name": "Skyhills Astra",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/skyhills-astra.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/skyhills-astra.jpg",
+        "dataName": "#node14",
+        "dataTestName": "skyhills-astra",
+        "coordinates": [1200, 2500],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/skyhills-astra.svg",
+            "width": 300
+        }
+    },
+    {
+        "isPopup": true,
+        "name": "Damac Lagoons",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects2/damac-lagoons.jpg",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/map/projects/small/damac-lagoons.jpg",
+        "dataName": "damac-lagoons",
+        "dataTestName": "damac-lagoons",
+        "coordinates": [700, 2280],
+        "projectLogo": {
+            "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/logos/loader-svgs1/damaclagoons.svg",
+            "width": 300
+        }
+    }
+]

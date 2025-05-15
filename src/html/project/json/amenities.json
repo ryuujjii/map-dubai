@@ -1,0 +1,32 @@
+[
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/swimming.svg",
+		"title": "Swimming pool",
+		"text": "Designed to provide residents with a refreshing escape from the bustling city life."
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/landscape.svg",
+		"title": "Landscaped Area",
+		"text": "Thoughtfully placed seating areas within the landscaped area offer opportunities to pause."
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/fitness.svg",
+		"title": "Fitness Centre",
+		"text": "Providing residents with a comprehensive and inspiring environment for their fitness pursuits."
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/playground.svg",
+		"title": "Kids’ playground",
+		"text": "A vibrant and engaging space designed to provide an enjoyable environment."
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/car.svg",
+		"title": "Covered parking",
+		"text": "Covered parking is an essential amenity that adds security and peace of mind."
+	},
+	{
+		"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/business-bay-tower/about/amenities/shop.svg",
+		"title": "Retail shops",
+		"text": "Carefully curated to cater to the diverse needs and desires of residents and visitors alike."
+	}
+]

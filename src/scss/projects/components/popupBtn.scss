@@ -1,0 +1,140 @@
+.popupBtn {
+  &.hide {
+    display: none;
+  }
+  background-color: transparent;
+  // .popupBtn__container
+
+  &__container {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(154deg, #d79970 0%, #905d44 50%, #d79970 100%);
+      z-index: -1;
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease 0s;
+      .active & {
+        opacity: 1;
+      }
+    }
+    padding: 1px;
+  }
+
+  // .popupBtn__wrapper
+
+  &__wrapper {
+    background-color: var(--black-color);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    padding: 4px 16px 4px 4px;
+    @media(max-width:768px){
+      padding: 8px;
+    }
+  }
+
+  // .popupBtn__icon
+
+  &__icon {
+    width: 28px;
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 2px;
+    background: linear-gradient(135deg, #d79970 0%, #905d44 50%, #d79970 100%);
+    padding: 1px;
+
+    .popupBtn.active & {
+      padding: 0px;
+      background: linear-gradient(135deg, #d7997000 0%, #905d4400 50%, #d7997000 100%);
+    }
+	@media(max-width:768px){
+		width: 24px;
+	}
+  }
+  @media (hover:hover){
+    &:hover{
+      .popupBtn__container::before{
+        opacity: 1;
+      }
+    }
+  }
+  // .popupBtn__icon-inner
+  &__icon-inner {
+    height: 26px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #161616;
+    z-index: 1;
+    @include flex();
+
+    .popupBtn.active & {
+      background: linear-gradient(135deg, #d79970 0%, #905d44 50%, #d79970 100%);
+    }
+
+    .ax & img {
+      position: absolute;
+    }
+
+    .ax.active & img {
+      opacity: 0;
+    }
+   
+    @media (max-width: 768px) {
+      width: 24px;
+	  height: 24px;
+    }
+  }
+
+  // .popupBtn__icon-mask
+  &__icon-mask {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: #d79970;
+    position: relative;
+    z-index: 2;
+
+    .popupBtn.active & {
+      background-color: #fff;
+    }
+    .ax & {
+      opacity: 0;
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .ax.active & {
+      opacity: 1;
+      visibility: visible;
+      mask: url("https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg") no-repeat center;
+    }
+    &.contact{
+      @media(max-width:992px){
+        display: none;
+      }
+    }
+  }
+
+  // .popupBtn__text
+
+  &__text {
+    color: var(--light-color);
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    .ax & {
+      // text-transform: low;
+    }
+  }
+}

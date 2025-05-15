@@ -1,0 +1,597 @@
+{
+  "info": {
+		"withMap": true
+	},
+  "map": {
+    "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/main.jpg",
+    "img": "",
+    "centerPosotion": {
+      "x": 0.28,
+      "y": 0
+    },
+    "styles": "",
+    "hoverShadows": [
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/apartments.jpg",
+        "id": "apartments"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/townhouse.jpg",
+        "id": "townhouse"
+      },
+      {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/map/villas.jpg",
+        "id": "villas"
+      }
+    ]
+  },
+  "dots": {
+    "townhouses": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 115,
+        "y": 315
+      },
+      "info": {
+        "title": "Townhouses",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "townhouses",
+        "classNames": "right",
+        "hoverId": "townhouse",
+        "closeInfo": {
+          "title": "Townhouses",
+          "type": ""
+        }
+      }
+    },
+    "villas": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 500,
+        "y": 495
+      },
+      "info": {
+        "title": "Villas",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "villas",
+        "classNames": "left text-align-left",
+        "hoverId": "villas",
+        "closeInfo": {
+          "title": "Villas",
+          "type": ""
+        }
+      }
+    },
+    "apartments": {
+      "sizes": {
+        "width": 155,
+        "height": 52
+      },
+      "position": {
+        "x": 845,
+        "y": 250
+      },
+      "info": {
+        "title": "Apartments",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "apartments",
+        "classNames": "left text-align-left",
+        "hoverId": "apartments",
+        "closeInfo": {
+          "title": "Apartments",
+          "type": ""
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/project-icon.svg",
+    "classNames": [],
+    "info": [
+      {
+        "price": "AED 3.8 mln",
+        "about": "prices from"
+      },
+      {
+        "price": "20%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "Keturah Reserve",
+      "projectDescription": "Keturah Reserve, situated in MBR City District 7, features a selection of exclusive residential plots within a premier development. Residents can fully engage with nature through exceptional Biophilic design, exquisite architecture, and cutting-edge interiors. This development fosters well-being by stimulating all five senses, offering a balanced lifestyle that nurtures mood, mind, and emotional health.",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "7 years",
+            "text": "Payment <br> Plan",
+            "classNames": ""
+          },
+          {
+            "number": "1-6 and 8",
+            "text": "Bedroom <br> Units",
+            "classNames": ""
+          },
+          {
+            "number": "2026 Q4",
+            "text": "Handover <br> Date",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/about-bg.jpg",
+        "classNames": [],
+        "styles": "object-position: center 30%;"
+      },
+      "amenities": {
+        "text": "Keturah Reserve showcases an exclusive array of bio-living amenities, including the verdant Central Gardens, elegant health spaces, pristine swimming pools, and a tranquil organic oasis. Every feature is thoughtfully designed to blend harmoniously with nature and enhance overall well-being. All life forms—flora, fauna, and human—are equally respected, ensuring a sanctuary of unparalleled luxury and sustainability.",
+        "items": {
+          "content": [
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/swimming.svg",
+              "title": "Swimming pool",
+              "text": "Relax and unwind in the open swimming pools located in the heart of the city's central zones.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/landscape.svg",
+              "title": "Landscaped Area",
+              "text": "Enjoy the timeless beauty of the park with its leafy olive trees for a refreshing escape.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/fitness.svg",
+              "title": "Fitness Centre",
+              "text": "Experience wellness with a water bike pool, indoor gym with oxygen tunnel, and outdoor fitness space.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/playground.svg",
+              "title": "Kids’ playground",
+              "text": "The kids' zone features textile playground sculptures by award-winning artist T. MacAdam.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/spa.svg",
+              "title": "Covered parking",
+              "text": "Indulge in a luxurious sauna, elite spa zones, and a high-end beauty salon for both women and men.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/amenities/shop.svg",
+              "title": "Organic Oasis",
+              "text": "Discover the best bio-living retail spaces designed for health and sustainability.",
+              "classNames": ""
+            }
+          ],
+          "classNames": []
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 785,
+            "y": 185
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 910,
+            "y": 290
+          },
+          "styles": "width: 40px; padding-top: 3px"
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "20",
+                "text": "on booking"
+              },
+              {
+                "number": "40",
+                "text": "during construction"
+              },
+              {
+                "number": "40",
+                "text": "on handover"
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+            "classNames": ""
+          },
+          {
+            "text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "MAG Group Holding is a multinational conglomerate with diverse interests, including real estate, contracting, engineering, industrial trading, freight services, and hospitality. Among its flagship projects is the Emirates Financial Towers, a prominent twin-tower development in Dubai International Financial Centre.",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "1978",
+            "text": "Foundation Date",
+            "classNames": ""
+          },
+          {
+            "number": "50",
+            "text": "Companies around the World",
+            "classNames": ""
+          },
+          {
+            "number": "2000",
+            "text": "Employees in the State",
+            "classNames": ""
+          },
+          {
+            "number": "24",
+            "text": "Number of Projects",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "media": {
+        "projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/developer/icon.svg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/developer/bg.jpg",
+        "classNames": []
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/keturah-reserve/brochure.jpg",
+      "classNames": []
+    },
+		"popupBtns": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/about.svg",
+				"text": "about project",
+				"classNames": "",
+				"dataPopupId": "about"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/payment.svg",
+				"text": "Payment plan",
+				"classNames": "",
+				"dataPopupId": "payment"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/developer.svg",
+				"text": "Developer",
+				"classNames": "",
+				"dataPopupId": "developer"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg",
+				"text": "AX CAPITAL",
+				"classNames": "ax",
+				"dataPopupId": "ax"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+				"text": "Contact us",
+				"classNames": "contact",
+				"dataPopupId": "contact"
+			}
+		]
+  },
+  "modal360": {
+    "media": {
+      "townhouses": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/360/town-int-1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/360/town-int-2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/360/town-int-3.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/preview/town-int-1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/preview/town-int-2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/preview/town-int-3.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/townhouse/360/town-int-1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/town/townh_int_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/town/townh_int_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/town/townh_int_4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/town/townh_int_5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/town/townh_int_6.jpg"
+        ],
+        "floorplan": {
+          "place": "Townhouse",
+          "bedroom": "5-bed",
+          "project": "k-reserve",
+          "type": "5-bed-town",
+          "floor": "default",
+          "isActive": true
+        },
+        "closeInfo": {
+          "title": "Townhouses",
+          "type": ""
+        }
+
+      },
+      "villas": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/360/Dop3_cam006_POST.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/preview/Dop3_cam006_POST.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/12.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/22.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/32.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/42.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/52.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/villas/gallery/62.jpg"
+        ],
+        "floorplan": {
+          "place": "villas",
+          "bedroom": "villas",
+          "project": "k-reserve",
+          "type": "villas",
+          "floor": "default",
+          "isActive": false
+        },
+        "closeInfo": {
+          "title": "Villas",
+          "type": ""
+        }
+
+      },
+      "apartments": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Living_Pano_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Living_Pano_2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Living_Pano_3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Living_Pano_4.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Bdrm_Pano.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Bdrm_Pano2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Living_Pano_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Living_Pano_2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Living_Pano_3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_4bdr_Living_Pano_4.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Living360.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Bed_Pano1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Bed_Pano2.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Bed_Pano3.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/360/Keturah_3bdr_Bed_Pano4.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Living_Pano_1.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Living_Pano_2.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Living_Pano_3.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Living_Pano_4.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Bdrm_Pano.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Bdrm_Pano2.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Living_Pano_1.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Living_Pano_2.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Living_Pano_3.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_4bdr_Living_Pano_4.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Living360.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Bed_Pano1.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Bed_Pano2.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Bed_Pano3.png",
+              "https://d3b6muno9lbfvx.cloudfront.net/project-map/projects/keturah-reserve/vr/apartments/preview/Keturah_3bdr_Bed_Pano4.png"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_3bdr_Living_008.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_3bdr_Living_007.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_3bdr_Living_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_3bdr_Living_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_3bdr_Living_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Bdrm_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Bdrm_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Bdrm_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_009.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_010.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/apart/inter/Keturah_4bdr_Living_013.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_int_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_int_4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/6.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_ext_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_ext_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_ext_3.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_ext_4.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/apart_ext_5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_006.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/keturah/img/Apartments/Keturah_3bdr_Bed_007.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartments",
+          "bedroom": "2-bed",
+          "project": "k-reserve",
+          "type": "2-bed-apart",
+          "floor": "default",
+          "isActive": true
+        },
+        "closeInfo": {
+          "title": "Apartments",
+          "type": ""
+        }
+
+      }
+    },
+    "floorplans": {
+      "Townhouse": {
+        "name": "place",
+        "title": "Townhouse",
+        "default": "k-reserve",
+        "projects": {
+          "k-reserve": {
+            "title": "",
+            "default": "5-bed",
+            "bedrooms": {
+              "5-bed": {
+                "default": "5-bed-town",
+                "name": "bedroom",
+                "title": "5-bedroom",
+                "types": {
+                  "5-bed-town": {
+                    "name": "type",
+                    "title": "Type",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"5-bedroom",
+                        "typeTitle":"",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balconies": {
+                            "title": "Balconies",
+                            "val": 3
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "9 509 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 8 500 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "townhouses"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "Apartments": {
+        "name": "place",
+        "title": "Apartments",
+        "default": "k-reserve",
+        "projects": {
+          "k-reserve": {
+            "title": "",
+            "default": "2-bed",
+            "bedrooms": {
+              "2-bed": {
+                "default": "2-bed-apart",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "2-bed-apart": {
+                    "name": "type",
+                    "title": "Type",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balconies": {
+                            "title": "Balconies",
+                            "val": 1
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 115 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 2 700 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "apartments"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

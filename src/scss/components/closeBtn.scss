@@ -1,0 +1,90 @@
+.close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  z-index: var(--z-index);
+  background-color: transparent;
+  @media (max-width: 768px) {
+    right: 16px;
+    top: 16px;
+  }
+  // .close__text
+
+  &__text {
+    color: var(--light-color);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  // .close__icon
+
+  &__icon {
+    width: 26px;
+    aspect-ratio: 1;
+    position: relative;
+    img {
+      position: relative;
+      z-index: 2;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      width: calc(100% - 1px);
+      height: calc(100% - 1px);
+      top: 0.5px;
+      left: 0.5px;
+      background-color: var(--black-color);
+      border-radius: 3px;
+    }
+    &.project-btn,
+    &.pano-btn {
+      display: none;
+    }
+  }
+  &.project-btn {
+    border-radius: 2px;
+    background: #16161680;
+    backdrop-filter: blur(4px);
+    padding: 11px 16px;
+    flex-direction: row-reverse;
+    .close__icon {
+      width: max-content;
+      display: none;
+      &::before {
+        display: none;
+      }
+      &.project-btn {
+        display: flex;
+        align-items: center;
+      }
+    }
+    @media (max-width: 768px) {
+      border-radius: 4px;
+      background: #16161680;
+      backdrop-filter: blur(4px);
+      top: 16px;
+      left: 16px;
+    }
+  }
+  &.pano-btn,&.modal360__close-btn {
+    border-radius: 2px;
+    background: #16161680;
+    backdrop-filter: blur(4px);
+    padding: 11px 16px;
+    flex-direction: row;
+    .close__icon {
+      width: max-content;
+      display: none;
+      align-items: center;
+      &::before {
+        display: none;
+      }
+      &.pano-btn {
+        display: flex;
+      }
+    }
+  }
+}

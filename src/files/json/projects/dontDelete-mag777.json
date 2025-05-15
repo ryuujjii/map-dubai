@@ -1,0 +1,150 @@
+{
+  "floor-20": {
+    "sizes": {
+      "width": 145,
+      "height": 55
+    },
+    "position": {
+      "x": 505,
+      "y": 250
+    },
+    "info": {
+      "title": "20 Floor",
+      "type": "",
+      "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+      "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+      "dataModal360": "floor-20",
+      "classNames": "right",
+      "dataModal360Category": "always",
+      "closeInfo": {
+        "title": "20 Floor",
+        "type": ""
+      }
+    }
+  },
+  "floor-21": {
+    "sizes": {
+      "width": 145,
+      "height": 55
+    },
+    "position": {
+      "x": 830,
+      "y": 235
+    },
+    "info": {
+      "title": "21 Floor",
+      "type": "",
+      "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+      "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+      "dataModal360": "floor-21",
+      "classNames": "left",
+      "dataModal360Category": "always",
+      "closeInfo": {
+        "title": "21 Floor",
+        "type": ""
+      }
+    }
+  },
+  "floor-20": {
+    "slides": {
+      "interiors": {
+        "img360": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG777_HALL_20_Floor_360_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG777_HALL_20_Floor_360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/Female+bathroom_Floor+20_VR001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/Female+bathroom_Floor+20_VR002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/GYM+360+002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/GYM+360+003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MAG+777+COLD+PLUNGE+ROOM_VR360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/MALE+BATHROOM_360_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/RECEPTION+LOBBY+360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/SAUNA+5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/STEAM+5.jpg"
+        ],
+        "img360Preview": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG777_HALL_20_Floor_360_1.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG777_HALL_20_Floor_360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/Female+bathroom_Floor+20_VR001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/Female+bathroom_Floor+20_VR002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/GYM+360+002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/GYM+360+003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MAG+777+COLD+PLUNGE+ROOM_VR360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/MALE+BATHROOM_360_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/RECEPTION+LOBBY+360_2.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/SAUNA+5.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/wellness-hub/360/preview/STEAM+5.jpg"
+        ]
+      },
+      "exteriors": {
+        "img360": [],
+        "img360Preview": []
+      }
+    },
+    "gallery": [
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_2.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL_20_Floor_3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/COLD+PLUNGE+ROOM+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/COLD+PLUNGE+ROOM+2.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+2.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/FEMALE+BATHROOM+4.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/GYM+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/GYM+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+2.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/HALL+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/MALE+BATHROOM+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/MALE+BATHROOM+9.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/RECEPTION+LOBBY+5.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/SAUNA+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/SAUNA+3.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/STEAM+1.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/wellness-hub/gallery/STEAM+4.jpg"
+    ],
+    "floorplan": {
+      "place": "Water",
+      "bedroom": "1-bed",
+      "type": "typeA"
+    }
+  },
+  "floor-21": {
+    "slides": {
+      "interiors": {
+        "img360": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/Mag777+21+floor_koridor_360.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/MAG+777+_Terrace_VR003.jpg"
+        ],
+        "img360Preview": [
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/Mag777+21+floor_koridor_360.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img1/pool-lounge/360/preview/MAG+777+_Terrace_VR003.jpg"
+        ]
+      },
+      "exteriors": {
+        "img360": [],
+        "img360Preview": []
+      }
+    },
+    "gallery": [
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_001.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_002.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/Mag777+21+floor_koridor_003.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_001.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_002.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_003.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_004.jpg",
+      "https://d3b6muno9lbfvx.cloudfront.net/mag777-vr/files/modal-360-img/img3/pool-lounge/gallery/MAG+777+_Terrace_005.jpg"
+    ],
+    "floorplan": {
+      "place": "Water",
+      "bedroom": "1-bed",
+      "type": "typeA"
+    }
+  }
+}

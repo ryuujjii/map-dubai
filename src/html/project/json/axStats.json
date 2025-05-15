@@ -1,0 +1,27 @@
+[
+	{
+		"number": "$4 BLN",
+		"text": "Closed Deals",
+		"classNames": ""
+	},
+	{
+		"number": "30+",
+		"text": "Languages",
+		"classNames": ""
+	},
+	{
+		"number": "500+",
+		"text": "Specialists",
+		"classNames": ""
+	},
+	{
+		"number": "5000+",
+		"text": "Offers in the Database",
+		"classNames": ""
+	},
+	{
+		"number": "6000+",
+		"text": "Number of Deals",
+		"classNames": "hide"
+	}
+]

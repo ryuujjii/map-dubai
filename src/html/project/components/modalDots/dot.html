@@ -1,0 +1,39 @@
+<%var data = arguments[0]%>
+<foreignObject
+	width="${data.sizes.width}"
+	height="${data.sizes.height}"
+	x="${data.position.x}"
+	y="${data.position.y}"
+	class="project-dot"
+>
+	<button
+		type="button"
+		class="project__dot dot-project ${data.info.classNames}"
+		data-modal360="${data.info.dataModal360}"
+	>
+		<div class="dot-project__container">
+			<div class="dot-project__wrapper">
+				<div class="dot-project__info">
+					<div class="dot-project__title">${data.info.title}</div>
+					<div class="dot-project__type">${data.info.type}</div>
+				</div>
+				<div class="dot-project__icon-wrapper">
+					<div
+						class="dot-project__icon"
+						>
+						<!-- style="--mask-image: url('${data.info.icon}')" -->
+				<img src="${data.info.icon}" alt="">
+			</div>
+				</div>
+			</div>
+			<div
+				class="dot-project__tail"
+				>
+				<!-- style="--tail-image: url('${data.info.tail}')" -->
+				<span>
+				<img src="${data.info.tail}" alt="">
+				</span>
+			</div>
+		</div>
+	</button>
+</foreignObject>

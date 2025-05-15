@@ -1,0 +1,231 @@
+{
+	"info": {
+		"withMap": false
+	},
+	"map": {
+		"shadow": "123qweqw.jpg",
+		"img": "",
+		"centerPosotion": {
+			"x": 0,
+			"y": 0
+		},
+		"styles": ""
+	},
+	"dots": {},
+	"partner": {
+		"logo": "123qweqw.jpg",
+		"classNames": [],
+		"info": [
+			{
+				"price": "AED 7 Mln",
+				"about": "prices from"
+			},
+			{
+				"price": "10%",
+				"about": "on Booking"
+			}
+		]
+	},
+	"popup": {
+		"about": {
+			"projectName": "DAMAC Lagoons",
+			"projectDescription": "Nestled in a serene enclave, DAMAC Lagoons is a masterfully planned collection of townhouses and villas, each designed with inspiration from 11 distinct city-themed clusters, offering residents an experience that transcends traditional living. Located along Hessa Street, directly opposite the dynamic DAMAC Hills community, this remarkable development is a hidden paradise where architectural elegance meets innovative design.",
+			"aboutItems": {
+				"content": [
+					{
+						"number": "45",
+						"text": "Mln Sq. ft. <br> of territory",
+						"classNames": ""
+					},
+					{
+						"number": "4, 5, 6, and 7",
+						"text": "Bedroom <br> Units",
+						"classNames": ""
+					},
+					{
+						"number": "2.4",
+						"text": "Mln AED <br> Starting Price",
+						"classNames": "width-bigger"
+					}
+				],
+				"classNames": []
+			},
+			"projectView": {
+				"classNames": [],
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/about-bg1.jpg",
+				"styles": "object-position: center 25%;"
+			},
+			"amenities": {
+				"text": "MAG 777 offers an array of high-end amenities designed to elevate residents' lifestyles. The building provides 24/7 security and concierge services, ensuring safety and convenience. Thoughtfully designed common areas offer space for leisure and social interaction, while advanced home technology adds to the comfort of daily living. These amenities blend luxury with functionality, creating a balanced and sophisticated residential experience.",
+				"items": {
+					"content": [
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/swimming.svg",
+							"title": "Swimming pool",
+							"classNames": "",
+							"text": "The podium level offers a refined urban retreat with a children's pool and a lap pool."
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/fitness.svg",
+							"title": "Aqua Gym",
+							"classNames": "",
+							"text": "A unique water-based fitness experience for residents, blending wellness with leisure,"
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/VR.svg",
+							"title": "VR Park",
+							"classNames": "",
+							"text": "A vibrant garden of learning that combines nature with immersive virtual reality experiences."
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/playground.svg",
+							"title": "Kids’ playground",
+							"text": "This lively space features climbing walls, slides, and swings surrounded by colorful flower beds.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/Cinema.svg",
+							"title": "Floating Cinema",
+							"text": "Delight in an unforgettable cinematic experience at the first Floating Cinema.",
+							"classNames": ""
+						},
+						{
+							"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/amenities/Cycling.svg",
+							"title": "Cycling Trail",
+							"text": "A jogging track is not merely a trail for physical exertion; it is also a sanctuary for solace and clarity.",
+							"classNames": ""
+						}
+					],
+					"classNames": []
+				}
+			},
+			"location": {
+				"dot": {
+					"icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/about/location/dot-icon-dark.svg",
+					"centerPosotion": {
+						"x": 570,
+						"y": 600
+					},
+					"sizes": {
+						"width": 50,
+						"height": 55
+					},
+					"position": {
+						"x": 720,
+						"y": 705
+					},
+					"styles": ""
+				}
+			}
+		},
+		"payment": {
+			"items": {
+				"content": [
+					{
+						"title": "",
+						"isActive": true,
+						"classNames": [],
+						"content": [
+							{
+								"number": "20",
+								"text": "on booking",
+								"classNames": ""
+							},
+							{
+								"number": "80",
+								"text": "on handover",
+								"classNames": ""
+							}
+						]
+					}
+				],
+				"classNames": []
+			},
+			"descriptions": {
+				"content": [
+					{
+						"text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+						"classNames": ""
+					},
+					{
+						"text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+						"classNames": ""
+					}
+				],
+				"classNames": []
+			}
+		},
+		"developer": {
+			"descriptions": {
+				"content": [
+					{
+						"text": "DAMAC Properties is a part of DAMAC Group that has been shaping the Middle East's luxury real estate market since 1982, delivering iconic residential, commercial, and leisure properties for sale across the region and beyond.",
+						"classNames": []
+					}
+				],
+				"classNames": []
+			},
+			"items": {
+				"content": [
+					{
+						"number": "47 000",
+						"text": "Homes delivered",
+						"classNames": ""
+					},
+					{
+						"number": "33 000",
+						"text": "In planning and progress",
+						"classNames": ""
+					},
+					{
+						"number": "100+",
+						"text": "Awards received",
+						"classNames": ""
+					},
+					{
+						"number": "25",
+						"text": "years of experience",
+						"classNames": ""
+					}
+				],
+				"classNames": ["developer-width"]
+			},
+			"media": {
+				"projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/developer/icon.svg",
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/damac-lagoons/developer/bg1.jpg",
+				"classNames": ["developer-img-width"]
+			}
+		},
+		"brochure": {
+			"brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/beachfront/brochure.jpgbla",
+			"classNames": []
+		},
+		"popupBtns": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/about.svg",
+				"text": "about project",
+				"classNames": "",
+				"dataPopupId": "about"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/payment.svg",
+				"text": "Payment plan",
+				"classNames": "",
+				"dataPopupId": "payment"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/developer.svg",
+				"text": "Developer",
+				"classNames": "",
+				"dataPopupId": "developer"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+				"text": "Contact us",
+				"classNames": "contact",
+				"dataPopupId": "contact"
+			}
+		]
+	},
+	"modal360": {}
+}

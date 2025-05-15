@@ -1,0 +1,160 @@
+.hover-g {
+	cursor: pointer;
+	transition: opacity 0.3s ease 0s;
+	@media (hover: hover) {
+		&:has(~ &:hover) {
+			opacity: 0.5;
+			.dots-tabs-active & {
+				&:not(.active) {
+					opacity: 0;
+				}
+				&[data-modal360-category='always'] {
+					opacity: 0.5;
+				}
+			}
+		}
+		&:hover {
+			opacity: 1;
+		}
+		&:hover ~ & {
+			opacity: 0.5;
+			.dots-tabs-active & {
+				&:not(.active) {
+					opacity: 0;
+				}
+				&[data-modal360-category='always'] {
+					opacity: 0.5;
+				}
+			}
+		}
+	}
+	.dots-tabs-active & {
+		opacity: 0;
+		pointer-events: none;
+		&.active,
+		&[data-modal360-category='always'] {
+			opacity: 1;
+			pointer-events: auto;
+		}
+	}
+}
+.dot-project {
+	padding-bottom: 20px;
+	// .dot-project__container
+
+	&__container {
+		cursor: pointer;
+		display: grid;
+		grid-template-columns: 1fr 20px;
+		.left & {
+			grid-template-columns: 20px 1fr;
+		}
+		align-items: center;
+	}
+
+	// .dot-project__wrapper
+
+	&__wrapper {
+		padding: 8px 10px;
+		background-color: var(--light-color);
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		column-gap: 8px;
+		.left & {
+			order: 2;
+			flex-direction: row-reverse;
+		}
+	}
+
+	// .dot-project__info
+
+	&__info {
+		display: grid;
+		.left & {
+			justify-items: start;
+		}
+	}
+
+	// .dot-project__title
+
+	&__title {
+		color: var(--black-color);
+		text-align: right;
+		font-size: 14px;
+		font-weight: 500;
+		&:not(:last-child) {
+			margin-bottom: 2px;
+		}
+		.text-align-left & {
+			text-align: left;
+		}
+	}
+
+	// .dot-project__type
+
+	&__type {
+		.right & {
+			justify-self: end;
+		}
+		.left & {
+			justify-self: start;
+		}
+		color: #777;
+		font-size: 12px;
+		font-weight: 400;
+	}
+
+	// .dot-project__icon-wrapper
+
+	&__icon-wrapper {
+		width: 32px;
+		aspect-ratio: 1;
+		background-color: #dfdfdf;
+		display: flex;
+		padding: 6px;
+		border-radius: 3px;
+	}
+	// .dot-project__icon
+
+	&__icon {
+		// mask: var(--mask-image) no-repeat center;
+		width: 100%;
+		// aspect-ratio: 1;
+		// background-color: var(--black-color);
+	}
+
+	// .dot-project__tail
+
+	&__tail {
+		span {
+			display: block;
+			// width: 20px;
+			// aspect-ratio: 1;
+			// mask: var(--tail-image) no-repeat;
+			// background-color: var(--light-color);
+			display: flex;
+			align-items: center;
+			.right & {
+				justify-content: flex-start;
+				// mask-position: left;
+			}
+			.left & {
+				justify-content: flex-end;
+				// mask-position: right;
+			}
+		}
+
+		.right & {
+		}
+
+		.left & {
+		}
+
+		.top & {
+		}
+
+		.bottom & {
+		}
+	}
+}

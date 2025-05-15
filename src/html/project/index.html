@@ -1,0 +1,17 @@
+<section class="project">
+	<div class="project__container">
+		@require('./components/map.html')
+		<%var data = require('../json/closeBtn.json')['project']%> 
+		<%var component = require("../components/closebtn.html")%> 
+		${component(data)}
+		@require('./components/modalDots/tabs.html')
+		@require('./components/partner.html')
+	</div>
+</section>
+	@require('./components/draggableHand.html')
+<div class="project__btns">
+	@require('./components/popupBtns/popupBtns.html')
+	@require('./components/brochureBtn.html')
+</div>
+@require('./components/popups.html')
+@require('../modal360/iframe.html')

@@ -1,0 +1,44 @@
+[
+	{
+		"id": "about",
+		"classNames": {
+			"mainClass": "about"
+		},
+		"path": "./about.html"
+	},
+	{
+		"id": "developer",
+		"classNames": {
+			"mainClass": "developer"
+		},
+		"path": "./developer.html"
+	},
+	{
+		"id": "ax",
+		"classNames": {
+			"mainClass": "ax"
+		},
+		"path": "./ax.html"
+	},
+	{
+		"id": "payment",
+		"classNames": {
+			"mainClass": "payment"
+		},
+		"path": "./payment.html"
+	},
+	{
+		"id": "brochure",
+		"classNames": {
+			"mainClass": "brochure"
+		},
+		"path": "./brochure.html"
+	},
+	{
+		"id": "contact",
+		"classNames": {
+			"mainClass": "contact"
+		},
+		"path": "./contact.html"
+	}
+]

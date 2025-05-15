@@ -1,0 +1,67 @@
+	// .block__stretch
+
+	&__stretch {
+		display: grid;
+		gap: 5px;
+		position: absolute;
+		bottom: -15px;
+		transform: translateY(-100%);
+		left: 10px;
+		width: calc(100% - 20px);
+		// opacity: 0;
+		// visibility: hidden;
+		.active & {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+
+	// .block__group
+
+	&__group {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 5px;
+		opacity: 0;
+		pointer-events: none;
+		&:first-child {
+			transform: translateY(200%);
+			transition: transform 0.3s, opacity 0.3s;
+			.active & {
+				transition-delay: 0.15s, 0.05s;
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+		&:last-child {
+			position: relative;
+			z-index: 2;
+			transform: translateY(100%);
+			transition: transform 0.3s 0.1s, opacity 0.3s;
+			.active & {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	}
+
+	// .block__item
+
+	&__item {
+		padding: 10px;
+		background-color: rgb(59, 170, 139);
+		cursor: pointer;
+	}
+
+	// .block__active
+
+	&__active {
+		position: relative;
+		z-index: 2;
+		align-self: self-end;
+		display: grid;
+		justify-content: center;
+		background-color: rgb(75, 74, 174);
+		cursor: pointer;
+		padding: 10px;
+	}

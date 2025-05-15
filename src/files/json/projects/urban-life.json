@@ -1,0 +1,758 @@
+{
+  "info": {
+		"withMap": true
+	},
+  "map": {
+    "shadow": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/urban-life-map-shadow.jpg",
+    "img": "",
+    "centerPosotion": {
+      "x": -0.05,
+      "y": -0.05
+    },
+    "styles": ""
+  },
+  "dots": {
+    "1-bedroom": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 590,
+        "y": 365
+      },
+      "info": {
+        "title": "1-bedroom",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "1-bedroom",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": ""
+        }
+      }
+    },
+    "2-bedroom": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 590,
+        "y": 240
+      },
+      "info": {
+        "title": "2-bedroom",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "2-bedroom",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": ""
+        }
+      }
+    },
+    "gents-gym": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 590,
+        "y": 535
+      },
+      "info": {
+        "title": "Gents Gym",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "gents-gym",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "Gents Gym",
+          "type": ""
+        }
+      }
+    },
+    "entrance": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 680,
+        "y": 610
+      },
+      "info": {
+        "title": "Entrance",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail.svg",
+        "dataModal360": "entrance",
+        "classNames": "right",
+        "closeInfo": {
+          "title": "Entrance",
+          "type": ""
+        }
+      }
+    },
+    "studio": {
+      "sizes": {
+        "width": 155,
+        "height": 55
+      },
+      "position": {
+        "x": 1005,
+        "y": 320
+      },
+      "info": {
+        "title": "Studio",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "studio",
+        "classNames": "left text-align-left",
+        "closeInfo": {
+          "title": "Studio",
+          "type": ""
+        }
+      }
+    },
+    "ladies-gym": {
+      "sizes": {
+        "width": 165,
+        "height": 55
+      },
+      "position": {
+        "x": 820,
+        "y": 550
+      },
+      "info": {
+        "title": "Ladies Gym",
+        "type": "",
+        "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/floorplan.svg",
+        "tail": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/tail-reversed.svg",
+        "dataModal360": "ladies-gym",
+        "classNames": "left text-align-left",
+        "closeInfo": {
+          "title": "Ladies Gym",
+          "type": ""
+        }
+      }
+    }
+  },
+  "partner": {
+    "logo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/project-icon.svg",
+    "classNames": [],
+    "info": [
+      {
+        "price": "2026 Q2",
+        "about": "prices from"
+      },
+      {
+        "price": "10%",
+        "about": "on Booking"
+      }
+    ]
+  },
+  "popup": {
+    "about": {
+      "projectName": "Urban Life",
+      "projectDescription": "Urban Properties Development LLC is dedicated to serving discerning individuals and families who seek a refined lifestyle, convenience, and an engaging community. Their latest venture, Urban Life, is a contemporary high-rise project in Business Bay that offers a range of residential units with modern designs, luxurious finishes, and advanced interiors. Situated in a prime location, it provides easy access to major landmarks, upscale dining and a host of other amenities.",
+      "aboutItems": {
+        "content": [
+          {
+            "number": "20",
+            "text": "Building <br> Levels",
+            "classNames": ""
+          },
+          {
+            "number": "Studio, 1, 2",
+            "text": "Bedroom <br> Units",
+            "classNames": ""
+          },
+          {
+            "number": "2026 Q2",
+            "text": "Handover <br> Date",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "projectView": {
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/about-bg1.jpg",
+        "classNames": [],
+        "styles": "object-position: center 30%;"
+      },
+      "amenities": {
+        "text": "At Urban Life, you can enjoy a variety of amenities for your convenience and enjoyment. Stay active and maintain your fitness goals at our well-equipped Gym & Outdoor Training Area, or take a refreshing dip in our inviting Swimming Pool. Additionally, our multipurpose Game Room offers versatile recreational options, while the Cinema Room provides a cozy space to relax and enjoy your favorite movies.",
+        "items": {
+          "content": [
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/swimming.svg",
+              "title": "Swimming pool",
+              "text": "The pool offers a relaxing atmosphere where you can take a leisurely dip to cool off.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/landscape.svg",
+              "title": "Open Garden",
+              "text": "It features lush greenery, colorful flowers, and comfortable seating areas to unwind and relax.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/fitness.svg",
+              "title": "Fitness Centre",
+              "text": "For added comfort and privacy, the Fitness Centre also includes a dedicated Ladies Gym.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/playground.svg",
+              "title": "Kids’ playground",
+              "text": "With soft surfaces and shaded areas, parents can relax knowing their kids are playing safely.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/car.svg",
+              "title": "Covered parking",
+              "text": "Urban Life offers covered parking, providing residents with the convenience and security.",
+              "classNames": ""
+            },
+            {
+              "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/amenities/shop.svg",
+              "title": "Retail shops",
+              "text": "The presence of diverse retail options enhances the convenience and lifestyle of the development.",
+              "classNames": ""
+            }
+          ],
+          "classNames": []
+        }
+      },
+      "location": {
+        "dot": {
+          "icon": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/about/location/dot-icon-dark.svg",
+          "centerPosotion": {
+            "x": 750,
+            "y": 30
+          },
+          "sizes": {
+            "width": 50,
+            "height": 55
+          },
+          "position": {
+            "x": 890,
+            "y": 160
+          },
+          "styles": "width: 22px; padding-top: 3px"
+        }
+      }
+    },
+    "payment": {
+      "items": {
+        "content": [
+          {
+            "title": "",
+            "isActive": true,
+            "classNames": [],
+            "content": [
+              {
+                "number": "10",
+                "text": "on booking"
+              },
+              {
+                "number": "55",
+                "text": "during construction"
+              },
+              {
+                "number": "35",
+                "text": "after handover"
+              }
+            ]
+          }
+        ],
+        "classNames": []
+      },
+      "descriptions": {
+        "content": [
+          {
+            "text": "Our installment schemas are devoid of any latent charges or unanticipated costs.",
+            "classNames": ""
+          },
+          {
+            "text": "A 4% DLD (Dubai Land Department) fee applies to all real estate transactions in Dubai and must be paid in addition to the property's purchase price.",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      }
+    },
+    "developer": {
+      "descriptions": {
+        "content": [
+          {
+            "text": "Urban Properties Development specializes in delivering residential real estate offerings within the Premium market segment. Founded by Mr. Ali Al Qutami, Chairman of Jebel Ali Manpower Services (JAMS), UPD focuses on creating homes for those who value art, technology, health, wellness, music, culture, and community.",
+            "classNames": []
+          }
+        ],
+        "classNames": []
+      },
+      "items": {
+        "content": [
+          {
+            "number": "2014",
+            "text": "Foundation Date",
+            "classNames": ""
+          },
+          {
+            "number": "$5000+",
+            "text": "Lucrative Portfolio",
+            "classNames": ""
+          },
+          {
+            "number": "3",
+            "text": "Number of Projects",
+            "classNames": ""
+          },
+          {
+            "number": "56 000+",
+            "text": "Professional Partners",
+            "classNames": ""
+          }
+        ],
+        "classNames": []
+      },
+      "media": {
+        "projectlogo": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/developer/icon.svg",
+        "img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/developer/bg.jpg",
+        "classNames": []
+      }
+    },
+    "brochure": {
+      "brochureImg": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/urban-life/brochure.jpg",
+      "classNames": []
+    },
+		"popupBtns": [
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/about.svg",
+				"text": "about project",
+				"classNames": "",
+				"dataPopupId": "about"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/payment.svg",
+				"text": "Payment plan",
+				"classNames": "",
+				"dataPopupId": "payment"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/developer.svg",
+				"text": "Developer",
+				"classNames": "",
+				"dataPopupId": "developer"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/ax.svg",
+				"text": "AX CAPITAL",
+				"classNames": "ax",
+				"dataPopupId": "ax"
+			},
+			{
+				"img": "https://d3b6muno9lbfvx.cloudfront.net/project-map/img/projects/icons/popupBtns/contact.svg",
+				"text": "Contact us",
+				"classNames": "contact",
+				"dataPopupId": "contact"
+			}
+		]
+  },
+  "modal360": {
+    "media": {
+      "1-bedroom": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/JAMS_One_Bedroom_Living_Room_7cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/VR_360_JAMS_ONEBEDROOM_WC.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/360/1_BEDROOM_GUEST%20TOILET_VR1.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_BEDROOM.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_6cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_7cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/one_bedroom/360/preview/VR_360_JAMS_ONEBEDROOM_WC.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/360/preview/1_BEDROOM_GUEST%20TOILET_VR1.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_BEDROOM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_BEDROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_BEDROOM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_BEDROOM_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_One_Bedroom_Living_Room_1cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_One_Bedroom_Living_Room_2cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_One_Bedroom_Living_Room_3cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_One_Bedroom_Living_Room_4cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_One_Bedroom_Living_Room_5cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_WC_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_WC_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_WC_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/JAMS_ONEBEDROOM_WC_006_dopkadr.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/1_BEDROOM_GUEST-TOILET_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/one_bedroom/gallery/1_BEDROOM_GUEST-TOILET_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "1-bed",
+          "project": "urban",
+          "type": "1-bed-t1",
+          "floor": "default",
+          "isActive": true
+        },
+        "closeInfo": {
+          "title": "1-bedroom",
+          "type": ""
+        }
+
+      },
+      "2-bedroom": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/2_BEDROOM_MASTER_BEDROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/360/VR_360_JAMS_TWO%20BEDROOM_Bedroom.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/JAMS_One_Bedroom_Living_Room_7cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/JAMS_One_Bedroom_Living_Room_8cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/VR_360_JAMS_TWO BEDROOM_MASTER WC.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/360/VR_360_JAMS_TWO%20BEDROOM_Bedroom.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/preview/2_BEDROOM_MASTER_BEDROOM_VR.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/360/preview/VR_360_JAMS_TWO%20BEDROOM_Bedroom.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_7cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/preview/JAMS_One_Bedroom_Living_Room_8cam_panorama.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/two_bedroom/360/preview/VR_360_JAMS_TWO BEDROOM_MASTER WC.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/360/preview/VR_360_JAMS_TWO%20BEDROOM_Bedroom.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/2_BEDROOM_MASTER_BEDROOM_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/2_BEDROOM_MASTER_BEDROOM_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/2_BEDROOM_MASTER_BEDROOM_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/2_BEDROOM_MASTER_BEDROOM_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_1cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_2cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_3cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_4cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_5cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_One_Bedroom_Living_Room_6cam.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_Bedroom_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_Bedroom_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_Bedroom_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_Bedroom_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_MASTER-WC_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_MASTER-WC_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/two_bedroom/gallery/JAMS_TWO-BEDROOM_MASTER-WC_003.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "2-bed",
+          "project": "urban",
+          "type": "2-bed-t2",
+          "floor": "default",
+          "isActive": true
+        },
+        "closeInfo": {
+          "title": "2-bedroom",
+          "type": ""
+        }
+
+      },
+      "gents-gym": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/360/Gents_Gym_360_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/360/Gents_Gym_360_2.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/360/preview/Gents_Gym_360_1.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/360/preview/Gents_Gym_360_2.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/gallery/Gents_Gym_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/gallery/Gents_Gym_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/gallery/Gents_Gym_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/gallery/Gents_Gym_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/gents gym/gallery/Gents_Gym_005.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Gents Gym",
+          "type": ""
+        }
+      },
+      "entrance": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/lift_hall_008_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/lift_hall_009_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/lift_hall_010_vr.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/preview/lift_hall_008_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/preview/lift_hall_009_vr.jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/360/preview/lift_hall_010_vr.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_006.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5-1/entrance/entrance-interior/gallery/lift_hall_007.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Entrance",
+          "type": ""
+        }
+
+      },
+      "studio": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/360/VR360_LIVINGROOM_STUDIO(TYPE_1).jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/360/VR360_WC_STUDIO(TYPE_1).jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/360/preview/VR360_LIVINGROOM_STUDIO(TYPE_1).jpg",
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/360/preview/VR360_WC_STUDIO(TYPE_1).jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_004.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_005.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_WC_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/studio/gallery/LIVINGROOM_STUDIO(TYPE_1)_WC_002.jpg"
+        ],
+        "floorplan": {
+          "place": "Apartment",
+          "bedroom": "studio",
+          "project": "urban",
+          "type": "studio-t1",
+          "floor": "default",
+          "isActive": true
+        },
+        "closeInfo": {
+          "title": "Studio",
+          "type": ""
+        }
+
+      },
+      "ladies-gym": {
+        "slides": {
+          "interiors": {
+            "img360": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/360/Ladies_gym_360.jpg"
+            ],
+            "img360Preview": [
+              "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/360/preview/Ladies_gym_360.jpg"
+            ]
+          },
+          "exteriors": {
+            "img360": [],
+            "img360Preview": []
+          }
+        },
+        "gallery": [
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/gallery/Ladies_Gym_001.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/gallery/Ladies_Gym_002.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/gallery/Ladies_Gym_003.jpg",
+          "https://d3b6muno9lbfvx.cloudfront.net/jams-vr/files/img5/ladies gym/gallery/Ladies_Gym_004.jpg"
+        ],
+        "floorplan": {
+          "place": "Water",
+          "bedroom": "1-bed",
+          "type": "typeA"
+        },
+        "closeInfo": {
+          "title": "Ladies Gym",
+          "type": ""
+        }
+
+      }
+    },
+    "floorplans": {
+      "Apartment": {
+        "name": "place",
+        "title": "Apartment",
+        "default": "urban",
+        "projects": {
+          "urban": {
+            "title": "",
+            "default": "studio",
+            "bedrooms": {
+              "studio": {
+                "default": "studio-t1",
+                "name": "bedroom",
+                "title": "Studio",
+                "types": {
+                  "studio-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"Studio",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "57 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "417 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "",
+                          "val": ""
+                        }
+                      }
+                    },
+                    "dataModal360": "studio"
+                  }
+                }
+              },
+              "1-bed": {
+                "default": "1-bed-t1",
+                "name": "bedroom",
+                "title": "1-bedroom",
+                "types": {
+                  "1-bed-t1": {
+                    "name": "type",
+                    "title": "Type 1",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"1-bedroom",
+                        "typeTitle":"Type 1",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "323 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 210 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 777 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "1-bedroom"
+                  }
+                }
+              },
+              "2-bed": {
+                "default": "2-bed-t2",
+                "name": "bedroom",
+                "title": "2-bedroom",
+                "types": {
+                  "2-bed-t2": {
+                    "name": "type",
+                    "title": "Type 2",
+                    "curFloor": "default",
+                    "floors": {
+                      "default": {
+                        "title": "Basement",
+                        "name": "floor",
+                        "bedTitle":"2-bedroom",
+                        "typeTitle":"Type 2",
+                        "2d": "../img/floorpop/",
+                        "3d": "",
+                        "bedInfo": {
+                          "balcony-area": {
+                            "title": "Balcony area",
+                            "val": "350 sq. ft."
+                          },
+                          "area": {
+                            "title": "Total area",
+                            "val": "1 620 sq. ft."
+                          }
+                        },
+                        "price": {
+                          "title": "Prices from",
+                          "val": "AED 777 000"
+                        }
+                      }
+                    },
+                    "dataModal360": "2-bedroom"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

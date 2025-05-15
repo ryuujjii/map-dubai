@@ -1,0 +1,26 @@
+//Font
+@import "../files/fonts/font.css";
+
+// Base
+@import "base/var";
+@import "base/reset";
+@import "base/mixin";
+@import "base/libs";
+@import "base/common";
+
+// Libs
+@import "libs/leaflet";
+
+// Components
+@import "components/preloader";
+@import "components/header";
+@import "components/closeBtn";
+@import "components/testBtns";
+@import "components/popup";
+
+
+// Sections
+@import "sections/map";
+@import "sections/pano";
+@import "@scss/projects/projects";
+

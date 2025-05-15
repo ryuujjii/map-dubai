@@ -1,0 +1,27 @@
+<div class="viewer active-int-slides">
+  <div class="viewer__wrapper">
+    <div class="viewer__nav">
+      <div class="viewer__swiper">
+        <div class="swiper-button-prev">
+          <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 16L1 8.5L9 1" stroke="white" />
+          </svg>
+        </div>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+          </div>
+        </div>
+        <div class="swiper-button-next">
+          <svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 1L9 8.5L0.999999 16" stroke="white" />
+          </svg>
+        </div>
+      </div>
+    </div>
+    @require('./viewer_parts/btns.html')
+    @require('./viewer_parts/btns-socials.html')
+  </div>
+  @require('./viewer_parts/fake_fullscreen.html')
+</div>
+@require('./gallery/index.html')
+@require('./viewer_parts/loader.html')

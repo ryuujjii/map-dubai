@@ -1,0 +1,22 @@
+{
+	"popup": {
+		"target": "popup",
+		"classNames": "popup__close-btn",
+		"text": "close"
+	},
+	"pano": {
+		"target": "pano",
+		"classNames": "pano__close-btn pano-btn",
+		"text": "close"
+	},
+	"project": {
+		"target": "project",
+		"classNames": "project__close-btn project-btn",
+		"text": "Back"
+	},
+	"modal360": {
+		"target": "modal360",
+		"classNames": "modal360__close-btn",
+		"text": "close"
+	}
+}

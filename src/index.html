@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+@require('html/components/head.html',{ "title":"Project Map | AX DIGITAL","path":"." })
+
+<body class="home">
+	@require('html/components/preloader.html')
+	@require('html/components/header.html')
+
+	<main>
+		@require('html/home/map.html')
+		@require('./html/home/pano.html')
+		@require('./html/project/index.html')
+		@require('./html/components/testBtns.html')
+	</main>
+
+	<!-- Popups -->
+	@require('./html/home/popups/hot-offer.html')
+
+	<!-- <script type="module" src="https://fnst.axflare.com/landings/global-script/landings-global-script.js"></script> -->
+</body>
+
+</html>

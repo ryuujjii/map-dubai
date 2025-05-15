@@ -1,0 +1,11 @@
+<div class="modal360">
+	<div class="modal360__iframe">
+		<div class="modal360__close-btn-title">
+			<span></span>
+			<p></p>
+		</div>
+		<iframe src="modal360/" frameborder="0"></iframe>
+	</div>
+	<%var data = require('../json/closeBtn.json')['modal360']%> <%var component =
+	require("../components/closebtn.html")%> ${component(data)}
+</div>
